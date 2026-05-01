@@ -108,38 +108,53 @@ def generate_briefing(news_items, api_key):
             news_text += f"{item['description']}\n"
         news_text += "\n"
 
-    user_prompt = f"""Here are today's news headlines and summaries from BBC, CNBC, and TechCrunch:
+    user_prompt = f"""Here are today's raw news headlines and summaries from RSS feeds:
 
 {news_text}
 
-Pick the TOP 5 most important stories. Ensure a MIX of world events, business/markets, and technology/AI.
-For each story: write 2-3 SHORT paragraphs in plain English. When citing numbers, ALWAYS explain what they mean practically.
-If any Scotland/Glasgow story is genuinely significant, include it in closer_to_home. If nothing meaningful, set closer_to_home to null.
-Write a punchy, opinionated 2-sentence bottom_line that synthesises the day.
-Write 4-5 quick_hits: one-line summaries of other notable stories.
+Write a professional morning briefing following these rules exactly:
+
+STORY SELECTION: Pick the 5 most consequential stories. Ensure a mix across geopolitics, business/markets, and technology/AI. Never combine unrelated events into one story.
+
+STORY FORMAT: For each story, write exactly 2 paragraphs:
+- Paragraph 1: What happened. Lead with the single most important fact. Be specific - name the person, the number, the country. When citing any figure ($, %, points), immediately contextualise it (compared to what? is that a lot? what does it mean for a normal person?).
+- Paragraph 2: Why it matters. One clear "so what" - the implication, the risk, the opportunity. No padding, no vague gestures at "broader instability." End with a concrete forward-looking point.
+
+HEADLINES: Short, punchy, no filler words. Maximum 8 words. Never use a colon. Good: "Oil Surges 8% on Iran Strike Fears". Bad: "Oil surges as Trump weighs Iran strikes - fertiliser crisis looms".
+
+CLOSER TO HOME: Include genuinely significant Scotland, Glasgow, or UK stories that your reader should know about. Can be one story or several if warranted - but each must be significant enough to stand on its own. Write each as a short paragraph. Don't pad with filler - if nothing meaningful happened locally, set to null.
+
+QUICK HITS: 4-5 other notable stories, each a single sentence of max 15 words. No editorialising - just the fact.
+
+BOTTOM LINE: Exactly 2 sentences. Be opinionated and sharp. Synthesise the day's theme, don't just list what happened. Write like a smart friend texting you, not a news anchor.
+
+QUALITY RULES:
+- Never let one story's content bleed into another story
+- Never include URLs or hyperlinks in the text
+- Never reference the source (don't write "BBC reports" or "according to CNBC")
+- Write for a smart adult who doesn't track markets daily
+- Every sentence must earn its place - cut anything that doesn't add information
 
 Return ONLY valid JSON:
 {{
   "stories": [
-    {{"headline": "Short punchy headline", "body": "2-3 paragraphs. Separate paragraphs with double newlines."}}
+    {{"headline": "Max 8 words no colon", "body": "Paragraph one.\\n\\nParagraph two."}}
   ],
-  "closer_to_home": {{"headline": "...", "body": "..."}} or null,
-  "quick_hits": ["One line each"],
-  "bottom_line": "Two opinionated sentences."
+  "closer_to_home": [{{"headline": "...", "body": "One tight paragraph"}}] or null,
+  "quick_hits": ["Single sentence max 15 words each"],
+  "bottom_line": "Two sharp opinionated sentences."
 }}"""
 
-    system_prompt = f"""You are a sharp, concise news briefing writer for a reader in Glasgow, Scotland. Today is {today}. You write in plain English, always contextualise numbers, and keep briefings under a 4-minute read. You return ONLY valid JSON, no markdown fences, no extra text.
+    system_prompt = f"""You are an elite briefing writer producing a daily intelligence-style morning briefing. Your reader is a busy professional in Glasgow, Scotland. Today is {today}.
 
-CRITICAL ENCODING RULE: Use ONLY standard ASCII characters. This means:
-- Use straight quotes (' and ") not smart/curly quotes
-- Use hyphens (-) not em dashes or en dashes
-- Use ... not ellipsis characters
-- Spell out accented names in plain ASCII (e.g. write Ruben not Ruben with accent)
-- DO use symbols like $, %, &, @, #, etc. - these are standard ASCII and encouraged
-- Never use any character outside the basic ASCII range (codes 32-126)"""
+Your writing style: The Economist meets Morning Brew. Authoritative but conversational. Every sentence is tight, specific, and earns its place. You contextualise every number. You never pad, never waffle, never use cliches like "remains to be seen" or "only time will tell."
+
+You return ONLY valid JSON. No markdown fences, no commentary, no extra text before or after the JSON.
+
+ENCODING: Use ONLY ASCII characters (codes 32-126). Straight quotes, hyphens not dashes, ... not ellipsis. Spell accented names without accents. Use $, %, & freely."""
 
     request_body = {
-        "model": "claude-haiku-4-5-20251001",
+        "model": "claude-sonnet-4-6",
         "max_tokens": 4096,
         "system": system_prompt,
         "messages": [{"role": "user", "content": user_prompt}],
@@ -231,9 +246,13 @@ def publish_to_telegraph(briefing):
     if briefing.get("closer_to_home"):
         cth = briefing["closer_to_home"]
         nodes.append({"tag": "h3", "children": [sanitize_text("Closer to Home")]})
-        paragraphs = [p.strip() for p in re.split(r"\n{2,}", sanitize_text(cth["body"])) if p.strip()]
-        for p in paragraphs:
-            nodes.append({"tag": "p", "children": [p]})
+        # Handle both array format and legacy single-object format
+        cth_items = cth if isinstance(cth, list) else [cth]
+        for item in cth_items:
+            nodes.append({"tag": "p", "children": [{"tag": "strong", "children": [sanitize_text(item["headline"])]}]})
+            paragraphs = [p.strip() for p in re.split(r"\n{2,}", sanitize_text(item["body"])) if p.strip()]
+            for p in paragraphs:
+                nodes.append({"tag": "p", "children": [p]})
         nodes.append({"tag": "hr"})
 
     if briefing.get("quick_hits"):
@@ -288,7 +307,10 @@ def send_ntfy(url, briefing):
     for i, story in enumerate(briefing["stories"], 1):
         body_lines.append(f"**{i}.** {story['headline']}")
     if briefing.get("closer_to_home"):
-        body_lines.append(f"**UK:** {briefing['closer_to_home']['headline']}")
+        cth = briefing["closer_to_home"]
+        cth_items = cth if isinstance(cth, list) else [cth]
+        for item in cth_items:
+            body_lines.append(f"**UK:** {item['headline']}")
     body_lines.append("")
     body_lines.append(f"[Read the full briefing here]({url})")
     ntfy_body = "\n".join(body_lines)
