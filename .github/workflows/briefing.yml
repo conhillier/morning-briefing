@@ -1,0 +1,32 @@
+name: Morning Briefing
+
+on:
+  schedule:
+    # 5:30 AM UK time. UK is UTC+0 in winter (GMT) and UTC+1 in summer (BST).
+    # Use 4:30 UTC to hit ~5:30 BST (Apr-Oct) or ~4:30 GMT (Nov-Mar).
+    # Adjust if needed: "30 5 * * *" for 5:30 UTC (= 5:30 GMT / 6:30 BST).
+    - cron: "30 4 * * *"
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests feedparser
+
+      - name: Run morning briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: "con-hillier-morning-briefing"
+        run: python briefing.py
