@@ -21,13 +21,27 @@ NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "con-hillier-morning-briefing")
 MAX_RETRIES = 3
 REQUEST_TIMEOUT = 30
 
+DEDUP_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "last_briefing.json")
+DEDUP_DAYS = 3  # How many days of headlines to remember
+
 RSS_FEEDS = [
+    # -- World & Geopolitics (diverse perspectives) --
     {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "World"},
+    {"url": "https://www.theguardian.com/world/rss", "category": "World"},
+    {"url": "https://www.aljazeera.com/xml/rss/all.xml", "category": "World"},
+    {"url": "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&hl=en-GB&gl=GB&ceid=GB:en", "category": "World"},
+    # -- Business & Markets --
     {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "category": "Business"},
-    {"url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "category": "Technology"},
-    {"url": "http://feeds.bbci.co.uk/news/scotland/rss.xml", "category": "Scotland"},
-    {"url": "https://techcrunch.com/category/artificial-intelligence/feed/", "category": "AI"},
+    {"url": "https://www.ft.com/rss/home", "category": "Business"},
+    {"url": "https://www.theguardian.com/uk/business/rss", "category": "Business"},
     {"url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "category": "Markets"},
+    # -- Technology & AI --
+    {"url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "category": "Technology"},
+    {"url": "https://www.theguardian.com/uk/technology/rss", "category": "Technology"},
+    {"url": "https://techcrunch.com/category/artificial-intelligence/feed/", "category": "AI"},
+    # -- Scotland / UK (closer to home) --
+    {"url": "http://feeds.bbci.co.uk/news/scotland/rss.xml", "category": "Scotland"},
+    {"url": "https://www.theguardian.com/uk-news/rss", "category": "UK"},
 ]
 
 # -- Logging -----------------------------------------------------------------
@@ -44,24 +58,24 @@ def sanitize_text(text):
     # Normalize unicode (e.g. decompose accented chars)
     text = unicodedata.normalize("NFKD", text)
     # Smart quotes -> straight
-    for ch in "ââââ":
+    for ch in "‘’‚‛":
         text = text.replace(ch, "'")
-    for ch in "ââââ":
+    for ch in "“”„‟":
         text = text.replace(ch, '"')
     # Dashes
-    text = text.replace("â", "-")       # en dash
-    text = text.replace("â", " - ")     # em dash
-    text = text.replace("â", " - ")     # horizontal bar
+    text = text.replace("–", "-")       # en dash
+    text = text.replace("—", " - ")     # em dash
+    text = text.replace("―", " - ")     # horizontal bar
     # Ellipsis
-    text = text.replace("â¦", "...")
+    text = text.replace("…", "...")
     # Bullets
-    text = text.replace("â¢", "-")
-    text = text.replace("â£", "-")
+    text = text.replace("•", "-")
+    text = text.replace("‣", "-")
     # Non-breaking space
-    text = text.replace("Â ", " ")
+    text = text.replace(" ", " ")
     # Guillemets
-    text = text.replace("Â«", '"')
-    text = text.replace("Â»", '"')
+    text = text.replace("«", '"')
+    text = text.replace("»", '"')
     # Strip combining diacritical marks (left over from NFKD normalization)
     text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
     # Nuclear option: drop anything remaining outside printable ASCII
@@ -93,22 +107,99 @@ def parse_markdown_bold(text):
     return children
 
 
+# -- Deduplication -----------------------------------------------------------
+def load_previous_headlines():
+    """Load headlines from previous briefings to avoid repetition."""
+    try:
+        if not os.path.exists(DEDUP_FILE):
+            log("No dedup file found (first run)")
+            return []
+        with open(DEDUP_FILE, "r") as f:
+            data = json.load(f)
+
+        # Filter to only keep entries from the last N days
+        cutoff = datetime.now(timezone.utc) - timedelta(days=DEDUP_DAYS)
+        recent = []
+        for entry in data:
+            try:
+                entry_date = datetime.fromisoformat(entry["date"])
+                if entry_date > cutoff:
+                    recent.append(entry)
+            except (KeyError, ValueError):
+                continue
+
+        headlines = []
+        for entry in recent:
+            headlines.extend(entry.get("headlines", []))
+
+        log(f"Loaded {len(headlines)} previous headlines from {len(recent)} day(s)")
+        return headlines
+    except Exception as e:
+        log(f"Failed to load dedup file: {e}", "WARN")
+        return []
+
+
+def save_briefing_headlines(briefing):
+    """Save this briefing's headlines to the dedup file for future runs."""
+    try:
+        # Load existing data
+        existing = []
+        if os.path.exists(DEDUP_FILE):
+            with open(DEDUP_FILE, "r") as f:
+                existing = json.load(f)
+
+        # Extract today's headlines
+        headlines = [s["headline"] for s in briefing.get("stories", [])]
+        if briefing.get("closer_to_home"):
+            cth = briefing["closer_to_home"]
+            cth_items = cth if isinstance(cth, list) else [cth]
+            headlines.extend([item["headline"] for item in cth_items])
+        if briefing.get("quick_hits"):
+            headlines.extend(briefing["quick_hits"])
+
+        # Add today's entry
+        today_entry = {
+            "date": datetime.now(timezone.utc).isoformat(),
+            "headlines": headlines,
+        }
+        existing.append(today_entry)
+
+        # Prune entries older than DEDUP_DAYS
+        cutoff = datetime.now(timezone.utc) - timedelta(days=DEDUP_DAYS)
+        existing = [
+            e for e in existing
+            if datetime.fromisoformat(e["date"]) > cutoff
+        ]
+
+        with open(DEDUP_FILE, "w") as f:
+            json.dump(existing, f, indent=2)
+
+        log(f"Saved {len(headlines)} headlines to dedup file ({len(existing)} day(s) retained)")
+    except Exception as e:
+        log(f"Failed to save dedup file: {e}", "WARN")
+
+
 # -- RSS Feed Fetching -------------------------------------------------------
-def fetch_feed(url, category, max_items=8):
+def fetch_feed(url, category, max_items=5):
     try:
         feed = feedparser.parse(url)
         items = []
         for entry in feed.entries[:max_items]:
             title = entry.get("title", "").strip()
+            if not title:
+                continue
             # Strip HTML tags from description
             desc = re.sub(r"<[^>]+>", "", entry.get("summary", entry.get("description", "")))
             desc = desc.replace("&amp;", "&").replace("&nbsp;", " ").strip()
+            # Truncate overly long descriptions (some feeds are verbose)
+            if len(desc) > 300:
+                desc = desc[:297] + "..."
             link = entry.get("link", "").strip()
             items.append({"title": title, "description": desc, "link": link, "category": category})
         log(f"Fetched {len(items)} items from {category}")
         return items
     except Exception as e:
-        log(f"Failed to fetch {category} feed: {e}", "WARN")
+        log(f"Failed to fetch {category} feed ({url[:50]}...): {e}", "WARN")
         return []
 
 
@@ -121,7 +212,7 @@ def fetch_all_news():
 
 
 # -- Claude AI Briefing ------------------------------------------------------
-def generate_briefing(news_items, api_key):
+def generate_briefing(news_items, api_key, previous_headlines=None):
     uk_tz = timezone(timedelta(hours=0))  # Use UTC, close enough for date display
     today = datetime.now(uk_tz).strftime("%A %d %B %Y")
 
@@ -132,10 +223,17 @@ def generate_briefing(news_items, api_key):
             news_text += f"{item['description']}\n"
         news_text += "\n"
 
+    # Build dedup context
+    dedup_block = ""
+    if previous_headlines:
+        dedup_block = "\n\nHEADLINES FROM RECENT BRIEFINGS (do NOT repeat these stories unless there is a genuinely major new development):\n"
+        for h in previous_headlines:
+            dedup_block += f"- {h}\n"
+        dedup_block += "\nIf a story from this list has a significant new development today, you may cover the UPDATE only - do not rehash what was already reported. Frame it as \"Update:\" or \"Development:\" to signal it is a follow-up.\n"
+
     user_prompt = f"""Here are today's news headlines and summaries from RSS feeds:
 
-{news_text}
-
+{news_text}{dedup_block}
 Write my morning briefing. Pick the top 5 global stories - ensure a MIX of world events/geopolitics, business/markets, and AI/technology.
 
 FORMAT FOR EACH STORY:
@@ -387,25 +485,31 @@ def main():
         log("No news items from any feed. Aborting.", "ERROR")
         sys.exit(1)
 
-    # Step 2: Generate briefing
+    # Step 2: Load previous headlines for dedup
+    previous_headlines = load_previous_headlines()
+
+    # Step 3: Generate briefing
     briefing = None
     if ANTHROPIC_API_KEY:
         try:
             log("Generating AI briefing with Claude...")
-            briefing = generate_briefing(all_news, ANTHROPIC_API_KEY)
+            briefing = generate_briefing(all_news, ANTHROPIC_API_KEY, previous_headlines)
         except Exception as e:
             log(f"Claude failed, falling back to RSS-only: {e}", "WARN")
 
     if not briefing:
         briefing = fallback_briefing(all_news)
 
-    # Step 3: Publish to Telegraph
+    # Step 4: Publish to Telegraph
     log("Publishing to Telegraph...")
     url = publish_to_telegraph(briefing)
 
-    # Step 4: Send push notification
+    # Step 5: Send push notification
     log("Sending push notification...")
     send_ntfy(url, briefing)
+
+    # Step 6: Save headlines for future dedup
+    save_briefing_headlines(briefing)
 
     log("=== Morning briefing complete ===")
     log("=========================================")
