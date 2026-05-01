@@ -108,48 +108,48 @@ def generate_briefing(news_items, api_key):
             news_text += f"{item['description']}\n"
         news_text += "\n"
 
-    user_prompt = f"""Here are today's raw news headlines and summaries from RSS feeds:
+    user_prompt = f"""Here are today's news headlines and summaries from RSS feeds:
 
 {news_text}
 
-Write a professional morning briefing following these rules exactly:
+Write my morning briefing. Pick the top 5 global stories - ensure a MIX of world events/geopolitics, business/markets, and AI/technology.
 
-STORY SELECTION: Pick the 5 most consequential stories. Ensure a mix across geopolitics, business/markets, and technology/AI. Never combine unrelated events into one story.
+For each story, write a clear 2-3 paragraph summary in plain English:
 
-STORY FORMAT: For each story, write exactly 2 paragraphs:
-- Paragraph 1: What happened. Lead with the single most important fact. Be specific - name the person, the number, the country. When citing any figure ($, %, points), immediately contextualise it (compared to what? is that a lot? what does it mean for a normal person?).
-- Paragraph 2: Why it matters. One clear "so what" - the implication, the risk, the opportunity. No padding, no vague gestures at "broader instability." End with a concrete forward-looking point.
+- First paragraph(s): What happened. Be specific with names, numbers, and places. When citing ANY number (prices, indices, percentages), ALWAYS give context - compared to what? Is that high or low historically? What does it mean practically for a normal person? For example: "Oil surged past $107 a barrel - up 12% in a week and the highest since 2022. At that level, petrol prices typically climb above 160p/litre within weeks, adding roughly 15 pounds to a typical monthly fuel bill."
 
-HEADLINES: Short, punchy, no filler words. Maximum 8 words. Never use a colon. Good: "Oil Surges 8% on Iran Strike Fears". Bad: "Oil surges as Trump weighs Iran strikes - fertiliser crisis looms".
+- Final paragraph: Why it matters. Explain the real-world implication so the reader genuinely learns something and could confidently discuss this topic in conversation. Connect the dots - what could happen next, who wins, who loses, and why should someone in Scotland care?
 
-CLOSER TO HOME: Include genuinely significant Scotland, Glasgow, or UK stories that your reader should know about. Can be one story or several if warranted - but each must be significant enough to stand on its own. Write each as a short paragraph. Don't pad with filler - if nothing meaningful happened locally, set to null.
+CLOSER TO HOME: Check if there are genuinely significant UK, Scotland, or Glasgow stories. Include as many as warrant it - but each must be significant enough to stand on its own. Write each with a headline and a short paragraph. If nothing meaningful, set to null. Do NOT include filler.
 
-QUICK HITS: 4-5 other notable stories, each a single sentence of max 15 words. No editorialising - just the fact.
+QUICK HITS: 4-5 other notable stories from the headlines, each a single sentence.
 
-BOTTOM LINE: Exactly 2 sentences. Be opinionated and sharp. Synthesise the day's theme, don't just list what happened. Write like a smart friend texting you, not a news anchor.
+BOTTOM LINE: An opinionated 2-sentence synthesis of the day. Be sharp and take a view - this is what makes the briefing memorable.
 
 QUALITY RULES:
-- Never let one story's content bleed into another story
+- Never combine unrelated events into one story
 - Never include URLs or hyperlinks in the text
-- Never reference the source (don't write "BBC reports" or "according to CNBC")
-- Write for a smart adult who doesn't track markets daily
-- Every sentence must earn its place - cut anything that doesn't add information
+- Never reference the source ("BBC reports", "according to CNBC")
+- No jargon - write for a smart person who doesn't track markets daily
+- Every sentence must earn its place
 
 Return ONLY valid JSON:
 {{
   "stories": [
-    {{"headline": "Max 8 words no colon", "body": "Paragraph one.\\n\\nParagraph two."}}
+    {{"headline": "Short punchy headline", "body": "2-3 paragraphs separated by double newlines. Bold key points with **bold**."}}
   ],
-  "closer_to_home": [{{"headline": "...", "body": "One tight paragraph"}}] or null,
-  "quick_hits": ["Single sentence max 15 words each"],
-  "bottom_line": "Two sharp opinionated sentences."
+  "closer_to_home": [{{"headline": "...", "body": "Short paragraph"}}] or null,
+  "quick_hits": ["One sentence each"],
+  "bottom_line": "Two opinionated sentences."
 }}"""
 
-    system_prompt = f"""You are an elite briefing writer producing a daily intelligence-style morning briefing. Your reader is a busy professional in Glasgow, Scotland. Today is {today}.
+    system_prompt = f"""You are writing a daily morning briefing for Con, a professional based in Glasgow, Scotland. Today is {today}. The purpose of this briefing is to make Con smarter - he reads it every morning to stay informed on world events, geopolitics, business, markets, and AI so he can hold his own in any conversation.
 
-Your writing style: The Economist meets Morning Brew. Authoritative but conversational. Every sentence is tight, specific, and earns its place. You contextualise every number. You never pad, never waffle, never use cliches like "remains to be seen" or "only time will tell."
+Your job is to be his personal intelligence analyst. Don't just report what happened - explain what it means, why it matters, and what it could lead to. Contextualise every single number. Write in plain English with no jargon. Be concise but never sacrifice clarity for brevity.
 
-You return ONLY valid JSON. No markdown fences, no commentary, no extra text before or after the JSON.
+Keep the total briefing to a 4-minute read. Be opinionated in the Bottom Line.
+
+You return ONLY valid JSON. No markdown fences, no commentary, no extra text.
 
 ENCODING: Use ONLY ASCII characters (codes 32-126). Straight quotes, hyphens not dashes, ... not ellipsis. Spell accented names without accents. Use $, %, & freely."""
 
