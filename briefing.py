@@ -69,6 +69,30 @@ def sanitize_text(text):
     return text
 
 
+# -- Markdown to Telegraph Nodes ---------------------------------------------
+def parse_markdown_bold(text):
+    """Convert **bold** markdown into Telegraph node children.
+
+    Returns a list of children for a Telegraph node:
+    - Plain strings for normal text
+    - {"tag": "strong", "children": ["text"]} for bold segments
+    """
+    parts = re.split(r"\*\*(.+?)\*\*", text)
+    if len(parts) == 1:
+        return [text]  # No bold markers found
+
+    children = []
+    for i, part in enumerate(parts):
+        if not part:
+            continue
+        if i % 2 == 1:
+            # Odd indices are the captured bold groups
+            children.append({"tag": "strong", "children": [part]})
+        else:
+            children.append(part)
+    return children
+
+
 # -- RSS Feed Fetching -------------------------------------------------------
 def fetch_feed(url, category, max_items=8):
     try:
@@ -114,40 +138,55 @@ def generate_briefing(news_items, api_key):
 
 Write my morning briefing. Pick the top 5 global stories - ensure a MIX of world events/geopolitics, business/markets, and AI/technology.
 
-For each story, write a clear 2-3 paragraph summary in plain English:
+FORMAT FOR EACH STORY:
 
-- First paragraph(s): What happened. Be specific with names, numbers, and places. When citing ANY number (prices, indices, percentages), ALWAYS give context - compared to what? Is that high or low historically? What does it mean practically for a normal person? For example: "Oil surged past $107 a barrel - up 12% in a week and the highest since 2022. At that level, petrol prices typically climb above 160p/litre within weeks, adding roughly 15 pounds to a typical monthly fuel bill."
+"headline": A short punchy headline, max 8 words.
 
-- Final paragraph: Why it matters. Explain the real-world implication so the reader genuinely learns something and could confidently discuss this topic in conversation. Connect the dots - what could happen next, who wins, who loses, and why should someone in Scotland care?
+"body": What happened. 3-5 sentences. Be specific with names, numbers, and places. Use **bold** for key facts. When citing ANY number, ALWAYS contextualise it - compared to what? Is that high or low historically? What does it mean for a normal person? Example: "Oil surged past **$107 a barrel** - up 12% in a week and the highest since 2022. At that level, petrol prices typically climb above 160p/litre within weeks, adding roughly **15 pounds to a typical monthly fuel bill**."
 
-CLOSER TO HOME: Check if there are genuinely significant UK, Scotland, or Glasgow stories. Include as many as warrant it - but each must be significant enough to stand on its own. Write each with a headline and a short paragraph. If nothing meaningful, set to null. Do NOT include filler.
+"why_it_matters": 2-3 sentences explaining the real-world implication. Connect the dots - what happens next, who wins, who loses. Make the reader genuinely smarter. Do NOT start with "Why it matters" - just write the analysis directly.
 
-QUICK HITS: 4-5 other notable stories from the headlines, each a single sentence.
+Keep each story to 120-150 words total across body + why_it_matters.
 
-BOTTOM LINE: An opinionated 2-sentence synthesis of the day. Be sharp and take a view - this is what makes the briefing memorable.
+CLOSER TO HOME: Genuinely significant UK, Scotland, or Glasgow stories only. Each with a headline and short body (3-4 sentences). If nothing meaningful, set to null.
+
+QUICK HITS: 4-5 other notable stories, each a single punchy sentence. Use **bold** for the key noun.
+
+BOTTOM LINE: An opinionated 2-sentence synthesis. Be sharp and take a view.
+
+TOTAL LENGTH: 800-1000 words (4-minute read). Do NOT exceed this.
 
 QUALITY RULES:
 - Never combine unrelated events into one story
-- Never include URLs or hyperlinks in the text
+- Never include URLs or hyperlinks
 - Never reference the source ("BBC reports", "according to CNBC")
 - No jargon - write for a smart person who doesn't track markets daily
 - Every sentence must earn its place
 
-Return ONLY valid JSON:
+Return ONLY valid JSON matching this EXACT structure:
 {{
   "stories": [
-    {{"headline": "Short punchy headline", "body": "2-3 paragraphs separated by double newlines. Bold key points with **bold**."}}
+    {{
+      "headline": "Short punchy headline",
+      "body": "What happened. 3-5 sentences with **bold** key facts.",
+      "why_it_matters": "2-3 sentences of analysis and implications."
+    }}
   ],
   "closer_to_home": [{{"headline": "...", "body": "Short paragraph"}}] or null,
-  "quick_hits": ["One sentence each"],
+  "quick_hits": ["One punchy sentence with **bold** key noun"],
   "bottom_line": "Two opinionated sentences."
 }}"""
 
-    system_prompt = f"""You are writing a daily morning briefing for Con, a professional based in Glasgow, Scotland. Today is {today}. The purpose of this briefing is to make Con smarter - he reads it every morning to stay informed on world events, geopolitics, business, markets, and AI so he can hold his own in any conversation.
+    system_prompt = f"""You are writing a daily morning briefing for Con, a professional based in Glasgow, Scotland. Today is {today}. He reads this every morning over espresso to stay sharp on world events, geopolitics, business, markets, and AI.
 
-Your job is to be his personal intelligence analyst. Don't just report what happened - explain what it means, why it matters, and what it could lead to. Contextualise every single number. Write in plain English with no jargon. Be concise but never sacrifice clarity for brevity.
+Your job is personal intelligence analyst. For each story: what happened (with contextualised numbers), then a clearly labelled "**Why it matters:**" paragraph explaining the real-world implication. Make him smarter - he should be able to confidently discuss any story after reading your briefing.
 
-Keep the total briefing to a 4-minute read. Be opinionated in the Bottom Line.
+CRITICAL CONSTRAINTS:
+- Total briefing: 800-1000 words (4-minute read). No more.
+- Each story: 120-150 words max. Tight, punchy paragraphs.
+- Use **bold** markdown for key figures and the "Why it matters:" label.
+- Separate paragraphs with double newlines.
+- Be opinionated in the Bottom Line.
 
 You return ONLY valid JSON. No markdown fences, no commentary, no extra text.
 
@@ -207,7 +246,7 @@ def fallback_briefing(news_items):
 
     stories = []
     for item in (world + biz + tech)[:5]:
-        stories.append({"headline": item["title"], "body": item["description"] or item["title"]})
+        stories.append({"headline": item["title"], "body": item["description"] or item["title"], "why_it_matters": ""})
 
     closer_to_home = None
     if scotland:
@@ -238,9 +277,17 @@ def publish_to_telegraph(briefing):
 
     for i, story in enumerate(briefing["stories"], 1):
         nodes.append({"tag": "h3", "children": [sanitize_text(f"{i}. {story['headline']}")]})
-        paragraphs = [p.strip() for p in re.split(r"\n{2,}", sanitize_text(story["body"])) if p.strip()]
-        for p in paragraphs:
-            nodes.append({"tag": "p", "children": [p]})
+        # Body paragraphs (what happened)
+        body_text = sanitize_text(story.get("body", ""))
+        for p in [p.strip() for p in re.split(r"\n+", body_text) if p.strip()]:
+            nodes.append({"tag": "p", "children": parse_markdown_bold(p)})
+        # Why it matters (separate bold-labelled paragraph)
+        wim = story.get("why_it_matters", "")
+        if wim:
+            wim_text = sanitize_text(wim)
+            wim_children = [{"tag": "strong", "children": ["Why it matters: "]}]
+            wim_children.extend(parse_markdown_bold(wim_text))
+            nodes.append({"tag": "p", "children": wim_children})
         nodes.append({"tag": "hr"})
 
     if briefing.get("closer_to_home"):
@@ -250,19 +297,18 @@ def publish_to_telegraph(briefing):
         cth_items = cth if isinstance(cth, list) else [cth]
         for item in cth_items:
             nodes.append({"tag": "p", "children": [{"tag": "strong", "children": [sanitize_text(item["headline"])]}]})
-            paragraphs = [p.strip() for p in re.split(r"\n{2,}", sanitize_text(item["body"])) if p.strip()]
-            for p in paragraphs:
-                nodes.append({"tag": "p", "children": [p]})
+            for p in [p.strip() for p in re.split(r"\n+", sanitize_text(item["body"])) if p.strip()]:
+                nodes.append({"tag": "p", "children": parse_markdown_bold(p)})
         nodes.append({"tag": "hr"})
 
     if briefing.get("quick_hits"):
         nodes.append({"tag": "h4", "children": ["Quick Hits"]})
         for hit in briefing["quick_hits"]:
-            nodes.append({"tag": "p", "children": [f"- {sanitize_text(hit)}"]})
+            nodes.append({"tag": "p", "children": parse_markdown_bold(f"- {sanitize_text(hit)}")})
         nodes.append({"tag": "hr"})
 
     nodes.append({"tag": "h3", "children": ["Bottom Line"]})
-    nodes.append({"tag": "p", "children": [{"tag": "strong", "children": [sanitize_text(briefing["bottom_line"])]}]})
+    nodes.append({"tag": "p", "children": parse_markdown_bold(sanitize_text(briefing["bottom_line"]))})
     nodes.append({"tag": "hr"})
     nodes.append({"tag": "p", "children": [{"tag": "em", "children": ["Your morning briefing, delivered daily."]}]})
 
