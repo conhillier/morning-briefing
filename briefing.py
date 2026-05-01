@@ -44,24 +44,24 @@ def sanitize_text(text):
     # Normalize unicode (e.g. decompose accented chars)
     text = unicodedata.normalize("NFKD", text)
     # Smart quotes -> straight
-    for ch in "‘’‚‛":
+    for ch in "ââââ":
         text = text.replace(ch, "'")
-    for ch in "“”„‟":
+    for ch in "ââââ":
         text = text.replace(ch, '"')
     # Dashes
-    text = text.replace("–", "-")       # en dash
-    text = text.replace("—", " - ")     # em dash
-    text = text.replace("―", " - ")     # horizontal bar
+    text = text.replace("â", "-")       # en dash
+    text = text.replace("â", " - ")     # em dash
+    text = text.replace("â", " - ")     # horizontal bar
     # Ellipsis
-    text = text.replace("…", "...")
+    text = text.replace("â¦", "...")
     # Bullets
-    text = text.replace("•", "-")
-    text = text.replace("‣", "-")
+    text = text.replace("â¢", "-")
+    text = text.replace("â£", "-")
     # Non-breaking space
-    text = text.replace(" ", " ")
+    text = text.replace("Â ", " ")
     # Guillemets
-    text = text.replace("«", '"')
-    text = text.replace("»", '"')
+    text = text.replace("Â«", '"')
+    text = text.replace("Â»", '"')
     # Strip combining diacritical marks (left over from NFKD normalization)
     text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
     # Nuclear option: drop anything remaining outside printable ASCII
@@ -273,7 +273,6 @@ def publish_to_telegraph(briefing):
     # Build Telegraph node array
     nodes = []
     nodes.append({"tag": "p", "children": [{"tag": "em", "children": [f"{today} | 4-minute read"]}]})
-    nodes.append({"tag": "hr"})
 
     for i, story in enumerate(briefing["stories"], 1):
         nodes.append({"tag": "h3", "children": [sanitize_text(f"{i}. {story['headline']}")]})
@@ -288,7 +287,6 @@ def publish_to_telegraph(briefing):
             wim_children = [{"tag": "strong", "children": ["Why it matters: "]}]
             wim_children.extend(parse_markdown_bold(wim_text))
             nodes.append({"tag": "p", "children": wim_children})
-        nodes.append({"tag": "hr"})
 
     if briefing.get("closer_to_home"):
         cth = briefing["closer_to_home"]
@@ -299,17 +297,15 @@ def publish_to_telegraph(briefing):
             nodes.append({"tag": "p", "children": [{"tag": "strong", "children": [sanitize_text(item["headline"])]}]})
             for p in [p.strip() for p in re.split(r"\n+", sanitize_text(item["body"])) if p.strip()]:
                 nodes.append({"tag": "p", "children": parse_markdown_bold(p)})
-        nodes.append({"tag": "hr"})
 
     if briefing.get("quick_hits"):
         nodes.append({"tag": "h4", "children": ["Quick Hits"]})
         for hit in briefing["quick_hits"]:
             nodes.append({"tag": "p", "children": parse_markdown_bold(f"- {sanitize_text(hit)}")})
-        nodes.append({"tag": "hr"})
 
     nodes.append({"tag": "h3", "children": ["Bottom Line"]})
     nodes.append({"tag": "p", "children": parse_markdown_bold(sanitize_text(briefing["bottom_line"]))})
-    nodes.append({"tag": "hr"})
+    nodes.append({"tag": "p", "children": [" "]})
     nodes.append({"tag": "p", "children": [{"tag": "em", "children": ["Your morning briefing, delivered daily."]}]})
 
     # Create Telegraph account
