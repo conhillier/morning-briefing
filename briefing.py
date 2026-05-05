@@ -148,12 +148,18 @@ def save_briefing_headlines(briefing):
             with open(DEDUP_FILE, "r") as f:
                 existing = json.load(f)
 
-        # Extract today's headlines
-        headlines = [s["headline"] for s in briefing.get("stories", [])]
+        # Extract today's headlines with topic summaries for better matching
+        headlines = []
+        for s in briefing.get("stories", []):
+            # Save headline + first sentence of body for topic context
+            body_preview = (s.get("body", "") or "")[:120].strip()
+            headlines.append(f"{s['headline']} -- {body_preview}")
         if briefing.get("closer_to_home"):
             cth = briefing["closer_to_home"]
             cth_items = cth if isinstance(cth, list) else [cth]
-            headlines.extend([item["headline"] for item in cth_items])
+            for item in cth_items:
+                body_preview = (item.get("body", "") or "")[:120].strip()
+                headlines.append(f"{item['headline']} -- {body_preview}")
         if briefing.get("quick_hits"):
             headlines.extend(briefing["quick_hits"])
 
@@ -226,15 +232,24 @@ def generate_briefing(news_items, api_key, previous_headlines=None):
     # Build dedup context
     dedup_block = ""
     if previous_headlines:
-        dedup_block = "\n\nHEADLINES FROM RECENT BRIEFINGS (do NOT repeat these stories unless there is a genuinely major new development):\n"
+        dedup_block = "\n\n=== CRITICAL: STORY DEDUPLICATION ===\n"
+        dedup_block += "The following stories/topics were ALREADY covered in recent briefings. Each entry shows the headline and a topic summary:\n\n"
         for h in previous_headlines:
             dedup_block += f"- {h}\n"
-        dedup_block += "\nIf a story from this list has a significant new development today, you may cover the UPDATE only - do not rehash what was already reported. Frame it as \"Update:\" or \"Development:\" to signal it is a follow-up.\n"
+        dedup_block += """
+DEDUP RULES (STRICTLY ENFORCED):
+1. Do NOT cover any story on the SAME TOPIC as an item above, even if the RSS headline is worded differently. Match on TOPIC, not exact headline text.
+   Example: "Pentagon Awards Major Contracts" and "US Military Spending Surges" and "Pentagon Goes All In on Military Contracts" are ALL the same topic -- skip ALL of them.
+2. The ONLY exception: a genuinely NEW development that changes the story materially (e.g. a vote result, a resignation, a reversal). A new opinion piece or follow-up article about the same situation is NOT a new development.
+3. If you do cover an update, prefix the headline with "Update:" and focus ONLY on what is new. Do not retell the original story.
+4. When in doubt, SKIP IT. There are always fresh stories to cover -- the reader wants breadth, not repetition.
+=== END DEDUP ===
+"""
 
     user_prompt = f"""Here are today's news headlines and summaries from RSS feeds:
 
 {news_text}{dedup_block}
-Write my morning briefing. Pick the top 5 global stories - ensure a MIX of world events/geopolitics, business/markets, and AI/technology.
+Write my morning briefing. Pick the 5 most IMPORTANT stories I need to know today -- prioritise stories that are NEW and not covered in recent briefings above. Ensure a MIX of world events/geopolitics, business/markets, and AI/technology. If a topic was already covered in a recent briefing, SKIP IT entirely unless there is a material new development.
 
 FORMAT FOR EACH STORY:
 
