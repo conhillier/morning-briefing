@@ -2,10 +2,10 @@ name: Morning Briefing
 
 on:
   schedule:
-    # 5:30 AM UK time. UK is UTC+0 in winter (GMT) and UTC+1 in summer (BST).
-    # Use 4:30 UTC to hit ~5:30 BST (Apr-Oct) or ~4:30 GMT (Nov-Mar).
-    # Adjust if needed: "30 5 * * *" for 5:30 UTC (= 5:30 GMT / 6:30 BST).
-    - cron: "30 4 * * *"
+    # Target: briefing in hand by 5:00 AM BST.
+    # GitHub Actions cron jobs can run 1-3 hours late, so we schedule early.
+    # 2:00 UTC = 3:00 BST — with typical delays, arrives by 4:30-5:00 BST.
+    - cron: "0 2 * * *"
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 permissions:
