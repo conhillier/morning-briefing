@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-05-01T16:01:42.885525+00:00",
-    "headlines": [
-      "Iran War Threatens Global Food Supply",
-      "UK Exports to US Crash 25% Post-Tariffs",
-      "Anthropic Closing In on $900bn Valuation",
-      "Apple Smashes Earnings, Cook Eyes the Exit",
-      "Alphabet Closing In on Nvidia's Crown",
-      "Whisky Tariff Win Sparks Scottish Political Spat",
-      "**Nigel Farage** faces a potential Electoral Commission investigation over an undisclosed $5 million gift that rivals say should have been declared.",
-      "**Israel** intercepted the Global Sumud aid flotilla off Gaza and detained activists, releasing all but two; organisers called it piracy.",
-      "**Spotify** is rolling out green 'Verified' badges on artist profiles to distinguish human musicians from AI-generated content.",
-      "**Exxon and Chevron** are defying White House pressure to ramp up drilling, sticking to capital discipline despite Trump's plea to cut petrol prices.",
-      "**Tuscany** wildfires have scorched over 810 hectares of forest, with Italian firefighters mobilised across multiple fronts."
-    ]
-  },
-  {
-    "date": "2026-05-02T05:50:45.230120+00:00",
-    "headlines": [
-      "Trump Pulls 5,000 Troops From Germany",
-      "Trump Claims War Powers Act Does Not Apply",
-      "EU Car Tariffs Jump to 25% as Trump Rips Up Deal",
-      "Pentagon Goes All-In on AI With Seven Firms",
-      "Berkshire Enters the Abel Era Cautiously",
-      "Holyrood Election Enters Final Stretch",
-      "**Sabastian Sawe** returned to a hero's welcome in Eldoret, Kenya after becoming the first man to run an official marathon in under two hours at the London Marathon.",
-      "**Spirit Airlines** is preparing to shut down entirely after bailout talks with bondholders collapsed this week, ending the budget carrier's post-bankruptcy survival bid.",
-      "**Musk vs. Altman** continued in court, with damaging emails and tweets surfacing as Musk spent a third day on the witness stand in his lawsuit alleging OpenAI abandoned its nonprofit mission.",
-      "**The Oscars** ruled that AI-generated performances and writing cannot win awards, drawing a hard line as studios debate how far to lean on the technology.",
-      "**Andy Burnham** has a credible plan to re-enter Westminster 'within weeks,' with allies saying he has identified seats where sitting Labour MPs would stand aside to enable a leadership bid."
-    ]
-  },
-  {
-    "date": "2026-05-02T06:24:29.298977+00:00",
-    "headlines": [
-      "Iran War Fertiliser Warning: Billions of Meals at Risk",
-      "Trump Pirates Iranian Oil Near Hormuz",
-      "Trump Hikes EU Car Tariffs to 25%",
-      "Pentagon Goes AI-First: Seven Firms Signed",
-      "BBC News Bears Deepest Cuts in 2,000 Job Cull",
-      "Holyrood Campaign: Final Week Flashpoints",
-      "**WHO** approved Coartem Baby, the first malaria treatment for newborns, in what health officials are calling a major milestone for sub-Saharan Africa.",
-      "**Uganda** is pushing a bill that would jail dissidents for up to 20 years for promoting 'foreign interests' - critics call it a copy of Russia's foreign agent laws.",
-      "**Andy Burnham** allies say he has identified Westminster seats where Labour MPs will stand aside, putting a leadership challenge on a concrete footing within weeks.",
-      "**Ultra Electronics**, a UK defence firm, agreed to pay **15 million pounds** after an SFO bribery investigation linked to contracts in Algeria and Oman.",
-      "**Meta** acquired humanoid robotics startup Assured Robot Intelligence, signalling a serious push into physical AI beyond chatbots and data centres."
-    ]
-  },
-  {
     "date": "2026-05-03T05:54:04.322334+00:00",
     "headlines": [
       "Iran Ceasefire Hangs by a Thread",
@@ -93,6 +45,23 @@
       "**Two US service members** went missing near Tan Tan in south-western Morocco during annual multinational military exercises, with a search and rescue operation launched.",
       "**Nigeria** summoned South Africa's ambassador after a wave of violent anti-migrant protests targeted Nigerian nationals - diplomatic relations between Africa's two largest economies are at a new low.",
       "**Inter Milan** clinched their 21st Serie A title with a 2-0 win over Parma, three matches early, edging Napoli in a title race that went to the final stretch."
+    ]
+  },
+  {
+    "date": "2026-05-05T06:34:18.211993+00:00",
+    "headlines": [
+      "Iran Strikes UAE; US Sinks Boats in Hormuz",
+      "Hantavirus: New Case, British Crew Member Critical",
+      "GameStop Bids $55.5bn to Buy eBay",
+      "Pentagon Goes All-In on AI Military Contracts",
+      "LVMH Sells Brands as Luxury Winter Bites",
+      "Holyrood Election: Parties Dodging Hard Truths",
+      "JLR Subsidy: UK Production Was on the Line",
+      "**Elon Musk** settled the SEC lawsuit over his delayed Twitter stake disclosure for a token **$1.5 million** fine - a rounding error on a $300bn fortune.",
+      "**HSBC** first-quarter pre-tax profit came in at **$9.4 billion**, missing estimates after fraud-related credit losses pushed costs higher and shares fell.",
+      "**Google DeepMind** workers in the UK voted to unionize, citing concerns over the company's Pentagon AI deals - the first major AI-lab union action in Britain.",
+      "**Leipzig** saw a car driven into a crowd, killing two and injuring several others - a 33-year-old German national was detained at the scene.",
+      "**Musk's** new Tesla pay package is valued at **$158 billion** but is entirely contingent on milestones he has not yet hit - it is paper wealth, not pocketed cash."
     ]
   }
 ]
