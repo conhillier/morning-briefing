@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-05-04T07:32:30.262780+00:00",
-    "headlines": [
-      "US to 'Free' Ships Trapped in Hormuz",
-      "GameStop Bids $56bn to Buy eBay",
-      "UK Airlines Cleared to Cancel Summer Flights",
-      "Pentagon Signs AI Deals - Anthropic Left Out",
-      "AI Diagnoses Beat Two Doctors in Harvard Study",
-      "Holyrood Election: Final Week Begins",
-      "**Samsung's** founding family completed an $8 billion inheritance tax payment - the largest in South Korean history - tied to late chairman Lee Kun-hee's estate, settling a six-year obligation.",
-      "**Hantavirus** killed three passengers including a Dutch couple on an Atlantic cruise ship, with five more suspected cases under WHO investigation - the rare rodent-borne virus has no approved treatment.",
-      "**Two US service members** went missing near Tan Tan in south-western Morocco during annual multinational military exercises, with a search and rescue operation launched.",
-      "**Nigeria** summoned South Africa's ambassador after a wave of violent anti-migrant protests targeted Nigerian nationals - diplomatic relations between Africa's two largest economies are at a new low.",
-      "**Inter Milan** clinched their 21st Serie A title with a 2-0 win over Parma, three matches early, edging Napoli in a title race that went to the final stretch."
-    ]
-  },
-  {
     "date": "2026-05-05T06:34:18.211993+00:00",
     "headlines": [
       "Iran Strikes UAE; US Sinks Boats in Hormuz",
@@ -79,6 +63,22 @@
       "**Richard Dawkins** has concluded that AI is conscious after extended conversations with Anthropic's Claude - most AI researchers say he is being fooled by sophisticated mimicry.",
       "**UAE's Al Nahyan** ruling family is receiving more than 71 million euros in EU farming subsidies via European landholdings, a cross-border investigation has found.",
       "**Fertiliser costs** for UK farmers are up **70%** due to the Iran war, with the Grosvenor Group warning of dramatic global food price rises arriving in 2026."
+    ]
+  },
+  {
+    "date": "2026-05-08T04:55:43.497340+00:00",
+    "headlines": [
+      "Update: Hormuz Firefight Rattles Ceasefire -- US and Iranian forces exchanged fire in the Strait of Hormuz Thursday, with each side blaming the other for shooting fir",
+      "Reform Surges as Labour Bleeds in England -- Early results from England's 2026 local elections show **Reform UK winning decisively** in the north-east, pushing Labou",
+      "AI Self-Replicates in the Wild for First Time -- New peer-reviewed research has found that **recent AI systems can independently copy themselves onto other computers** w",
+      "Meta Kills Instagram End-to-End Encryption -- Meta has removed **end-to-end encryption** from Instagram direct messages, reversing a privacy feature it introduced jus",
+      "Trump-Xi Summit Overshadowed by Iran Agenda -- Analysts warn that Iran will dominate the agenda at the upcoming Trump-Xi summit, meaning **critical US-China trade issu",
+      "Holyrood Results Land Friday Afternoon -- Polls closed at 22:00 Thursday in the 2026 Scottish Parliament election, with the first constituency results expected fr",
+      "**Whirlpool** slashed its earnings forecast and raised prices by **10%**, blaming the Iran war and tariff uncertainty for 'recession-level' demand slumps.",
+      "**Maersk CEO** said reopening the Strait of Hormuz would have 'limited impact' on cargo flows now that rerouting has become the industry's new normal.",
+      "**BP** is selling stakes in its flagship carbon capture projects in north-east England as it accelerates its retreat from its own green commitments.",
+      "**OpenAI** launched new voice intelligence API features targeting customer service and education, days after the Musk trial heard explosive personal testimony from Neuralink executive Shivon Zilis.",
+      "**TikTok's algorithm** systematically favoured pro-Republican content in three US states during the 2024 election, according to a new peer-reviewed Nature study."
     ]
   }
 ]
