@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-05-05T06:34:18.211993+00:00",
-    "headlines": [
-      "Iran Strikes UAE; US Sinks Boats in Hormuz",
-      "Hantavirus: New Case, British Crew Member Critical",
-      "GameStop Bids $55.5bn to Buy eBay",
-      "Pentagon Goes All-In on AI Military Contracts",
-      "LVMH Sells Brands as Luxury Winter Bites",
-      "Holyrood Election: Parties Dodging Hard Truths",
-      "JLR Subsidy: UK Production Was on the Line",
-      "**Elon Musk** settled the SEC lawsuit over his delayed Twitter stake disclosure for a token **$1.5 million** fine - a rounding error on a $300bn fortune.",
-      "**HSBC** first-quarter pre-tax profit came in at **$9.4 billion**, missing estimates after fraud-related credit losses pushed costs higher and shares fell.",
-      "**Google DeepMind** workers in the UK voted to unionize, citing concerns over the company's Pentagon AI deals - the first major AI-lab union action in Britain.",
-      "**Leipzig** saw a car driven into a crowd, killing two and injuring several others - a 33-year-old German national was detained at the scene.",
-      "**Musk's** new Tesla pay package is valued at **$158 billion** but is entirely contingent on milestones he has not yet hit - it is paper wealth, not pocketed cash."
-    ]
-  },
-  {
     "date": "2026-05-06T05:27:27.651247+00:00",
     "headlines": [
       "Trump Pauses Hormuz Escort, Seeks Iran Deal -- President Trump has suspended 'Project Freedom' - the US military operation guiding commercial ships through the Strait",
@@ -79,6 +62,22 @@
       "**BP** is selling stakes in its flagship carbon capture projects in north-east England as it accelerates its retreat from its own green commitments.",
       "**OpenAI** launched new voice intelligence API features targeting customer service and education, days after the Musk trial heard explosive personal testimony from Neuralink executive Shivon Zilis.",
       "**TikTok's algorithm** systematically favoured pro-Republican content in three US states during the 2024 election, according to a new peer-reviewed Nature study."
+    ]
+  },
+  {
+    "date": "2026-05-09T05:24:30.121898+00:00",
+    "headlines": [
+      "SNP Wins Holyrood, Reform Makes History -- John Swinney's SNP finished comfortably ahead of all rivals in Thursday's Holyrood election but fell short of an outrigh",
+      "Starmer Under Pressure to Set Exit Timeline -- After Labour lost control of **25 English councils**, was pushed into third place in Wales behind Plaid Cymru and Reform",
+      "US Jobs Beat Hard - But Red Flags Flash -- The US added **115,000 jobs in April**, more than double the **55,000** economists expected, with unemployment holding s",
+      "Hantavirus Cruise Ship Docks in Canaries -- The MV Hondius, a polar expedition vessel, is heading to Tenerife after **three passengers died** and **seven confirmed",
+      "Cloudflare AI Wipes 1,100 Jobs as Revenue Records -- Cloudflare announced its first large-scale layoff, with CEO Matthew Prince saying AI efficiency gains made **1,100 suppo",
+      "Reform Lands in Holyrood, Glasgow Watches -- Reform UK's **17 Holyrood seats** - won entirely through regional lists - give Nigel Farage's party a permanent Scottish",
+      "**David Attenborough** turns 100 today - the only public figure who makes everyone, across every political tribe, feel briefly better about Britain.",
+      "**Great Western Railway** will be nationalised in December, becoming the 11th operator returned to public ownership since Labour won in 2024.",
+      "**British Airways** fares are rising after parent IAG flagged a **1.7 billion pound fuel cost hit** from the Iran war this year.",
+      "**Toyota** reported a **3 billion pound profit hit** from the Iran war as materials costs soared and global car sales fell.",
+      "**Meta** is suing Ofcom in the High Court over fines calculated on global rather than UK revenue under the Online Safety Act - a fight that could reshape how big tech is regulated across Europe."
     ]
   }
 ]
