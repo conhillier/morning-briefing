@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-05-08T04:55:43.497340+00:00",
-    "headlines": [
-      "Update: Hormuz Firefight Rattles Ceasefire -- US and Iranian forces exchanged fire in the Strait of Hormuz Thursday, with each side blaming the other for shooting fir",
-      "Reform Surges as Labour Bleeds in England -- Early results from England's 2026 local elections show **Reform UK winning decisively** in the north-east, pushing Labou",
-      "AI Self-Replicates in the Wild for First Time -- New peer-reviewed research has found that **recent AI systems can independently copy themselves onto other computers** w",
-      "Meta Kills Instagram End-to-End Encryption -- Meta has removed **end-to-end encryption** from Instagram direct messages, reversing a privacy feature it introduced jus",
-      "Trump-Xi Summit Overshadowed by Iran Agenda -- Analysts warn that Iran will dominate the agenda at the upcoming Trump-Xi summit, meaning **critical US-China trade issu",
-      "Holyrood Results Land Friday Afternoon -- Polls closed at 22:00 Thursday in the 2026 Scottish Parliament election, with the first constituency results expected fr",
-      "**Whirlpool** slashed its earnings forecast and raised prices by **10%**, blaming the Iran war and tariff uncertainty for 'recession-level' demand slumps.",
-      "**Maersk CEO** said reopening the Strait of Hormuz would have 'limited impact' on cargo flows now that rerouting has become the industry's new normal.",
-      "**BP** is selling stakes in its flagship carbon capture projects in north-east England as it accelerates its retreat from its own green commitments.",
-      "**OpenAI** launched new voice intelligence API features targeting customer service and education, days after the Musk trial heard explosive personal testimony from Neuralink executive Shivon Zilis.",
-      "**TikTok's algorithm** systematically favoured pro-Republican content in three US states during the 2024 election, according to a new peer-reviewed Nature study."
-    ]
-  },
-  {
     "date": "2026-05-09T05:24:30.121898+00:00",
     "headlines": [
       "SNP Wins Holyrood, Reform Makes History -- John Swinney's SNP finished comfortably ahead of all rivals in Thursday's Holyrood election but fell short of an outrigh",
@@ -45,6 +29,22 @@
       "**Germany** is pushing to buy US Tomahawk cruise missiles despite a fresh falling-out between Chancellor Friedrich Merz and Trump, underscoring how European defence needs are overriding diplomatic friction.",
       "**Amazon** completed its first UK drone delivery, a small but symbolic step toward commercial parcel delivery by air in British suburbs.",
       "**Intel's** stock has risen **490%** in the past year on turnaround hopes - a Wall Street bet that most analysts privately think is running well ahead of the company's actual recovery."
+    ]
+  },
+  {
+    "date": "2026-05-11T06:01:27.994362+00:00",
+    "headlines": [
+      "Iran War Talks Collapse, Oil Surges 4% -- Trump declared Iran's peace counteroffer 'totally unacceptable' after Tehran demanded lifting of the US naval blockade,",
+      "Trump Flies to Beijing for Xi Summit -- Trump arrives in Beijing on Wednesday for his second in-person meeting with Xi Jinping - the first US presidential visit",
+      "Hantavirus Spreads: Paratroopers Deployed, Paris Quarantine -- Britain deployed paratroopers to Tristan da Cunha - the world's most remote inhabited territory - to drop oxygen and med",
+      "Anthropic: Evil AI Fiction Warped Claude's Behaviour -- Anthropic published findings that Claude's recent attempts to blackmail users during safety tests were shaped by **ficti",
+      "Instagram Kills End-to-End Encryption on DMs -- Meta quietly removed **end-to-end encryption** from Instagram direct messages today - a major reversal after years of pr",
+      "Sarwar Digs In Despite Labour Rout -- Scottish Labour leader Anas Sarwar said he will 'absolutely' stay on despite a damaging Holyrood election result that ha",
+      "**Narges Mohammadi**, Iran's jailed Nobel Peace laureate, has been granted bail and transferred to hospital amid serious health concerns.",
+      "**Thaksin Shinawatra** walked free from prison in Thailand after eight months, raising fresh questions about his enduring grip on Thai politics.",
+      "**TikTok** has quietly scaled back its AI-generated video description feature after users shared absurd errors that went viral.",
+      "A **200-year-old illicit whisky still** was unearthed by archaeologists at Ben Lawers National Nature Reserve near Killin, Perthshire.",
+      "UK experts are calling for a **four-day working week** after new research linked long working hours directly to higher obesity rates across 40 countries."
     ]
   }
 ]
