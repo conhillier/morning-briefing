@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-05-09T05:24:30.121898+00:00",
-    "headlines": [
-      "SNP Wins Holyrood, Reform Makes History -- John Swinney's SNP finished comfortably ahead of all rivals in Thursday's Holyrood election but fell short of an outrigh",
-      "Starmer Under Pressure to Set Exit Timeline -- After Labour lost control of **25 English councils**, was pushed into third place in Wales behind Plaid Cymru and Reform",
-      "US Jobs Beat Hard - But Red Flags Flash -- The US added **115,000 jobs in April**, more than double the **55,000** economists expected, with unemployment holding s",
-      "Hantavirus Cruise Ship Docks in Canaries -- The MV Hondius, a polar expedition vessel, is heading to Tenerife after **three passengers died** and **seven confirmed",
-      "Cloudflare AI Wipes 1,100 Jobs as Revenue Records -- Cloudflare announced its first large-scale layoff, with CEO Matthew Prince saying AI efficiency gains made **1,100 suppo",
-      "Reform Lands in Holyrood, Glasgow Watches -- Reform UK's **17 Holyrood seats** - won entirely through regional lists - give Nigel Farage's party a permanent Scottish",
-      "**David Attenborough** turns 100 today - the only public figure who makes everyone, across every political tribe, feel briefly better about Britain.",
-      "**Great Western Railway** will be nationalised in December, becoming the 11th operator returned to public ownership since Labour won in 2024.",
-      "**British Airways** fares are rising after parent IAG flagged a **1.7 billion pound fuel cost hit** from the Iran war this year.",
-      "**Toyota** reported a **3 billion pound profit hit** from the Iran war as materials costs soared and global car sales fell.",
-      "**Meta** is suing Ofcom in the High Court over fines calculated on global rather than UK revenue under the Online Safety Act - a fight that could reshape how big tech is regulated across Europe."
-    ]
-  },
-  {
     "date": "2026-05-10T05:40:05.636267+00:00",
     "headlines": [
       "Putin Says Ukraine War 'Coming to an End' -- Vladimir Putin told reporters he believes the conflict in Ukraine is approaching its conclusion, signalling openness to",
@@ -45,6 +29,23 @@
       "**TikTok** has quietly scaled back its AI-generated video description feature after users shared absurd errors that went viral.",
       "A **200-year-old illicit whisky still** was unearthed by archaeologists at Ben Lawers National Nature Reserve near Killin, Perthshire.",
       "UK experts are calling for a **four-day working week** after new research linked long working hours directly to higher obesity rates across 40 countries."
+    ]
+  },
+  {
+    "date": "2026-05-12T05:41:16.357839+00:00",
+    "headlines": [
+      "Starmer on the Brink as Cabinet Turns -- Keir Starmer's grip on power is collapsing at speed. **Home Secretary Shabana Mahmood and Home Office supremo Yvette Coo",
+      "AI Hacking Goes Industrial-Scale, Google Warns -- In a landmark threat report, Google warned that **AI-powered cyberattacks have escalated from a niche risk to an industr",
+      "E.ON Buys Ovo, Creating UK's Biggest Supplier -- German energy giant **E.ON has agreed to acquire struggling UK rival Ovo Energy** in a deal that, if approved by regulat",
+      "Israel Passes Death Penalty Law for October 7 -- Israel's Knesset passed legislation permitting **the death penalty and public trials for individuals linked to the Octob",
+      "Kevin Warsh Set to Replace Powell at the Fed -- The US Senate is widely expected this week to confirm **Kevin Warsh, 56**, as the next Chair of the Federal Reserve, rep",
+      "Edinburgh's Quartermile Quarter Going Overseas -- More than a third of properties in Edinburgh's Quartermile development - a high-value riverside quarter built on the for",
+      "Higher Maths Exam Leaves Students in Tears -- Over **11,000 people** have signed a petition demanding a review of this year's Scottish Higher Mathematics exam, with s",
+      "**British Steel** nationalisation legislation will be introduced to parliament this week, formalising state control after nearly a year of emergency management.",
+      "**Palantir** has been given what MPs describe as 'unlimited access' to identifiable NHS England patient data - a situation they called 'dangerous'.",
+      "A former **California mayor** admitted acting as an unregistered agent of China, promoting pro-Beijing propaganda at the direction of Chinese officials.",
+      "**Lithium-ion battery fires** in the UK now occur at a rate of one every five hours - up 147% in three years - as e-bikes and e-scooters proliferate.",
+      "**GM** laid off hundreds of IT workers specifically to replace them with staff skilled in AI-native development, cloud engineering, and agent workflows."
     ]
   }
 ]
