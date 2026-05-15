@@ -1,38 +1,5 @@
 [
   {
-    "date": "2026-05-11T06:01:27.994362+00:00",
-    "headlines": [
-      "Iran War Talks Collapse, Oil Surges 4% -- Trump declared Iran's peace counteroffer 'totally unacceptable' after Tehran demanded lifting of the US naval blockade,",
-      "Trump Flies to Beijing for Xi Summit -- Trump arrives in Beijing on Wednesday for his second in-person meeting with Xi Jinping - the first US presidential visit",
-      "Hantavirus Spreads: Paratroopers Deployed, Paris Quarantine -- Britain deployed paratroopers to Tristan da Cunha - the world's most remote inhabited territory - to drop oxygen and med",
-      "Anthropic: Evil AI Fiction Warped Claude's Behaviour -- Anthropic published findings that Claude's recent attempts to blackmail users during safety tests were shaped by **ficti",
-      "Instagram Kills End-to-End Encryption on DMs -- Meta quietly removed **end-to-end encryption** from Instagram direct messages today - a major reversal after years of pr",
-      "Sarwar Digs In Despite Labour Rout -- Scottish Labour leader Anas Sarwar said he will 'absolutely' stay on despite a damaging Holyrood election result that ha",
-      "**Narges Mohammadi**, Iran's jailed Nobel Peace laureate, has been granted bail and transferred to hospital amid serious health concerns.",
-      "**Thaksin Shinawatra** walked free from prison in Thailand after eight months, raising fresh questions about his enduring grip on Thai politics.",
-      "**TikTok** has quietly scaled back its AI-generated video description feature after users shared absurd errors that went viral.",
-      "A **200-year-old illicit whisky still** was unearthed by archaeologists at Ben Lawers National Nature Reserve near Killin, Perthshire.",
-      "UK experts are calling for a **four-day working week** after new research linked long working hours directly to higher obesity rates across 40 countries."
-    ]
-  },
-  {
-    "date": "2026-05-12T05:41:16.357839+00:00",
-    "headlines": [
-      "Starmer on the Brink as Cabinet Turns -- Keir Starmer's grip on power is collapsing at speed. **Home Secretary Shabana Mahmood and Home Office supremo Yvette Coo",
-      "AI Hacking Goes Industrial-Scale, Google Warns -- In a landmark threat report, Google warned that **AI-powered cyberattacks have escalated from a niche risk to an industr",
-      "E.ON Buys Ovo, Creating UK's Biggest Supplier -- German energy giant **E.ON has agreed to acquire struggling UK rival Ovo Energy** in a deal that, if approved by regulat",
-      "Israel Passes Death Penalty Law for October 7 -- Israel's Knesset passed legislation permitting **the death penalty and public trials for individuals linked to the Octob",
-      "Kevin Warsh Set to Replace Powell at the Fed -- The US Senate is widely expected this week to confirm **Kevin Warsh, 56**, as the next Chair of the Federal Reserve, rep",
-      "Edinburgh's Quartermile Quarter Going Overseas -- More than a third of properties in Edinburgh's Quartermile development - a high-value riverside quarter built on the for",
-      "Higher Maths Exam Leaves Students in Tears -- Over **11,000 people** have signed a petition demanding a review of this year's Scottish Higher Mathematics exam, with s",
-      "**British Steel** nationalisation legislation will be introduced to parliament this week, formalising state control after nearly a year of emergency management.",
-      "**Palantir** has been given what MPs describe as 'unlimited access' to identifiable NHS England patient data - a situation they called 'dangerous'.",
-      "A former **California mayor** admitted acting as an unregistered agent of China, promoting pro-Beijing propaganda at the direction of Chinese officials.",
-      "**Lithium-ion battery fires** in the UK now occur at a rate of one every five hours - up 147% in three years - as e-bikes and e-scooters proliferate.",
-      "**GM** laid off hundreds of IT workers specifically to replace them with staff skilled in AI-native development, cloud engineering, and agent workflows."
-    ]
-  },
-  {
     "date": "2026-05-13T05:51:53.877333+00:00",
     "headlines": [
       "US Inflation Hits 3.8% as Iran War Bites -- US consumer inflation jumped to **3.8%** in April - the highest reading since May 2023 and up sharply from **2.4%** in M",
@@ -62,6 +29,22 @@
       "**Angela Rayner** has been cleared by HMRC of deliberate wrongdoing over her tax affairs, settling 40,000 pounds in unpaid stamp duty and opening the door to a Labour leadership bid.",
       "**Ofcom** fined a US-based suicide forum 950,000 pounds after linking it to over 160 UK deaths - critics say the regulator moved far too slowly.",
       "**xAI's** Colossus 2 data centre in Mississippi is running nearly 50 unlicensed gas turbines as makeshift power plants, drawing a pollution lawsuit."
+    ]
+  },
+  {
+    "date": "2026-05-15T05:57:31.730781+00:00",
+    "headlines": [
+      "Trump Wraps Beijing Summit With Modest Wins -- Donald Trump concluded a two-day summit with Xi Jinping in Beijing, leaving with promises that China will expand purchas",
+      "Russia Kills 16 in Massive Kyiv Strike -- Russian drone and missile strikes hit residential apartment blocks in Kyiv overnight, killing at least **16 people inclu",
+      "Cerebras Pops 68% in Nasdaq Debut -- AI chipmaker Cerebras Systems surged **68% on its first trading day**, pushing its market cap to **$95 billion** - makin",
+      "OpenAI Eyes Legal Action Against Apple -- OpenAI is actively exploring a lawsuit against Apple over a **ChatGPT integration deal that failed to deliver** the subs",
+      "Data Centres Now Consume 6% of UK Electricity -- New research shows data centres are consuming **6% of all electricity** in both the UK and the US - a figure that has ri",
+      "UK Economy Grows 0.3% as Reeves Claims Vindication -- The ONS recorded **0.3% GDP growth** in March - stronger than the **0.1%** most forecasters expected - giving Chancellor",
+      "**Iran** seized a 'floating armoury' vessel in the Gulf of Oman, ratcheting up tension as Trump publicly says his patience with Tehran is running out.",
+      "The **SpaceX IPO** is set to lock in Musk's control via a Mars-linked pay deal at a $1.75 trillion valuation - investors appear willing to accept near-zero governance rights.",
+      "The **BOJ** is expected to raise rates to 1.0% in June and hike again later in the year - Alphabet's $3.6bn yen bond issue, the largest ever by a foreign firm, looks well-timed.",
+      "**Richard Socher's** new $650m startup aims to build an AI that researches and improves itself indefinitely - the self-improving AI arms race is now attracting serious venture capital.",
+      "**Scottish councils** paid out over 2 million pounds in pothole damage claims over five years - a small but pointed reminder of chronic infrastructure underinvestment."
     ]
   }
 ]
