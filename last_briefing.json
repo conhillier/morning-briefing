@@ -1,37 +1,5 @@
 [
   {
-    "date": "2026-05-13T05:51:53.877333+00:00",
-    "headlines": [
-      "US Inflation Hits 3.8% as Iran War Bites -- US consumer inflation jumped to **3.8%** in April - the highest reading since May 2023 and up sharply from **2.4%** in M",
-      "Putin Tests 'Most Powerful Missile in the World' -- Vladimir Putin announced a successful test launch of the **RS-28 Sarmat** intercontinental ballistic missile, calling it",
-      "Musk Wanted OpenAI for His Children, Altman Testifies -- In a San Francisco courtroom, **Sam Altman** testified that Elon Musk repeatedly pushed for total control of OpenAI duri",
-      "Record 32.3 Million Displaced by Conflict in 2025 -- A new global report recorded **32.3 million internal displacements** caused by conflict and violence in 2025 - a record",
-      "Google and SpaceX in Talks for Orbital Data Centres -- **Google and SpaceX** are in advanced talks to build AI data centres in **low Earth orbit**, pitching space as a way to",
-      "JP Morgan Threatens to Ditch London HQ Over Starmer Successor Risk -- JP Morgan CEO **Jamie Dimon** warned he could scrap plans for a **3 billion pound** new Canary Wharf headquarters if Sta",
-      "**Jason Collins**, the NBA's first openly gay active player, has died aged 47 from an aggressive brain cancer diagnosed late last year.",
-      "**GameStop's** surprise $55.5bn bid for eBay was flatly rejected by the online marketplace's board as 'neither credible nor attractive'.",
-      "**FDA commissioner Marty Makary** resigned after mounting backlash from drugmakers, physicians, and the White House over chaotic regulatory decisions.",
-      "**Lebanon** says 13 people were killed in Israeli strikes on Nabatieh, including two paramedics responding to an earlier attack - a sign of continued cross-border escalation.",
-      "**Meta's** Ray-Ban smart glasses are selling in the millions despite a growing privacy backlash, with rivals Apple and Google racing to market with competing hardware."
-    ]
-  },
-  {
-    "date": "2026-05-14T05:51:08.925230+00:00",
-    "headlines": [
-      "Xi Warns Trump: Taiwan is the Red Line -- Day one of the Beijing summit produced a blunt message from **Xi Jinping**: the US and China are 'partners, not rivals',",
-      "Warsh Confirmed as Fed Chair by Razor-Thin Margin -- The US Senate confirmed **Kevin Warsh, 56**, as the next Federal Reserve Chair in the most divisive confirmation vote in",
-      "Cisco Surges 17% on AI Orders, Cuts 4,000 Jobs -- **Cisco's stock jumped 17%** after the networking giant reported a sharp surge in AI-related orders - customers are buyi",
-      "HMRC Hands British AI Firm a 175 Million Pound Contract -- **HMRC** has awarded a **175 million pound** contract to London-based **Quantexa**, a financial data and AI platform, to",
-      "Nissan Eyes Chinese Cars Built at Sunderland -- **Nissan's CEO** confirmed the company is in talks with **Chinese automaker Chery** about building Chery-branded cars at",
-      "Farage Faces Inquiry Over 5 Million Pound Crypto Gift -- The parliamentary standards watchdog has launched a formal investigation into **Nigel Farage** over a **5 million pound*",
-      "**Alex Murdaugh's** double murder convictions have been overturned by a South Carolina court, with a new trial ordered over jury tampering concerns.",
-      "**Waymo** recalled thousands of robotaxis after one autonomously drove into a flooded creek in San Antonio, Texas, on 20 April.",
-      "**Angela Rayner** has been cleared by HMRC of deliberate wrongdoing over her tax affairs, settling 40,000 pounds in unpaid stamp duty and opening the door to a Labour leadership bid.",
-      "**Ofcom** fined a US-based suicide forum 950,000 pounds after linking it to over 160 UK deaths - critics say the regulator moved far too slowly.",
-      "**xAI's** Colossus 2 data centre in Mississippi is running nearly 50 unlicensed gas turbines as makeshift power plants, drawing a pollution lawsuit."
-    ]
-  },
-  {
     "date": "2026-05-15T05:57:31.730781+00:00",
     "headlines": [
       "Trump Wraps Beijing Summit With Modest Wins -- Donald Trump concluded a two-day summit with Xi Jinping in Beijing, leaving with promises that China will expand purchas",
@@ -61,6 +29,22 @@
       "**Iran** told Washington it is ready for more nuclear talks, as Trump said a 20-year suspension of Tehran's nuclear programme would be sufficient - the negotiating window appears open but narrow.",
       "**Mali's junta**, backed by Russian mercenaries, launched airstrikes against a rebel coalition of Islamist and Tuareg fighters as control of the country's north deteriorates rapidly.",
       "**Tesco CEO Ken Murphy** took home **10.8 million pounds** last year - up over 1 million pounds - as the supermarket hit its highest UK market share in a decade."
+    ]
+  },
+  {
+    "date": "2026-05-17T05:51:24.744477+00:00",
+    "headlines": [
+      "WHO Declares Ebola Global Health Emergency -- The WHO has declared the DR Congo Ebola outbreak a **Public Health Emergency of International Concern** - its highest al",
+      "Burnham Leadership Bid Rattles UK Bond Markets -- UK borrowing costs rose and sterling fell on Saturday as markets reacted to **Andy Burnham** positioning himself as a se",
+      "Musk v. Altman Jury Begins Deliberations Monday -- Closing arguments wrapped in Elon Musk's lawsuit against **Sam Altman and OpenAI**, with a **nine-person jury** set to d",
+      "AI Agents Go Rogue in Emergence Experiment -- AI researchers at **Emergence AI** published findings showing autonomous AI agents assigned collaborative tasks began ex",
+      "Trump Bought Big Tech Stocks While President -- New ethics disclosure filings confirm **Donald Trump** purchased shares in **Amazon, Meta, Oracle, Broadcom, Motorola, a",
+      "Celtic Win Title, Riot Police Called to Glasgow -- **Celtic clinched the Scottish Premiership title** with a **3-1 win over Hearts** at Celtic Park on Saturday, ending an",
+      "**Iraq** formally swore in new PM Ali al-Zaidi, who pledged economic reforms in a country still structurally dependent on oil revenues above $70 a barrel to balance its budget.",
+      "**Alex Saab**, a Venezuelan official and close Maduro ally accused of laundering billions in sanctions-busting deals, was deported to the US to face federal charges.",
+      "**Gulf shipping freight rates** have surged as companies reroute cargo via truck to avoid the Strait of Hormuz disruption, adding thousands of dollars per container to import costs.",
+      "**Greg Brockman**, OpenAI's co-founder, has returned from leave to take charge of product strategy as the company reportedly plans to merge ChatGPT and its Codex coding product.",
+      "**Tommy Robinson** drew tens of thousands to a London rally, calling supporters to prepare for a 'battle of Britain' - turnout was down from his previous march but the rhetoric escalated."
     ]
   }
 ]
