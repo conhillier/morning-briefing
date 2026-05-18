@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-05-15T05:57:31.730781+00:00",
-    "headlines": [
-      "Trump Wraps Beijing Summit With Modest Wins -- Donald Trump concluded a two-day summit with Xi Jinping in Beijing, leaving with promises that China will expand purchas",
-      "Russia Kills 16 in Massive Kyiv Strike -- Russian drone and missile strikes hit residential apartment blocks in Kyiv overnight, killing at least **16 people inclu",
-      "Cerebras Pops 68% in Nasdaq Debut -- AI chipmaker Cerebras Systems surged **68% on its first trading day**, pushing its market cap to **$95 billion** - makin",
-      "OpenAI Eyes Legal Action Against Apple -- OpenAI is actively exploring a lawsuit against Apple over a **ChatGPT integration deal that failed to deliver** the subs",
-      "Data Centres Now Consume 6% of UK Electricity -- New research shows data centres are consuming **6% of all electricity** in both the UK and the US - a figure that has ri",
-      "UK Economy Grows 0.3% as Reeves Claims Vindication -- The ONS recorded **0.3% GDP growth** in March - stronger than the **0.1%** most forecasters expected - giving Chancellor",
-      "**Iran** seized a 'floating armoury' vessel in the Gulf of Oman, ratcheting up tension as Trump publicly says his patience with Tehran is running out.",
-      "The **SpaceX IPO** is set to lock in Musk's control via a Mars-linked pay deal at a $1.75 trillion valuation - investors appear willing to accept near-zero governance rights.",
-      "The **BOJ** is expected to raise rates to 1.0% in June and hike again later in the year - Alphabet's $3.6bn yen bond issue, the largest ever by a foreign firm, looks well-timed.",
-      "**Richard Socher's** new $650m startup aims to build an AI that researches and improves itself indefinitely - the self-improving AI arms race is now attracting serious venture capital.",
-      "**Scottish councils** paid out over 2 million pounds in pothole damage claims over five years - a small but pointed reminder of chronic infrastructure underinvestment."
-    ]
-  },
-  {
     "date": "2026-05-16T05:29:54.815588+00:00",
     "headlines": [
       "Trump Warns Taiwan: Don't Declare Independence -- Hours after leaving Beijing, Trump told reporters that Taiwan should \"cool down\" and warned against any declaration of i",
@@ -45,6 +29,23 @@
       "**Gulf shipping freight rates** have surged as companies reroute cargo via truck to avoid the Strait of Hormuz disruption, adding thousands of dollars per container to import costs.",
       "**Greg Brockman**, OpenAI's co-founder, has returned from leave to take charge of product strategy as the company reportedly plans to merge ChatGPT and its Codex coding product.",
       "**Tommy Robinson** drew tens of thousands to a London rally, calling supporters to prepare for a 'battle of Britain' - turnout was down from his previous march but the rhetoric escalated."
+    ]
+  },
+  {
+    "date": "2026-05-18T06:17:57.112071+00:00",
+    "headlines": [
+      "Iran War Hits Global Firms with $25bn Bill -- The ongoing US-Israel conflict with Iran has handed global companies a combined **$25 billion in costs** so far - and th",
+      "Global Bond Sell-Off Deepens on Energy Inflation -- US and Japanese government bond yields rose sharply again Friday and into the weekend as investors priced in a new wave",
+      "Trump-Xi Summit Yields Soy and Rare Earth Deals -- The White House confirmed China has agreed to buy at least **$17 billion worth of US agricultural goods annually** - a m",
+      "EU to Force Non-Chinese Component Sourcing -- The EU is preparing legislation that would compel companies to source key components from non-Chinese suppliers, accordi",
+      "Musk v. Altman: What the Trial Actually Revealed -- As the nine-person jury begins deliberations today in San Francisco, the Musk-Altman trial has already done lasting repu",
+      "Scotland Mourns Rugby Legend Scott Hastings -- Scott Hastings, one of Scotland's most celebrated rugby union centres and a British Lion, has died at **61**. Hastings w",
+      "Glasgow 2026 Opening Ceremony Ballot Opens -- Tickets for the **Glasgow 2026 Commonwealth Games opening ceremony** are now available via public ballot. The event take",
+      "**Iran** has executed at least **32 political prisoners** since the US-Israel attack began in February, the UN confirmed - a sharp acceleration in political killings.",
+      "**Samsung** faces a strike by **47,000 workers** in South Korea as the government warns the action could cost the economy billions at a critical moment for chip production.",
+      "**Novo Nordisk** is pushing its weight-loss pill Wegovy aggressively into non-US markets after a strong American launch, betting international uptake will mirror the US boom.",
+      "**UK datacentres** - over 100 of them - plan to burn gas permanently to power AI infrastructure, threatening Britain's net-zero targets as energy demand from AI spirals.",
+      "**Apple** is preparing a Siri revamp centred on privacy, including auto-deleting chat histories - a direct competitive shot at Google and OpenAI's data-hungry assistants."
     ]
   }
 ]
