@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-05-16T05:29:54.815588+00:00",
-    "headlines": [
-      "Trump Warns Taiwan: Don't Declare Independence -- Hours after leaving Beijing, Trump told reporters that Taiwan should \"cool down\" and warned against any declaration of i",
-      "Pound Heads for Worst Week in 18 Months -- Sterling fell sharply on Friday, on course for its **worst weekly performance since November 2024**, as markets priced i",
-      "Ebola Kills 65 in Eastern Congo, Spreads to Uganda -- An Ebola outbreak in the **Ituri province of the Democratic Republic of Congo** has killed **65 people** from **246 susp",
-      "UAE Fast-Tracks Second Hormuz Bypass Pipeline -- The UAE's state oil company **ADNOC** has announced it will complete a second oil export pipeline bypassing the **Strait",
-      "OpenAI Launches Finance Dashboard, Links Bank Accounts -- OpenAI has launched a **personal finance feature inside ChatGPT** that allows users to connect bank and investment accou",
-      "UK Joins Europe-Wide Third-Country Asylum Deal -- The UK has signed a political declaration alongside all **45 other Council of Europe members** explicitly endorsing plan",
-      "**Hiscox** shares hit record highs after Canada's Intact Financial Corp was reported to be exploring a takeover bid for the London-listed insurer.",
-      "**IS second-in-command** Abu-Bilal al-Minuki was killed in a joint US-Nigerian operation, Trump announced - a rare counter-terrorism win in West Africa.",
-      "**Iran** told Washington it is ready for more nuclear talks, as Trump said a 20-year suspension of Tehran's nuclear programme would be sufficient - the negotiating window appears open but narrow.",
-      "**Mali's junta**, backed by Russian mercenaries, launched airstrikes against a rebel coalition of Islamist and Tuareg fighters as control of the country's north deteriorates rapidly.",
-      "**Tesco CEO Ken Murphy** took home **10.8 million pounds** last year - up over 1 million pounds - as the supermarket hit its highest UK market share in a decade."
-    ]
-  },
-  {
     "date": "2026-05-17T05:51:24.744477+00:00",
     "headlines": [
       "WHO Declares Ebola Global Health Emergency -- The WHO has declared the DR Congo Ebola outbreak a **Public Health Emergency of International Concern** - its highest al",
@@ -46,6 +30,22 @@
       "**Novo Nordisk** is pushing its weight-loss pill Wegovy aggressively into non-US markets after a strong American launch, betting international uptake will mirror the US boom.",
       "**UK datacentres** - over 100 of them - plan to burn gas permanently to power AI infrastructure, threatening Britain's net-zero targets as energy demand from AI spirals.",
       "**Apple** is preparing a Siri revamp centred on privacy, including auto-deleting chat histories - a direct competitive shot at Google and OpenAI's data-hungry assistants."
+    ]
+  },
+  {
+    "date": "2026-05-19T06:11:55.815497+00:00",
+    "headlines": [
+      "Trump Pulls Back Iran Strike at Last Minute -- Trump announced Monday he was calling off a US military strike on Iran that had been scheduled for Tuesday, saying **'se",
+      "Musk Loses OpenAI Lawsuit - Now What? -- A nine-person Oakland jury ruled **unanimously against Elon Musk** on Monday, finding his lawsuits against Sam Altman an",
+      "Standard Chartered Cuts Thousands as AI Bites -- Standard Chartered announced it will cut **thousands of roles** as it accelerates adoption of AI across its operations,",
+      "ISIS No. 2 Killed in Nigeria Joint Mission -- Trump announced that **Abu-Bilal al-Minuki**, described as the Islamic State's global second-in-command and 'most active",
+      "Halifax Brand May Vanish From UK High Streets -- Lloyds Banking Group is considering axing the **Halifax brand** entirely, with a decision possible as early as **1 July",
+      "Glasgow Fanzone Plans Blocked Over Cost -- Glasgow City Council confirmed that official title celebration fanzones for Celtic's Scottish Premiership win are not po",
+      "**Three people were killed** in a suspected hate crime shooting at a San Diego mosque by two teenagers aged 17 and 18, one of whom left a note with 'generalised hate rhetoric'.",
+      "**Putin heads to Beijing** for a summit with Xi days after Trump's visit, seeking reassurance that China has not drifted toward Washington - Xi holds the stronger hand.",
+      "**Libyan militia commander** Osama Elmasry, accused of overseeing murder, rape, and torture of migrants in detention centres, appeared at the ICC for the first time on Tuesday.",
+      "**SandboxAQ** has integrated its drug discovery AI models into Anthropic's Claude, aiming to make quantum-biology research accessible without specialist computing expertise.",
+      "**Belfast Harbour** is investing 1.3 billion pounds over 25 years in offshore wind, cruise, and ferry infrastructure - a sign that Northern Ireland's post-Brexit trade position is attracting serious long-term capital."
     ]
   }
 ]
