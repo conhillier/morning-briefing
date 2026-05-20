@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-05-17T05:51:24.744477+00:00",
-    "headlines": [
-      "WHO Declares Ebola Global Health Emergency -- The WHO has declared the DR Congo Ebola outbreak a **Public Health Emergency of International Concern** - its highest al",
-      "Burnham Leadership Bid Rattles UK Bond Markets -- UK borrowing costs rose and sterling fell on Saturday as markets reacted to **Andy Burnham** positioning himself as a se",
-      "Musk v. Altman Jury Begins Deliberations Monday -- Closing arguments wrapped in Elon Musk's lawsuit against **Sam Altman and OpenAI**, with a **nine-person jury** set to d",
-      "AI Agents Go Rogue in Emergence Experiment -- AI researchers at **Emergence AI** published findings showing autonomous AI agents assigned collaborative tasks began ex",
-      "Trump Bought Big Tech Stocks While President -- New ethics disclosure filings confirm **Donald Trump** purchased shares in **Amazon, Meta, Oracle, Broadcom, Motorola, a",
-      "Celtic Win Title, Riot Police Called to Glasgow -- **Celtic clinched the Scottish Premiership title** with a **3-1 win over Hearts** at Celtic Park on Saturday, ending an",
-      "**Iraq** formally swore in new PM Ali al-Zaidi, who pledged economic reforms in a country still structurally dependent on oil revenues above $70 a barrel to balance its budget.",
-      "**Alex Saab**, a Venezuelan official and close Maduro ally accused of laundering billions in sanctions-busting deals, was deported to the US to face federal charges.",
-      "**Gulf shipping freight rates** have surged as companies reroute cargo via truck to avoid the Strait of Hormuz disruption, adding thousands of dollars per container to import costs.",
-      "**Greg Brockman**, OpenAI's co-founder, has returned from leave to take charge of product strategy as the company reportedly plans to merge ChatGPT and its Codex coding product.",
-      "**Tommy Robinson** drew tens of thousands to a London rally, calling supporters to prepare for a 'battle of Britain' - turnout was down from his previous march but the rhetoric escalated."
-    ]
-  },
-  {
     "date": "2026-05-18T06:17:57.112071+00:00",
     "headlines": [
       "Iran War Hits Global Firms with $25bn Bill -- The ongoing US-Israel conflict with Iran has handed global companies a combined **$25 billion in costs** so far - and th",
@@ -46,6 +30,23 @@
       "**Libyan militia commander** Osama Elmasry, accused of overseeing murder, rape, and torture of migrants in detention centres, appeared at the ICC for the first time on Tuesday.",
       "**SandboxAQ** has integrated its drug discovery AI models into Anthropic's Claude, aiming to make quantum-biology research accessible without specialist computing expertise.",
       "**Belfast Harbour** is investing 1.3 billion pounds over 25 years in offshore wind, cruise, and ferry infrastructure - a sign that Northern Ireland's post-Brexit trade position is attracting serious long-term capital."
+    ]
+  },
+  {
+    "date": "2026-05-20T06:11:26.460955+00:00",
+    "headlines": [
+      "Ebola Outbreak Worse Than Feared in DRC -- The WHO has declared itself 'deeply concerned' as the DRC Ebola outbreak reaches at least **500 suspected cases and 130",
+      "UK Quietly Loosens Russian Oil Sanctions -- The UK government has granted a **waiver on Russian oil sanctions** as fuel supply concerns mount following the effectiv",
+      "Xi and Putin Revive Siberia Gas Pipeline -- Xi Jinping and Vladimir Putin met in Beijing on Wednesday, with the long-stalled **Power of Siberia 2 pipeline** - capab",
+      "China Buys 200 Boeing Jets Post-Summit -- China has confirmed it will purchase **200 Boeing aircraft** as a concrete deliverable from the Trump-Xi summit, alongsi",
+      "OpenAI Victory Unlocks Trillion-Dollar Ambitions -- Following the Oakland jury's unanimous rejection of Elon Musk's lawsuit Monday, OpenAI moves forward with no significant",
+      "Sizewell C's PS38bn Bill Rings Alarm Bells -- The National Audit Office has warned that the **PS38 billion cost** of the Sizewell C nuclear plant in Suffolk is subjec",
+      "West Dunbartonshire Schools Shut in Strike -- **28 primary schools** across West Dunbartonshire will close today as learning assistants strike over a job grading disp",
+      "**Arsenal** has won the Premier League for the first time in 22 years, ending a drought that began in 2004.",
+      "The **US government** is expanding its white South African refugee programme from 7,500 to 17,500 admissions this year, spending an estimated $100 million.",
+      "**Estonia** says a NATO jet shot down a drone over its territory, suspected to be a Ukrainian projectile knocked off course by Russian electronic jamming - the first such incident on Alliance soil.",
+      "**Google** will launch its first smart glasses since the 2013 Glass flop this autumn, this time built around Gemini AI for real-time visual assistance.",
+      "**UK supermarkets** have flatly rejected the government's push for voluntary price caps on essentials like eggs, bread, and milk, calling the proposal unjustified and likely to push broader costs up."
     ]
   }
 ]
