@@ -1,37 +1,5 @@
 [
   {
-    "date": "2026-05-21T06:13:40.677381+00:00",
-    "headlines": [
-      "Nvidia Posts $58bn Profit, Names $200bn Market -- Nvidia reported **$58.3 billion in annual profit** - roughly double last year's figure and the highest ever for a chipma",
-      "SpaceX Files Biggest IPO in History -- SpaceX has filed with the SEC to list on Nasdaq under ticker **SPCX** in what analysts expect to be the largest IPO ever",
-      "US Charges Raul Castro With Murder -- The US Department of Justice has charged former Cuban president **Raul Castro**, now 94, with conspiracy to murder US na",
-      "Anthropic to Turn First Profit This Quarter -- Anthropic has told investors it will post its **first profitable quarter** imminently, with revenue expected to more tha",
-      "UK Seals PS3.7bn Gulf Trade Deal -- The UK has finalised a **3.7 billion pound trade deal** with six Gulf Cooperation Council states - Saudi Arabia, UAE, Qa",
-      "Scotland's Dava Moor Named UK's First Megafire -- Scientists have formally classified last year's **Dava Moor blaze** - a four-day fire in the Scottish Highlands near Gra",
-      "**AI chatbots** invented fake candidates and wrong dates ahead of the Scottish Parliament election, prompting the Electoral Commission to call for new legal controls on AI misinformation.",
-      "**Anthropic rival Google DeepMind** has agreed to formal Acas talks with UK staff concerned about its AI being used for defence and intelligence applications - a rare union moment in Big Tech.",
-      "**Ofcom** ruled TikTok and YouTube are not safe enough for children, an assessment both platforms disputed but which increases regulatory pressure for age-gating legislation.",
-      "**Bolivia's** new president Rodrigo Paz reshuffled his cabinet as anti-government protests escalated, marking an early credibility test for the post-Arce government.",
-      "**SoftBank** shares surged **20%** after Nvidia's blowout earnings - a proxy for AI momentum given SoftBank's deep stake in Arm Holdings, whose chip designs underpin Nvidia-powered data centres."
-    ]
-  },
-  {
-    "date": "2026-05-22T06:10:52.459782+00:00",
-    "headlines": [
-      "Alberta Votes on Leaving Canada This October -- Alberta's government has confirmed a referendum for **October 2026** on whether the province should pursue formal indepe",
-      "Oil Markets Entering 'Red Zone' by August -- The International Energy Agency chief warned that oil markets will hit a **'red zone'** by July-August as summer travel",
-      "SpaceX Starship Scrubbed, IPO Clock Ticking -- SpaceX scrubbed Thursday's high-stakes Starship test flight and will retry **Friday**, just days after filing what analy",
-      "Spotify-Universal Deal Unlocks AI Remixes -- Spotify and Universal Music Group have struck a landmark licensing deal allowing **Premium subscribers** to create AI-ge",
-      "Anthropic and Microsoft in AI Chip Talks -- Anthropic is in active talks with Microsoft over access to **Maia 200 chips** - Microsoft's custom-designed AI silicon c",
-      "Airport Strike Threat Over World Cup Summer -- Nearly **700 staff** at Edinburgh and Glasgow Airports have voted in favour of strike action in a pay dispute, with walk",
-      "**Macron** has said France should address reparations for its role in the slave trade - the first time a sitting French president has used that word without immediately ruling it out.",
-      "**Prince Andrew** investigation is widening, with Thames Valley Police appealing for more witnesses in the alleged misconduct in public office inquiry.",
-      "**UK melanoma cases** have topped 20,000 for the first time ever, according to Cancer Research UK analysis - a record driven partly by sunbed use and cheap foreign holidays.",
-      "**Turkey's** opposition leader Ozgur Ozel vowed to remain in party headquarters after a court ousted him from his post, setting up a direct confrontation with the ruling establishment.",
-      "**US arms sale** of $14 billion to Taiwan has been paused, with the acting Navy Secretary citing the ongoing Iran conflict as the reason - a signal Taiwan's security is being traded against Middle East priorities."
-    ]
-  },
-  {
     "date": "2026-05-23T05:41:56.636675+00:00",
     "headlines": [
       "82 Dead in Chinese Coal Mine Blast -- An explosion tore through a coal mine in northern China on Friday evening at **19:29 local time**, killing at least **82",
@@ -62,6 +30,23 @@
       "**Palantir** accused London Mayor Sadiq Khan of 'putting politics above public safety' after he blocked a 50 million pound AI contract with the Metropolitan Police.",
       "**SpaceX** postponed its latest Starship test flight with no new date confirmed, adding pressure as the company's 1.75 trillion dollar IPO process accelerates.",
       "**BrewDog** founder James Watt's pledge to give shares in his new beer brand to investors burned by the Equity for Punks scheme is being met with deep scepticism."
+    ]
+  },
+  {
+    "date": "2026-05-25T06:38:22.397972+00:00",
+    "headlines": [
+      "Iran Deal Stalls as Trump Tells Team: Wait -- After declaring a US-Iran nuclear deal 'largely done' last week, Trump has now told negotiators **not to rush**, complic",
+      "Tokyo Hits Record 65,000 as Markets Rally -- Japan's Nikkei 225 broke **65,000 for the first time ever** on Monday, surging on Iran deal optimism and a softer dollar",
+      "Huawei Chips Breakthrough Despite US Sanctions -- Huawei has announced a new chip design methodology that improves semiconductor performance without requiring the advance",
+      "RAF GPS Jammed Near Russia on Healey Flight -- An RAF aircraft carrying UK Defence Secretary **John Healey** had its GPS signal jammed for the **entire three-hour flig",
+      "UK's 325bn Dirty Money Problem Laid Bare -- A new report estimates at least **325 billion pounds** - equivalent to roughly **10% of UK GDP** - flows through the UK",
+      "Scotland's 'Green' Data Centre Policy Has an AI Blind Spot -- Analysis by Action to Protect Rural Scotland finds the Scottish government's policy framework for 'green datacentres' -",
+      "Scottish Pig Farmers 'At Breaking Point' -- Scottish pig farmers are warning the industry is facing collapse, with one farmer reporting a **70,000 pound loss** in j",
+      "**Russia** launched a large-scale missile and drone attack on Ukraine using hypersonic missiles, killing four and injuring dozens in the latest escalation.",
+      "**Saudi Arabia's** Vision 2030 mega-project is hitting a wall of cost overruns and revenue shortfalls as oil prices fall and MBS scales back ambitions.",
+      "**Turkish riot police** stormed opposition party offices days after courts removed the party's elected leaders - Erdogan's crackdown on dissent intensifying sharply.",
+      "**Wembanyama** scored 33 points as the San Antonio Spurs thrashed defending NBA champions Oklahoma City 103-82, levelling the Western Conference Finals at 2-2.",
+      "**Pep Guardiola** delivered an emotional farewell to Manchester City after a decade in which he won six Premier League titles and a Champions League."
     ]
   }
 ]
