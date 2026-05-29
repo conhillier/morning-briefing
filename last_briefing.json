@@ -1,38 +1,5 @@
 [
   {
-    "date": "2026-05-25T06:38:22.397972+00:00",
-    "headlines": [
-      "Iran Deal Stalls as Trump Tells Team: Wait -- After declaring a US-Iran nuclear deal 'largely done' last week, Trump has now told negotiators **not to rush**, complic",
-      "Tokyo Hits Record 65,000 as Markets Rally -- Japan's Nikkei 225 broke **65,000 for the first time ever** on Monday, surging on Iran deal optimism and a softer dollar",
-      "Huawei Chips Breakthrough Despite US Sanctions -- Huawei has announced a new chip design methodology that improves semiconductor performance without requiring the advance",
-      "RAF GPS Jammed Near Russia on Healey Flight -- An RAF aircraft carrying UK Defence Secretary **John Healey** had its GPS signal jammed for the **entire three-hour flig",
-      "UK's 325bn Dirty Money Problem Laid Bare -- A new report estimates at least **325 billion pounds** - equivalent to roughly **10% of UK GDP** - flows through the UK",
-      "Scotland's 'Green' Data Centre Policy Has an AI Blind Spot -- Analysis by Action to Protect Rural Scotland finds the Scottish government's policy framework for 'green datacentres' -",
-      "Scottish Pig Farmers 'At Breaking Point' -- Scottish pig farmers are warning the industry is facing collapse, with one farmer reporting a **70,000 pound loss** in j",
-      "**Russia** launched a large-scale missile and drone attack on Ukraine using hypersonic missiles, killing four and injuring dozens in the latest escalation.",
-      "**Saudi Arabia's** Vision 2030 mega-project is hitting a wall of cost overruns and revenue shortfalls as oil prices fall and MBS scales back ambitions.",
-      "**Turkish riot police** stormed opposition party offices days after courts removed the party's elected leaders - Erdogan's crackdown on dissent intensifying sharply.",
-      "**Wembanyama** scored 33 points as the San Antonio Spurs thrashed defending NBA champions Oklahoma City 103-82, levelling the Western Conference Finals at 2-2.",
-      "**Pep Guardiola** delivered an emotional farewell to Manchester City after a decade in which he won six Premier League titles and a Champions League."
-    ]
-  },
-  {
-    "date": "2026-05-26T06:10:08.764280+00:00",
-    "headlines": [
-      "US Strikes Iran While Peace Talks Continue -- US Central Command launched new strikes on southern Iran overnight, targeting **missile launch sites and Iranian mine-la",
-      "Peter Murrell Pleads Guilty to SNP Embezzlement -- Former SNP chief executive **Peter Murrell**, estranged husband of ex-First Minister Nicola Sturgeon, has pleaded guilty",
-      "Ferrari Launches Its First Electric Car -- Ferrari has unveiled the **Luce**, its first fully electric production vehicle, featuring five seats - a radical departu",
-      "ClickUp Replaces Hundreds of Staff With AI Agents -- Productivity startup **ClickUp**, valued at around **$4 billion** and nine years old, has laid off hundreds of employees",
-      "Next Boss Warns of 'Dramatic' Entry-Level Jobs Fall -- Lord Wolfson, CEO of Next, told the BBC that **entry-level job vacancies are falling dramatically** as AI and automation",
-      "MSPs to Vote on Second Independence Referendum -- First Minister John Swinney will this week ask the Scottish Parliament to formally request a transfer of powers from Wes",
-      "**Netanyahu** has vowed to 'smite' Hezbollah with 'overwhelming force' as Israeli strikes hit eastern Lebanon - a second active front while the Iran situation remains unresolved.",
-      "**WHO** warns the DRC Ebola outbreak is outpacing response efforts with over 900 suspected cases, while the Trump administration has paused deportation flights to the region.",
-      "**UK consumers** are warned prices will stay elevated 'for many months' even if a US-Iran ceasefire lands, with shop price inflation already rising independently of oil.",
-      "**BHP**, the world's biggest miner, has internally war-gamed ways to massively delay decarbonisation, according to leaked documents - a significant gap between its public climate commitments and private strategy.",
-      "**Japan** has slipped to third-largest global creditor behind China despite holding record net external assets, a milestone reflecting China's rapid accumulation of overseas holdings."
-    ]
-  },
-  {
     "date": "2026-05-27T06:24:05.902933+00:00",
     "headlines": [
       "SK Hynix Crosses $1 Trillion on AI Demand -- South Korean memory chipmaker SK Hynix hit a **$1 trillion market cap** on Wednesday after shares surged **more than 11%",
@@ -63,6 +30,23 @@
       "**Jill Biden** revealed she feared Joe Biden was having a stroke during the June 2024 presidential debate - a damaging admission that sharpens scrutiny of who knew what about his decline.",
       "**Scotland's** High Court trial backlog has nearly tripled since Covid, driven by complex organised crime and historic sex abuse cases - justice delays now measured in years.",
       "**Spotify's** CEO defended AI-generated music, arguing a regulated remix tool built with Universal Music Group is preferable to uncontrolled AI 'slop' flooding the platform."
+    ]
+  },
+  {
+    "date": "2026-05-29T06:17:13.891934+00:00",
+    "headlines": [
+      "US-Iran Deal 'Very Close' But Not Done -- Vice President Vance confirmed Thursday that a framework for a ceasefire extension between the US and Iran is largely ag",
+      "Anthropic Hits $965bn, Beats OpenAI's Value -- Anthropic, maker of the Claude chatbot, closed a **$65 billion Series H funding round** valuing it at **$965 billion pos",
+      "Blue Origin Rocket Explodes on Launchpad -- Jeff Bezos's **New Glenn rocket** exploded in a fireball during ground testing at Cape Canaveral on Thursday, days befor",
+      "Huawei Rewrites Chip Rules Without Tiny Transistors -- Huawei is pursuing a fundamentally different approach to AI chip performance: instead of shrinking transistors further -",
+      "EU Moves to Restrict Chinese Imports, Fearing 'Rust Belt' Risk -- EU commissioners are meeting Friday to discuss new restrictions on **Chinese goods**, driven by concern that a surge of",
+      "Sturgeon: Murrell 'Deceived and Betrayed' Me -- Nicola Sturgeon said publicly Thursday she was 'deceived, misled and betrayed' by her estranged husband Peter Murrell af",
+      "Sixty Homes Evacuated in Coalsnaughton Ground Scare -- Residents in Coalsnaughton, Clackmannanshire, were given **10 minutes to evacuate** after reports of ground movement ben",
+      "**Netanyahu** has directed the IDF to expand control of Gaza to 70%, directly contradicting the terms of the October 2025 ceasefire agreement.",
+      "**Ebola** in the DRC has now crossed into Uganda, which has closed its border, as the WHO chief calls for a ceasefire to allow medical access - aid cuts are materially weakening the response.",
+      "**Russian drone** wreckage struck a residential building in Romania, injuring two people - a significant escalation of spillover from the Ukraine war into NATO territory.",
+      "**AI token futures** are being developed by major exchanges, treating compute tokens as a tradeable commodity like oil or bandwidth - a structural shift in how AI infrastructure is priced.",
+      "**Ireland's** data centres consumed 22% of the country's total electricity last year, adding hundreds of euros to average household bills - a warning for every European grid."
     ]
   }
 ]
