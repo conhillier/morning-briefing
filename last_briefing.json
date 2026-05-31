@@ -1,38 +1,5 @@
 [
   {
-    "date": "2026-05-27T06:24:05.902933+00:00",
-    "headlines": [
-      "SK Hynix Crosses $1 Trillion on AI Demand -- South Korean memory chipmaker SK Hynix hit a **$1 trillion market cap** on Wednesday after shares surged **more than 11%",
-      "UK Energy Bills Jump 13% This July -- Ofgem confirmed the Great Britain energy price cap will rise **13%** from July, pushing the average annual household bil",
-      "Israel Kills 31 in Intensified Lebanon Strikes -- Israeli forces struck **more than 100 Hezbollah targets** across Lebanon on Tuesday and Wednesday, killing at least **31",
-      "DuckDuckGo Installs Spike 30% After Google AI Overhaul -- Privacy-focused search engine DuckDuckGo saw app installs jump **30%** in the weeks following Google's I/O 2026 conferen",
-      "SpaceX Nasdaq Listing Reignites Tesla Merger Talk -- SpaceX is now formally heading toward a public listing on the Nasdaq as early as next month, with the company last value",
-      "Scotland's Green Economy Worth \u00a310.2bn -- A CBI Scotland report values the country's net-zero economy at **\u00a310.2 billion**, employing more than **105,000 people**",
-      "Sturgeon 'Remarkable Lack of Curiosity' Over SNP Finances -- Following Peter Murrell's guilty plea to embezzling more than **\u00a3400,000** from the SNP, former MP Joanna Cherry has cal",
-      "**BP chairman** Albert Manifold was removed immediately over 'bullying and overbearing' behaviour and misuse of personal devices, deepening the oil giant's governance crisis.",
-      "**OpenRouter**, the multi-AI-model routing platform, more than doubled its valuation to **$1.3 billion** after raising $113 million - a sign the 'mix-and-match AI models' market is maturing fast.",
-      "**GCHQ director** Anne Keast-Butler warned Wednesday that Russia is 'relentlessly targeting' UK critical infrastructure and democracy, and that the window to stay ahead of China is narrowing.",
-      "**Samsung** workers approved a landmark pay deal, sending shares surging - analysts say it marks a seismic shift in South Korea's notoriously rigid corporate labour relations.",
-      "**Hong Kong** has overtaken Switzerland as the world's top cross-border wealth hub, driven by mainland Chinese capital flight - a striking reversal given the city's political crackdown just five years ago."
-    ]
-  },
-  {
-    "date": "2026-05-28T06:16:03.140844+00:00",
-    "headlines": [
-      "US Strikes Iran Again, Kuwait Air Defences Activated -- US forces hit Iranian targets for the **second time in three days**, with Iran retaliating by targeting a US airbase. Ku",
-      "Ebola Outpacing Response as DRC Nears 1,000 Cases -- The WHO chief said the DRC Ebola outbreak - now at over **900 suspected cases** - is outpacing response efforts, describ",
-      "Google Employee Made $1.2m Betting on His Own Company -- Michele Spagnuolo, a longtime **Google** security engineer, was charged in New York with insider trading after allegedly",
-      "Samsung Chip Workers Land $310k Bonus in AI Windfall -- Employees at **Samsung Electronics'** memory chip division are set to receive average bonuses of around **310,000 pounds",
-      "Meta Launches Paid Subscriptions Across All Major Apps -- **Meta** is rolling out paid subscription tiers globally for Instagram, Facebook, and WhatsApp, bundled under a new bran",
-      "UK Youth Unemployment Crisis: 1.25m NEETs by 2030s -- The Milburn Review warns that the number of young people not in employment, education, or training - so-called NEETs - c",
-      "**Israel** has declared swathes of southern Lebanon - everything below the Zahrani River - a combat zone, raising the prospect of a second active ground campaign.",
-      "**Snowflake** signed a $6 billion, five-year deal with AWS for AI chips, another signal that Nvidia alternatives are gaining serious enterprise traction.",
-      "**Jill Biden** revealed she feared Joe Biden was having a stroke during the June 2024 presidential debate - a damaging admission that sharpens scrutiny of who knew what about his decline.",
-      "**Scotland's** High Court trial backlog has nearly tripled since Covid, driven by complex organised crime and historic sex abuse cases - justice delays now measured in years.",
-      "**Spotify's** CEO defended AI-generated music, arguing a regulated remix tool built with Universal Music Group is preferable to uncontrolled AI 'slop' flooding the platform."
-    ]
-  },
-  {
     "date": "2026-05-29T06:17:13.891934+00:00",
     "headlines": [
       "US-Iran Deal 'Very Close' But Not Done -- Vice President Vance confirmed Thursday that a framework for a ceasefire extension between the US and Iran is largely ag",
@@ -63,6 +30,23 @@
       "**London Underground** drivers will strike on Tuesday and Thursday next week, RMT confirmed, in a dispute over a proposed four-day working week.",
       "**BMW** announced it is deploying humanoid robots on a European car production line, the clearest signal yet that factory automation is moving beyond arms and grippers.",
       "The **US judiciary** has been formally asked to adopt rules requiring lawyers to certify AI-generated content in filings, following a string of fabricated case citations."
+    ]
+  },
+  {
+    "date": "2026-05-31T06:22:05.412358+00:00",
+    "headlines": [
+      "SoftBank Bets 75bn Euros on French AI -- Masayoshi Son's SoftBank has pledged **up to 75 billion euros** to build what it calls Europe's largest AI infrastructur",
+      "Global Executions Hit 44-Year High -- Governments worldwide carried out more executions in **2025** than in any year since **1981**, according to a new human",
+      "Cancer Jab Eradicates Tumours in Trial -- An international trial spanning **11 countries** has shown that a triple-action cancer jab can completely eradicate tumo",
+      "Strait of Hormuz Traffic May Never Recover -- Market analysts and shipping experts now warn that oil flows through the **Strait of Hormuz** - which normally carries *",
+      "Wembanyama's Spurs Reach NBA Finals -- Victor Wembanyama scored **22 points** and grabbed **7 rebounds** as the San Antonio Spurs beat the Oklahoma City Thunde",
+      "Gilmour Out, Scotland World Cup Plans Disrupted -- Scotland midfielder Billy Gilmour has been ruled out of the **2026 World Cup** after suffering a knee injury during Satu",
+      "Sturgeon Emotional in BBC Embezzlement Interview -- Former First Minister Nicola Sturgeon struggled to hold back tears during a BBC interview in which she insisted she is *",
+      "**PSG's Champions League win** triggered mass unrest in France, with hundreds arrested as flare-firing crowds overwhelmed police in Paris and other cities.",
+      "**AUKUS partners** US, UK, and Australia announced a joint programme to develop underwater drone technology specifically to protect undersea data cables.",
+      "**Kenya dormitory fire** at Utumishi girls academy killed at least 16 students after a blaze tore through sleeping quarters just after midnight.",
+      "**Ferrari's first EV**, the Luce, has faced fierce backlash from fans who say it abandons the brand's identity - a warning that heritage brands risk both ways when going electric.",
+      "**Bill Ackman's** 75bn-euro takeover bid for Universal Music was flatly rejected, with the company calling it a fundamental undervaluation."
     ]
   }
 ]
