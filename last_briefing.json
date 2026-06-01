@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-05-29T06:17:13.891934+00:00",
-    "headlines": [
-      "US-Iran Deal 'Very Close' But Not Done -- Vice President Vance confirmed Thursday that a framework for a ceasefire extension between the US and Iran is largely ag",
-      "Anthropic Hits $965bn, Beats OpenAI's Value -- Anthropic, maker of the Claude chatbot, closed a **$65 billion Series H funding round** valuing it at **$965 billion pos",
-      "Blue Origin Rocket Explodes on Launchpad -- Jeff Bezos's **New Glenn rocket** exploded in a fireball during ground testing at Cape Canaveral on Thursday, days befor",
-      "Huawei Rewrites Chip Rules Without Tiny Transistors -- Huawei is pursuing a fundamentally different approach to AI chip performance: instead of shrinking transistors further -",
-      "EU Moves to Restrict Chinese Imports, Fearing 'Rust Belt' Risk -- EU commissioners are meeting Friday to discuss new restrictions on **Chinese goods**, driven by concern that a surge of",
-      "Sturgeon: Murrell 'Deceived and Betrayed' Me -- Nicola Sturgeon said publicly Thursday she was 'deceived, misled and betrayed' by her estranged husband Peter Murrell af",
-      "Sixty Homes Evacuated in Coalsnaughton Ground Scare -- Residents in Coalsnaughton, Clackmannanshire, were given **10 minutes to evacuate** after reports of ground movement ben",
-      "**Netanyahu** has directed the IDF to expand control of Gaza to 70%, directly contradicting the terms of the October 2025 ceasefire agreement.",
-      "**Ebola** in the DRC has now crossed into Uganda, which has closed its border, as the WHO chief calls for a ceasefire to allow medical access - aid cuts are materially weakening the response.",
-      "**Russian drone** wreckage struck a residential building in Romania, injuring two people - a significant escalation of spillover from the Ukraine war into NATO territory.",
-      "**AI token futures** are being developed by major exchanges, treating compute tokens as a tradeable commodity like oil or bandwidth - a structural shift in how AI infrastructure is priced.",
-      "**Ireland's** data centres consumed 22% of the country's total electricity last year, adding hundreds of euros to average household bills - a warning for every European grid."
-    ]
-  },
-  {
     "date": "2026-05-30T05:51:05.843089+00:00",
     "headlines": [
       "Dell's Best Day Ever on AI Server Boom -- Dell shares surged **32%** on Friday - its single best trading day since going public - after reporting AI server revenu",
@@ -47,6 +30,23 @@
       "**Kenya dormitory fire** at Utumishi girls academy killed at least 16 students after a blaze tore through sleeping quarters just after midnight.",
       "**Ferrari's first EV**, the Luce, has faced fierce backlash from fans who say it abandons the brand's identity - a warning that heritage brands risk both ways when going electric.",
       "**Bill Ackman's** 75bn-euro takeover bid for Universal Music was flatly rejected, with the company calling it a fundamental undervaluation."
+    ]
+  },
+  {
+    "date": "2026-06-01T07:00:27.105049+00:00",
+    "headlines": [
+      "US-Iran Strikes Resume, Deal Talks Stall -- A third wave of US-Iran strikes around the **Strait of Hormuz** erupted over the weekend, even as nuclear deal negotiati",
+      "Israel Pushes Deeper Into Lebanon -- Israeli forces seized a strategic fortress in southern Lebanon over the weekend, with Prime Minister **Benjamin Netanyah",
+      "Nvidia Storms the PC Market -- Nvidia CEO **Jensen Huang** unveiled the company's first Arm-based PC chip, calling it the \"reinvention of the computer.",
+      "South Korea Exports Hit 40-Year High -- South Korea's export growth hit a **four-decade high** in May, driven almost entirely by AI chip demand. Semiconductor e",
+      "FCA's Palantir Deal Raises Data Sovereignty Alarm -- The UK's **Financial Conduct Authority** is under pressure to prove its data-sharing arrangement with US firm **Palantir",
+      "Glasgow Chemical Incident Evacuates Homes -- Emergency services responded to a chemical incident at a property on **Lenzie Terrace in Glasgow** on Sunday afternoon,",
+      "UK House Prices Fall Sharpest Since June 2025 -- UK house prices dropped **0.6% in May**, the steepest monthly fall since June 2025, according to Nationwide. Year-on-yea",
+      "**Colombia** heads to a June 21 presidential runoff between leftist senator Ivan Cepeda and Trump-aligned Abelardo de la Espriella - a proxy battle for Latin America's political direction.",
+      "**Anthropic** is now valued at **$965 billion** after its latest funding round, making it the world's most valuable AI firm - already covered last week, but it is now confirmed at that figure.",
+      "The **FCA's AI age-assessment plan** for young asylum seekers drew condemnation from over 100 charities, who warn it risks placing children in adult detention.",
+      "**Tesla** dropped its threat to cancel a graphite supply deal with Australia's Syrah Resources, a rare retreat that signals EV battery supply chains remain fragile.",
+      "**Myanmar** saw dozens killed in a huge blast in a rebel-held village near the Chinese border, reportedly caused by mining explosives - a reminder that the civil war is far from contained."
     ]
   }
 ]
