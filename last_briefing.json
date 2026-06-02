@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-05-30T05:51:05.843089+00:00",
-    "headlines": [
-      "Dell's Best Day Ever on AI Server Boom -- Dell shares surged **32%** on Friday - its single best trading day since going public - after reporting AI server revenu",
-      "Ebola Kills 30-50% as Aid Cuts Bite -- The WHO chief **Tedros Adhanom Ghebreyesus** travelled to the DRC personally, warning the Ebola outbreak carries a **30-",
-      "Anthropic Overtakes OpenAI in Valuation Race -- Anthropic, maker of the Claude chatbot, closed a **$65 billion Series H funding round** this week, pushing its post-mone",
-      "Kenneth Law Admits Aiding Mass Suicides Online -- **Kenneth Law**, a Canadian national, admitted in a UK court to charges of aiding and abetting suicides, having sold tox",
-      "Fed Policymakers Float Rate Hike Threat -- Several Federal Reserve policymakers are now openly discussing the possibility of **raising interest rates** rather than",
-      "Coalsnaughton Evacuations Widen to 97 Homes -- A further two streets have been evacuated in **Coalsnaughton**, Clackmannanshire, bringing the total to **97 properties*",
-      "**Ghana's parliament** passed an anti-LGBTQ+ bill imposing jail terms for same-sex acts and transgender identity - one of the strictest such laws in West Africa.",
-      "**Universal Music Group** flatly rejected a takeover proposal from billionaire Bill Ackman's Pershing Square, calling it a fundamental undervaluation.",
-      "**London Underground** drivers will strike on Tuesday and Thursday next week, RMT confirmed, in a dispute over a proposed four-day working week.",
-      "**BMW** announced it is deploying humanoid robots on a European car production line, the clearest signal yet that factory automation is moving beyond arms and grippers.",
-      "The **US judiciary** has been formally asked to adopt rules requiring lawyers to certify AI-generated content in filings, following a string of fabricated case citations."
-    ]
-  },
-  {
     "date": "2026-05-31T06:22:05.412358+00:00",
     "headlines": [
       "SoftBank Bets 75bn Euros on French AI -- Masayoshi Son's SoftBank has pledged **up to 75 billion euros** to build what it calls Europe's largest AI infrastructur",
@@ -47,6 +31,22 @@
       "The **FCA's AI age-assessment plan** for young asylum seekers drew condemnation from over 100 charities, who warn it risks placing children in adult detention.",
       "**Tesla** dropped its threat to cancel a graphite supply deal with Australia's Syrah Resources, a rare retreat that signals EV battery supply chains remain fragile.",
       "**Myanmar** saw dozens killed in a huge blast in a rebel-held village near the Chinese border, reportedly caused by mining explosives - a reminder that the civil war is far from contained."
+    ]
+  },
+  {
+    "date": "2026-06-02T06:44:31.379889+00:00",
+    "headlines": [
+      "Russia Kills 10 in Overnight Ukraine Blitz -- Russia launched one of its heaviest combined missile and drone strikes in months overnight, hitting cities across Ukrain",
+      "Alphabet Raises $80bn for AI Buildout -- Google's parent **Alphabet** announced plans to raise **$80 billion** through stock sales to fund its AI infrastructure",
+      "Anthropic Files Confidentially for IPO -- **Anthropic**, maker of the Claude AI assistant and currently valued at around **$61 billion** after its most recent dis",
+      "Florida Sues OpenAI Over Mass Shooting Links -- Florida Attorney General **James Uthmeier** filed a first-of-its-kind lawsuit against **OpenAI and CEO Sam Altman**, all",
+      "Ebola Outbreak Fears Prompt Three-Vaccine Race -- With a growing **Ebola outbreak in the Democratic Republic of Congo** - centred on the Ituri province where community pr",
+      "Rural Data Centre Plan Draws Scottish Backlash -- Campaigners are opposing plans for a **2 billion pound data centre** in the Scottish Borders, which critics are calling",
+      "**London Tube** ground to a halt on Tuesday as RMT union members strike over working hours, with a second walkout planned for Thursday.",
+      "**Ghana's parliament** passed a sweeping law criminalising LGBTQ+ activity, leaving community members fearing loss of homes, jobs, and healthcare access.",
+      "**BMW** announced humanoid robots will enter a European car plant, building on US trials - the clearest sign yet that factory automation is moving beyond stationary arms.",
+      "**Amazon Prime Day** will run for four days from June 23, stretched from its usual two - a sign Amazon needs more time to shift goods as US consumer sentiment hits record lows.",
+      "The **UK green economy** is now worth more than 100 billion pounds a year and supports over one million jobs, according to new CBI Economics research."
     ]
   }
 ]
