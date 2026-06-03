@@ -67,10 +67,16 @@ NTFY_MAX_BODY_BYTES = 3800
 
 RSS_FEEDS = [
     # -- World & Geopolitics --
+    # The Reuters-via-Google-News feed previously here returned 0 items and,
+    # even when items appeared, the Google News redirector URLs broke Jina
+    # Reader (returned Google's privacy notice, not article text). Replaced
+    # with Sky News (UK-published hard news, direct URLs Jina can resolve)
+    # and NPR World (US perspective on international stories).
     {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "World", "publisher": "BBC"},
     {"url": "https://www.theguardian.com/world/rss", "category": "World", "publisher": "The Guardian"},
     {"url": "https://www.aljazeera.com/xml/rss/all.xml", "category": "World", "publisher": "Al Jazeera"},
-    {"url": "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&hl=en-GB&gl=GB&ceid=GB:en", "category": "World", "publisher": "Reuters"},
+    {"url": "https://feeds.skynews.com/feeds/rss/world.xml", "category": "World", "publisher": "Sky News"},
+    {"url": "https://feeds.npr.org/1004/rss.xml", "category": "World", "publisher": "NPR"},
     # -- Business & Markets --
     {"url": "http://feeds.bbci.co.uk/news/business/rss.xml", "category": "Business", "publisher": "BBC"},
     {"url": "https://www.ft.com/rss/home", "category": "Business", "publisher": "Financial Times"},
