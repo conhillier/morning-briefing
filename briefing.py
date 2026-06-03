@@ -532,10 +532,11 @@ Return ONLY valid JSON in this shape:
 # -- Stage 4: Programmatic validator ----------------------------------------
 # Matches digit-bearing tokens including currency prefixes and unit suffixes.
 _NUMBER_RE = re.compile(
-    # Alternation order matters: Python re matches alternatives left-to-right,
-    # so longer suffixes (`pounds`) must come before shorter ones (`p`) or the
-    # short one wins and `pounds` is split as `p` + `ounds`.
-    r"[\$£€]?\d[\d,]*(?:\.\d+)?\s?(?:percent|pounds|dollars|euros|pence|bn|%|p|m|k)?",
+    # The unit suffix must be a complete word: the negative lookahead
+    # `(?![a-z])` stops `p` matching the start of `people` and leaving
+    # "53 p" in the token. Single-letter units only fire when followed by
+    # non-letter (space, punctuation, end-of-string).
+    r"[\$£€]?\d[\d,]*(?:\.\d+)?(?:\s?(?:percent|pounds|dollars|euros|pence|bn|%|p|m|k)(?![a-z]))?",
     re.I,
 )
 _QUOTE_RE = re.compile(r'"([^"]{4,})"')
