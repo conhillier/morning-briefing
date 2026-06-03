@@ -57,6 +57,14 @@ MAX_VALIDATION_DROPS = 2      # Max sentences validator can drop before rejectin
 DEDUP_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "last_briefing.json")
 DEDUP_DAYS = 3
 
+# GitHub Pages: serves docs/ from main branch. Survives most network filters
+# that block telegra.ph; github.io is essentially never blocked.
+PAGES_BASE_URL = "https://conhillier.github.io/morning-briefing"
+DOCS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
+
+# ntfy default max body is 4096 bytes. We aim well under to leave headroom.
+NTFY_MAX_BODY_BYTES = 3800
+
 RSS_FEEDS = [
     # -- World & Geopolitics --
     {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "World", "publisher": "BBC"},
@@ -744,6 +752,149 @@ Return ONLY JSON:
     return {**briefing, "stories": cleaned}
 
 
+# -- GitHub Pages HTML render & writer --------------------------------------
+def _esc(s):
+    return html.escape(s or "", quote=True)
+
+
+def _md_bold_to_html(text):
+    """Escape HTML then convert **bold** markdown to <strong>."""
+    safe = _esc(text)
+    # Re-apply bold pattern to escaped string (asterisks survive escape).
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", safe)
+
+
+_HTML_STYLE = """
+:root { color-scheme: light dark; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+  font-size: 17px;
+  color: #1c1c1e;
+  background: #fafafa;
+  padding: 20px 16px 60px;
+}
+main { max-width: 680px; margin: 0 auto; }
+header p { color: #666; font-style: italic; margin: 0 0 24px; font-size: 15px; }
+h1 { font-size: 22px; margin: 0 0 4px; font-weight: 600; }
+h2 { font-size: 19px; margin: 36px 0 10px; line-height: 1.3; }
+h3 { font-size: 16px; margin: 28px 0 8px; font-weight: 600; }
+p { margin: 0 0 12px; }
+hr { border: 0; border-top: 1px solid #e5e5e7; margin: 28px 0; }
+.wim { background: #f0f0f2; padding: 10px 14px; border-radius: 8px; }
+.wim strong { font-weight: 600; }
+.source { color: #888; font-size: 14px; font-style: italic; }
+.bottom-line { font-weight: 500; }
+.footer { margin-top: 48px; color: #888; font-size: 13px; text-align: center; }
+a { color: #0066cc; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e8e8ea; background: #0e0e10; }
+  a { color: #6aa9ff; }
+  .source, .footer, header p { color: #888; }
+  hr { border-color: #2a2a2c; }
+  .wim { background: #1a1a1c; }
+}
+"""
+
+
+def render_html(briefing, sources, today_str):
+    """Build a complete, self-contained, mobile-friendly HTML page."""
+    parts = [
+        "<!doctype html>",
+        '<html lang="en">',
+        "<head>",
+        '<meta charset="utf-8">',
+        '<meta name="viewport" content="width=device-width,initial-scale=1">',
+        f"<title>Morning Briefing - {_esc(today_str)}</title>",
+        f"<style>{_HTML_STYLE}</style>",
+        "</head>",
+        "<body>",
+        "<main>",
+        "<header>",
+        "<h1>Morning Briefing</h1>",
+        f"<p>{_esc(today_str)} &middot; 4-minute read</p>",
+        "</header>",
+    ]
+
+    for i, story in enumerate(briefing["stories"], 1):
+        parts.append(f'<h2>{i}. {_esc(story["headline"])}</h2>')
+        for p in re.split(r"\n+", story.get("body", "")):
+            p = p.strip()
+            if p:
+                parts.append(f"<p>{_md_bold_to_html(p)}</p>")
+        wim = story.get("why_it_matters")
+        if wim:
+            parts.append(
+                f'<p class="wim"><strong>Why it matters:</strong> '
+                f"{_md_bold_to_html(wim)}</p>"
+            )
+        src_idx = story.get("source_index")
+        if isinstance(src_idx, int) and 0 <= src_idx < len(sources):
+            src = sources[src_idx]
+            parts.append(
+                f'<p class="source">Source: '
+                f'<a href="{_esc(src["link"])}">{_esc(src["publisher"])}</a></p>'
+            )
+
+    cth = briefing.get("closer_to_home")
+    if cth:
+        parts.append("<hr>")
+        parts.append("<h2>Closer to Home</h2>")
+        parts.append(f"<p><strong>{_esc(cth['headline'])}</strong></p>")
+        for p in re.split(r"\n+", cth.get("body", "")):
+            p = p.strip()
+            if p:
+                parts.append(f"<p>{_md_bold_to_html(p)}</p>")
+        src_idx = cth.get("source_index")
+        if isinstance(src_idx, int) and 0 <= src_idx < len(sources):
+            src = sources[src_idx]
+            parts.append(
+                f'<p class="source">Source: '
+                f'<a href="{_esc(src["link"])}">{_esc(src["publisher"])}</a></p>'
+            )
+
+    if briefing.get("quick_hits"):
+        parts.append("<hr>")
+        parts.append("<h3>Quick Hits</h3>")
+        for hit in briefing["quick_hits"]:
+            parts.append(f"<p>&bull; {_md_bold_to_html(hit)}</p>")
+
+    if briefing.get("bottom_line"):
+        parts.append("<hr>")
+        parts.append("<h3>Bottom Line</h3>")
+        parts.append(
+            f'<p class="bottom-line">{_md_bold_to_html(briefing["bottom_line"])}</p>'
+        )
+
+    parts.append('<p class="footer">Your morning briefing, delivered daily.</p>')
+    parts.append("</main></body></html>")
+    return "\n".join(parts)
+
+
+def write_pages_files(briefing, sources):
+    """Write docs/index.html (always current) + docs/YYYY-MM-DD.html (archive).
+
+    Returns the dated URL — the one we put in the notification so that
+    clicking tomorrow still resolves to today's briefing.
+    """
+    now = datetime.now(timezone.utc)
+    today_str = now.strftime("%A %d %B %Y")
+    date_iso = now.strftime("%Y-%m-%d")
+
+    html_content = render_html(briefing, sources, today_str)
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    index_path = os.path.join(DOCS_DIR, "index.html")
+    dated_path = os.path.join(DOCS_DIR, f"{date_iso}.html")
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+    with open(dated_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+    log(f"Wrote {index_path} + {dated_path} ({len(html_content)} chars)")
+    return f"{PAGES_BASE_URL}/{date_iso}.html"
+
+
 # -- Telegraph publish (with source links) ----------------------------------
 def publish_to_telegraph(briefing, sources):
     now = datetime.now(timezone.utc)
@@ -826,30 +977,75 @@ def publish_to_telegraph(briefing, sources):
 
 
 # -- ntfy push --------------------------------------------------------------
-def send_ntfy(url, briefing):
-    date_short = datetime.now(timezone.utc).strftime("%a %d %b")
-    body_lines = []
+def _build_ntfy_body(briefing, pages_url, telegraph_url):
+    """Build the ntfy message body — full briefing inline so it remains
+    readable with no network connectivity after delivery."""
+    lines = []
     for i, story in enumerate(briefing["stories"], 1):
-        body_lines.append(f"**{i}.** {story['headline']}")
+        lines.append(f"**{i}. {story['headline']}**")
+        body = (story.get("body") or "").strip()
+        if body:
+            lines.append(body)
+        wim = (story.get("why_it_matters") or "").strip()
+        if wim:
+            lines.append(f"_Why it matters: {wim}_")
+        lines.append("")
+
     cth = briefing.get("closer_to_home")
     if cth:
-        body_lines.append(f"**UK:** {cth['headline']}")
-    body_lines.append("")
-    body_lines.append(f"[Read the full briefing here]({url})")
-    body = "\n".join(body_lines)
+        lines.append(f"**UK: {cth['headline']}**")
+        cth_body = (cth.get("body") or "").strip()
+        if cth_body:
+            lines.append(cth_body)
+        lines.append("")
+
+    if briefing.get("quick_hits"):
+        lines.append("**Quick hits:**")
+        for hit in briefing["quick_hits"]:
+            lines.append(f"- {hit}")
+        lines.append("")
+
+    if briefing.get("bottom_line"):
+        lines.append(f"**Bottom line:** {briefing['bottom_line']}")
+        lines.append("")
+
+    link_line = f"[Open in browser]({pages_url})"
+    if telegraph_url:
+        link_line += f" - [Telegraph]({telegraph_url})"
+    lines.append(link_line)
+
+    body = "\n".join(lines).strip()
+
+    # Truncate gracefully if we exceed ntfy's body limit.
+    encoded = body.encode("utf-8")
+    if len(encoded) > NTFY_MAX_BODY_BYTES:
+        truncated = encoded[: NTFY_MAX_BODY_BYTES - 200].decode("utf-8", errors="ignore")
+        cut = truncated.rfind("\n\n")
+        if cut > 0:
+            truncated = truncated[:cut]
+        body = f"{truncated}\n\n...(truncated; full briefing: {pages_url})"
+        log(f"ntfy body truncated to fit limit ({len(encoded)} -> {len(body.encode('utf-8'))} bytes)", "WARN")
+
+    return body
+
+
+def send_ntfy(pages_url, telegraph_url, briefing):
+    date_short = datetime.now(timezone.utc).strftime("%a %d %b")
+    body = _build_ntfy_body(briefing, pages_url, telegraph_url)
+    primary_url = pages_url or telegraph_url
     resp = requests.post(
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=body.encode("utf-8"),
         headers={
             "Title": f"Morning Briefing - {date_short}",
             "Tags": "newspaper",
-            "Actions": f"view, Read full briefing, {url}, clear=true",
+            "Actions": f"view, Open briefing, {primary_url}, clear=true",
             "Markdown": "yes",
         },
         timeout=REQUEST_TIMEOUT,
     )
     resp.raise_for_status()
-    log("ntfy notification sent")
+    log(f"ntfy notification sent ({len(body.encode('utf-8'))} bytes inline)")
 
 
 # -- Headlines-only fallback ------------------------------------------------
@@ -935,11 +1131,28 @@ def main():
         print(json.dumps(briefing, indent=2, default=str))
         return
 
-    log("Publishing to Telegraph...")
-    url = publish_to_telegraph(briefing, articles)
+    # Layer 1: write static HTML to docs/ for GitHub Pages.
+    # github.io is essentially never blocked, so this is our primary link.
+    pages_url = ""
+    try:
+        log("Writing GitHub Pages HTML...")
+        pages_url = write_pages_files(briefing, articles)
+        log(f"Pages URL (will be live after commit + push): {pages_url}")
+    except Exception as e:
+        log(f"Pages render failed: {e}", "ERROR")
 
+    # Layer 2: Telegraph (best-effort — kept as a secondary link).
+    telegraph_url = ""
+    try:
+        log("Publishing to Telegraph...")
+        telegraph_url = publish_to_telegraph(briefing, articles)
+    except Exception as e:
+        log(f"Telegraph publish failed: {e}", "WARN")
+
+    # Layer 3: ntfy push embeds the full briefing inline (works with no network
+    # connectivity after delivery) plus both URLs as backups.
     log("Sending push notification...")
-    send_ntfy(url, briefing)
+    send_ntfy(pages_url, telegraph_url, briefing)
 
     save_briefing_headlines(briefing)
 
