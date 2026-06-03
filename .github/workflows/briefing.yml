@@ -14,7 +14,9 @@ permissions:
 jobs:
   briefing:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    # Grounded pipeline: ~8 article fetches (Jina Reader) + 3 Claude calls
+    # (selector, drafter, verifier) + Telegraph + ntfy. 15 min is comfortable.
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repo
