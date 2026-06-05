@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-06-01T07:00:27.105049+00:00",
-    "headlines": [
-      "US-Iran Strikes Resume, Deal Talks Stall -- A third wave of US-Iran strikes around the **Strait of Hormuz** erupted over the weekend, even as nuclear deal negotiati",
-      "Israel Pushes Deeper Into Lebanon -- Israeli forces seized a strategic fortress in southern Lebanon over the weekend, with Prime Minister **Benjamin Netanyah",
-      "Nvidia Storms the PC Market -- Nvidia CEO **Jensen Huang** unveiled the company's first Arm-based PC chip, calling it the \"reinvention of the computer.",
-      "South Korea Exports Hit 40-Year High -- South Korea's export growth hit a **four-decade high** in May, driven almost entirely by AI chip demand. Semiconductor e",
-      "FCA's Palantir Deal Raises Data Sovereignty Alarm -- The UK's **Financial Conduct Authority** is under pressure to prove its data-sharing arrangement with US firm **Palantir",
-      "Glasgow Chemical Incident Evacuates Homes -- Emergency services responded to a chemical incident at a property on **Lenzie Terrace in Glasgow** on Sunday afternoon,",
-      "UK House Prices Fall Sharpest Since June 2025 -- UK house prices dropped **0.6% in May**, the steepest monthly fall since June 2025, according to Nationwide. Year-on-yea",
-      "**Colombia** heads to a June 21 presidential runoff between leftist senator Ivan Cepeda and Trump-aligned Abelardo de la Espriella - a proxy battle for Latin America's political direction.",
-      "**Anthropic** is now valued at **$965 billion** after its latest funding round, making it the world's most valuable AI firm - already covered last week, but it is now confirmed at that figure.",
-      "The **FCA's AI age-assessment plan** for young asylum seekers drew condemnation from over 100 charities, who warn it risks placing children in adult detention.",
-      "**Tesla** dropped its threat to cancel a graphite supply deal with Australia's Syrah Resources, a rare retreat that signals EV battery supply chains remain fragile.",
-      "**Myanmar** saw dozens killed in a huge blast in a rebel-held village near the Chinese border, reportedly caused by mining explosives - a reminder that the civil war is far from contained."
-    ]
-  },
-  {
     "date": "2026-06-02T06:44:31.379889+00:00",
     "headlines": [
       "Russia Kills 10 in Overnight Ukraine Blitz -- Russia launched one of its heaviest combined missile and drone strikes in months overnight, hitting cities across Ukrain",
@@ -117,6 +100,18 @@
       "Trump told reporters he had called Israeli Prime Minister Benjamin Netanyahu 'crazy' during a phone call, even as both men said their rapport remains solid.",
       "On Monday night alone, at least 22 people were killed in combined missile and drone strikes across Ukraine, while on Wednesday seven people were killed after a drone hit a passenger bus in the Russia-controlled Donetsk region.",
       "The US and Bahraini forces intercepted missiles aimed at Bahrain, home to the US Navy's 5th Fleet, with Bahrain's Defense Ministry saying its military destroyed three missiles and a number of drones fired by Iran."
+    ]
+  },
+  {
+    "date": "2026-06-05T06:26:30.876919+00:00",
+    "headlines": [
+      "Zelensky calls Putin to face-to-face talks -- Ukrainian President Volodymyr Zelensky published an open letter to Vladimir Putin proposing a face-to-face meeting to en",
+      "Hezbollah rejects Israel-Lebanon ceasefire deal -- Hezbollah leader Naim Qassem emphatically rejected the terms of a US-backed ceasefire between Israel and Lebanon, callin",
+      "North Korea unveils new nuclear fuel plant -- North Korea disclosed a new facility to produce nuclear bomb fuels, with leader Kim Jong Un announcing plans to bolster",
+      "Rebel attacks hamper DRC Ebola response -- Islamic State-linked militia the Allied Democratic Forces (ADF) killed more than 30 people in raids around the city of B",
+      "Anthropic revenue hits $47bn annualised rate -- Ahead of its IPO, Anthropic co-founder Daniela Amodei said the company's annualised revenue crossed **$47 billion** in M",
+      "Amazon brings same-day groceries to UK -- Amazon is expanding its ultra-fast Amazon Now delivery service - which delivers goods in less than 30 minutes - to Manch",
+      "A Scottish urologist warned that children as young as 14 are being admitted to Aberdeen Royal Infirmary with permanent bladder damage from ketamine use, with the specialist clinic now seeing between one and two serious cases a month."
     ]
   }
 ]
