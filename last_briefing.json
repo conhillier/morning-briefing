@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-06-02T06:44:31.379889+00:00",
-    "headlines": [
-      "Russia Kills 10 in Overnight Ukraine Blitz -- Russia launched one of its heaviest combined missile and drone strikes in months overnight, hitting cities across Ukrain",
-      "Alphabet Raises $80bn for AI Buildout -- Google's parent **Alphabet** announced plans to raise **$80 billion** through stock sales to fund its AI infrastructure",
-      "Anthropic Files Confidentially for IPO -- **Anthropic**, maker of the Claude AI assistant and currently valued at around **$61 billion** after its most recent dis",
-      "Florida Sues OpenAI Over Mass Shooting Links -- Florida Attorney General **James Uthmeier** filed a first-of-its-kind lawsuit against **OpenAI and CEO Sam Altman**, all",
-      "Ebola Outbreak Fears Prompt Three-Vaccine Race -- With a growing **Ebola outbreak in the Democratic Republic of Congo** - centred on the Ituri province where community pr",
-      "Rural Data Centre Plan Draws Scottish Backlash -- Campaigners are opposing plans for a **2 billion pound data centre** in the Scottish Borders, which critics are calling",
-      "**London Tube** ground to a halt on Tuesday as RMT union members strike over working hours, with a second walkout planned for Thursday.",
-      "**Ghana's parliament** passed a sweeping law criminalising LGBTQ+ activity, leaving community members fearing loss of homes, jobs, and healthcare access.",
-      "**BMW** announced humanoid robots will enter a European car plant, building on US trials - the clearest sign yet that factory automation is moving beyond stationary arms.",
-      "**Amazon Prime Day** will run for four days from June 23, stretched from its usual two - a sign Amazon needs more time to shift goods as US consumer sentiment hits record lows.",
-      "The **UK green economy** is now worth more than 100 billion pounds a year and supports over one million jobs, according to new CBI Economics research."
-    ]
-  },
-  {
     "date": "2026-06-03T06:55:52.187721+00:00",
     "headlines": [
       "Iran Drones Hit Kuwait Airport in Escalation -- Iranian drones struck Kuwait International Airport, causing severe damage and suspending all air traffic - a major escal",
@@ -112,6 +96,21 @@
       "Anthropic revenue hits $47bn annualised rate -- Ahead of its IPO, Anthropic co-founder Daniela Amodei said the company's annualised revenue crossed **$47 billion** in M",
       "Amazon brings same-day groceries to UK -- Amazon is expanding its ultra-fast Amazon Now delivery service - which delivers goods in less than 30 minutes - to Manch",
       "A Scottish urologist warned that children as young as 14 are being admitted to Aberdeen Royal Infirmary with permanent bladder damage from ketamine use, with the specialist clinic now seeing between one and two serious cases a month."
+    ]
+  },
+  {
+    "date": "2026-06-06T05:57:15.412721+00:00",
+    "headlines": [
+      "US shoots down Iranian missiles targeting Kuwait, Bahrain -- The US military said it intercepted **six of seven Iranian ballistic missiles** fired toward Kuwait and Bahrain on Frida",
+      "Xi Jinping to visit North Korea next week -- Chinese President Xi Jinping will make a **state visit to North Korea from Monday to Tuesday**, his first trip to the co",
+      "Google to pay SpaceX $920m a month for AI compute -- Google has agreed to pay **SpaceX $920 million a month** for AI compute capacity at its data centers, spanning from Octo",
+      "Raspberry Pi raises profit forecast on AI demand -- Cambridge-based **Raspberry Pi** has raised its profit expectations, saying it expects adjusted earnings of at least **$",
+      "NHS cancer misdiagnosis led to husband's suicide -- It was later confirmed Mary had only stage one breast cancer, and she has since completed treatment. The Scottish Public",
+      "Coalsnaughton evacuees condemn substandard temporary housing -- Residents of **97 properties** evacuated from four streets in Coalsnaughton, Clackmannanshire, have issued a statement s",
+      "Iran's IRGC said it attacked 'enemy bases in the region' with 'aerospace missiles', though the US military said none of the seven fired missiles reached their targets in Kuwait or Bahrain.",
+      "Trump told reporters on Friday that 'the situation with Iran seems to be going quite well' and that Iranians still have 21% to 22% of their missiles.",
+      "Alphabet said it plans to sell $85 billion in stock, including a $10 billion investment by Berkshire Hathaway, with Google revising its capital expenditure forecast for the year to between $180 billion and $190 billion.",
+      "The Nasdaq tumbled 4% as shares in chip and memory groups sank, with neocloud stocks CoreWeave and Nebius among those hammered in a broader tech selloff on Friday."
     ]
   }
 ]
