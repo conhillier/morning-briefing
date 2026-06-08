@@ -53,6 +53,7 @@ MIN_STORY_COUNT = 3           # Below this -> downgrade to headlines-only
 ARTICLE_MAX_CHARS = 6000      # Truncate each fetched article
 FRESHNESS_HOURS = 30          # Keep items dated within this window
 MAX_VALIDATION_DROPS = 2      # Max sentences validator can drop before rejecting a story
+MIN_STORY_BODY_CHARS = 150    # Stories with bodies shorter than this are dropped (avoids one-line teasers)
 
 DEDUP_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "last_briefing.json")
 DEDUP_DAYS = 3
@@ -510,29 +511,36 @@ def draft_briefing(articles, previous_headlines):
 
 ABSOLUTE GROUNDING RULES (non-negotiable):
 - You may ONLY state facts that appear in the SOURCE articles provided.
-- Every number, percentage, currency figure, date, name, place, quote, and statistic in your output MUST appear in at least one source.
-- If a source lacks material to write a full paragraph, write FEWER sentences for that story, or omit the story entirely. Do NOT fill gaps from memory.
-- Do NOT contextualise numbers (e.g. "highest since 2022", "up 12% in a week") unless that exact comparison appears in the source.
-- Do NOT add background, causation, or "what happens next" unless the source explicitly says so.
-- Do NOT invent quotes. Only quote text that appears word-for-word in the source.
-- A short, accurate briefing is BETTER than a long, confident, wrong one.
+- SINGLE-SOURCE RULE: each story cites ONE source via source_index. EVERY sentence in that story's body and why_it_matters MUST come from THAT one source - even if a sibling source covers the same topic with extra detail. Do NOT mix. If two sources cover the same story, pick the richer one and use ONLY that one.
+- Every number, percentage, currency figure, date, name, place, and quote in your output MUST appear in the cited source.
+- Do NOT contextualise numbers (e.g. "highest since 2022", "up 12% in a week") unless that exact comparison appears in the cited source.
+- Do NOT add background, causation, or "what happens next" unless the cited source explicitly says so.
+- Do NOT invent quotes. Only quote text that appears word-for-word in the cited source.
+- A short accurate briefing beats a long confident wrong one.
+
+MINIMUM-BODY RULE: A story body must have at least 3 sentences of real content from the cited source. If the cited source cannot support 3 grounded sentences, OMIT the story. Do NOT ship a 1-sentence story.
 
 OUTPUT FORMAT - For each story:
 - headline: short, max 8 words.
-- body: 2-4 sentences of WHAT HAPPENED, strictly from the source. Use **bold** for key facts only when those facts are in the source.
-- why_it_matters: 1-2 sentences of implication. ONLY include if the source itself states the implication, or it is a direct logical consequence (e.g. "rate hike" -> "borrowing costs rise"). If unsure, set to null.
+- body: 3-4 sentences of WHAT HAPPENED, strictly from the cited source. Use **bold** for key facts only when those facts are in the source.
+- why_it_matters: 1-2 sentences of implication, drawn from the SAME cited source. ONLY include if the source itself states the implication, or it is a direct logical consequence (e.g. "rate hike" -> "borrowing costs rise"). If unsure, set to null.
 - source_index: integer matching one of the SOURCE blocks.
-- source_snippets: 2-4 verbatim sentences from the source supporting your story. These must appear in the source text EXACTLY as written.
+- source_snippets: 2-4 verbatim sentences from the cited source supporting your story.
 
 ENCODING: ASCII only. Straight quotes. Hyphens not dashes. No accented characters.
 
 Return ONLY valid JSON. No markdown fences, no commentary."""
 
+    # Drafter writes 7; validator/verifier may strip 1-2; we then ship the
+    # best TARGET_STORY_COUNT (5) that survived. Buffer prevents thin runs
+    # from falling below MIN_STORY_COUNT after grounding losses.
+    drafter_ask = TARGET_STORY_COUNT + 2
+
     user = f"""Source articles below. Use ONLY their text.
 {dedup_block}
 {sources_text}
 
-Write up to {TARGET_STORY_COUNT} stories drawn from the sources above. Also produce:
+Write up to {drafter_ask} stories drawn from the sources above. Also produce:
 - closer_to_home: ONE UK or Scotland story if a source covers it (object with headline, body, source_index, source_snippets). Otherwise null.
 - quick_hits: Up to 4 one-sentence summaries of OTHER sources. CRITICAL: the source_index of each quick_hit MUST NOT match any source_index used in your main stories OR closer_to_home. Quick hits cover DIFFERENT stories from the ones above. If there are fewer than 4 unused sources, return fewer (or zero) quick_hits. Do NOT recap, paraphrase, or extend your main stories here. Format each entry as {{"text": "the one-line summary", "source_index": N}}.
 - bottom_line: ONE sentence synthesising the day's mood. No new facts.
@@ -643,8 +651,10 @@ def validate_story(story, sources):
     if body_drops + wim_drops > MAX_VALIDATION_DROPS:
         warnings.append(f"too many drops ({body_drops + wim_drops}); rejecting story")
         return None, warnings
-    if not body or len(body) < 40:
-        warnings.append("body too thin after validation; rejecting story")
+    # 150 chars = roughly 2-3 sentences. Anything shorter reads as a teaser,
+    # not a story. Better to drop and ship one fewer than to ship one-liners.
+    if not body or len(body) < MIN_STORY_BODY_CHARS:
+        warnings.append(f"body too thin after validation ({len(body) if body else 0} chars); rejecting story")
         return None, warnings
 
     return {**story, "body": body, "why_it_matters": wim or None}, warnings
@@ -974,8 +984,8 @@ Return ONLY JSON:
 
         new_body = strip(story.get("body", ""))
         new_wim = strip(story.get("why_it_matters") or "")
-        if not new_body or len(new_body) < 40:
-            log(f"  story {i} body too thin after verifier; dropping story", "WARN")
+        if not new_body or len(new_body) < MIN_STORY_BODY_CHARS:
+            log(f"  story {i} body too thin after verifier ({len(new_body) if new_body else 0} chars); dropping story", "WARN")
             continue
         cleaned.append({**story, "body": new_body, "why_it_matters": new_wim or None})
 
@@ -1371,6 +1381,12 @@ def main():
             except Exception as e:
                 log(f"Verifier crashed: {e}; using post-validator draft", "WARN")
                 briefing = validated
+
+            # Cap at TARGET_STORY_COUNT - drafter writes a buffer of 7 so
+            # validation/verification losses don't starve the briefing, but
+            # we never ship more than the target.
+            if briefing.get("stories"):
+                briefing["stories"] = briefing["stories"][:TARGET_STORY_COUNT]
 
             if len(briefing.get("stories", [])) >= MIN_STORY_COUNT:
                 grounded = True
