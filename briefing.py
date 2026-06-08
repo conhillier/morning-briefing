@@ -412,9 +412,17 @@ def call_claude(model, system, user, max_tokens=4096):
 
 
 def _extract_json(text):
+    """Extract the first JSON object/array from a model response. Tolerates
+    trailing reasoning text the model sometimes appends despite being told
+    to return only JSON."""
     text = re.sub(r"^\s*```(?:json)?\s*", "", text)
-    text = re.sub(r"\s*```\s*$", "", text)
-    return json.loads(text)
+    text = re.sub(r"\s*```\s*$", "", text).strip()
+    # raw_decode parses one JSON value at the start, ignoring anything after.
+    decoder = json.JSONDecoder()
+    # Find the first '{' or '[' to handle leading commentary too.
+    start = next((i for i, c in enumerate(text) if c in "{["), 0)
+    obj, _idx = decoder.raw_decode(text[start:])
+    return obj
 
 
 # -- Stage 1: Selector -------------------------------------------------------
