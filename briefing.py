@@ -47,7 +47,9 @@ SELECTOR_MODEL = "claude-haiku-4-5-20251001"
 DRAFTER_MODEL = "claude-sonnet-4-6"
 VERIFIER_MODEL = "claude-sonnet-4-6"
 
-CANDIDATE_COUNT = 8           # How many RSS items to fetch articles for
+CANDIDATE_COUNT = 12          # How many RSS items to fetch articles for.
+# 12 = enough for 5 main stories + 1 closer-to-home + ~5 spare sources for
+# quick hits (which must use source_indexes not used in main stories).
 TARGET_STORY_COUNT = 5        # Final featured-story count
 MIN_STORY_COUNT = 3           # Below this -> downgrade to headlines-only
 ARTICLE_MAX_CHARS = 6000      # Truncate each fetched article
@@ -542,7 +544,7 @@ Return ONLY valid JSON. No markdown fences, no commentary."""
 
 Write up to {drafter_ask} stories drawn from the sources above. Also produce:
 - closer_to_home: ONE UK or Scotland story if a source covers it (object with headline, body, source_index, source_snippets). Otherwise null.
-- quick_hits: Up to 4 one-sentence summaries of OTHER sources. CRITICAL: the source_index of each quick_hit MUST NOT match any source_index used in your main stories OR closer_to_home. Quick hits cover DIFFERENT stories from the ones above. If there are fewer than 4 unused sources, return fewer (or zero) quick_hits. Do NOT recap, paraphrase, or extend your main stories here. Format each entry as {{"text": "the one-line summary", "source_index": N}}.
+- quick_hits: AIM FOR 4 one-sentence summaries of OTHER sources. With this candidate pool you should usually have several sources you did not feature in main stories - use them. CRITICAL RULES: (1) source_index MUST NOT match any source_index in your main stories OR closer_to_home; (2) each quick_hit must be a different story from the ones above - do NOT recap, paraphrase, or extend your main stories. (3) every figure, name and quote in a quick hit must appear in its cited source. If there are genuinely fewer than 4 unused sources with newsworthy content, return fewer. Format each entry as {{"text": "the one-line summary", "source_index": N}}.
 - bottom_line: ONE sentence synthesising the day's mood. No new facts.
 
 Return ONLY valid JSON in this shape:
