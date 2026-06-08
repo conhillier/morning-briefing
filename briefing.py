@@ -65,6 +65,20 @@ DOCS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 # ntfy default max body is 4096 bytes. We aim well under to leave headroom.
 NTFY_MAX_BODY_BYTES = 3800
 
+# Regulatory/CFO section: source list and target count.
+# These feeds publish actual policy announcements (not internal-manual
+# revisions). The selector pass picks 0-CFO_TARGET_COUNT items per run -
+# usually 0, because routine press releases don't qualify.
+REGULATORY_FEEDS = [
+    {"url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=hm-revenue-customs", "publisher": "HMRC"},
+    {"url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=hm-treasury", "publisher": "HM Treasury"},
+    {"url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=companies-house", "publisher": "Companies House"},
+    {"url": "https://www.bankofengland.co.uk/rss/news", "publisher": "Bank of England"},
+]
+REGULATORY_FRESHNESS_DAYS = 30   # CFO-relevant updates aren't daily news
+CFO_TARGET_COUNT = 2             # Maximum items in the CFO section
+
+
 RSS_FEEDS = [
     # -- World & Geopolitics --
     # The Reuters-via-Google-News feed previously here returned 0 items and,
@@ -183,6 +197,8 @@ def save_briefing_headlines(briefing):
                 body_preview = (item.get("body", "") or "")[:120].strip()
                 headlines.append(f"{item['headline']} -- {body_preview}")
         headlines.extend(briefing.get("quick_hits", []) or [])
+        for entry in (briefing.get("cfo_section") or []):
+            headlines.append(f"[CFO] {entry['item']['headline']}")
         existing.append({
             "date": datetime.now(timezone.utc).isoformat(),
             "headlines": headlines,
@@ -510,7 +526,7 @@ Return ONLY valid JSON. No markdown fences, no commentary."""
 
 Write up to {TARGET_STORY_COUNT} stories drawn from the sources above. Also produce:
 - closer_to_home: ONE UK or Scotland story if a source covers it (object with headline, body, source_index, source_snippets). Otherwise null.
-- quick_hits: Up to 4 one-sentence summaries of OTHER newsworthy sources you did not feature. Each must faithfully summarise a specific source. Format each entry as {{"text": "the one-line summary", "source_index": N}}.
+- quick_hits: Up to 4 one-sentence summaries of OTHER sources. CRITICAL: the source_index of each quick_hit MUST NOT match any source_index used in your main stories OR closer_to_home. Quick hits cover DIFFERENT stories from the ones above. If there are fewer than 4 unused sources, return fewer (or zero) quick_hits. Do NOT recap, paraphrase, or extend your main stories here. Format each entry as {{"text": "the one-line summary", "source_index": N}}.
 - bottom_line: ONE sentence synthesising the day's mood. No new facts.
 
 Return ONLY valid JSON in this shape:
@@ -640,16 +656,28 @@ def validate_briefing(briefing, sources):
         warns_all.extend(warns)
         cth_clean = cleaned
 
+    # Build the set of source_indexes already used by featured stories +
+    # closer-to-home, so quick hits can be filtered for redundancy.
+    used_sources = set()
+    for s in stories:
+        if isinstance(s.get("source_index"), int):
+            used_sources.add(s["source_index"])
+    if cth_clean and isinstance(cth_clean.get("source_index"), int):
+        used_sources.add(cth_clean["source_index"])
+
     hits = []
     for hit in (briefing.get("quick_hits") or []):
         text = hit.get("text") if isinstance(hit, dict) else str(hit)
         src_idx = hit.get("source_index") if isinstance(hit, dict) else None
+        if isinstance(src_idx, int) and src_idx in used_sources:
+            warns_all.append(f"drop quick hit (source {src_idx} already in main stories): {text[:80]}")
+            continue
         if isinstance(src_idx, int) and 0 <= src_idx < len(sources):
             src_norm = _normalize(sources[src_idx]["article_text"])
             bad = (any(not _number_supported(n, src_norm) for n in _extract_numbers(text)) or
                    any(not _quote_supported(q, src_norm) for q in _extract_quotes(text)))
             if bad:
-                warns_all.append(f"drop quick hit: {text[:80]}")
+                warns_all.append(f"drop quick hit (unsupported): {text[:80]}")
                 continue
         hits.append(text)
 
@@ -664,6 +692,193 @@ def validate_briefing(briefing, sources):
         "quick_hits": hits,
         "bottom_line": briefing.get("bottom_line", ""),
     }
+
+
+# -- CFO regulatory section --------------------------------------------------
+def fetch_regulatory_news():
+    """Fetch UK regulatory pool from HMRC, Treasury, Companies House, BoE.
+
+    Uses a wider freshness window than main news (30 days) because policy
+    announcements are less frequent than daily news.
+    """
+    items = []
+    for feed in REGULATORY_FEEDS:
+        items.extend(fetch_feed(feed["url"], "Regulatory", feed["publisher"], max_items=8))
+    cutoff = datetime.now(timezone.utc) - timedelta(days=REGULATORY_FRESHNESS_DAYS)
+    kept = []
+    for it in items:
+        if it["pubDate"]:
+            if it["pubDate"] > cutoff:
+                kept.append(it)
+        else:
+            kept.append(it)
+    log(f"Regulatory pool: {len(kept)} items in last {REGULATORY_FRESHNESS_DAYS} days")
+    return kept
+
+
+def select_cfo_items(items, previous_headlines):
+    """Pick 0-CFO_TARGET_COUNT items a UK CFO genuinely needs to know about.
+
+    Designed to return 0 most days. Padding is explicitly forbidden.
+    """
+    if not items:
+        return []
+
+    digest = "\n".join(
+        f"{i}. [{it['publisher']}] {it['title']}"
+        for i, it in enumerate(items)
+    )
+
+    dedup_block = ""
+    if previous_headlines:
+        dedup_block = "\nRecently surfaced in briefings (skip these):\n" + "\n".join(
+            f"- {h}" for h in previous_headlines[:30]
+        )
+
+    user = (
+        f"Pool of recent UK regulatory announcements from HMRC, HM Treasury, "
+        f"Companies House, and the Bank of England.\n\n"
+        f"Pick up to {CFO_TARGET_COUNT} items a CFO of a UK or Scottish company "
+        f"GENUINELY needs to know about. Be ruthless. Most items in this pool are "
+        f"routine and should be skipped.\n\n"
+        f"WHAT COUNTS (include):\n"
+        f"- Tax rate or allowance changes (NI, dividend, CGT, corporation tax, VAT)\n"
+        f"- Approved mileage rates / advisory fuel rates / company car rates\n"
+        f"- Pension allowance / threshold changes\n"
+        f"- New reporting requirements or filing deadlines that affect businesses\n"
+        f"- UK GAAP / FRS 102 / FRS 105 / IFRS adoption changes\n"
+        f"- Companies Act / audit threshold / small-company exemption changes\n"
+        f"- Bank of England base rate decisions (immediate financial impact)\n"
+        f"- HMRC penalty regime / Making Tax Digital scope changes\n"
+        f"- R&D credit, capital allowances, EIS/SEIS changes\n\n"
+        f"WHAT DOES NOT COUNT (skip these even if interesting):\n"
+        f"- Child Benefit / personal-tax-only reminders\n"
+        f"- Banknote design news\n"
+        f"- Ministerial speeches with no specific policy announcement\n"
+        f"- Technical statistical notices / UAT environments / taxonomies\n"
+        f"- Recruitment, appointments, organisational reshuffles\n"
+        f"- Internal manual updates, guidance refreshes without rule changes\n"
+        f"- Anything you would not actually brief your finance team on Monday morning\n\n"
+        f"If NOTHING in the pool qualifies, return an empty array. DO NOT PAD.\n"
+        f"{dedup_block}\n\n"
+        f"=== POOL ===\n{digest}\n\n"
+        f'Return ONLY JSON: {{"cfo_items": [<index>, ...]}}'
+    )
+    system = (
+        "You are an experienced UK Chartered Accountant advising a CFO. You output "
+        "only valid JSON. You err on the side of returning fewer items."
+    )
+
+    raw = call_claude(SELECTOR_MODEL, system, user, max_tokens=400)
+    parsed = _extract_json(raw)
+    idxs = []
+    for v in parsed.get("cfo_items", []):
+        try:
+            i = int(v)
+            if 0 <= i < len(items):
+                idxs.append(i)
+        except (TypeError, ValueError):
+            continue
+    # Dedup, cap at target
+    seen, ordered = set(), []
+    for i in idxs:
+        if i not in seen and len(ordered) < CFO_TARGET_COUNT:
+            seen.add(i)
+            ordered.append(i)
+    log(f"CFO selector chose {len(ordered)} items: {ordered}")
+    return ordered
+
+
+def draft_cfo_items(articles):
+    """Write 2-3 sentence summaries of each CFO-relevant regulatory item."""
+    if not articles:
+        return []
+
+    src_blocks = []
+    for i, a in enumerate(articles):
+        src_blocks.append(
+            f"=== SOURCE {i} ===\n"
+            f"Publisher: {a['publisher']}\n"
+            f"Headline: {a['title']}\n"
+            f"Article text:\n{a['article_text']}\n"
+        )
+    sources_text = "\n".join(src_blocks)
+
+    system = (
+        "You summarise UK regulatory updates for a CFO in Scotland. Same absolute "
+        "grounding rules as the main briefing: every figure, date, rate, threshold, "
+        "name, and quote MUST appear in the source. If a source on closer reading "
+        "isn't actually a material rule change, OMIT it (return fewer items).\n\n"
+        "Each item: 2-3 sentences. Lead with what changed (the rate, threshold, "
+        "date). One sentence on practical impact ONLY if the source itself says so.\n\n"
+        "Return ONLY valid JSON, no markdown fences, ASCII only."
+    )
+
+    user = (
+        f"{sources_text}\n\nReturn ONLY JSON in this shape:\n"
+        '{\n'
+        '  "items": [\n'
+        '    {\n'
+        '      "headline": "Short noun phrase, max 10 words",\n'
+        '      "body": "2-3 sentences of WHAT CHANGED, strictly from source.",\n'
+        '      "source_index": 0,\n'
+        '      "source_snippets": ["verbatim sentence", "verbatim sentence"]\n'
+        '    }\n'
+        '  ]\n'
+        '}'
+    )
+
+    raw = call_claude(DRAFTER_MODEL, system, user, max_tokens=2048)
+    parsed = _extract_json(raw)
+    items = parsed.get("items", []) or []
+    log(f"CFO drafter produced {len(items)} items")
+    return items
+
+
+def validate_cfo_items(items, sources):
+    """Same number/quote support check as main stories. Drop on failure."""
+    out = []
+    warns = []
+    for item in items:
+        validated, w = validate_story(item, sources)
+        warns.extend(w)
+        if validated:
+            out.append(validated)
+    if warns:
+        log(f"CFO validator findings ({len(warns)}):", "WARN")
+        for w in warns:
+            log(f"  - {w}", "WARN")
+    return out
+
+
+def run_cfo_pipeline(previous_headlines):
+    """Full CFO section pipeline. Returns a list of validated items
+    (possibly empty - that's fine, the section will be omitted)."""
+    try:
+        pool = fetch_regulatory_news()
+        if not pool:
+            return []
+        idxs = select_cfo_items(pool, previous_headlines)
+        if not idxs:
+            log("CFO pipeline: no items qualified - section will be omitted")
+            return []
+        candidates = [pool[i] for i in idxs]
+        articles = fetch_articles_for(candidates)
+        if not articles:
+            log("CFO pipeline: no articles fetchable", "WARN")
+            return []
+        drafted = draft_cfo_items(articles)
+        # Re-index source_index so it matches articles list order
+        validated = validate_cfo_items(drafted, articles)
+        log(f"CFO pipeline: {len(validated)} items shipped")
+        # Attach articles so renderers can resolve source URLs
+        return [{"item": v, "source": articles[v["source_index"]]}
+                for v in validated
+                if isinstance(v.get("source_index"), int)
+                and 0 <= v["source_index"] < len(articles)]
+    except Exception as e:
+        log(f"CFO pipeline failed (section will be omitted): {e}", "WARN")
+        return []
 
 
 # -- Stage 5: Verifier pass --------------------------------------------------
@@ -862,6 +1077,23 @@ def render_html(briefing, sources, today_str):
                 f'<a href="{_esc(src["link"])}">{_esc(src["publisher"])}</a></p>'
             )
 
+    cfo_section = briefing.get("cfo_section") or []
+    if cfo_section:
+        parts.append("<hr>")
+        parts.append("<h2>For CFOs - UK regulatory updates</h2>")
+        for entry in cfo_section:
+            item = entry["item"]
+            src = entry["source"]
+            parts.append(f"<h3>{_esc(item['headline'])}</h3>")
+            for p in re.split(r"\n+", item.get("body", "")):
+                p = p.strip()
+                if p:
+                    parts.append(f"<p>{_md_bold_to_html(p)}</p>")
+            parts.append(
+                f'<p class="source">Source: '
+                f'<a href="{_esc(src["link"])}">{_esc(src["publisher"])}</a></p>'
+            )
+
     if briefing.get("quick_hits"):
         parts.append("<hr>")
         parts.append("<h3>Quick Hits</h3>")
@@ -944,6 +1176,20 @@ def publish_to_telegraph(briefing, sources):
                 {"tag": "a", "attrs": {"href": src["link"]}, "children": [sanitize_text(src["publisher"])]},
             ]}]})
 
+    cfo_section = briefing.get("cfo_section") or []
+    if cfo_section:
+        nodes.append({"tag": "h3", "children": [sanitize_text("For CFOs - UK regulatory updates")]})
+        for entry in cfo_section:
+            item = entry["item"]
+            src = entry["source"]
+            nodes.append({"tag": "p", "children": [{"tag": "strong", "children": [sanitize_text(item["headline"])]}]})
+            for p in [p.strip() for p in re.split(r"\n+", sanitize_text(item.get("body", ""))) if p.strip()]:
+                nodes.append({"tag": "p", "children": parse_markdown_bold(p)})
+            nodes.append({"tag": "p", "children": [{"tag": "em", "children": [
+                "Source: ",
+                {"tag": "a", "attrs": {"href": src["link"]}, "children": [sanitize_text(src["publisher"])]},
+            ]}]})
+
     if briefing.get("quick_hits"):
         nodes.append({"tag": "h4", "children": ["Quick Hits"]})
         for hit in briefing["quick_hits"]:
@@ -985,45 +1231,37 @@ def publish_to_telegraph(briefing, sources):
 
 # -- ntfy push --------------------------------------------------------------
 def _build_ntfy_body(briefing, pages_url, telegraph_url):
-    """Build the ntfy message body — full briefing inline so it remains
-    readable with no network connectivity after delivery."""
+    """Headlines-only ntfy body. Full briefing lives on Pages - this push is
+    a glance-and-go list with a link for anyone who wants the detail."""
     lines = []
     for i, story in enumerate(briefing["stories"], 1):
-        lines.append(f"**{i}. {story['headline']}**")
-        body = (story.get("body") or "").strip()
-        if body:
-            lines.append(body)
-        wim = (story.get("why_it_matters") or "").strip()
-        if wim:
-            lines.append(f"_Why it matters: {wim}_")
-        lines.append("")
+        lines.append(f"**{i}.** {story['headline']}")
 
     cth = briefing.get("closer_to_home")
     if cth:
-        lines.append(f"**UK: {cth['headline']}**")
-        cth_body = (cth.get("body") or "").strip()
-        if cth_body:
-            lines.append(cth_body)
         lines.append("")
+        lines.append(f"**UK:** {cth['headline']}")
 
-    if briefing.get("quick_hits"):
-        lines.append("**Quick hits:**")
-        for hit in briefing["quick_hits"]:
-            lines.append(f"- {hit}")
+    cfo_section = briefing.get("cfo_section") or []
+    if cfo_section:
         lines.append("")
+        lines.append("**For CFOs:**")
+        for entry in cfo_section:
+            lines.append(f"- {entry['item']['headline']}")
 
     if briefing.get("bottom_line"):
-        lines.append(f"**Bottom line:** {briefing['bottom_line']}")
         lines.append("")
+        lines.append(f"_{briefing['bottom_line']}_")
 
-    link_line = f"[Open in browser]({pages_url})"
+    lines.append("")
+    link_line = f"[Read full briefing]({pages_url})"
     if telegraph_url:
-        link_line += f" - [Telegraph]({telegraph_url})"
+        link_line += f" - [Telegraph backup]({telegraph_url})"
     lines.append(link_line)
 
     body = "\n".join(lines).strip()
 
-    # Truncate gracefully if we exceed ntfy's body limit.
+    # Should fit easily under 4KB now, but keep the safety net just in case.
     encoded = body.encode("utf-8")
     if len(encoded) > NTFY_MAX_BODY_BYTES:
         truncated = encoded[: NTFY_MAX_BODY_BYTES - 200].decode("utf-8", errors="ignore")
@@ -1031,7 +1269,7 @@ def _build_ntfy_body(briefing, pages_url, telegraph_url):
         if cut > 0:
             truncated = truncated[:cut]
         body = f"{truncated}\n\n...(truncated; full briefing: {pages_url})"
-        log(f"ntfy body truncated to fit limit ({len(encoded)} -> {len(body.encode('utf-8'))} bytes)", "WARN")
+        log(f"ntfy body truncated ({len(encoded)} -> {len(body.encode('utf-8'))} bytes)", "WARN")
 
     return body
 
@@ -1046,13 +1284,17 @@ def send_ntfy(pages_url, telegraph_url, briefing):
         headers={
             "Title": f"Morning Briefing - {date_short}",
             "Tags": "newspaper",
+            # Priority 5 = max - breaks through Do Not Disturb on iOS/Android
+            # and triggers the full notification sound/vibration. Without this
+            # ntfy free tier sometimes delivers silently or with a delay.
+            "Priority": "5",
             "Actions": f"view, Open briefing, {primary_url}, clear=true",
             "Markdown": "yes",
         },
         timeout=REQUEST_TIMEOUT,
     )
     resp.raise_for_status()
-    log(f"ntfy notification sent ({len(body.encode('utf-8'))} bytes inline)")
+    log(f"ntfy notification sent ({len(body.encode('utf-8'))} bytes, priority 5)")
 
 
 # -- Headlines-only fallback ------------------------------------------------
@@ -1132,6 +1374,11 @@ def main():
     if not grounded:
         briefing = headlines_only_briefing(deduped)
         articles = []
+
+    # CFO regulatory section (independent pipeline; failure does not block
+    # the main briefing). Returns [] most days - the section is then omitted.
+    log("Running CFO regulatory pipeline...")
+    briefing["cfo_section"] = run_cfo_pipeline(previous)
 
     if DRY_RUN:
         log("DRY RUN - skipping publish")
