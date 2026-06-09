@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-06-06T05:57:15.412721+00:00",
-    "headlines": [
-      "US shoots down Iranian missiles targeting Kuwait, Bahrain -- The US military said it intercepted **six of seven Iranian ballistic missiles** fired toward Kuwait and Bahrain on Frida",
-      "Xi Jinping to visit North Korea next week -- Chinese President Xi Jinping will make a **state visit to North Korea from Monday to Tuesday**, his first trip to the co",
-      "Google to pay SpaceX $920m a month for AI compute -- Google has agreed to pay **SpaceX $920 million a month** for AI compute capacity at its data centers, spanning from Octo",
-      "Raspberry Pi raises profit forecast on AI demand -- Cambridge-based **Raspberry Pi** has raised its profit expectations, saying it expects adjusted earnings of at least **$",
-      "NHS cancer misdiagnosis led to husband's suicide -- It was later confirmed Mary had only stage one breast cancer, and she has since completed treatment. The Scottish Public",
-      "Coalsnaughton evacuees condemn substandard temporary housing -- Residents of **97 properties** evacuated from four streets in Coalsnaughton, Clackmannanshire, have issued a statement s",
-      "Iran's IRGC said it attacked 'enemy bases in the region' with 'aerospace missiles', though the US military said none of the seven fired missiles reached their targets in Kuwait or Bahrain.",
-      "Trump told reporters on Friday that 'the situation with Iran seems to be going quite well' and that Iranians still have 21% to 22% of their missiles.",
-      "Alphabet said it plans to sell $85 billion in stock, including a $10 billion investment by Berkshire Hathaway, with Google revising its capital expenditure forecast for the year to between $180 billion and $190 billion.",
-      "The Nasdaq tumbled 4% as shares in chip and memory groups sank, with neocloud stocks CoreWeave and Nebius among those hammered in a broader tech selloff on Friday."
-    ]
-  },
-  {
     "date": "2026-06-07T06:27:42.993372+00:00",
     "headlines": [
       "Ukraine Launches Massive Drone Strike on St Petersburg -- Russia declared Ukraine's attack on and around St Petersburg 'unprecedented', with **more than 140 drones** shot down ov",
@@ -105,6 +90,19 @@
       "Ukraine and Russia traded deadly air attacks on Monday: a Russian attack killed five and injured 14 in Ukraine's Zaporizhia region, while a Ukrainian drone struck a train in Russia-annexed Crimea, killing its assistant driver.",
       "China's President Xi Jinping is visiting North Korea for the first time in seven years, in a bid to reassert China's influence in the region.",
       "The Democratic Republic of Congo's Ebola outbreak is spreading at an unprecedented pace, Africa CDC warns."
+    ]
+  },
+  {
+    "date": "2026-06-09T06:13:10.561097+00:00",
+    "headlines": [
+      "Iran and Israel pause strikes, deal close -- Iran and Israel say they have halted attacks on each other after exchanging fire for the first time since April's truce.",
+      "Major earthquake kills 35 in southern Philippines -- At least **35 people** have died after a **magnitude-7.8 earthquake** struck off the coast of **Mindanao island** in the",
+      "DRC Ebola deaths reach 101 with 550 cases -- The Democratic Republic of the Congo has reported **101 confirmed Ebola deaths** and **550 confirmed cases** in total, w",
+      "OpenAI files for stock market listing -- OpenAI has made a **confidential filing** with the US Securities and Exchange Commission to pursue an **initial public o",
+      "Apple overhauls Siri as Tim Cook exits -- Apple announced a significant overhaul of its digital assistant at its annual **Worldwide Developers Conference (WWDC)**",
+      "Scottish schools cut subjects in teacher crisis -- Secondary schools across Scotland are reducing timetables and cutting whole subjects from the curriculum due to a lack o",
+      "A US Army Apache helicopter crashed near the Strait of Hormuz, with President Trump saying the two crew members were 'fine' and that 'nobody injured', though the cause of the crash remained unclear.",
+      "The Pentagon added Alibaba, BYD, and Baidu to its list of Chinese military companies, growing the list to 188 Chinese entities - up from roughly 130 last year - preventing them from receiving US defence contracts."
     ]
   }
 ]
