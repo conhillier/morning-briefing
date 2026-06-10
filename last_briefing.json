@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-06-07T06:27:42.993372+00:00",
-    "headlines": [
-      "Ukraine Launches Massive Drone Strike on St Petersburg -- Russia declared Ukraine's attack on and around St Petersburg 'unprecedented', with **more than 140 drones** shot down ov",
-      "US Eyes Iranian Assets for Gulf Allies' Reconstruction -- US Treasury Secretary Scott Bessent has directed a team to assess the costs of damages inflicted on Gulf allies by Iran,",
-      "Xi Jinping Makes Rare Trip to North Korea -- Chinese President Xi Jinping is visiting Pyongyang on Sunday, his first trip to North Korea since **2019**. The visit is",
-      "Israeli Strikes Kill Nine in Lebanon Including Army Officers -- Israeli airstrikes on southern Lebanon on Saturday killed **nine people**, including **three members of the Lebanese mil",
-      "CDC Warns DRC Ebola Could Match 2014 Record Outbreak -- The US Centers for Disease Control and Prevention published modelling scenarios on Friday projecting the DRC Ebola outbr",
-      "Trump told NBC that Iranians still have '21% to 22% of their missiles', saying 'it's a lot of missiles, but it's not what it was when we first attacked.'",
-      "North Korea has carried out eight missile launches since the start of the year and in May unveiled a new AI-guided tactical cruise missile, according to North Korean media and the US Naval Institute.",
-      "Zelensky is expected to visit the UK on Sunday for talks with Prime Minister Sir Keir Starmer, German Chancellor Friedrich Merz and French President Emmanuel Macron.",
-      "Iranian Foreign Minister Abbas Araghchi responded to Lebanese criticism of Iran's opposition to the ceasefire deal by posting on X: 'Had Lebanon been a bargaining chip for Iran, we'd have a deal long ago.'"
-    ]
-  },
-  {
     "date": "2026-06-08T06:47:46.158422+00:00",
     "headlines": [
       "Israel and Iran trade strikes, war risk rises -- Israel launched strikes on central and western Iran early Monday, hitting a **petrochemical factory in Mahshahr in Khuze",
@@ -103,6 +89,21 @@
       "Scottish schools cut subjects in teacher crisis -- Secondary schools across Scotland are reducing timetables and cutting whole subjects from the curriculum due to a lack o",
       "A US Army Apache helicopter crashed near the Strait of Hormuz, with President Trump saying the two crew members were 'fine' and that 'nobody injured', though the cause of the crash remained unclear.",
       "The Pentagon added Alibaba, BYD, and Baidu to its list of Chinese military companies, growing the list to 188 Chinese entities - up from roughly 130 last year - preventing them from receiving US defence contracts."
+    ]
+  },
+  {
+    "date": "2026-06-10T06:28:16.691845+00:00",
+    "headlines": [
+      "Pakistan air raids in Afghanistan kill 13, mostly children -- Afghanistan has accused Pakistan's military of killing at least **13 people**, most of them children, in air attacks on",
+      "SpaceX IPO locks price at $135 per share -- SpaceX has set a fixed IPO price of **$135 per share**, implying an anticipated market cap of **$1.77 trillion**, ahead",
+      "Anthropic releases restricted public version of Claude Mythos -- Anthropic released **Claude Fable 5** to the public on Tuesday, the first widely available version of its advanced Mytho",
+      "SoftBank plunges 10% as Asia tech stocks slide -- Asian semiconductor and technology stocks resumed their slide on Wednesday, tracking overnight losses on Wall Street whe",
+      "China-linked hackers steal AI from US tech firms -- Cybersecurity firm CrowdStrike warned on Tuesday that Chinese entities accounted for more than **58%** of state-sponsore",
+      "Far-right protests flare across Glasgow after Belfast stabbing -- Protests broke out across Scotland on Tuesday after disorder flared in Belfast following a knife attack in which the all",
+      "The UK's Competition and Markets Authority has opened an investigation into Paramount Skydance's $110bn takeover of Warner Bros Discovery, saying it will decide by 7 August whether the deal warrants a more in-depth phase 2 investigation.",
+      "OpenAI made a confidential filing with the US Securities and Exchange Commission to pursue an IPO at some point in the future, with its most recent private valuation coming in at $852bn.",
+      "Jordan's armed forces said air defences shot down five missiles fired from Iran towards Azraq Air Base, with no casualties reported, as video showed interceptors lighting up the sky over the city of Zarqa.",
+      "[CFO] Companies House accounts filing reforms delayed to April 2028"
     ]
   }
 ]
