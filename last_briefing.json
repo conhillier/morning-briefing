@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-06-10T06:28:16.691845+00:00",
-    "headlines": [
-      "Pakistan air raids in Afghanistan kill 13, mostly children -- Afghanistan has accused Pakistan's military of killing at least **13 people**, most of them children, in air attacks on",
-      "SpaceX IPO locks price at $135 per share -- SpaceX has set a fixed IPO price of **$135 per share**, implying an anticipated market cap of **$1.77 trillion**, ahead",
-      "Anthropic releases restricted public version of Claude Mythos -- Anthropic released **Claude Fable 5** to the public on Tuesday, the first widely available version of its advanced Mytho",
-      "SoftBank plunges 10% as Asia tech stocks slide -- Asian semiconductor and technology stocks resumed their slide on Wednesday, tracking overnight losses on Wall Street whe",
-      "China-linked hackers steal AI from US tech firms -- Cybersecurity firm CrowdStrike warned on Tuesday that Chinese entities accounted for more than **58%** of state-sponsore",
-      "Far-right protests flare across Glasgow after Belfast stabbing -- Protests broke out across Scotland on Tuesday after disorder flared in Belfast following a knife attack in which the all",
-      "The UK's Competition and Markets Authority has opened an investigation into Paramount Skydance's $110bn takeover of Warner Bros Discovery, saying it will decide by 7 August whether the deal warrants a more in-depth phase 2 investigation.",
-      "OpenAI made a confidential filing with the US Securities and Exchange Commission to pursue an IPO at some point in the future, with its most recent private valuation coming in at $852bn.",
-      "Jordan's armed forces said air defences shot down five missiles fired from Iran towards Azraq Air Base, with no casualties reported, as video showed interceptors lighting up the sky over the city of Zarqa.",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
     "date": "2026-06-11T06:53:10.448675+00:00",
     "headlines": [
       "US and Iran exchange strikes for second day -- The US and Iran have exchanged strikes across the Middle East for a second consecutive day, further straining an already",
@@ -50,6 +35,19 @@
       "UK bans Russian fuel imports by January 2027 -- The UK government has committed to banning imports of diesel and jet fuel made from Russian oil by **1 January 2027**, a",
       "China arrested US citizen Min Zin, head of a Myanmar-focused think tank and a PhD candidate at UC Berkeley, at Kunming airport on 3 June on suspicion of espionage and endangering Chinese national security, according to Chinese government and diplomatic sources.",
       "The UK economy contracted by 0.1% in April as the Iran war began to weigh on growth, following a 0.3% rise in March, with a 0.2% decline in services output the main driver, according to the Office for National Statistics."
+    ]
+  },
+  {
+    "date": "2026-06-14T06:45:01.502603+00:00",
+    "headlines": [
+      "Scotland beat Haiti in World Cup return -- John McGinn's deflected goal gave Scotland a **1-0** win over Haiti at the **Gillette Stadium** near Boston, marking the",
+      "SpaceX IPO: Musk becomes first trillionaire -- SpaceX closed Friday with a **market cap above $2 trillion**, after raising **$75 billion** in the largest IPO on record",
+      "Anthropic disables top AI models on US order -- Anthropic announced it disabled access to its **Fable 5** and **Mythos 5** AI models after receiving a government export",
+      "G7 summit dominated by Iran war tensions -- President Trump travels to **Evian, France**, next week for the **G7 Summit**, which has been overtaken by concerns over",
+      "Tren de Aragua leader killed in US strike -- The US military killed **Hector Rusthenford Guerrero Flores**, leader of the Venezuelan street gang Tren de Aragua, in a",
+      "Anti-racism rally disrupted in Glasgow -- Thousands of anti-racism campaigners marched along Buchanan Street in Glasgow city centre on Saturday but were met by se",
+      "The UK and Japan are set to agree \u00a318bn worth of investment including a \u00a39bn offshore wind deal, with Prime Minister Keir Starmer welcoming Japanese counterpart Sanae Takaichi to Downing Street on Sunday ahead of the G7 summit.",
+      "Switzerland votes on Sunday on whether to cap its population at 10 million people, with a recent poll finding 52% of respondents would reject the proposal while 45% were in favour."
     ]
   }
 ]
