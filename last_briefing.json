@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-06-18T06:56:07.471316+00:00",
-    "headlines": [
-      "US and Iran sign peace deal at Versailles -- The presidents of the US and Iran have signed an initial peace deal aiming to end the war, allowing it to immediately ta",
-      "Iranian tankers break US blockade after deal -- Three Iranian tankers loaded with crude oil have passed the US blockade line in the Gulf of Oman, ship-tracking data sho",
-      "Fed holds rates as inflation hits 3.8% -- The Federal Reserve held US interest rates between **3.5% and 3.75%** after Kevin Warsh's first meeting in charge of the",
-      "Oil falls as IEA warns of supply glut -- Oil prices declined Thursday after Trump signed a deal with Iranian President Masoud Pezeshkian, while the International",
-      "G7 leaders fear US could cut off AI access -- At the G7 Summit, French President Emmanuel Macron warned that if the US \"from one day to the next can turn off the swit",
-      "Scottish by-elections under way today -- Voters are going to the polls for two by-elections on Scotland's east coast, in **Aberdeen South** and the **Arbroath an",
-      "UK unemployment fell to 4.9% in the three months to April while wage growth including bonuses climbed to 4.4%, with vacancies slumping to their lowest level since the three months to April 2021 at 707,000, according to ONS figures.",
-      "Amazon founder Jeff Bezos told VivaTech Paris that AI will create \"a labour shortage\" rather than mass redundancies, in direct contradiction of figures like former UK prime minister Rishi Sunak who has said AI is already affecting young people's job prospects."
-    ]
-  },
-  {
-    "date": "2026-06-19T07:10:57.743251+00:00",
-    "headlines": [
-      "US lifts Iran naval blockade after deal signed -- The US has dropped its naval blockade of Iran after the two countries signed a deal to end the war in the Middle East. U",
-      "Swiss Iran talks cancelled, adding new uncertainty -- Plans for follow-up US-Iran talks at Burgenstock in Switzerland were cancelled on Friday, with Switzerland's foreign min",
-      "Ukraine hits Moscow refinery in record drone barrage -- The Kapotnya refinery in south-east Moscow was hit for the third time in a month and the second time this week, and 17 p",
-      "UK May borrowing surges well past forecasts -- May's borrowing was **\u00a35.6bn** higher than the Office for Budget Responsibility's forecast, which had been made in March",
-      "SpaceX post-IPO buyers nearly break even after slide -- Shares of SpaceX fell **3.6%** Thursday to just under **$184.98** a share, with the stock's five-day volume-weighted ave",
-      "Scottish Tories win Westminster seat for first time in 50 years -- The Scottish Conservatives have won a Westminster by-election for the first time in more than 50 years, taking Aberdeen",
-      "Elastic has agreed to buy AI bug-fixing startup DeductiveAI for up to $85 million; Deductive was founded in 2023 and had raised a $7.5 million seed round led by CRV at a $33 million valuation.",
-      "Russia's Kremlin aide Yuri Ushakov said Moscow was expecting the return of White House envoys Steve Witkoff and Jared Kushner to Moscow soon for Ukraine talks, even as dates had not yet been determined.",
-      "UK national debt has risen to 95.1% of GDP - levels last seen in the early 1960s - as government borrowing in the first two months of the financial year runs \u00a37.7bn over the OBR's forecasts at \u00a346.3bn.",
-      "[CFO] Companies House accounts reforms delayed to April 2028",
-      "[CFO] Bank Rate held at 3.75% in June 2026"
-    ]
-  },
-  {
     "date": "2026-06-20T06:25:01.140189+00:00",
     "headlines": [
       "Israel-Hezbollah ceasefire struck but strikes continue -- A US official confirmed that Israel and Hezbollah have agreed a ceasefire in Lebanon, even as Israeli air strikes killed",
@@ -53,6 +24,20 @@
       "Lloyds hires 300 AI experts, job cuts loom -- Lloyds Banking Group has launched an AI recruitment drive for **300 tech experts**, with the bank intending recruits to",
       "Edinburgh attacks: counter-terror investigators deployed -- Counter-terrorism officers were brought in after a **36-year-old white Scottish man** was charged following a series of",
       "The BBC was given rare access to Israeli-occupied southern Lebanon as part of a humanitarian convoy distributing aid to Christian villages, where mainly Shia villages have been completely destroyed by Israeli air strikes or demolitions, with human rights groups saying some of what happened there amounts to the deliberate destruction of civilian infrastructure."
+    ]
+  },
+  {
+    "date": "2026-06-22T07:28:35.296238+00:00",
+    "headlines": [
+      "US-Iran talks end with '60-day roadmap' -- The first round of negotiations between the US and Iran in Switzerland ended with mediators Qatar and Pakistan declaring",
+      "Starmer set to announce exit timetable Monday -- UK Prime Minister Keir Starmer is expected to set out a timetable for his departure on Monday, which would make him the",
+      "Qatar LNG blast injures 54, 18 missing -- An explosion at Qatar's main liquefied natural gas processing facility at Ras Laffan Industrial City has injured **54 pe",
+      "Oil falls, stocks rise on Iran talk progress -- Investors responded positively to reports of progress in the US-Iran peace talks, sending Brent crude prices down more t",
+      "Colombia election: right-wing de la Espriella leads -- Right-wing populist candidate Abelardo de la Espriella has narrowly won Colombia's presidential election based on a prel",
+      "CCTV shows Edinburgh knife attack in five minutes -- BBC Scotland has obtained CCTV footage showing a topless man driving erratically on Leith Walk before abandoning his car",
+      "Lebanese conservationist Mona Khalil, 76, died on Friday after an Israeli airstrike struck her beachside home two weeks ago near the city of Tyre; she was credited with creating a conservation movement in southern Lebanon that protected sea turtle nesting grounds across the Mediterranean coast.",
+      "Lloyds Banking Group has launched an AI recruitment drive for 300 tech experts to work on agentic AI by September, with the bank's generative AI programme already delivering a \u00a350m boost to its balance sheet last year and a \u00a3100m benefit expected this year.",
+      "A new report by gender justice organisation Chayn warns that social media companies and authorities are failing women by focusing on nudity rather than consent when dealing with image-based abuse, arguing that a fully clothed image can have consequences as devastating as an intimate photograph in many conservative communities."
     ]
   }
 ]
