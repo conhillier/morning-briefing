@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-06-21T06:55:24.215040+00:00",
-    "headlines": [
-      "US-Iran talks open as Hormuz dispute flares -- US Vice-President JD Vance landed in Switzerland early Sunday morning for a new round of negotiations with Iran. An Iran",
-      "Lebanon death toll mounts as ceasefire falters -- Israeli airstrikes on Saturday killed at least **32 people**, including women, children, and a Lebanese army soldier, af",
-      "Edinburgh anti-Muslim attacks: man charged -- A **36-year-old white Scottish man** was charged following a series of attacks across Edinburgh on Friday night in which",
-      "Bedford crash: nine critical, toll rises to 100 -- Nine people are in a critical condition after the Bedford train crash that killed the driver of one of the trains, with",
-      "Lloyds hires 300 AI experts, job cuts loom -- Lloyds Banking Group has launched an AI recruitment drive for **300 tech experts**, with the bank intending recruits to",
-      "Edinburgh attacks: counter-terror investigators deployed -- Counter-terrorism officers were brought in after a **36-year-old white Scottish man** was charged following a series of",
-      "The BBC was given rare access to Israeli-occupied southern Lebanon as part of a humanitarian convoy distributing aid to Christian villages, where mainly Shia villages have been completely destroyed by Israeli air strikes or demolitions, with human rights groups saying some of what happened there amounts to the deliberate destruction of civilian infrastructure."
-    ]
-  },
-  {
     "date": "2026-06-22T07:28:35.296238+00:00",
     "headlines": [
       "US-Iran talks end with '60-day roadmap' -- The first round of negotiations between the US and Iran in Switzerland ended with mediators Qatar and Pakistan declaring",
@@ -49,6 +37,20 @@
       "Murrell jailed five years for SNP embezzlement -- Former SNP chief executive **Peter Murrell** has been jailed for embezzling more than **\u00a3400,000** in party funds over a",
       "UK braces for record 40C heat Wednesday -- The UK is braced for record-breaking temperatures, with schools closing and people urged not to travel, as temperatures",
       "Indian marketing software firm MoEngage has acquired San Francisco-based AI startup Aampe in an all-cash deal worth tens of millions of dollars, adding around 20 Aampe employees and taking MoEngage's total workforce to roughly 820 people.",
+      "[CFO] Bank Rate held at 3.75% in June 2026"
+    ]
+  },
+  {
+    "date": "2026-06-25T06:11:25.829860+00:00",
+    "headlines": [
+      "Twin quakes kill 32, devastate Caracas -- Two back-to-back earthquakes struck northern Venezuela on Wednesday, with the first registering a magnitude of **7.2** a",
+      "Trump seeks $87bn for Iran war costs -- The White House has asked lawmakers to approve **$87.6bn** (\u00a366.5bn), mostly for \"urgent needs\" connected with the US wa",
+      "IAEA chief confirms Iran inspections will happen -- The head of the International Atomic Energy Agency, Rafael Grossi, has confirmed that nuclear inspections in Iran will t",
+      "Micron becomes tech's new margin king -- Micron disclosed a gross margin of **84.9%** in its fiscal third quarter, up from 74.9% in the prior period and **39% a",
+      "France confirms first domestic Ebola case -- France has confirmed its first case of Ebola in a doctor who returned from a humanitarian mission to an area affected by",
+      "UK's \u00a3750m supercomputer build begins in Midlothian -- Construction has started on the UK's new **\u00a3750m** national supercomputer, to be hosted in University of Edinburgh build",
+      "Great Britain's grid operator Neso paid about \u00a310m on Wednesday to secure enough electricity to meet demand during the heatwave, agreeing to pay about \u00a31,400 a megawatt-hour - nearly 20 times the average electricity market price in June last year - to secure about 1.7 gigawatts of imported electricity from the continent.",
+      "Venezuela's oil infrastructure did not immediately appear to be affected by the twin earthquakes, with UK firm Shell confirming its employees were safe, though one source told Reuters that extended loss of power could hit crude output levels until service is restored.",
       "[CFO] Bank Rate held at 3.75% in June 2026"
     ]
   }
