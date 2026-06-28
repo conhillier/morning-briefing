@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-06-24T06:10:38.866960+00:00",
-    "headlines": [
-      "Congress rebukes Trump on Iran war -- The Republican-controlled US Senate approved a measure instructing President Donald Trump to halt the war in Iran or see",
-      "UN to evacuate 11,000 stranded Hormuz sailors -- The UN's International Maritime Organization (IMO) is set to evacuate more than **11,000 sailors** who have been strande",
-      "Only a trickle of ships through Hormuz -- At least **172 vessels** have crossed through the Strait of Hormuz since the US and Iran signed a deal, including **42 s",
-      "Europe heatwave kills dozens, records shattered -- **Forty people** have drowned in heatwave-related deaths in France since Thursday, Prime Minister Sebastien Lecornu said",
-      "Murrell jailed five years for SNP embezzlement -- Former SNP chief executive **Peter Murrell** has been jailed for embezzling more than **\u00a3400,000** in party funds over a",
-      "UK braces for record 40C heat Wednesday -- The UK is braced for record-breaking temperatures, with schools closing and people urged not to travel, as temperatures",
-      "Indian marketing software firm MoEngage has acquired San Francisco-based AI startup Aampe in an all-cash deal worth tens of millions of dollars, adding around 20 Aampe employees and taking MoEngage's total workforce to roughly 820 people.",
-      "[CFO] Bank Rate held at 3.75% in June 2026"
-    ]
-  },
-  {
-    "date": "2026-06-25T06:11:25.829860+00:00",
-    "headlines": [
-      "Twin quakes kill 32, devastate Caracas -- Two back-to-back earthquakes struck northern Venezuela on Wednesday, with the first registering a magnitude of **7.2** a",
-      "Trump seeks $87bn for Iran war costs -- The White House has asked lawmakers to approve **$87.6bn** (\u00a366.5bn), mostly for \"urgent needs\" connected with the US wa",
-      "IAEA chief confirms Iran inspections will happen -- The head of the International Atomic Energy Agency, Rafael Grossi, has confirmed that nuclear inspections in Iran will t",
-      "Micron becomes tech's new margin king -- Micron disclosed a gross margin of **84.9%** in its fiscal third quarter, up from 74.9% in the prior period and **39% a",
-      "France confirms first domestic Ebola case -- France has confirmed its first case of Ebola in a doctor who returned from a humanitarian mission to an area affected by",
-      "UK's \u00a3750m supercomputer build begins in Midlothian -- Construction has started on the UK's new **\u00a3750m** national supercomputer, to be hosted in University of Edinburgh build",
-      "Great Britain's grid operator Neso paid about \u00a310m on Wednesday to secure enough electricity to meet demand during the heatwave, agreeing to pay about \u00a31,400 a megawatt-hour - nearly 20 times the average electricity market price in June last year - to secure about 1.7 gigawatts of imported electricity from the continent.",
-      "Venezuela's oil infrastructure did not immediately appear to be affected by the twin earthquakes, with UK firm Shell confirming its employees were safe, though one source told Reuters that extended loss of power could hit crude output levels until service is restored.",
-      "[CFO] Bank Rate held at 3.75% in June 2026"
-    ]
-  },
-  {
     "date": "2026-06-26T06:14:49.385349+00:00",
     "headlines": [
       "Venezuela quake death toll hits 235 -- Rescuers are searching through rubble after two powerful earthquakes struck Venezuela near the capital, killing at least",
@@ -52,6 +25,21 @@
       "Great Britain's grid operator Neso paid about \u00a3200 per megawatt-hour on Friday afternoon to import enough electricity from the continent to power the equivalent of 3 million typical UK homes as the heatwave pushed electricity demand to tight margins.",
       "Venezuelan footballer Hector Bello's wife Andrea died saving their toddler during the earthquakes, with Bello writing on Instagram: \"How do I explain to your daughter that you lost your life to save hers, and that I wasn't there to do anything?\"",
       "[CFO] Bank Rate held at 3.75% in June 2026"
+    ]
+  },
+  {
+    "date": "2026-06-28T06:21:51.893903+00:00",
+    "headlines": [
+      "'Every person saved is a miracle': Families call to trapped loved ones in region devastated by Venezuela quakes -- Families keep vigil at buildings where they fear their loved ones are trapped, but face an impossible task to move heavy",
+      "In Caracas, this feels like the hardest moment in Venezuela's modern history -- Rescue teams are working ceaselessly to reach those trapped under rubble. But as hope fades, anger is growing.",
+      "US and Iran exchange strikes and accuse each other of violating ceasefire -- Iran says it has launched retaliatory attacks at US infrastructure in Kuwait and Bahrain after the US said it hit multip",
+      "Israel strikes southern Lebanon as Hezbollah condemns new deal -- Strikes have killed at least one person, state media say a day after Lebanon and Israel signed a framework agreement.",
+      "Why Kim Jong Un never talks about his mother - or her controversial bloodline -- Very few North Koreans know about her, as her origin could threaten the regime\u2019s legitimacy.",
+      "Heatwave breaks records in Germany, Denmark and Czech Republic",
+      "Venezuela earthquakes: death toll rises again to more than 1,400",
+      "Venezuelan earthquake death toll rises amid increasingly dire search",
+      "Between English and mother tongue: Kenya\u2019s education language dilemma",
+      "World Cup: Messi sends Argentina to top, England to face DR Congo, Iran out"
     ]
   }
 ]
