@@ -43,6 +43,16 @@ REQUEST_TIMEOUT = 30
 ARTICLE_FETCH_TIMEOUT = 20
 JINA_READER_PREFIX = "https://r.jina.ai/"
 
+# Message Batches API: byte-for-byte identical requests at 50% of standard
+# token price. The briefing runs overnight and isn't latency-sensitive, so the
+# two Sonnet calls (drafter + verifier) go through the batch endpoint. If a
+# batch is slow or fails, call_claude() falls back to a synchronous call - same
+# model, same prompt, same output, full price - so batching only ever saves
+# money; it never costs quality or reliability. Disable with BRIEFING_USE_BATCH=0.
+USE_BATCH = os.environ.get("BRIEFING_USE_BATCH", "1") == "1"
+BATCH_POLL_INTERVAL = 20       # seconds between batch status polls
+BATCH_MAX_WAIT = 3000          # fall back to synchronous after ~50 min
+
 SELECTOR_MODEL = "claude-haiku-4-5-20251001"
 DRAFTER_MODEL = "claude-sonnet-4-6"
 VERIFIER_MODEL = "claude-sonnet-4-6"
@@ -387,7 +397,77 @@ def _clean_article_text(text):
 
 
 # -- Claude API call --------------------------------------------------------
-def call_claude(model, system, user, max_tokens=4096):
+def _call_claude_batch(model, system, user, max_tokens):
+    """Run one request through the Message Batches API (50% token price).
+
+    Blocks until the batch finishes or BATCH_MAX_WAIT elapses. Raises on
+    timeout or failure so call_claude() can fall back to a synchronous call.
+    The request body is identical to the synchronous path, so the output is
+    drawn from the same distribution - batching changes billing, not quality.
+    """
+    headers = {
+        "x-api-key": ANTHROPIC_API_KEY,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json",
+    }
+    submit = requests.post(
+        "https://api.anthropic.com/v1/messages/batches",
+        json={
+            "requests": [{
+                "custom_id": "briefing",
+                "params": {
+                    "model": model,
+                    "max_tokens": max_tokens,
+                    "system": system,
+                    "messages": [{"role": "user", "content": user}],
+                },
+            }]
+        },
+        headers=headers, timeout=REQUEST_TIMEOUT,
+    )
+    submit.raise_for_status()
+    batch_id = submit.json()["id"]
+    log(f"Batch submitted ({model}): {batch_id}")
+
+    deadline = time.time() + BATCH_MAX_WAIT
+    results_url = None
+    while time.time() < deadline:
+        time.sleep(BATCH_POLL_INTERVAL)
+        status = requests.get(
+            f"https://api.anthropic.com/v1/messages/batches/{batch_id}",
+            headers=headers, timeout=REQUEST_TIMEOUT,
+        )
+        status.raise_for_status()
+        info = status.json()
+        if info.get("processing_status") == "ended":
+            results_url = info.get("results_url")
+            break
+
+    if not results_url:
+        raise RuntimeError(f"Batch {batch_id} did not finish within {BATCH_MAX_WAIT}s")
+
+    results = requests.get(results_url, headers=headers, timeout=REQUEST_TIMEOUT)
+    results.raise_for_status()
+    for line in results.text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        result = json.loads(line).get("result", {})
+        if result.get("type") != "succeeded":
+            raise RuntimeError(f"Batch request did not succeed: {result.get('type')}")
+        return result["message"]["content"][0]["text"]
+    raise RuntimeError(f"Batch {batch_id} returned no result lines")
+
+
+def call_claude(model, system, user, max_tokens=4096, batch=False):
+    # Batch path (50% price). On any failure, fall through to the synchronous
+    # path below so the run still completes with identical output at full price.
+    if batch:
+        try:
+            return _call_claude_batch(model, system, user, max_tokens)
+        except Exception as e:
+            log(f"Batch path failed ({model}); falling back to synchronous: {e}", "WARN")
+
     body = {
         "model": model,
         "max_tokens": max_tokens,
@@ -563,7 +643,7 @@ Return ONLY valid JSON in this shape:
   "bottom_line": "One sentence."
 }}"""
 
-    raw = call_claude(DRAFTER_MODEL, system, user, max_tokens=4096)
+    raw = call_claude(DRAFTER_MODEL, system, user, max_tokens=4096, batch=USE_BATCH)
     briefing = _extract_json(raw)
     log(f"Drafter produced {len(briefing.get('stories', []))} stories")
     return briefing
@@ -871,7 +951,7 @@ def draft_cfo_items(articles):
         '}'
     )
 
-    raw = call_claude(DRAFTER_MODEL, system, user, max_tokens=2048)
+    raw = call_claude(DRAFTER_MODEL, system, user, max_tokens=2048, batch=USE_BATCH)
     parsed = _extract_json(raw)
     items = parsed.get("items", []) or []
     log(f"CFO drafter produced {len(items)} items")
@@ -929,9 +1009,20 @@ def verify_briefing(briefing, sources):
     if not briefing.get("stories"):
         return briefing
 
+    # Only the sources actually cited by surviving stories need checking - each
+    # story is single-source, so an uncited article can't change any verdict.
+    # Keep the original SOURCE indexes so the draft's source_index references
+    # still line up; this trims verifier input tokens without changing what the
+    # model checks each story against.
+    cited = {
+        s.get("source_index")
+        for s in briefing["stories"]
+        if isinstance(s.get("source_index"), int)
+    }
     sources_text = "\n\n".join(
         f"=== SOURCE {i} ({a['publisher']}) ===\n{a['article_text']}"
         for i, a in enumerate(sources)
+        if i in cited
     )
 
     draft_lines = []

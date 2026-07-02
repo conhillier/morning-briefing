@@ -14,9 +14,12 @@ permissions:
 jobs:
   briefing:
     runs-on: ubuntu-latest
-    # Grounded pipeline: ~8 article fetches (Jina Reader) + 3 Claude calls
-    # (selector, drafter, verifier) + Telegraph + ntfy. 15 min is comfortable.
-    timeout-minutes: 15
+    # The two Sonnet calls (drafter + verifier) go through the Message Batches
+    # API at 50% price. Batches usually finish in minutes but can take up to an
+    # hour, so the runner may block while polling. Each batch waits up to ~50
+    # min (BATCH_MAX_WAIT) before falling back to a synchronous call, so 150 min
+    # comfortably covers two sequential waits. Public repo = free Actions minutes.
+    timeout-minutes: 150
 
     steps:
       - name: Checkout repo
