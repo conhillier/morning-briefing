@@ -1061,7 +1061,7 @@ Return ONLY JSON:
 }}"""
 
     try:
-        raw = call_claude(VERIFIER_MODEL, system, user, max_tokens=2048)
+        raw = call_claude(VERIFIER_MODEL, system, user, max_tokens=2048, batch=USE_BATCH)
         report = _extract_json(raw)
     except Exception as e:
         log(f"Verifier failed (passing post-validator draft through): {e}", "WARN")
