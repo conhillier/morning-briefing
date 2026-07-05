@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-07-01T06:37:00.652149+00:00",
-    "headlines": [
-      "Roof collapse kills 14 children in Pakistan -- **Fourteen children** died after the roof of a building near Lahore collapsed on top of them at a private tuition centre",
-      "Venezuela toddler rescued six days after quake -- A **three-year-old boy** named Klieber Moran was pulled alive from rubble in La Guaira state six days after the devastat",
-      "US lifts export ban on Anthropic AI models -- Anthropic said it will begin restoring access on Wednesday after being notified that the US Department of Commerce has l",
-      "Chinese tycoon Guo Wengui jailed 30 years for fraud -- Self-exiled Chinese billionaire **Guo Wengui** was sentenced to **30 years** in a US prison for a massive financial frau",
-      "Mothers' campaign wins domestic murder sentencing reform -- The campaign was led by Carole Gould, whose 17-year-old daughter Ellie was killed by fellow sixth-former Thomas Griffith",
-      "UK defence plan targets drone warships for Scotland -- The UK government's Defence Investment Plan commits nearly **300bn** over four years, including **5bn** for a radical \"d",
-      "Gojek co-founder and former Indonesian Education Minister Nadiem Makarim has been sentenced to 10 years in prison after being convicted of corruption; Makarim says the verdict is politically motivated and plans to appeal.",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
-    "date": "2026-07-02T06:03:03.049797+00:00",
-    "headlines": [
-      "Russia kills 11 in massive Kyiv strike -- Russian forces launched a large-scale attack on Ukraine's capital overnight into Thursday, killing **11 people** and inj",
-      "German prosecutors charge Ukrainian over Nord Stream blasts -- German federal prosecutors have filed charges against a **50-year-old Ukrainian national**, identified only as **Serhii",
-      "Amnesty: Sudan's RSF committed crimes against humanity in El Fasher -- Amnesty International has alleged that Sudan's Rapid Support Forces committed crimes against humanity and ethnic cleansi",
-      "Anthropic export ban lifted on Fable and Mythos AI models -- Anthropic has restored customer access to its AI model **Fable 5** after a more than two-week blackout following US gove",
-      "UN warns AI could deepen global inequality -- A new United Nations report warns that the development of artificial intelligence may exacerbate global inequality and p",
-      "Scots women sue Pfizer over Depo-Provera brain tumours -- About **150 women** in Scotland are at the early stages of taking legal action against drug manufacturer **Pfizer** afte",
-      "The Criminal Cases Review Commission must urgently improve its investigations to avoid a repeat of failings like the Andrew Malkinson case, a watchdog found after examining a sample of 60 cases and making 34 recommendations - though the CCRC was ultimately judged fit for purpose."
-    ]
-  },
-  {
     "date": "2026-07-02T10:09:59.452732+00:00",
     "headlines": [
       "Russia's 'most massive' Kyiv attack kills 13 -- Russian forces launched a major drone and missile attack on Kyiv overnight, killing **13 people** in what the city's may",
@@ -71,6 +46,18 @@
       "Aberdeen Airport baggage screening staff have dropped 14 days of planned strike action after an agreement was reached with ICTS HBS Security through the conciliation service Acas, following the resolution of two separate earlier pay disputes at the airport.",
       "Two members of Congress - Rep. Dan Meuser, R-Pa., and Rep. Gil Cisneros, D-Calif. - have disclosed purchases of SpaceX stock in the days after the company's historic IPO, which raised roughly $75 billion and was the largest on record when it went public on June 12 at $150 per share.",
       "[CFO] Companies House accounts filing reforms delayed to April 2028"
+    ]
+  },
+  {
+    "date": "2026-07-05T06:17:30.220327+00:00",
+    "headlines": [
+      "Ukraine strikes St Petersburg oil terminal -- Ukraine struck a major oil terminal in Russia's second city of St Petersburg overnight, with President Volodymyr Zelensk",
+      "Le Pen verdict to decide presidential race fate -- France awaits a Tuesday appeal court ruling that will determine whether Marine Le Pen, the **57-year-old** leader of the",
+      "Sudan's El Obeid pummelled by RSF drone strikes -- El Obeid, a city of **half a million people** in Sudan, has suffered escalating drone strikes by the Rapid Support Force",
+      "Stargate UK investment was largely hypothetical -- The Guardian has revealed that OpenAI does not appear to have visited one of Stargate UK's key sites, and that **\u00a320bn**",
+      "China promotes two generals after corruption purge -- China's military promoted two officers to the rank of general at a ceremony on Friday, in what may be a precursor to a r",
+      "Scottish firefighters aid Venezuela quake rescue -- Three firefighters from Scotland - Gavin Brown, Ian Hodgson and Brian Richards - have been deployed to Venezuela as part",
+      "A linguist study found that people correctly identify AI-generated writing only about 60% of the time, according to Claire Hardaker, a professor of forensic linguistics at the University of Lancaster."
     ]
   }
 ]
