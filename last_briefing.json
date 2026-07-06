@@ -1,40 +1,5 @@
 [
   {
-    "date": "2026-07-02T10:09:59.452732+00:00",
-    "headlines": [
-      "Russia's 'most massive' Kyiv attack kills 13 -- Russian forces launched a major drone and missile attack on Kyiv overnight, killing **13 people** in what the city's may",
-      "US-Iran Doha talks end with no breakthrough -- US and Iranian negotiators met separately on Wednesday with Qatari and Pakistani mediators in Doha, with Qatar describin",
-      "Amnesty: Sudan's RSF committed crimes against humanity in El Fasher -- Amnesty International has alleged that Sudan's Rapid Support Forces committed crimes against humanity and ethnic cleansi",
-      "Google must pay EU's record 4.1bn euro Android fine -- Europe's top court has dismissed Google's appeal and ruled the company must pay a **\u20ac4.1 billion (\u00a33.5 billion)** fine f",
-      "UN warns AI risks deepening global inequality -- A new United Nations report warns that the development of artificial intelligence may exacerbate global inequality and p",
-      "Police Scotland officer jailed 10 years for rape -- A Police Scotland officer, **Cameron Ross**, has been jailed for **10 years** after being found guilty of raping two wom",
-      "Funerals were held in Lahore on Wednesday for 14 schoolchildren killed when the roof of a tutoring centre collapsed on Tuesday, with at least two people including the building owner arrested as investigators determined negligence by the owner and construction workers appears to have caused the collapse."
-    ]
-  },
-  {
-    "date": "2026-07-02T10:53:43.211165+00:00",
-    "headlines": [
-      "Russia's 'most massive' Kyiv attack kills 13 -- Russian forces launched a major drone and missile attack on Kyiv overnight, killing **13 people**, in what the city's ma",
-      "EU court upholds Google's 4.1bn euro Android fine -- The European Commission originally imposed a **4.3 billion euro** penalty in 2018, on grounds that Google abused Android",
-      "US-Iran Doha talks end without breakthrough -- Iran and the United States concluded a round of indirect technical talks in Doha on Wednesday with no sign they had made",
-      "Amnesty: Sudan's RSF committed crimes against humanity in El Fasher -- Amnesty International has alleged that Sudan's Rapid Support Forces committed crimes against humanity and ethnic cleansi",
-      "UN warns AI risks deepening global inequality -- A new United Nations report from an independent international scientific panel warns that the development of artificial",
-      "Police officer jailed 10 years for rapes on Lewis and Inverness -- A Police Scotland officer, **Cameron Ross**, aged **39**, has been jailed for **10 years** after being found guilty of r",
-      "A US Navy MH-60S Sea Hawk helicopter made an emergency water landing into the Arabian Sea, with three of four crew members rescued and one still missing; the Navy said there was \"no indication the emergency was caused by hostile action.\""
-    ]
-  },
-  {
-    "date": "2026-07-03T06:04:47.099474+00:00",
-    "headlines": [
-      "Kyiv hit by 'most massive' Russian attack -- Ukraine's air force said Russia launched **74 missiles and 496 drones** overnight, with 25 ballistic missiles and 12 dro",
-      "Venezuela quake toll rises to 2,595 -- Venezuela's earthquake death toll climbed to **2,595**, Acting President Delcy Rodriguez announced, an increase of **300",
-      "US jobs growth misses forecasts in June -- US employers added just **57,000 new jobs** in June, roughly half of what economists had predicted, while the Bureau of",
-      "Tesla posts record Q2 deliveries, beats forecasts -- Tesla delivered **480,126 vehicles** in the April to June period, a record for the second quarter and up about **25%** f",
-      "OpenAI in talks to give US government 5% stake -- OpenAI is reportedly in early stage talks to give a **5% stake** in the ChatGPT developer to the US government, with CEO",
-      "Defra broke law over bee-killing pesticide -- The UK government's Department for Environment, Food and Rural Affairs breached environmental law on **four occasions**"
-    ]
-  },
-  {
     "date": "2026-07-04T06:02:43.053265+00:00",
     "headlines": [
       "Iran begins funeral of the century for Khamenei -- Iran has begun several days of public mourning and funeral processions for its former Supreme Leader, Ayatollah Ali Kham",
@@ -58,6 +23,19 @@
       "China promotes two generals after corruption purge -- China's military promoted two officers to the rank of general at a ceremony on Friday, in what may be a precursor to a r",
       "Scottish firefighters aid Venezuela quake rescue -- Three firefighters from Scotland - Gavin Brown, Ian Hodgson and Brian Richards - have been deployed to Venezuela as part",
       "A linguist study found that people correctly identify AI-generated writing only about 60% of the time, according to Claire Hardaker, a professor of forensic linguistics at the University of Lancaster."
+    ]
+  },
+  {
+    "date": "2026-07-06T06:43:03.526759+00:00",
+    "headlines": [
+      "Russia kills 10 in second Kyiv strike this week -- At least **10 people** have been killed and **46 injured**, including five children, in a second night of Russian strike",
+      "Sky buys ITV broadcast arm for \u00a31.6bn -- Sky, owned by US telecoms giant Comcast, has announced a **\u00a31.6bn** deal to buy ITV's broadcasting and streaming arm, cr",
+      "Super Typhoon Bavi batters US Pacific islands -- Super Typhoon Bavi has made landfall on Guam and the Northern Mariana Islands, packing winds of nearly **290km/h (180mph",
+      "Venezuela quake death toll passes 3,000 -- Venezuela's information ministry reported on Sunday night that **3,342 people** have been killed in the twin earthquakes",
+      "OPEC+ raises output for fifth straight month -- Seven OPEC+ member countries - Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman - will raise oil output",
+      "Robroyston grows fast but lacks doctors, schools -- Glasgow's Robroyston suburb has seen explosive housing growth since the 1990s but residents say no amenities have follow",
+      "A government-backed inquiry co-chaired by former home secretary David Blunkett found police leadership in England and Wales plagued by \"nepotism and bias\", with 78 investigations into police leaders since 2018 and just 13% of constables agreeing they worked in a \"well led and managed organisation\".",
+      "Lockheed Martin is leading the race to buy naval defence group Ultra Maritime for roughly $3.5 billion, with Guggenheim and JPMorgan advising on the sell side and a deal potentially announced as early as this week, according to sources close to CNBC."
     ]
   }
 ]
