@@ -320,6 +320,52 @@ def prededuplicate(items, threshold=0.5):
     return kept
 
 
+def filter_recent_repeats(items, previous_headlines, threshold=0.45):
+    """Hard cross-day dedup backstop.
+
+    The selector/drafter get the last few days' headlines with a soft "skip
+    duplicates" instruction, but for a major rolling story (e.g. an M&A deal
+    re-covered every day) the model overrides that hint and re-features it.
+    This deterministic filter drops any candidate whose title strongly overlaps
+    a headline from the last DEDUP_DAYS briefings, so the same story can't run
+    two days straight. It only fires on heavy overlap (~half the title tokens
+    shared), so a genuinely different story that merely mentions the same
+    company survives, and the story can resurface once the prior mention ages
+    out of the dedup window. Threshold is tunable.
+    """
+    if not previous_headlines:
+        return items
+    prev_tokens = []
+    for h in previous_headlines:
+        # Stored as "<headline> -- <body preview>" (or "[CFO] <headline>").
+        title = h.split(" -- ", 1)[0].replace("[CFO] ", "")
+        toks = _title_tokens(title)
+        if toks:
+            prev_tokens.append(toks)
+    if not prev_tokens:
+        return items
+
+    kept, dropped = [], 0
+    for it in items:
+        toks = _title_tokens(it["title"])
+        if not toks:
+            kept.append(it)
+            continue
+        is_repeat = False
+        for prev in prev_tokens:
+            union = len(toks | prev)
+            if union and (len(toks & prev) / union) >= threshold:
+                is_repeat = True
+                break
+        if is_repeat:
+            dropped += 1
+            log(f"Cross-day dedup: dropping repeat -> {it['title'][:70]}")
+        else:
+            kept.append(it)
+    log(f"Cross-day dedup: dropped {dropped}, kept {len(kept)}")
+    return kept
+
+
 # -- Article fetcher (Jina Reader + raw HTML fallback) ----------------------
 _article_cache = {}
 
@@ -1468,6 +1514,7 @@ def main():
     fresh = filter_fresh(raw)
     deduped = prededuplicate(fresh)
     previous = load_previous_headlines()
+    deduped = filter_recent_repeats(deduped, previous)
 
     # Stage 1: select
     try:
