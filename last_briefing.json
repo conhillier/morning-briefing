@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-05T06:17:30.220327+00:00",
-    "headlines": [
-      "Ukraine strikes St Petersburg oil terminal -- Ukraine struck a major oil terminal in Russia's second city of St Petersburg overnight, with President Volodymyr Zelensk",
-      "Le Pen verdict to decide presidential race fate -- France awaits a Tuesday appeal court ruling that will determine whether Marine Le Pen, the **57-year-old** leader of the",
-      "Sudan's El Obeid pummelled by RSF drone strikes -- El Obeid, a city of **half a million people** in Sudan, has suffered escalating drone strikes by the Rapid Support Force",
-      "Stargate UK investment was largely hypothetical -- The Guardian has revealed that OpenAI does not appear to have visited one of Stargate UK's key sites, and that **\u00a320bn**",
-      "China promotes two generals after corruption purge -- China's military promoted two officers to the rank of general at a ceremony on Friday, in what may be a precursor to a r",
-      "Scottish firefighters aid Venezuela quake rescue -- Three firefighters from Scotland - Gavin Brown, Ian Hodgson and Brian Richards - have been deployed to Venezuela as part",
-      "A linguist study found that people correctly identify AI-generated writing only about 60% of the time, according to Claire Hardaker, a professor of forensic linguistics at the University of Lancaster."
-    ]
-  },
-  {
     "date": "2026-07-06T06:43:03.526759+00:00",
     "headlines": [
       "Russia kills 10 in second Kyiv strike this week -- At least **10 people** have been killed and **46 injured**, including five children, in a second night of Russian strike",
@@ -47,6 +35,20 @@
       "PIP system declared 'not fit for purpose' -- The government's landmark Timms review of personal independence payments will conclude that disability benefits in Engla",
       "John Lewis to cut around 200 jobs -- Around **200 John Lewis staff** could lose their jobs as the retailer plans to close its in-store money exchange service",
       "Zelensky headed to the NATO summit in Turkey to press allies for air defence interceptors capable of destroying ballistic missiles, after Russian missiles hit apartment buildings in Kyiv for the second time in less than a week, killing more than 20 people."
+    ]
+  },
+  {
+    "date": "2026-07-09T06:11:14.940502+00:00",
+    "headlines": [
+      "US hits 90 Iran targets in new strikes -- The US military launched a new round of strikes on Iran early Thursday, with US Central Command saying it hit **90 Irani",
+      "Iran fires back at Gulf Arab states -- Thursday's attacks appeared bigger than previous exchanges, with sirens sounding at least twice in Bahrain, home to the",
+      "Oil and markets rattled by Iran crisis -- Brent crude futures for September delivery rose **1.03% to $78.82 a barrel** on Thursday, after having risen more than *",
+      "Sizewell B gets 20-year life extension -- Britain's Sizewell B nuclear power plant in Suffolk has been granted a **20-year life extension**, allowing it to contin",
+      "PIP review: disability benefits 'not working' -- The Timms review of the personal independence payment (PIP) has published its interim report concluding the benefit, cla",
+      "Major blaze at Edinburgh's Princes Street -- Firefighters are tackling a large blaze which broke out at a building on Edinburgh's Princes Street in the early hours o",
+      "SpaceXAI has released Grok 4.5, which Elon Musk described as 'an Opus-class model, but faster, more token-efficient and lower cost', priced at $2 per million input tokens and $6 per million output tokens.",
+      "US stocks fell on Wednesday with the Dow down 1.09% as the Iran crisis deepened, while the IMF lowered its global economic growth forecast to 3%, down from 3.1% in April, citing Middle East conflict and pressurised AI spending.",
+      "[CFO] Companies House accounts filing reforms delayed to April 2028"
     ]
   }
 ]
