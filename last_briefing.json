@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-06T06:43:03.526759+00:00",
-    "headlines": [
-      "Russia kills 10 in second Kyiv strike this week -- At least **10 people** have been killed and **46 injured**, including five children, in a second night of Russian strike",
-      "Sky buys ITV broadcast arm for \u00a31.6bn -- Sky, owned by US telecoms giant Comcast, has announced a **\u00a31.6bn** deal to buy ITV's broadcasting and streaming arm, cr",
-      "Super Typhoon Bavi batters US Pacific islands -- Super Typhoon Bavi has made landfall on Guam and the Northern Mariana Islands, packing winds of nearly **290km/h (180mph",
-      "Venezuela quake death toll passes 3,000 -- Venezuela's information ministry reported on Sunday night that **3,342 people** have been killed in the twin earthquakes",
-      "OPEC+ raises output for fifth straight month -- Seven OPEC+ member countries - Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, and Oman - will raise oil output",
-      "Robroyston grows fast but lacks doctors, schools -- Glasgow's Robroyston suburb has seen explosive housing growth since the 1990s but residents say no amenities have follow",
-      "A government-backed inquiry co-chaired by former home secretary David Blunkett found police leadership in England and Wales plagued by \"nepotism and bias\", with 78 investigations into police leaders since 2018 and just 13% of constables agreeing they worked in a \"well led and managed organisation\".",
-      "Lockheed Martin is leading the race to buy naval defence group Ultra Maritime for roughly $3.5 billion, with Guggenheim and JPMorgan advising on the sell side and a deal potentially announced as early as this week, according to sources close to CNBC."
-    ]
-  },
-  {
     "date": "2026-07-07T06:33:52.476302+00:00",
     "headlines": [
       "Zelensky heads to NATO to demand Patriot missiles -- Russia fired **351 drones and 68 missiles** overnight, and all **29 ballistic missiles** struck their targets, exposing",
@@ -49,6 +36,19 @@
       "SpaceXAI has released Grok 4.5, which Elon Musk described as 'an Opus-class model, but faster, more token-efficient and lower cost', priced at $2 per million input tokens and $6 per million output tokens.",
       "US stocks fell on Wednesday with the Dow down 1.09% as the Iran crisis deepened, while the IMF lowered its global economic growth forecast to 3%, down from 3.1% in April, citing Middle East conflict and pressurised AI spending.",
       "[CFO] Companies House accounts filing reforms delayed to April 2028"
+    ]
+  },
+  {
+    "date": "2026-07-10T06:15:20.624037+00:00",
+    "headlines": [
+      "SK Hynix raises $26.5bn in record US listing -- South Korean chip maker **SK Hynix** has raised **$26.5bn (\u00a319.8bn)** in its New York share offering, marking the **larg",
+      "Hormuz shipping traffic falls sharply after strikes -- Traffic through the Strait of Hormuz has fallen steeply after a series of tit-for-tat strikes by the US and Iran followi",
+      "Ukraine presses ahead on Patriot missile production -- President Volodymyr Zelenskyy said Ukraine must make every effort to start domestic production of Patriot interceptor mi",
+      "OpenAI launches GPT-5.6 model family -- OpenAI unveiled its newest family of models on Thursday, introducing **GPT-5.6** in three variants: **Sol** (its workhor",
+      "OpenAI No. 2 Fidji Simo steps down -- Fidji Simo, OpenAI's No. 2 executive and CEO of Applications, is stepping down from her full-time role due to ongoing me",
+      "Edinburgh Princes Street blaze probe under way -- Police and fire investigators have launched a joint probe into a blaze that decimated the **B-listed former Debenhams st",
+      "Federal Reserve Chairman Kevin Warsh named members of five policy task forces including venture capitalist Marc Andreessen, former Bank of England Governor Mervin King, and former Walmart CEO Doug McMillon, to examine Fed operations spanning inflation, AI, communications, and productivity.",
+      "SK Hynix's $26.5bn US listing beat Saudi Aramco's 2019 $25.6bn debut and Alibaba's $21.8bn New York IPO, though it fell short of SpaceX's record $75bn IPO last month, with SK hynix shares rising 2.7% on Seoul's Kospi after the announcement."
     ]
   }
 ]
