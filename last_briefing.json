@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-07-09T06:11:14.940502+00:00",
-    "headlines": [
-      "US hits 90 Iran targets in new strikes -- The US military launched a new round of strikes on Iran early Thursday, with US Central Command saying it hit **90 Irani",
-      "Iran fires back at Gulf Arab states -- Thursday's attacks appeared bigger than previous exchanges, with sirens sounding at least twice in Bahrain, home to the",
-      "Oil and markets rattled by Iran crisis -- Brent crude futures for September delivery rose **1.03% to $78.82 a barrel** on Thursday, after having risen more than *",
-      "Sizewell B gets 20-year life extension -- Britain's Sizewell B nuclear power plant in Suffolk has been granted a **20-year life extension**, allowing it to contin",
-      "PIP review: disability benefits 'not working' -- The Timms review of the personal independence payment (PIP) has published its interim report concluding the benefit, cla",
-      "Major blaze at Edinburgh's Princes Street -- Firefighters are tackling a large blaze which broke out at a building on Edinburgh's Princes Street in the early hours o",
-      "SpaceXAI has released Grok 4.5, which Elon Musk described as 'an Opus-class model, but faster, more token-efficient and lower cost', priced at $2 per million input tokens and $6 per million output tokens.",
-      "US stocks fell on Wednesday with the Dow down 1.09% as the Iran crisis deepened, while the IMF lowered its global economic growth forecast to 3%, down from 3.1% in April, citing Middle East conflict and pressurised AI spending.",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
     "date": "2026-07-10T06:15:20.624037+00:00",
     "headlines": [
       "SK Hynix raises $26.5bn in record US listing -- South Korean chip maker **SK Hynix** has raised **$26.5bn (\u00a319.8bn)** in its New York share offering, marking the **larg",
@@ -51,6 +37,20 @@
       "OpenAI is hiring a dedicated product manager in San Francisco to build experiences for families, caregivers, and older adults, as Sensor Tower estimates the share of ChatGPT users aged 35 and older globally rose to 31% in Q2 from 26% a year earlier.",
       "Aldi is pursuing a $9bn US expansion plan to add 800 new stores over five years, targeting dense urban hubs like Manhattan, where the German discounter currently holds just 2.9% of the US grocery market compared to Walmart's roughly 20%.",
       "A woman's body was recovered from the Falls of Falloch near Crianlarich after emergency services - including water rescue units from Oban and Stirling - were called to the 30ft waterfall at about 22:45 on Friday; police said her death was not suspicious."
+    ]
+  },
+  {
+    "date": "2026-07-13T05:43:58.513767+00:00",
+    "headlines": [
+      "Bangkok bar fire kills at least 27 -- A huge fire tore through **Rong Beer Na Lat Phrao**, a bar in Bangkok's popular **Chatuchak district**, late on Sunday,",
+      "US senator Lindsey Graham dies at 71 -- Republican Senator **Lindsey Graham**, a close ally of US President Donald Trump, has died at the age of **71** followin",
+      "US-Iran strikes resume, oil jumps 4% -- The US launched a new attack on Iran on Sunday evening, with Iranian state media reporting the strikes killed **one pers",
+      "Spain wildfire toll rises to 13 dead -- The death toll from Thursday's wildfire in Spain's **Almeria province** rose to at least **13**, including five believed",
+      "Asian stocks slump on Middle East fears -- Major Asian stock markets fell sharply on Monday amid renewed US-Iran hostilities, with **South Korea's Kospi plunging o",
+      "June heatwave killed up to 440 a day in England -- Scientists have estimated that the **June heatwave** killed about **440 people a day** during its three-day peak in Engl",
+      "Software engineers are struggling to adapt as AI reshapes their profession: since ChatGPT's release in 2022, more than 600,000 US tech workers have lost their jobs and US tech job postings on Indeed dropped 36% from 2020 to 2025, according to a Guardian report.",
+      "Aldi is pursuing a $9bn US expansion plan to open 800 new stores over five years, targeting dense urban hubs like Manhattan, where it currently holds just 2.9% of the US grocery market compared to Walmart's roughly 20%.",
+      "[CFO] Companies House accounts filing reforms delayed to April 2028"
     ]
   }
 ]
