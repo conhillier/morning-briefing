@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-10T06:15:20.624037+00:00",
-    "headlines": [
-      "SK Hynix raises $26.5bn in record US listing -- South Korean chip maker **SK Hynix** has raised **$26.5bn (\u00a319.8bn)** in its New York share offering, marking the **larg",
-      "Hormuz shipping traffic falls sharply after strikes -- Traffic through the Strait of Hormuz has fallen steeply after a series of tit-for-tat strikes by the US and Iran followi",
-      "Ukraine presses ahead on Patriot missile production -- President Volodymyr Zelenskyy said Ukraine must make every effort to start domestic production of Patriot interceptor mi",
-      "OpenAI launches GPT-5.6 model family -- OpenAI unveiled its newest family of models on Thursday, introducing **GPT-5.6** in three variants: **Sol** (its workhor",
-      "OpenAI No. 2 Fidji Simo steps down -- Fidji Simo, OpenAI's No. 2 executive and CEO of Applications, is stepping down from her full-time role due to ongoing me",
-      "Edinburgh Princes Street blaze probe under way -- Police and fire investigators have launched a joint probe into a blaze that decimated the **B-listed former Debenhams st",
-      "Federal Reserve Chairman Kevin Warsh named members of five policy task forces including venture capitalist Marc Andreessen, former Bank of England Governor Mervin King, and former Walmart CEO Doug McMillon, to examine Fed operations spanning inflation, AI, communications, and productivity.",
-      "SK Hynix's $26.5bn US listing beat Saudi Aramco's 2019 $25.6bn debut and Alibaba's $21.8bn New York IPO, though it fell short of SpaceX's record $75bn IPO last month, with SK hynix shares rising 2.7% on Seoul's Kospi after the announcement."
-    ]
-  },
-  {
     "date": "2026-07-11T05:20:05.174259+00:00",
     "headlines": [
       "US-Iran talks set for Oman Saturday -- The US wants Iran to publicly state that the Strait of Hormuz is open and to pledge to stop firing on commercial ships a",
@@ -51,6 +38,19 @@
       "Software engineers are struggling to adapt as AI reshapes their profession: since ChatGPT's release in 2022, more than 600,000 US tech workers have lost their jobs and US tech job postings on Indeed dropped 36% from 2020 to 2025, according to a Guardian report.",
       "Aldi is pursuing a $9bn US expansion plan to open 800 new stores over five years, targeting dense urban hubs like Manhattan, where it currently holds just 2.9% of the US grocery market compared to Walmart's roughly 20%.",
       "[CFO] Companies House accounts filing reforms delayed to April 2028"
+    ]
+  },
+  {
+    "date": "2026-07-14T04:57:06.842221+00:00",
+    "headlines": [
+      "UAE condemns Iran tanker strikes, US imposes Hormuz blockade -- The UAE accused Iran of a \"brazen\" attack on two national tankers in the Strait of Hormuz on Monday, killing an Indian c",
+      "Oil hits one-month high as Hormuz traffic collapses -- Brent crude rose **2 percent** on Tuesday, extending a **9.6 percent** gain from the previous day, with Brent futures fo",
+      "Bangkok bar fire death toll rises to 30 -- The death toll from the fire at **Rong Beer Na Lat Phrao** in Bangkok's Chatuchak district has risen to at least **30**,",
+      "China June exports surge at fastest pace since 2021 -- China's overall exports rose **27%** from a year earlier in US dollar value terms in June, the strongest pace since Octo",
+      "VW confirms 50,000 more job cuts worldwide -- The supervisory board rejected his plan to shut four factories in Germany, though a question mark remains over three VW",
+      "Sturgeon's police statement will not be released -- Nicola Sturgeon's lawyer Aamer Anwar confirmed on Monday that neither her written statement to Police Scotland nor her p",
+      "GB grid operator Neso has commissioned an independent legal investigation after a whistleblower alleged that senior bosses ordered control room staff to leave no audit trail of key decisions made during the June heatwave, with grid frequency falling below Neso's operational limits of 49.8Hz-50.2Hz for most of the period between 17:30 and 18:30 on 23 June.",
+      "Singapore-based video-generation startup PixVerse closed a Series C extension totalling $439 million, pushing its valuation past $2 billion, with investors including Alibaba, Mirae Asset and BlueFocus; the company says its consumer product has over 150 million registered users and over 15 million monthly active users."
     ]
   }
 ]
