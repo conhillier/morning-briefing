@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-07-13T05:43:58.513767+00:00",
-    "headlines": [
-      "Bangkok bar fire kills at least 27 -- A huge fire tore through **Rong Beer Na Lat Phrao**, a bar in Bangkok's popular **Chatuchak district**, late on Sunday,",
-      "US senator Lindsey Graham dies at 71 -- Republican Senator **Lindsey Graham**, a close ally of US President Donald Trump, has died at the age of **71** followin",
-      "US-Iran strikes resume, oil jumps 4% -- The US launched a new attack on Iran on Sunday evening, with Iranian state media reporting the strikes killed **one pers",
-      "Spain wildfire toll rises to 13 dead -- The death toll from Thursday's wildfire in Spain's **Almeria province** rose to at least **13**, including five believed",
-      "Asian stocks slump on Middle East fears -- Major Asian stock markets fell sharply on Monday amid renewed US-Iran hostilities, with **South Korea's Kospi plunging o",
-      "June heatwave killed up to 440 a day in England -- Scientists have estimated that the **June heatwave** killed about **440 people a day** during its three-day peak in Engl",
-      "Software engineers are struggling to adapt as AI reshapes their profession: since ChatGPT's release in 2022, more than 600,000 US tech workers have lost their jobs and US tech job postings on Indeed dropped 36% from 2020 to 2025, according to a Guardian report.",
-      "Aldi is pursuing a $9bn US expansion plan to open 800 new stores over five years, targeting dense urban hubs like Manhattan, where it currently holds just 2.9% of the US grocery market compared to Walmart's roughly 20%.",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
-    "date": "2026-07-14T04:57:06.842221+00:00",
-    "headlines": [
-      "UAE condemns Iran tanker strikes, US imposes Hormuz blockade -- The UAE accused Iran of a \"brazen\" attack on two national tankers in the Strait of Hormuz on Monday, killing an Indian c",
-      "Oil hits one-month high as Hormuz traffic collapses -- Brent crude rose **2 percent** on Tuesday, extending a **9.6 percent** gain from the previous day, with Brent futures fo",
-      "Bangkok bar fire death toll rises to 30 -- The death toll from the fire at **Rong Beer Na Lat Phrao** in Bangkok's Chatuchak district has risen to at least **30**,",
-      "China June exports surge at fastest pace since 2021 -- China's overall exports rose **27%** from a year earlier in US dollar value terms in June, the strongest pace since Octo",
-      "VW confirms 50,000 more job cuts worldwide -- The supervisory board rejected his plan to shut four factories in Germany, though a question mark remains over three VW",
-      "Sturgeon's police statement will not be released -- Nicola Sturgeon's lawyer Aamer Anwar confirmed on Monday that neither her written statement to Police Scotland nor her p",
-      "GB grid operator Neso has commissioned an independent legal investigation after a whistleblower alleged that senior bosses ordered control room staff to leave no audit trail of key decisions made during the June heatwave, with grid frequency falling below Neso's operational limits of 49.8Hz-50.2Hz for most of the period between 17:30 and 18:30 on 23 June.",
-      "Singapore-based video-generation startup PixVerse closed a Series C extension totalling $439 million, pushing its valuation past $2 billion, with investors including Alibaba, Mirae Asset and BlueFocus; the company says its consumer product has over 150 million registered users and over 15 million monthly active users."
-    ]
-  },
-  {
     "date": "2026-07-15T04:57:59.591353+00:00",
     "headlines": [
       "Trump threatens Iran power plants and bridges -- US President Donald Trump threatened to strike Iran's bridges and power plants next week if it did not return to talks,",
@@ -50,6 +23,18 @@
       "Cairngorms wildfire forces Highland evacuations -- Villagers, campsites and ski resorts have been evacuated as a \"large-scale\" wildfire spread across **2km** of dry land i",
       "Brazil condemned the US decision to impose 25% tariffs on Brazilian products, with President Lula's office saying it \"repudiates\" the decision and denying it had engaged in unfair trade practices, while Secretary of State Marco Rubio said Lula's policies were \"bad for Americans and bad for Brazilians\".",
       "China's exports rose **17.6%** in the first half of 2026 from a year earlier and **27%** in June, but domestic retail sales of consumer goods climbed a meagre **1.3%** and fixed-asset investment fell **5.7%** year-on-year in the first half, according to official data."
+    ]
+  },
+  {
+    "date": "2026-07-17T05:19:55.788942+00:00",
+    "headlines": [
+      "US strikes Iranian bridges and airport in sixth night -- The US launched a wave of strikes against Iran for the **sixth night in a row**, its military said, as the two sides bat",
+      "Zelensky fires popular defence minister, protests erupt -- Ukrainian President Volodymyr Zelensky's surprise move to replace popular Defence Minister **Mykhailo Fedorov** has caus",
+      "British Steel nationalised to protect UK supply -- British Steel has been taken into public ownership in a move the government said would protect jobs and safeguard \"a vit",
+      "Burnham to promise 'courage to fix big things' -- Andy Burnham will pledge he has the \"courage to fix the big things that politics has neglected\" in his first speech as L",
+      "UK economy returns to 0.1% growth in May -- The UK economy returned to growth in May, with the Office for National Statistics reporting GDP rose **0.1%**, in line w",
+      "Glasgow preps for Commonwealth Games amid mixed buzz -- Glasgow is preparing to welcome the **2026 Commonwealth Games** against a backdrop of roadworks, refurbishments and fire",
+      "Ukraine's parliament approved Serhiy Koretsky, former state oil and gas boss, as prime minister after Yuliia Svyrydenko resigned earlier this week, as part of Zelensky's broader government reshuffle."
     ]
   }
 ]
