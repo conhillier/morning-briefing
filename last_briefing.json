@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-18T04:57:22.912812+00:00",
-    "headlines": [
-      "US strikes Iran for seventh night running -- The US military carried out its **seventh consecutive night** of strikes on Iran since President Donald Trump declared t",
-      "Burnham takes Labour leadership, pledges unity -- Andy Burnham pledged to lead a united Labour government free of infighting as he was confirmed as party leader at a spec",
-      "South East Water warns of survival threat -- South East Water has warned there is \"material uncertainty\" over its survival, saying it has sufficient funds only to ma",
-      "China's Moonshot AI unveils giant Kimi K3 model -- Chinese AI start-up Moonshot has unveiled **Kimi K3**, a model containing **2.8 trillion parameters**, which it says can",
-      "White House seizes control of frontier AI access -- The Trump administration has taken new steps to assert control over the rollout of future AI model releases by dictating",
-      "Cairngorms wildfire still raging after three days -- A wildfire that has been ablaze for three days in the Cairngorms is still \"burning hard\", with community leaders critici",
-      "At least 14 people were killed and five injured after a minibus lost control on a curve and veered off a mountain road in the Peruvian Andes, with rescue crews using ropes to recover victims from the steep hillside.",
-      "Oil prices jumped 10% this week as fighting over the Strait of Hormuz escalated, with Iranian state media reporting at least seven people killed and 20 wounded in the latest US strikes, and Iranian health officials saying 38 people have been killed and over 400 wounded in the past week."
-    ]
-  },
-  {
     "date": "2026-07-19T05:28:44.700606+00:00",
     "headlines": [
       "US hits Iran for eighth night running -- The United States military launched its **eighth consecutive night** of strikes on Iran, targeting coastal surveillance",
@@ -35,6 +22,19 @@
       "Arthur's Seat fire breaks out in Edinburgh -- Fire crews are battling a large blaze on Arthur's Seat in Edinburgh after the fire broke out below Salisbury Crags at ab",
       "Andy Burnham becomes Prime Minister on Monday and has told Scottish Labour MPs he will maintain the UK government's opposition to a second independence referendum, taking a firmer line than he gave in previous years.",
       "Russia launched 41 missiles and 125 attack drones across Ukraine overnight, and Ukraine's navy said five people were killed when a Turkish-owned civilian cargo ship carrying grain was hit by Russian missiles in the Black Sea."
+    ]
+  },
+  {
+    "date": "2026-07-21T05:25:50.268935+00:00",
+    "headlines": [
+      "US launches 10th night of Iran strikes -- The US military launched its **10th consecutive night** of strikes against Iran, targeting \"military command centres, ma",
+      "Trump hits Canada with 50% tariffs -- US President Donald Trump has imposed a **50% tariff** on a wide range of goods imported from Canada, citing what he cal",
+      "European gas prices hit four-month high -- Analysts at ICIS said just **26 LNG cargoes** had managed to cross east out of the Gulf since the conflict began on **28",
+      "Sinaloa cartel boss Zambada jailed for life -- Ismael \"El Mayo\" Zambada, co-founder of Mexico's Sinaloa Cartel, has been sentenced to life in prison by US District Jud",
+      "Anthropic's $1.5bn copyright settlement approved -- A federal judge has given final approval to Anthropic's **$1.5 billion** settlement of a class action copyright lawsuit",
+      "Burnham keeps Alexander as Scottish Secretary -- Andy Burnham confirmed Douglas Alexander will remain as **Secretary of State for Scotland** after Burnham unveiled his n",
+      "John Healey, who resigned as defence secretary just over a month ago citing defence spending that fell \"well short of what is required\", has been named Andy Burnham's Chancellor of the Exchequer, replacing Rachel Reeves.",
+      "Jeff Bezos and the UK government's sovereign AI fund have invested in Cambridge-based CuspAI, which has raised $450m at a $2.6bn valuation to build AI software that discovers new materials for chipmakers and other industries."
     ]
   }
 ]
