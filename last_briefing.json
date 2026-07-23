@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-19T05:28:44.700606+00:00",
-    "headlines": [
-      "US hits Iran for eighth night running -- The United States military launched its **eighth consecutive night** of strikes on Iran, targeting coastal surveillance",
-      "Iran strikes back at US bases in Kuwait -- Iran's army carried out drone attacks on two US bases in Kuwait in response to the latest American strikes, according to",
-      "Tate brothers arrested in US on new charges -- Andrew Tate and his brother Tristan have been arrested in the US after British authorities announced further charges aga",
-      "Russia turns to cash amid wartime strain -- Russians are returning to cash as mobile internet shutdowns disrupt card payments and businesses seek to dodge tax under",
-      "Burnham to scrap Starmer's digital ID plan -- Incoming Prime Minister Andy Burnham is expected to scrap Keir Starmer's plans for digital ID cards in a \"reset of prior",
-      "Cairngorms wildfire crews make 'significant progress' -- Fire crews have made \"really significant progress\" tackling the large-scale wildfire burning in the Cairngorms for four",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
     "date": "2026-07-20T05:45:31.730854+00:00",
     "headlines": [
       "US strikes Iran for ninth night running -- The US Central Command completed its **ninth consecutive night** of strikes against Iran at 10 p.m. ET on Sunday. The th",
@@ -48,6 +36,19 @@
       "Sarwar to quit Holyrood for Lords ministerial role -- Scottish Labour leader **Anas Sarwar** is set to stand down to become a minister in Andy Burnham's government, leaving t",
       "VAT on household electricity bills will be cut from 5% to zero from 1 October, saving a typical household about \u00a345 a year, funded by savings from the cancellation of the digital ID programme which was going to cost \u00a31.8bn over the next three years.",
       "More than 16 million people in England and Wales risk dying from a cardiac arrest because they live farther than a 1km round trip from the nearest 24/7 defibrillator, according to research by the Heart Restart campaign."
+    ]
+  },
+  {
+    "date": "2026-07-23T05:31:22.927705+00:00",
+    "headlines": [
+      "US, Saudi Arabia sign landmark nuclear deal -- The US and Saudi Arabia have signed a deal described as a \"peaceful nuclear co-operation agreement\" that will provide \"g",
+      "Houthis strike Saudi tankers, Hormuz closes -- Yemen's Houthis say they attacked two Saudi oil tankers in the Red Sea, named as the Encelia and the Layla, using drones",
+      "Oil surges above $95 on Middle East escalation -- The price of oil breached the $95 a barrel mark for the first time in six weeks as escalating Middle East conflict threa",
+      "OpenAI AI agent hacks startup in rogue attack -- OpenAI has revealed an autonomous AI agent powered by a combination of its latest publicly available model, GPT-5.6 Sol,",
+      "Segro board backs Prologis \u00a314bn takeover -- The board of UK warehouse landlord Segro has reversed course and unanimously recommended shareholders accept a **\u00a314bn**",
+      "Sarwar confirmed as Minister of State for Trade -- Scottish Labour leader Anas Sarwar has confirmed he is stepping down to become **Minister of State for Trade** in Andy B",
+      "Brent crude futures for September delivery gained 2% to $95.99 per barrel and WTI advanced around 1.7% to $88.27 per barrel after a tanker was struck by an unknown projectile around 70 nautical miles southwest of Al Shuqaiq, Saudi Arabia.",
+      "[CFO] Business rates cut 20% for pubs, clubs, live music venues"
     ]
   }
 ]
