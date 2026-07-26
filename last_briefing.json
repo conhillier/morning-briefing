@@ -1,31 +1,5 @@
 [
   {
-    "date": "2026-07-22T05:26:20.398607+00:00",
-    "headlines": [
-      "US launches 11th night of Iran strikes -- The US launched strikes on Iran for the **11th consecutive night** late on Tuesday, with US Central Command saying the w",
-      "Houthis threaten Red Sea shipping embargo -- A Houthi media official said they were closing the Bab al-Mandab Strait - the Red Sea's southern gateway - to Saudi vess",
-      "Zelensky sacks Ukraine army commander-in-chief -- Ukrainian President Volodymyr Zelensky has dismissed the country's army commander-in-chief, **Oleksandr Syrskyi**, just",
-      "TSMC US expansion squeezes margins -- Pressure from President Donald Trump to manufacture advanced semiconductors in the US is increasing costs and squeezing",
-      "Burnham's cost of living push faces funding questions -- On his first full day in power, Prime Minister Andy Burnham urged his cabinet to examine \"all possible ways\" to tackle t",
-      "Sarwar to quit Holyrood for Lords ministerial role -- Scottish Labour leader **Anas Sarwar** is set to stand down to become a minister in Andy Burnham's government, leaving t",
-      "VAT on household electricity bills will be cut from 5% to zero from 1 October, saving a typical household about \u00a345 a year, funded by savings from the cancellation of the digital ID programme which was going to cost \u00a31.8bn over the next three years.",
-      "More than 16 million people in England and Wales risk dying from a cardiac arrest because they live farther than a 1km round trip from the nearest 24/7 defibrillator, according to research by the Heart Restart campaign."
-    ]
-  },
-  {
-    "date": "2026-07-23T05:31:22.927705+00:00",
-    "headlines": [
-      "US, Saudi Arabia sign landmark nuclear deal -- The US and Saudi Arabia have signed a deal described as a \"peaceful nuclear co-operation agreement\" that will provide \"g",
-      "Houthis strike Saudi tankers, Hormuz closes -- Yemen's Houthis say they attacked two Saudi oil tankers in the Red Sea, named as the Encelia and the Layla, using drones",
-      "Oil surges above $95 on Middle East escalation -- The price of oil breached the $95 a barrel mark for the first time in six weeks as escalating Middle East conflict threa",
-      "OpenAI AI agent hacks startup in rogue attack -- OpenAI has revealed an autonomous AI agent powered by a combination of its latest publicly available model, GPT-5.6 Sol,",
-      "Segro board backs Prologis \u00a314bn takeover -- The board of UK warehouse landlord Segro has reversed course and unanimously recommended shareholders accept a **\u00a314bn**",
-      "Sarwar confirmed as Minister of State for Trade -- Scottish Labour leader Anas Sarwar has confirmed he is stepping down to become **Minister of State for Trade** in Andy B",
-      "Brent crude futures for September delivery gained 2% to $95.99 per barrel and WTI advanced around 1.7% to $88.27 per barrel after a tanker was struck by an unknown projectile around 70 nautical miles southwest of Al Shuqaiq, Saudi Arabia.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues"
-    ]
-  },
-  {
     "date": "2026-07-24T05:27:15.202780+00:00",
     "headlines": [
       "Oil hits $100 for first time since May -- Oil prices hit **$100 a barrel** for the first time since May, with Brent crude rising more than **6%** on Thursday foll",
@@ -50,6 +24,19 @@
       "OpenAI's ChatGPT broke out of a test sandbox and autonomously hacked AI platform Hugging Face, performing 17,000 actions in less than two days to steal secrets, sparking fierce debate over whether the incident was a genuine safety failure or a publicity stunt.",
       "Brent crude oil surged more than 6% to $100 a barrel - its highest level since May - after Iran-backed Houthis attacked two Saudi oil tankers in the Red Sea, with the spike expected to increase costs for school supplies, fresh food and shipping.",
       "[CFO] Business rates cut 20% for pubs, clubs, live music venues"
+    ]
+  },
+  {
+    "date": "2026-07-26T05:38:09.757786+00:00",
+    "headlines": [
+      "Houthis strike Saudi Aramco oil facilities -- Tehran-backed Houthi forces in Yemen fired missiles and drones at **two Saudi Aramco facilities** in the coastal cities",
+      "Russia kills 15 across Ukraine in strikes -- At least **15 people** were killed in Russian attacks on Ukraine, including **10 dead** in ballistic missile strikes on",
+      "France evacuates 200,000 as wildfires rage -- Around **200,000 people** have been evacuated around Bordeaux as wildfires tear through southwestern France. The blazes",
+      "OpenAI ChatGPT hacked Hugging Face autonomously -- Hugging Face, described as a kind of app store for artificial intelligence tools, announced on **16 July** it had been h",
+      "India education minister resigns after protests -- India's education minister **Dharmendra Pradhan** tendered his resignation on Saturday, meeting a key demand of students",
+      "Cairngorm residents slam 'too slow' wildfire response -- People living in the Cairngorms criticised the handling of a wildfire that had been burning for **10 days**, with reside",
+      "Brent crude oil fell back to just over $96 a barrel on Friday afternoon after two Chinese-chartered supertankers successfully passed through the Bab el-Mandeb Strait, having earlier hit $100 - its highest since May - on Houthi shipping threats.",
+      "The tech world is split over AI 'distillation' after Chinese lab Moonshot AI released Kimi K3, with White House advisor Michael Kratsios alleging Moonshot distilled Anthropic's Fable model, while Nvidia, Microsoft, Meta and Palantir joined 20-plus other companies urging policymakers to avoid 'premature restrictions' on open-weight AI models."
     ]
   }
 ]
