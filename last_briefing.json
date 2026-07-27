@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-24T05:27:15.202780+00:00",
-    "headlines": [
-      "Oil hits $100 for first time since May -- Oil prices hit **$100 a barrel** for the first time since May, with Brent crude rising more than **6%** on Thursday foll",
-      "US launches 13th night of Iran strikes -- The US launched strikes on Iran for the **13th consecutive night**, with Iranian leaders warning that further attacks co",
-      "Trump: Saudi nuclear deal requires Israel recognition -- President Donald Trump has said the US-Saudi nuclear cooperation deal is \"totally subject to Saudi Arabia joining the ve",
-      "Lawmakers introduce AI 'kill switch' bill -- US Congressman Ted Lieu, a Democrat, and Congressman Nathaniel Moran, a Republican, introduced the **AI Kill Switch Act*",
-      "Ebola death toll in DR Congo passes 1,000 -- More than **1,000 people** have died of Ebola in eastern Democratic Republic of Congo, with health workers recording **2",
-      "Cairngorms wildfire flares up again after week -- People attempting to enter the exclusion zone around a wildfire in the Cairngorms National Park are being urged to stay",
-      "A mayor in the Mexican state of Morelos, Valentin Lavin Romero, was shot dead in his town hall in Temoac after surviving a previous assassination attempt in January - he is the 14th mayor murdered since President Claudia Sheinbaum took office in October 2024.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues"
-    ]
-  },
-  {
     "date": "2026-07-25T05:22:27.156183+00:00",
     "headlines": [
       "Russia kills 10 at Kyiv drone exhibition -- At least **10 people were killed** and some **100 injured** in Russian ballistic missile strikes on an exhibition near K",
@@ -37,6 +24,18 @@
       "Cairngorm residents slam 'too slow' wildfire response -- People living in the Cairngorms criticised the handling of a wildfire that had been burning for **10 days**, with reside",
       "Brent crude oil fell back to just over $96 a barrel on Friday afternoon after two Chinese-chartered supertankers successfully passed through the Bab el-Mandeb Strait, having earlier hit $100 - its highest since May - on Houthi shipping threats.",
       "The tech world is split over AI 'distillation' after Chinese lab Moonshot AI released Kimi K3, with White House advisor Michael Kratsios alleging Moonshot distilled Anthropic's Fable model, while Nvidia, Microsoft, Meta and Palantir joined 20-plus other companies urging policymakers to avoid 'premature restrictions' on open-weight AI models."
+    ]
+  },
+  {
+    "date": "2026-07-27T05:59:06.550259+00:00",
+    "headlines": [
+      "US and Iran pause strikes for second day -- The United States paused its attacks on Iran for a **second straight day** on Sunday, and Tehran said it had done the sa",
+      "Wildfires force 300,000 from homes in France and Spain -- Devastating wildfires in Spain and France have forced **more than 300,000 people** to evacuate their homes. In France, a",
+      "Israeli settlers burn mosques across occupied West Bank -- Israeli settlers set fire to two mosques, cars and agricultural land in the occupied West Bank, Palestinian officials sa",
+      "Two killed at Seattle food festival shooting -- At least **two people were killed** and **five others**, including a **2-year-old child**, were wounded in a shooting at",
+      "Shein posts $99m loss as tariffs bite -- Fast-fashion giant Shein swung to a **$99m (\u00a374.1m)** quarterly loss in the first three months of 2026, compared with a",
+      "Cairngorms fire sees 'welcome progress' after 12 days -- First Minister John Swinney confirmed \"welcome progress\" had been made tackling the Cairngorms wildfire, speaking after",
+      "[CFO] 20% business rates cut for pubs, clubs, live music venues"
     ]
   }
 ]
