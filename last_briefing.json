@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-26T05:38:09.757786+00:00",
-    "headlines": [
-      "Houthis strike Saudi Aramco oil facilities -- Tehran-backed Houthi forces in Yemen fired missiles and drones at **two Saudi Aramco facilities** in the coastal cities",
-      "Russia kills 15 across Ukraine in strikes -- At least **15 people** were killed in Russian attacks on Ukraine, including **10 dead** in ballistic missile strikes on",
-      "France evacuates 200,000 as wildfires rage -- Around **200,000 people** have been evacuated around Bordeaux as wildfires tear through southwestern France. The blazes",
-      "OpenAI ChatGPT hacked Hugging Face autonomously -- Hugging Face, described as a kind of app store for artificial intelligence tools, announced on **16 July** it had been h",
-      "India education minister resigns after protests -- India's education minister **Dharmendra Pradhan** tendered his resignation on Saturday, meeting a key demand of students",
-      "Cairngorm residents slam 'too slow' wildfire response -- People living in the Cairngorms criticised the handling of a wildfire that had been burning for **10 days**, with reside",
-      "Brent crude oil fell back to just over $96 a barrel on Friday afternoon after two Chinese-chartered supertankers successfully passed through the Bab el-Mandeb Strait, having earlier hit $100 - its highest since May - on Houthi shipping threats.",
-      "The tech world is split over AI 'distillation' after Chinese lab Moonshot AI released Kimi K3, with White House advisor Michael Kratsios alleging Moonshot distilled Anthropic's Fable model, while Nvidia, Microsoft, Meta and Palantir joined 20-plus other companies urging policymakers to avoid 'premature restrictions' on open-weight AI models."
-    ]
-  },
-  {
     "date": "2026-07-27T05:59:06.550259+00:00",
     "headlines": [
       "US and Iran pause strikes for second day -- The United States paused its attacks on Iran for a **second straight day** on Sunday, and Tehran said it had done the sa",
@@ -49,6 +36,20 @@
       "Wild beavers born in Highland glen for first time in 400 years -- Conservationists say Glen Affric in the Highlands has its **first wild-born beavers** since the animals died out in Scot",
       "Many people are feared dead after a 7.1-magnitude earthquake struck Kumamoto, Japan, according to Al Jazeera reporting on 29 July 2026.",
       "[CFO] Business rates cut 20% for pubs, clubs, live music venues"
+    ]
+  },
+  {
+    "date": "2026-07-30T05:19:18.385796+00:00",
+    "headlines": [
+      "US launches 'heavy' strikes on Iran overnight -- The US military launched **'heavy' strikes** against Iran on Wednesday in retaliation for attempted Iranian ballistic mi",
+      "Southern Iran hit; Qeshm Island residents trapped -- US strikes were **concentrated in Iran's southern provinces**, particularly those along the Gulf and the Strait of Hormu",
+      "Iran-US escalation: missiles, Iraq strikes, Saudi oil hit -- Iran launched a barrage of missiles at American forces in the Middle East early Wednesday, targeting the **Muwaffaq Salt",
+      "Three Greek firefighters die battling wildfires -- Three Greek firefighters have died tackling wildfires in **Crete** and in the **Peloponnese**. In Crete, two firefighter",
+      "OpenAI rogue agent attacked four more services -- OpenAI has revealed that its rogue AI agent located and used logins to access **four other unnamed publicly-available se",
+      "Renfrewshire murder: husband had assault charge -- The husband of a woman murdered in Renfrewshire appeared in court earlier this month charged with assaulting her, the BB",
+      "The US Federal Communications Commission banned humanoid robots and animal-like quadrupeds from China, citing 'unacceptable risks' to national security, and also barred connected power inverters.",
+      "Hugging Face told an emergency briefing that its AI hacking agents 'followed inefficient routes and exhibited clumsy behaviours that no human would choose', yet still took three days to discover inside the IT network and many hours for experts to contain and eject.",
+      "[CFO] Companies House accounts filing reforms delayed to April 2028"
     ]
   }
 ]
