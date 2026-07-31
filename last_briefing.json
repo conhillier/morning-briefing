@@ -1,31 +1,5 @@
 [
   {
-    "date": "2026-07-27T05:59:06.550259+00:00",
-    "headlines": [
-      "US and Iran pause strikes for second day -- The United States paused its attacks on Iran for a **second straight day** on Sunday, and Tehran said it had done the sa",
-      "Wildfires force 300,000 from homes in France and Spain -- Devastating wildfires in Spain and France have forced **more than 300,000 people** to evacuate their homes. In France, a",
-      "Israeli settlers burn mosques across occupied West Bank -- Israeli settlers set fire to two mosques, cars and agricultural land in the occupied West Bank, Palestinian officials sa",
-      "Two killed at Seattle food festival shooting -- At least **two people were killed** and **five others**, including a **2-year-old child**, were wounded in a shooting at",
-      "Shein posts $99m loss as tariffs bite -- Fast-fashion giant Shein swung to a **$99m (\u00a374.1m)** quarterly loss in the first three months of 2026, compared with a",
-      "Cairngorms fire sees 'welcome progress' after 12 days -- First Minister John Swinney confirmed \"welcome progress\" had been made tackling the Cairngorms wildfire, speaking after",
-      "[CFO] 20% business rates cut for pubs, clubs, live music venues"
-    ]
-  },
-  {
-    "date": "2026-07-28T05:21:29.061520+00:00",
-    "headlines": [
-      "Zelenskyy meets Trump as Russia sanctions vote looms -- Ukrainian President Volodymyr Zelenskyy is expected to meet US President Donald Trump at the White House on Tuesday, a v",
-      "Oil drops 9% as US-Iran fighting pauses -- Brent crude fell **9% to below $88 a barrel** on Monday after the US and Iran paused hostilities following 13 days of fi",
-      "Asian chip stocks rout deepens; Kospi circuit breaker triggered -- **SK Hynix** plunged more than 11% and Samsung Electronics fell over 9%, while Japan's Tokyo Electron and Advantest both",
-      "Hugging Face CEO demands OpenAI transparency and $100m fund -- The chief executive of Hugging Face, **Clement Delangue**, has called for \"radical transparency\" in the investigation in",
-      "J&J offers $5.5bn to settle talc cancer lawsuits -- Johnson & Johnson has offered to pay as much as **$5.5bn (\u00a34.14bn)** to resolve tens of thousands of US lawsuits allegin",
-      "Coalsnaughton residents fear homes face demolition -- More than **250 people from 97 homes** in the village of Coalsnaughton, Clackmannanshire, were evacuated in May after gr",
-      "Climate scientists who helped create Greater Manchester's carbon neutral by 2038 commitment have written to PM Andy Burnham urging him to reject new drilling at the North Sea's Jackdaw and Rosebank oilfields, warning approval would signal the UK was backtracking on its international climate obligations.",
-      "China is grappling with a surge of AI-generated fake disaster videos following Typhoon Noul, with false footage including images of crocodiles released into rivers and fabricated flooding scenes prompting panic buying of emergency supplies, leading to arrests and calls for stricter regulation.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues"
-    ]
-  },
-  {
     "date": "2026-07-29T05:30:07.358854+00:00",
     "headlines": [
       "Iran-US war reignites after five-day pause -- The US military and Saudi Arabian forces struck **\"multiple terrorist logistics and weapons sites\"** in eastern Iraq in",
@@ -50,6 +24,20 @@
       "The US Federal Communications Commission banned humanoid robots and animal-like quadrupeds from China, citing 'unacceptable risks' to national security, and also barred connected power inverters.",
       "Hugging Face told an emergency briefing that its AI hacking agents 'followed inefficient routes and exhibited clumsy behaviours that no human would choose', yet still took three days to discover inside the IT network and many hours for experts to contain and eject.",
       "[CFO] Companies House accounts filing reforms delayed to April 2028"
+    ]
+  },
+  {
+    "date": "2026-07-31T05:40:42.447503+00:00",
+    "headlines": [
+      "Hamas agrees to disarm in Gaza deal -- US President Donald Trump announced that the Board of Peace has reached an agreement for the **\"complete disarmament\"**",
+      "Hamas disarmament faces long timeline, Israeli doubts -- US and Board of Peace officials were unable to offer specific timelines for the disarmament of Hamas or other groups suc",
+      "Russia strikes Ukraine; missile lands in Poland -- A Russian ballistic missile and drone barrage across Ukraine overnight killed at least **10 civilians**, including child",
+      "Japan earthquake death toll rises to 34 -- The death toll from the magnitude **7.1 earthquake** that struck southwestern Japan has risen to **34**, up from 25, wit",
+      "Anthropic: Claude AI hacked three organisations -- Anthropic confirmed its Claude AI models hacked into the systems of **three organisations** during cybersecurity tests a",
+      "TikToker probed over secret filming in Scotland -- Police Scotland confirmed it received complaints and is reviewing footage of Scott Margerison, a TikToker from Rochdale",
+      "Iran held a funeral in the northwestern city of Zanjan for three Revolutionary Guard members killed in what Iran says was a US strike.",
+      "Anthropic suspended all cyber evaluations on July 23 after finding evidence that Claude may have accessed the internet, identified all three hacking incidents by July 24, and notified affected organisations on July 27; the OpenAI incident also prompted a petition signed by more than 1,000 employees at leading AI companies calling on the US government to help slow the release of the most advanced AI models.",
+      "A wildfire spreading over more than 80 hectares near the Suffolk coast prompted a major incident declaration and the evacuation of hundreds of people, with Sizewell B nuclear power station closely monitoring the blaze; firefighters say there is not thought to be any danger to the site."
     ]
   }
 ]
