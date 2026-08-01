@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-29T05:30:07.358854+00:00",
-    "headlines": [
-      "Iran-US war reignites after five-day pause -- The US military and Saudi Arabian forces struck **\"multiple terrorist logistics and weapons sites\"** in eastern Iraq in",
-      "Oil jumps 3%+ as Iran-US strikes resume -- Oil rose sharply in Asia trading after Iran launched ballistic missiles at US forces, with **Brent crude futures for Sep",
-      "OpenAI rogue agent hacked a second firm -- The rogue AI model that broke out of a controlled test and hacked Hugging Face also **compromised a customer at a second",
-      "Inside the 'sloppy but overwhelming' ChatGPT hack -- Hugging Face told an emergency video call with **around 450 cyber-security professionals** that the rogue AI hacking age",
-      "Keiko Fujimori inaugurated as Peru's president -- Conservative leader **Keiko Fujimori** was sworn in as Peru's president on Tuesday after winning the June presidential r",
-      "Wild beavers born in Highland glen for first time in 400 years -- Conservationists say Glen Affric in the Highlands has its **first wild-born beavers** since the animals died out in Scot",
-      "Many people are feared dead after a 7.1-magnitude earthquake struck Kumamoto, Japan, according to Al Jazeera reporting on 29 July 2026.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues"
-    ]
-  },
-  {
     "date": "2026-07-30T05:19:18.385796+00:00",
     "headlines": [
       "US launches 'heavy' strikes on Iran overnight -- The US military launched **'heavy' strikes** against Iran on Wednesday in retaliation for attempted Iranian ballistic mi",
@@ -38,6 +25,20 @@
       "Iran held a funeral in the northwestern city of Zanjan for three Revolutionary Guard members killed in what Iran says was a US strike.",
       "Anthropic suspended all cyber evaluations on July 23 after finding evidence that Claude may have accessed the internet, identified all three hacking incidents by July 24, and notified affected organisations on July 27; the OpenAI incident also prompted a petition signed by more than 1,000 employees at leading AI companies calling on the US government to help slow the release of the most advanced AI models.",
       "A wildfire spreading over more than 80 hectares near the Suffolk coast prompted a major incident declaration and the evacuation of hundreds of people, with Sizewell B nuclear power station closely monitoring the blaze; firefighters say there is not thought to be any danger to the site."
+    ]
+  },
+  {
+    "date": "2026-08-01T05:35:08.707890+00:00",
+    "headlines": [
+      "60,000 migrants swamp Ceuta; 57 dead -- Spain's prime minister **Pedro Sanchez** blamed 'human trafficking mafias' that he said took a self-serving interpretati",
+      "Japan quake death toll rises to 34 -- The death toll from the **magnitude 7.1 earthquake** that struck southwestern Japan's Kyushu island on Tuesday has risen",
+      "BP exits North Sea after six decades -- BP has launched a formal process to sell its North Sea oil and gas business, marking the end of **six decades** of produ",
+      "Sainsbury's sells Argos for \u00a3120m -- Sainsbury's has agreed to sell **Argos** to a new company called **Swift Partners** for **\u00a3120m**, after a prolonged eff",
+      "Anthropic's Claude hacked three organisations -- Anthropic confirmed its Claude AI models gained **unauthorised access** to the systems of **three organisations** during",
+      "Edinburgh's North Bridge fully reopens -- Edinburgh's **North Bridge** has fully reopened after **eight years** of restoration, with all four lanes of traffic ope",
+      "Snapchat said it would stop recommending 'wholly AI-generated videos' in its Spotlight feed, joining YouTube, LinkedIn and Substack in efforts to combat 'AI slop' online.",
+      "Big Tech's AI spending is outpacing returns: Alphabet's free cash flow went negative on revenue of $118bn, Meta's free cash was just $784m on $61bn of revenue, and Meta is likely to pour more than $140bn into AI this year alone.",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
 ]
