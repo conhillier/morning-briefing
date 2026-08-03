@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-07-31T05:40:42.447503+00:00",
-    "headlines": [
-      "Hamas agrees to disarm in Gaza deal -- US President Donald Trump announced that the Board of Peace has reached an agreement for the **\"complete disarmament\"**",
-      "Hamas disarmament faces long timeline, Israeli doubts -- US and Board of Peace officials were unable to offer specific timelines for the disarmament of Hamas or other groups suc",
-      "Russia strikes Ukraine; missile lands in Poland -- A Russian ballistic missile and drone barrage across Ukraine overnight killed at least **10 civilians**, including child",
-      "Japan earthquake death toll rises to 34 -- The death toll from the magnitude **7.1 earthquake** that struck southwestern Japan has risen to **34**, up from 25, wit",
-      "Anthropic: Claude AI hacked three organisations -- Anthropic confirmed its Claude AI models hacked into the systems of **three organisations** during cybersecurity tests a",
-      "TikToker probed over secret filming in Scotland -- Police Scotland confirmed it received complaints and is reviewing footage of Scott Margerison, a TikToker from Rochdale",
-      "Iran held a funeral in the northwestern city of Zanjan for three Revolutionary Guard members killed in what Iran says was a US strike.",
-      "Anthropic suspended all cyber evaluations on July 23 after finding evidence that Claude may have accessed the internet, identified all three hacking incidents by July 24, and notified affected organisations on July 27; the OpenAI incident also prompted a petition signed by more than 1,000 employees at leading AI companies calling on the US government to help slow the release of the most advanced AI models.",
-      "A wildfire spreading over more than 80 hectares near the Suffolk coast prompted a major incident declaration and the evacuation of hundreds of people, with Sizewell B nuclear power station closely monitoring the blaze; firefighters say there is not thought to be any danger to the site."
-    ]
-  },
-  {
     "date": "2026-08-01T05:35:08.707890+00:00",
     "headlines": [
       "60,000 migrants swamp Ceuta; 57 dead -- Spain's prime minister **Pedro Sanchez** blamed 'human trafficking mafias' that he said took a self-serving interpretati",
@@ -38,6 +24,20 @@
       "Royal family attends Commonwealth Games in Glasgow -- The Prince and Princess of Wales brought their three children to watch sporting events at the Commonwealth Games in Glas",
       "Greek police are fast-tracking toxicology tests and say they could determine how Scottish woman Elisabeth-Jane Ross, 38, whose body was found in a suitcase in an abandoned Athens building, died \"in the coming days\".",
       "[CFO] Bank Rate held at 3.75% by MPC, July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-03T05:48:56.481424+00:00",
+    "headlines": [
+      "Trump says Iran talks begin Monday -- US President Donald Trump said new talks with Iran will begin on Monday, after calling off what he described as a planne",
+      "Israel strikes Gaza after Hamas disarmament deal -- At least **13 people**, including several children, have been killed in Israeli strikes on Gaza, Palestinian officials s",
+      "US and Japan confirm joint yen intervention -- Japan and the United States have confirmed a rare, coordinated yen-buying intervention to halt the Japanese currency's s",
+      "China chip advances rattle global markets -- Last week was particularly volatile for AI-linked shares after Chinese memory chipmaker CXMT floated on the Shanghai sto",
+      "Solar hits record 14.4% of UK electricity in July -- Solar energy supplied more power to Great Britain's grid in July than in any previous month, with solar farms and roofto",
+      "Scottish Labour leadership contest opens -- Nominations have opened in the Scottish Labour leadership contest to replace Anas Sarwar, with candidates having two wee",
+      "Oil prices fell sharply Monday in Asia trading, with West Texas Intermediate futures declining nearly 6% to $79.66 per barrel and Brent crude losing 5.16% to $83.39, after Trump called off a planned strike on Iran.",
+      "[CFO] Business rates cut 20% for pubs and live music venues",
+      "[CFO] Companies House accounts filing reforms delayed to April 2028"
     ]
   }
 ]
