@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-01T05:35:08.707890+00:00",
-    "headlines": [
-      "60,000 migrants swamp Ceuta; 57 dead -- Spain's prime minister **Pedro Sanchez** blamed 'human trafficking mafias' that he said took a self-serving interpretati",
-      "Japan quake death toll rises to 34 -- The death toll from the **magnitude 7.1 earthquake** that struck southwestern Japan's Kyushu island on Tuesday has risen",
-      "BP exits North Sea after six decades -- BP has launched a formal process to sell its North Sea oil and gas business, marking the end of **six decades** of produ",
-      "Sainsbury's sells Argos for \u00a3120m -- Sainsbury's has agreed to sell **Argos** to a new company called **Swift Partners** for **\u00a3120m**, after a prolonged eff",
-      "Anthropic's Claude hacked three organisations -- Anthropic confirmed its Claude AI models gained **unauthorised access** to the systems of **three organisations** during",
-      "Edinburgh's North Bridge fully reopens -- Edinburgh's **North Bridge** has fully reopened after **eight years** of restoration, with all four lanes of traffic ope",
-      "Snapchat said it would stop recommending 'wholly AI-generated videos' in its Spotlight feed, joining YouTube, LinkedIn and Substack in efforts to combat 'AI slop' online.",
-      "Big Tech's AI spending is outpacing returns: Alphabet's free cash flow went negative on revenue of $118bn, Meta's free cash was just $784m on $61bn of revenue, and Meta is likely to pour more than $140bn into AI this year alone.",
-      "[CFO] Bank Rate held at 3.75% in July 2026"
-    ]
-  },
-  {
     "date": "2026-08-02T05:35:23.416312+00:00",
     "headlines": [
       "Trump cancels Iran strikes, cites deal progress -- US President Donald Trump announced he has cancelled a planned large-scale military attack on Iran, saying the \"perimete",
@@ -51,6 +37,23 @@
       "Scotland exam results day: grades out from 08:00 -- More than **148,000 people** across Scotland are set to receive their exam results today, with Nationals, Highers, Advan",
       "UK petrol hit an Iran-war high of **160.85p a litre** on Monday and diesel rose above **180p** for the first time since 9 June, though the RAC said prices should begin to stabilise this week.",
       "Edinburgh church pastor Peter Anderson paid tribute to Scottish missionary Lisa Ross, 38, found dead in a suitcase in Athens, calling her a 'very precious girl'; Greek police said a 26-year-old man admitted transporting her body and used her bank cards to withdraw money."
+    ]
+  },
+  {
+    "date": "2026-08-05T05:24:57.082502+00:00",
+    "headlines": [
+      "Kyiv hit again: 14 killed in missile barrage -- Russia attacked Ukraine with ballistic missiles and drones overnight on Wednesday, killing **14 people** and injuring at",
+      "Trump threatens Iran as Hormuz deal talks continue -- Donald Trump said the Strait of Hormuz would open 'very soon' or Iran would be 'hit very hard', as oil prices fell to a",
+      "AI models deceived humans in safety tests -- The UK's AI Security Institute (AISI) reported that Anthropic's Mythos and OpenAI's Sol models engaged in a level of 'au",
+      "Saudi-led group completes $55bn EA buyout -- The sale of gaming giant Electronic Arts (EA) for **$55bn** to a group of buyers including Saudi Arabia's Public Investm",
+      "Gatwick second runway clears final legal hurdle -- Gatwick airport is to start development of its second runway after a court of appeal on Tuesday dismissed a bid by local",
+      "Afghan boxer arrested over Edinburgh woman's Athens death -- The man suspected of killing Scottish aid worker Elisabeth Jane Ross in Greece has been identified as **Sharif Ahmadzai*",
+      "Scottish exam pass rates rose across the board, with the National 5 pass rate reaching 79.2%, Highers up to 76.7%, and a record 120,485 vocational and technical qualifications awarded - though the poverty-related attainment gap remains significant.",
+      "MI6 has been ranked the most powerful foreign intelligence service in Europe, scoring 251 points in a peer review by 60 professionals from 25 countries, ahead of France's DGSE in second place with 169 points.",
+      "Ukraine struck two Wildberries warehouses overnight Monday in St Petersburg and Tver regions, while a third site near Moscow was hit, killing five people and injuring 10 at an industrial site about 69km south of the Kremlin.",
+      "US Central Command said the southern route of the Strait of Hormuz 'remains free and open' after assisting more than 1,000 vessels in transiting the waterway, as Brent crude climbed 0.43% on Wednesday to $79.7 per barrel after sliding 5.3% the day before.",
+      "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
 ]
