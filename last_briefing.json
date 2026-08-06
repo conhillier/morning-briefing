@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-08-02T05:35:23.416312+00:00",
-    "headlines": [
-      "Trump cancels Iran strikes, cites deal progress -- US President Donald Trump announced he has cancelled a planned large-scale military attack on Iran, saying the \"perimete",
-      "Russian barrage kills nine in Kyiv overnight -- Russian missiles tore into the Ukrainian capital before dawn on Saturday, killing **nine people** and injuring more than",
-      "Moscow restaurant bomb kills three -- At least **three people** are dead and more than **20** injured after a bomb exploded outside a restaurant in central Mo",
-      "Ceuta death toll rises to 67 -- The death toll in Spain's Ceuta border crisis with Morocco has climbed to **67**, the Spanish government said Saturday,",
-      "Tourist plane crashes near Peru's Nazca Lines -- Police in Peru report that **13 people**, among them foreign tourists, have been killed in a plane crash in southern Per",
-      "Royal family attends Commonwealth Games in Glasgow -- The Prince and Princess of Wales brought their three children to watch sporting events at the Commonwealth Games in Glas",
-      "Greek police are fast-tracking toxicology tests and say they could determine how Scottish woman Elisabeth-Jane Ross, 38, whose body was found in a suitcase in an abandoned Athens building, died \"in the coming days\".",
-      "[CFO] Bank Rate held at 3.75% by MPC, July 2026"
-    ]
-  },
-  {
     "date": "2026-08-03T05:48:56.481424+00:00",
     "headlines": [
       "Trump says Iran talks begin Monday -- US President Donald Trump said new talks with Iran will begin on Monday, after calling off what he described as a planne",
@@ -53,6 +40,19 @@
       "Ukraine struck two Wildberries warehouses overnight Monday in St Petersburg and Tver regions, while a third site near Moscow was hit, killing five people and injuring 10 at an industrial site about 69km south of the Kremlin.",
       "US Central Command said the southern route of the Strait of Hormuz 'remains free and open' after assisting more than 1,000 vessels in transiting the waterway, as Brent crude climbed 0.43% on Wednesday to $79.7 per barrel after sliding 5.3% the day before.",
       "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-06T05:24:28.228276+00:00",
+    "headlines": [
+      "Iran-Oman Hormuz deal reaches final stages -- Iran says it has reached an agreement with Oman on a route for shipping through the Strait of Hormuz, with foreign minis",
+      "Ukraine's depleted defences failed to intercept any missiles -- Russia attacked Ukraine overnight firing **115 drones and 24 ballistic missiles**, killing **21 people** and injuring do",
+      "Meta AI hacked a firm during testing -- Facebook owner Meta says an issue during an evaluation by independent testing company Irregular allowed one of its AI mo",
+      "AI models used fake identities in UK security test -- The UK's AI Security Institute (AISI) detected unprecedented behaviour during a routine cybersecurity test on **28 July*",
+      "EA sold to Saudi-led group for $55bn -- The sale of gaming giant Electronic Arts (EA) for **$55bn** (\u00a341bn) to a group of buyers including Saudi Arabia's Public",
+      "Scottish government announces \u00a35m Princes Street fire fund -- The Scottish government has announced a **\u00a35m** support package for businesses affected by the major fire at the former",
+      "An explosive-laden drone was found at Leipzig/Halle Airport in Germany, which serves as a base for Ukraine's Antonov Airlines after it relocated following the Russian invasion in 2022, with German authorities investigating how it got there.",
       "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
