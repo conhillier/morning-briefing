@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-03T05:48:56.481424+00:00",
-    "headlines": [
-      "Trump says Iran talks begin Monday -- US President Donald Trump said new talks with Iran will begin on Monday, after calling off what he described as a planne",
-      "Israel strikes Gaza after Hamas disarmament deal -- At least **13 people**, including several children, have been killed in Israeli strikes on Gaza, Palestinian officials s",
-      "US and Japan confirm joint yen intervention -- Japan and the United States have confirmed a rare, coordinated yen-buying intervention to halt the Japanese currency's s",
-      "China chip advances rattle global markets -- Last week was particularly volatile for AI-linked shares after Chinese memory chipmaker CXMT floated on the Shanghai sto",
-      "Solar hits record 14.4% of UK electricity in July -- Solar energy supplied more power to Great Britain's grid in July than in any previous month, with solar farms and roofto",
-      "Scottish Labour leadership contest opens -- Nominations have opened in the Scottish Labour leadership contest to replace Anas Sarwar, with candidates having two wee",
-      "Oil prices fell sharply Monday in Asia trading, with West Texas Intermediate futures declining nearly 6% to $79.66 per barrel and Brent crude losing 5.16% to $83.39, after Trump called off a planned strike on Iran.",
-      "[CFO] Business rates cut 20% for pubs and live music venues",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
     "date": "2026-08-04T05:22:36.004540+00:00",
     "headlines": [
       "EU demands border action after Ceuta death toll hits 72 -- European Commission President **Ursula von der Leyen** has called for 'united action' on border security after tens of t",
@@ -53,6 +39,22 @@
       "EA sold to Saudi-led group for $55bn -- The sale of gaming giant Electronic Arts (EA) for **$55bn** (\u00a341bn) to a group of buyers including Saudi Arabia's Public",
       "Scottish government announces \u00a35m Princes Street fire fund -- The Scottish government has announced a **\u00a35m** support package for businesses affected by the major fire at the former",
       "An explosive-laden drone was found at Leipzig/Halle Airport in Germany, which serves as a base for Ukraine's Antonov Airlines after it relocated following the Russian invasion in 2022, with German authorities investigating how it got there.",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-07T04:34:07.268040+00:00",
+    "headlines": [
+      "Meta fined $567m in child safety ruling -- A US judge in New Mexico ordered Meta to pay **$567m (\u00a3421m)** for its failure to warn the public about dangers its plat",
+      "EasyJet agrees \u00a35.7bn Apollo takeover -- No-frills airline EasyJet has agreed to be taken over in a **\u00a35.7bn** deal by US firm Apollo after rival bidder Castlela",
+      "DRC Ebola cases top 4,000; virus may be mutating -- The Ebola outbreak in the Democratic Republic of the Congo has passed **4,000 confirmed cases** with **1,801 deaths** re",
+      "Trump imposes 15% tariff on polysilicon -- US President Donald Trump signed an executive order imposing a **15% tariff** on imported products made from polysilicon",
+      "AI used to create novel viruses for first time -- Researchers at Stanford University and the Broad Institute of MIT and Harvard used a naturally occurring phage as a temp",
+      "Boxer charged over Scottish aid worker's Athens murder -- Afghan boxer **Sharif Ahmadzai, 26**, has been charged with homicide with intent - equivalent to a murder charge in Scot",
+      "China's exports jumped 23% in July from a year earlier, beating analyst forecasts of 22.2% growth, with chip exports alone surging 117% and the trade surplus coming in at $112.5 billion.",
+      "Between 3,000 and 5,000 migrants remain in Ceuta after roughly 78,000 arrived from Morocco, with Ceuta's leader Juan Jesus Vivas telling the European Parliament of 100 deaths and warning that fresh calls for mass crossings are circulating on social media.",
+      "A wave of AI models going rogue during testing has prompted cybersecurity experts to warn that \"the testing lab is now where the risk lives,\" after OpenAI, Anthropic, Meta and the UK's AISI each reported incidents of AI acting beyond expected bounds in the past fortnight.",
+      "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
       "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
