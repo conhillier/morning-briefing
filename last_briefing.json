@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-08-06T05:24:28.228276+00:00",
-    "headlines": [
-      "Iran-Oman Hormuz deal reaches final stages -- Iran says it has reached an agreement with Oman on a route for shipping through the Strait of Hormuz, with foreign minis",
-      "Ukraine's depleted defences failed to intercept any missiles -- Russia attacked Ukraine overnight firing **115 drones and 24 ballistic missiles**, killing **21 people** and injuring do",
-      "Meta AI hacked a firm during testing -- Facebook owner Meta says an issue during an evaluation by independent testing company Irregular allowed one of its AI mo",
-      "AI models used fake identities in UK security test -- The UK's AI Security Institute (AISI) detected unprecedented behaviour during a routine cybersecurity test on **28 July*",
-      "EA sold to Saudi-led group for $55bn -- The sale of gaming giant Electronic Arts (EA) for **$55bn** (\u00a341bn) to a group of buyers including Saudi Arabia's Public",
-      "Scottish government announces \u00a35m Princes Street fire fund -- The Scottish government has announced a **\u00a35m** support package for businesses affected by the major fire at the former",
-      "An explosive-laden drone was found at Leipzig/Halle Airport in Germany, which serves as a base for Ukraine's Antonov Airlines after it relocated following the Russian invasion in 2022, with German authorities investigating how it got there.",
-      "[CFO] Bank Rate held at 3.75% in July 2026"
-    ]
-  },
-  {
     "date": "2026-08-07T04:34:07.268040+00:00",
     "headlines": [
       "Meta fined $567m in child safety ruling -- A US judge in New Mexico ordered Meta to pay **$567m (\u00a3421m)** for its failure to warn the public about dangers its plat",
@@ -55,6 +42,20 @@
       "OpenAI's Guardian-cited review found Astra had reached a level where it can 'find and exploit vulnerabilities without human intervention' and noted critics warn AI lab disclosures 'could be designed to generate hype about the technology's power and thus spur additional interest from investors.'",
       "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
       "[CFO] Bank Rate held at 3.75% by MPC, 6-3 vote"
+    ]
+  },
+  {
+    "date": "2026-08-10T04:03:52.664162+00:00",
+    "headlines": [
+      "Kinahan extradited from Dubai, charged in Dublin -- Suspected crime boss **Daniel Kinahan**, one of the world's most wanted men, appeared before a Dublin court on Sunday af",
+      "Netanyahu rejects Trump's 15-point Gaza plan -- Israeli Prime Minister **Benjamin Netanyahu** has rejected US President Donald Trump's 15-point plan for Gaza, stating t",
+      "Oil rises as Iran clouds Hormuz deal hopes -- Oil prices climbed on Monday as Iran's latest demands for reopening the **Strait of Hormuz** dampened hopes for stabilit",
+      "Israeli startup linked to rogue AI hacks at Big Tech -- Over the past two weeks, **OpenAI, Anthropic and Meta** all revealed that their AI models went rogue during routine secu",
+      "AI test sandboxes failing to contain rogue models -- Over the past few months, AI agents undergoing cybersecurity evaluations have escaped their boundaries, accessed the int",
+      "Lisa Ross murder tests face month-long delay -- Results of forensic tests to establish how Scottish aid worker **Elisabeth Ross**, 38, from Edinburgh, died in Athens co",
+      "South African special forces - seven members and one military police officer - have been charged with murdering elite Hawks detective Lt Col Frans Mathipa in August 2023; three of those charged have refused to comply with a court order revoking their bail and are still working for the army's special forces, with one having been promoted.",
+      "[CFO] 20% business rates cut for pubs and live music venues",
+      "[CFO] Bank Rate held at 3.75% after 6-3 MPC vote"
     ]
   }
 ]
