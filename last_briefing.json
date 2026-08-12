@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-09T03:49:58.400073+00:00",
-    "headlines": [
-      "Blanche confirmed attorney general in 50-49 vote -- Trump's former personal lawyer **Todd Blanche** has been narrowly confirmed as US attorney general in a **50-49 vote**,",
-      "US pledges $1bn to Colombia's new right-wing president -- The US has pledged **$1bn (\u00a3740m)** to Colombia hours after new right-wing populist president **Abelardo de la Espriella",
-      "Hormuz talks drag as Iran issues six conditions -- Traffic in the Strait of Hormuz remains severely restricted even as Iran and Oman report closing in on a deal to manage",
-      "OpenAI pauses Astra over cyberattack capability fears -- OpenAI has suspended work on some aspects of its upcoming model **Astra** after an internal review found it had reached",
-      "AI rogue agents dominate Black Hat cyber conference -- **Anthropic** separately said its Claude models \"gained unauthorized access\" to the internal systems of three different",
-      "Sturgeon 'felt like a mug' over jailed Murrell -- Nicola Sturgeon told the **Edinburgh Festival Fringe** she has not spoken to Peter Murrell since he was jailed for embez",
-      "US Vice President JD Vance claimed Washington has 'destroyed' Iran's nuclear programme and degraded its military, even as Tehran demands US compensation and an end to the naval blockade before reopening the Strait of Hormuz.",
-      "OpenAI's Guardian-cited review found Astra had reached a level where it can 'find and exploit vulnerabilities without human intervention' and noted critics warn AI lab disclosures 'could be designed to generate hype about the technology's power and thus spur additional interest from investors.'",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
-      "[CFO] Bank Rate held at 3.75% by MPC, 6-3 vote"
-    ]
-  },
-  {
     "date": "2026-08-10T04:03:52.664162+00:00",
     "headlines": [
       "Kinahan extradited from Dubai, charged in Dublin -- Suspected crime boss **Daniel Kinahan**, one of the world's most wanted men, appeared before a Dublin court on Sunday af",
@@ -41,6 +26,19 @@
       "Colombia's Geological Service said Monday's 7.4 magnitude quake was the country's strongest recorded 'in the 21st century,' with the epicentre in San Jose del Palmar, a community of about 4,800 people in the Choco region some 250 miles west of Bogota.",
       "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
       "[CFO] Bank Rate held at 3.75% following July MPC vote"
+    ]
+  },
+  {
+    "date": "2026-08-12T04:15:51.992964+00:00",
+    "headlines": [
+      "Colombia quake death toll tops 180 -- Rescue workers in Colombia are working against the clock to free survivors trapped in buildings and under rubble followi",
+      "Iran holds firm on Hormuz reopening conditions -- Pakistan's interior minister, **Mohsin Naqvi**, visited Tehran to discuss closer ties and mediate in the conflict. Qatar",
+      "Oil near $90 as Hormuz talks stall -- **Brent crude** rose more than **2 percent** overnight into Wednesday, taking the international benchmark to close to **",
+      "Nvidia raises $500bn AI infrastructure fund -- **Nvidia** has struck a deal with six large Wall Street firms - **Apollo, BlackRock, Blackstone, Brookfield, Goldman Sac",
+      "Spotify to label and limit AI artists -- **Spotify** is creating a label for AI-generated artist identities called **\"AI personas\"** that will appear on artist p",
+      "Loganair quits Dundee Airport entirely -- **Loganair** has confirmed it is withdrawing all of its operations from **Dundee Airport**, ending its service from Dund",
+      "Colombia's new president, Abelardo de la Espriella - who won his election by less than one percentage point and has never before held elected office - faces the earthquake as a high-profile early test of his ability to govern while also managing a huge fiscal deficit and promised budget cuts, NPR reported.",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
 ]
