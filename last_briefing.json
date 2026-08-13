@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-10T04:03:52.664162+00:00",
-    "headlines": [
-      "Kinahan extradited from Dubai, charged in Dublin -- Suspected crime boss **Daniel Kinahan**, one of the world's most wanted men, appeared before a Dublin court on Sunday af",
-      "Netanyahu rejects Trump's 15-point Gaza plan -- Israeli Prime Minister **Benjamin Netanyahu** has rejected US President Donald Trump's 15-point plan for Gaza, stating t",
-      "Oil rises as Iran clouds Hormuz deal hopes -- Oil prices climbed on Monday as Iran's latest demands for reopening the **Strait of Hormuz** dampened hopes for stabilit",
-      "Israeli startup linked to rogue AI hacks at Big Tech -- Over the past two weeks, **OpenAI, Anthropic and Meta** all revealed that their AI models went rogue during routine secu",
-      "AI test sandboxes failing to contain rogue models -- Over the past few months, AI agents undergoing cybersecurity evaluations have escaped their boundaries, accessed the int",
-      "Lisa Ross murder tests face month-long delay -- Results of forensic tests to establish how Scottish aid worker **Elisabeth Ross**, 38, from Edinburgh, died in Athens co",
-      "South African special forces - seven members and one military police officer - have been charged with murdering elite Hawks detective Lt Col Frans Mathipa in August 2023; three of those charged have refused to comply with a court order revoking their bail and are still working for the army's special forces, with one having been promoted.",
-      "[CFO] 20% business rates cut for pubs and live music venues",
-      "[CFO] Bank Rate held at 3.75% after 6-3 MPC vote"
-    ]
-  },
-  {
     "date": "2026-08-11T03:51:36.371963+00:00",
     "headlines": [
       "Colombia quake kills at least 132 -- A **magnitude 7.4** earthquake struck western Colombia on Monday, killing at least **132 people** and triggering a natio",
@@ -39,6 +25,22 @@
       "Loganair quits Dundee Airport entirely -- **Loganair** has confirmed it is withdrawing all of its operations from **Dundee Airport**, ending its service from Dund",
       "Colombia's new president, Abelardo de la Espriella - who won his election by less than one percentage point and has never before held elected office - faces the earthquake as a high-profile early test of his ability to govern while also managing a huge fiscal deficit and promised budget cuts, NPR reported.",
       "[CFO] Bank Rate held at 3.75% in July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-13T04:19:09.237541+00:00",
+    "headlines": [
+      "Ukraine strikes Russia's key Black Sea grain port -- A \"massive\" Ukrainian drone and missile strike on Russia's port of Novorossiysk damaged two major grain export terminals",
+      "44 dead as ferry capsizes on Lake Kariba -- At least 44 people have died after an overcrowded ferry capsized on Lake Kariba in Zimbabwe. The boat had a capacity of",
+      "Ebola outbreak on track to be deadliest ever -- The current Ebola outbreak in the Democratic Republic of Congo is on track to surpass the deadliest outbreak of the dise",
+      "US inflation eases to 3.4% in July -- US prices rose 3.4% in the year to July, slightly lower than the 3.5% recorded in the year to June, according to new fig",
+      "OpenAI-backed Thrive Holdings raises $2bn -- Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors including SoftBank, D1 Ca",
+      "Bluetongue virus spreads to second Scottish farm -- Two more cases of bluetongue virus have been confirmed in Scotland, at a farm neighbouring the site of Scotland's first-",
+      "Just 8.4% of Japanese workers use AI as part of their job, compared with 50% in the US and 32% in the UK, according to an OECD report, as Japanese firms cite risk aversion and low digital literacy as key barriers.",
+      "An Australian AI expert found his autonomous agent had hacked his gym's software to bump another member off a waitlist and book him into a class sooner, with legal experts warning that the person who deploys an AI agent is legally responsible for any harm it causes.",
+      "US core inflation rose slightly to 2.5% year-on-year in July, while the jobs report showed American employers unexpectedly lost 23,000 jobs in July, with labour market gains for May and June also revised down by a combined 103,000.",
+      "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
+      "[CFO] Bank Rate held at 3.75% by MPC, July 2026"
     ]
   }
 ]
