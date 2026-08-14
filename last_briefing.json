@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-11T03:51:36.371963+00:00",
-    "headlines": [
-      "Colombia quake kills at least 132 -- A **magnitude 7.4** earthquake struck western Colombia on Monday, killing at least **132 people** and triggering a natio",
-      "Trump demands 50 years' Iran compensation -- US President **Donald Trump** has demanded Iran pay compensation for **50 years** of alleged damages, framing the move a",
-      "Ukraine drone strike kills 13 in Tatarstan -- At least **13 people** have been killed in a Ukrainian drone strike on **Nizhnekamsk** in the Russian republic of **Tata",
-      "Nvidia raises $500bn AI infrastructure fund -- **Nvidia** has teamed up with **Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR** to raise **$500bn (\u00a33",
-      "OpenAI expands Daybreak cyber defence service -- **OpenAI** has announced an expansion of **Daybreak**, its cyber defence service, adding a new cyber-focused model **GPT",
-      "Rosebank and Jackdaw consultations close -- Public consultations on updated plans for the **Rosebank** oil field off Shetland and the **Jackdaw** gas field east of",
-      "Colombian volunteers in Cali used picks and bare hands to search rubble through Monday evening, with one rescuer reporting a man and baby pulled alive from a collapsed multi-story building while a woman remained trapped inside.",
-      "Colombia's Geological Service said Monday's 7.4 magnitude quake was the country's strongest recorded 'in the 21st century,' with the epicentre in San Jose del Palmar, a community of about 4,800 people in the Choco region some 250 miles west of Bogota.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
-      "[CFO] Bank Rate held at 3.75% following July MPC vote"
-    ]
-  },
-  {
     "date": "2026-08-12T04:15:51.992964+00:00",
     "headlines": [
       "Colombia quake death toll tops 180 -- Rescue workers in Colombia are working against the clock to free survivors trapped in buildings and under rubble followi",
@@ -41,6 +26,18 @@
       "US core inflation rose slightly to 2.5% year-on-year in July, while the jobs report showed American employers unexpectedly lost 23,000 jobs in July, with labour market gains for May and June also revised down by a combined 103,000.",
       "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
       "[CFO] Bank Rate held at 3.75% by MPC, July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-14T04:15:42.912132+00:00",
+    "headlines": [
+      "DRC Ebola outbreak spreads to sixth province -- The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province after a man died in Bas-Uele h",
+      "UK GDP growth slows as energy prices bite -- UK economic growth slowed in the second quarter of 2026, with the Office for National Statistics reporting that GDP expa",
+      "Putin visits disputed Kuril Islands, Japan protests -- Russian President Vladimir Putin made his first visit to the Kuril Islands on Thursday, visiting a fish plant, a hospita",
+      "Taiwan hit by AI-assisted government cyber-attack -- Taiwan's Ministry of Digital Affairs said its cybersecurity monitoring units detected an \"abnormal attack\" targeting gov",
+      "Uber and Pony.ai to deploy 2,000 robotaxis across Europe -- Uber and Chinese autonomous vehicle company Pony.ai announced plans to deploy **2,000** self-driving taxis across Europe",
+      "Train derails near Lewes, two seriously hurt -- Two people were taken to major trauma centres with severe injuries after a Southern passenger train derailed between Hay",
+      "[CFO] Companies House accounts reforms delayed to April 2028"
     ]
   }
 ]
