@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-08-13T04:19:09.237541+00:00",
-    "headlines": [
-      "Ukraine strikes Russia's key Black Sea grain port -- A \"massive\" Ukrainian drone and missile strike on Russia's port of Novorossiysk damaged two major grain export terminals",
-      "44 dead as ferry capsizes on Lake Kariba -- At least 44 people have died after an overcrowded ferry capsized on Lake Kariba in Zimbabwe. The boat had a capacity of",
-      "Ebola outbreak on track to be deadliest ever -- The current Ebola outbreak in the Democratic Republic of Congo is on track to surpass the deadliest outbreak of the dise",
-      "US inflation eases to 3.4% in July -- US prices rose 3.4% in the year to July, slightly lower than the 3.5% recorded in the year to June, according to new fig",
-      "OpenAI-backed Thrive Holdings raises $2bn -- Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors including SoftBank, D1 Ca",
-      "Bluetongue virus spreads to second Scottish farm -- Two more cases of bluetongue virus have been confirmed in Scotland, at a farm neighbouring the site of Scotland's first-",
-      "Just 8.4% of Japanese workers use AI as part of their job, compared with 50% in the US and 32% in the UK, according to an OECD report, as Japanese firms cite risk aversion and low digital literacy as key barriers.",
-      "An Australian AI expert found his autonomous agent had hacked his gym's software to bump another member off a waitlist and book him into a class sooner, with legal experts warning that the person who deploys an AI agent is legally responsible for any harm it causes.",
-      "US core inflation rose slightly to 2.5% year-on-year in July, while the jobs report showed American employers unexpectedly lost 23,000 jobs in July, with labour market gains for May and June also revised down by a combined 103,000.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
-      "[CFO] Bank Rate held at 3.75% by MPC, July 2026"
-    ]
-  },
-  {
     "date": "2026-08-14T04:15:42.912132+00:00",
     "headlines": [
       "DRC Ebola outbreak spreads to sixth province -- The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province after a man died in Bas-Uele h",
@@ -54,6 +38,21 @@
       "Scotland tourism booms as Europe swelters -- Scotland is enjoying a surge in visitors, with a **15% rise in flight bookings** to Scottish airports in June and July c",
       "Flights at Iran's Bandar Abbas airport have resumed on high-traffic domestic routes including Tehran-Bandar Abbas, Mashhad-Bandar Abbas and Bandar Abbas-Isfahan, after repeated interruptions during US attacks; the airport handled 35 to 40 domestic and international flights a day before the war.",
       "[CFO] Bank Rate held at 3.75% in July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-17T03:06:12.740195+00:00",
+    "headlines": [
+      "Ukraine launches largest drone attack of 2026 -- Five people died in Russia's south-western region of Rostov following overnight strikes, while an **83-year-old man** di",
+      "DRC Ebola now deadliest in country's history -- The Ebola outbreak in the Democratic Republic of Congo has become the deadliest in the country's history, with at least",
+      "Kushner meets Hamas to push Gaza peace plan -- US President Donald Trump's Middle East envoy **Jared Kushner** held rare talks with Hamas on Sunday, meeting a delegati",
+      "Indonesia quake death toll rises to 53 -- Preliminary reports indicate more than **900 homes** and hundreds of other buildings have been severely damaged by the t",
+      "Stripe to acquire OpenRouter for over $7bn -- Stripe has finalised a deal to acquire AI gateway startup **OpenRouter** at a price of more than **$7 billion**, accordi",
+      "Pocognoli confirmed as Scotland football boss -- The Scottish FA has appointed **Sebastien Pocognoli**, a **39-year-old Belgian**, as Scotland men's new head coach on a",
+      "England planning rules changing Monday will make it harder to convert pubs into housing or offices, requiring developers to prove no reasonable prospect of keeping a pub running and evidence it was marketed for sale for at least 12 months.",
+      "JPMorgan could soon become the first $1 trillion bank, with top analyst Mayo saying the next stop is $2 trillion, according to CNBC.",
+      "[CFO] Business rates cut 20% for pubs, clubs and live music venues",
+      "[CFO] Bank Rate held at 3.75% in July 2026 MPC vote"
     ]
   }
 ]
