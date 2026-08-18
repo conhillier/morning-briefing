@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-14T04:15:42.912132+00:00",
-    "headlines": [
-      "DRC Ebola outbreak spreads to sixth province -- The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province after a man died in Bas-Uele h",
-      "UK GDP growth slows as energy prices bite -- UK economic growth slowed in the second quarter of 2026, with the Office for National Statistics reporting that GDP expa",
-      "Putin visits disputed Kuril Islands, Japan protests -- Russian President Vladimir Putin made his first visit to the Kuril Islands on Thursday, visiting a fish plant, a hospita",
-      "Taiwan hit by AI-assisted government cyber-attack -- Taiwan's Ministry of Digital Affairs said its cybersecurity monitoring units detected an \"abnormal attack\" targeting gov",
-      "Uber and Pony.ai to deploy 2,000 robotaxis across Europe -- Uber and Chinese autonomous vehicle company Pony.ai announced plans to deploy **2,000** self-driving taxis across Europe",
-      "Train derails near Lewes, two seriously hurt -- Two people were taken to major trauma centres with severe injuries after a Southern passenger train derailed between Hay",
-      "[CFO] Companies House accounts reforms delayed to April 2028"
-    ]
-  },
-  {
-    "date": "2026-08-15T02:57:21.900059+00:00",
-    "headlines": [
-      "Venezuela frees 131 political prisoners -- Venezuela says it has freed **131 people** considered political prisoners, in a sign of progress for national reconcilia",
-      "OpenAI C-suite chaos ahead of IPO -- OpenAI's chief revenue officer **Denise Dresser** announced her sudden departure on Thursday, two days after operating c",
-      "Berkshire boosts Alphabet to third-largest holding -- Berkshire Hathaway, now operating under CEO **Greg Abel**, owned about **106 million Alphabet shares** worth **$37.9 bil",
-      "Europe heatwave hits 300 million people -- An intense heatwave - Europe's **fifth this summer** - is affecting some **300 million people**, more than half of Europ",
-      "Japan floods kill eight near Tokyo -- Record-breaking rains outside the capital Tokyo on Friday led to widespread flooding and at least **eight deaths**, with",
-      "Burnham pledges \u00a365m for drought-hit farmers -- Prime Minister **Andy Burnham** has announced **\u00a365m** of funding to help farmers manage the devastating drought, saying",
-      "Google announced it will now allow users to remove a visible watermark from its AI-generated images, videos, and songs, while keeping the invisible SynthID watermark and C2PA metadata intact.",
-      "Six people - five men and a 40-year-old woman - were arrested in East Lothian after a man was abducted in the Canonmills area of Edinburgh at about 22:30 on Thursday; police say the incident was targeted and there is no risk to the wider public.",
-      "A mother, Courtney Gartshore, 28, has been jailed for six years after being convicted of culpable homicide for killing her three-month-old daughter Dahlia-Rose by burning her with a hairdryer at a property in Peterhead, Aberdeenshire.",
-      "[CFO] 20% business rates cut for pubs, clubs, live music venues",
-      "[CFO] Bank Rate held at 3.75% by 6-3 MPC vote"
-    ]
-  },
-  {
     "date": "2026-08-16T03:07:58.067419+00:00",
     "headlines": [
       "Indonesia quake kills 47, toll set to rise -- A **magnitude 7.7 earthquake** struck off the coast of Indonesia's Flores island early Saturday, killing at least **47 p",
@@ -53,6 +25,20 @@
       "JPMorgan could soon become the first $1 trillion bank, with top analyst Mayo saying the next stop is $2 trillion, according to CNBC.",
       "[CFO] Business rates cut 20% for pubs, clubs and live music venues",
       "[CFO] Bank Rate held at 3.75% in July 2026 MPC vote"
+    ]
+  },
+  {
+    "date": "2026-08-18T03:01:49.269000+00:00",
+    "headlines": [
+      "Trump threatens to bomb US ally Oman -- President Donald Trump threatened to bomb Oman - a US ally - if it \"gets in the way\" of his administration's talks with",
+      "Oil prices and Treasury yields surge on Iran fears -- The **30-year Treasury yield** advanced more than 4 basis points to **5.311%**, reaching its highest level since June 20",
+      "Anthropic annualised revenue hits $65bn -- Anthropic's annualised revenue run rate surpassed **$65 billion** at the end of July, up from **$47 billion** in May and",
+      "US-Canada tariff deadline looms in 48 hours -- \"Intense\" trade talks between Canada and the US are going down to the wire as Canadian negotiators have been camped out",
+      "Russia jails anti-war politician for 11 years -- Russia's prominent anti-war politician **Lev Shlosberg**, aged **63**, has been sentenced to **11 years and one month**",
+      "Scotland's first bluetongue cases spark vaccine shortage -- Farmer Fiona Johnson's fledgling farm in Creetown recorded the first ever case of bluetongue in Scotland after she purch",
+      "Brent crude futures gained 27 cents, or 0.3%, to reach $91.14 a barrel on Tuesday as heightened worries over energy supply mounted following diminished prospects for a Middle East ceasefire extension.",
+      "[CFO] Business rates cut 20% for pubs, clubs, live music",
+      "[CFO] Companies House accounts filing reforms delayed to April 2028"
     ]
   }
 ]
