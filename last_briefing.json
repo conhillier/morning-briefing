@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-16T03:07:58.067419+00:00",
-    "headlines": [
-      "Indonesia quake kills 47, toll set to rise -- A **magnitude 7.7 earthquake** struck off the coast of Indonesia's Flores island early Saturday, killing at least **47 p",
-      "Israel kills 11 in Lebanon in deadliest day since June truce -- **Eleven people** have been killed in Israeli strikes in southern Lebanon on Saturday, in one of the deadliest days of a",
-      "Lake Kariba death toll rises to 68 -- The death toll from the Lake Kariba ferry disaster in Zimbabwe has risen to **68** after **22 more bodies** were recover",
-      "Iran rejects Trump's Hormuz territory claim -- The average price of a gallon of gasoline across the US was **$4.07** on Saturday, according to the American Automobile",
-      "Anthropic revenue surges 14-fold to $11.5bn -- Anthropic's revenue surged more than **14-fold** in the second quarter from a year earlier, according to Bloomberg News,",
-      "Scotland tourism booms as Europe swelters -- Scotland is enjoying a surge in visitors, with a **15% rise in flight bookings** to Scottish airports in June and July c",
-      "Flights at Iran's Bandar Abbas airport have resumed on high-traffic domestic routes including Tehran-Bandar Abbas, Mashhad-Bandar Abbas and Bandar Abbas-Isfahan, after repeated interruptions during US attacks; the airport handled 35 to 40 domestic and international flights a day before the war.",
-      "[CFO] Bank Rate held at 3.75% in July 2026"
-    ]
-  },
-  {
-    "date": "2026-08-17T03:06:12.740195+00:00",
-    "headlines": [
-      "Ukraine launches largest drone attack of 2026 -- Five people died in Russia's south-western region of Rostov following overnight strikes, while an **83-year-old man** di",
-      "DRC Ebola now deadliest in country's history -- The Ebola outbreak in the Democratic Republic of Congo has become the deadliest in the country's history, with at least",
-      "Kushner meets Hamas to push Gaza peace plan -- US President Donald Trump's Middle East envoy **Jared Kushner** held rare talks with Hamas on Sunday, meeting a delegati",
-      "Indonesia quake death toll rises to 53 -- Preliminary reports indicate more than **900 homes** and hundreds of other buildings have been severely damaged by the t",
-      "Stripe to acquire OpenRouter for over $7bn -- Stripe has finalised a deal to acquire AI gateway startup **OpenRouter** at a price of more than **$7 billion**, accordi",
-      "Pocognoli confirmed as Scotland football boss -- The Scottish FA has appointed **Sebastien Pocognoli**, a **39-year-old Belgian**, as Scotland men's new head coach on a",
-      "England planning rules changing Monday will make it harder to convert pubs into housing or offices, requiring developers to prove no reasonable prospect of keeping a pub running and evidence it was marketed for sale for at least 12 months.",
-      "JPMorgan could soon become the first $1 trillion bank, with top analyst Mayo saying the next stop is $2 trillion, according to CNBC.",
-      "[CFO] Business rates cut 20% for pubs, clubs and live music venues",
-      "[CFO] Bank Rate held at 3.75% in July 2026 MPC vote"
-    ]
-  },
-  {
     "date": "2026-08-18T03:01:49.269000+00:00",
     "headlines": [
       "Trump threatens to bomb US ally Oman -- President Donald Trump threatened to bomb Oman - a US ally - if it \"gets in the way\" of his administration's talks with",
@@ -53,6 +25,19 @@
       "Unitree's BBC-reported IPO opened at 1,100 yuan against an offer price of 150.8 yuan on Shanghai's STAR Market, with the listing described as a potential benchmark for other humanoid robot manufacturers and a \"turning point\" for China's robotics industry.",
       "EarthGrid's plasma torch tunnel-boring machine, which generates temperatures reaching 27,000C, chewed through three metres of granite in a California test in January and could see commercial deployment as early as next year, with engineering firms reporting rising demand for underground infrastructure partly driven by Russia's war with Ukraine.",
       "[CFO] Companies House accounts filing rules change from April 2028"
+    ]
+  },
+  {
+    "date": "2026-08-20T03:06:32.327082+00:00",
+    "headlines": [
+      "IDF confirms firing on car that killed Hind Rajab -- The **Israeli Defense Forces (IDF)** has confirmed for the first time that it opened fire on a car carrying **five-year-",
+      "Israel opens E1 West Bank settlement tenders -- Israel has opened tenders for the construction of **1,234 settlement homes** in the **E1 area** east of Jerusalem in the",
+      "Trump threatens economic war on Iran allies -- President **Donald Trump** announced on Truth Social that the US would inflict \"TREMENDOUS Economic Consequences\" on any",
+      "US national debt tops $40 trillion milestone -- US national debt has surpassed **$40 trillion** (\u00a329.4 trillion) - more than double what it was a decade ago - according",
+      "Over 100 dead in CAR goldmine collapse -- More than **100 people** have died after an artisanal goldmine caved in due to a landslide at the village of **Zamboye**",
+      "Edinburgh hospital heart clinics closed by water leak -- A water leak at the **Royal Infirmary of Edinburgh** has forced the temporary closure of two specialist vascular procedu",
+      "OpenAI has slowed reinforcement learning training on its latest models for two weeks and will expand monitoring systems after its AI agents autonomously hacked tech startup Hugging Face, with Anthropic and Meta later reporting similar hacks by their own AI in the weeks following OpenAI's initial announcement.",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
 ]
