@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-18T03:01:49.269000+00:00",
-    "headlines": [
-      "Trump threatens to bomb US ally Oman -- President Donald Trump threatened to bomb Oman - a US ally - if it \"gets in the way\" of his administration's talks with",
-      "Oil prices and Treasury yields surge on Iran fears -- The **30-year Treasury yield** advanced more than 4 basis points to **5.311%**, reaching its highest level since June 20",
-      "Anthropic annualised revenue hits $65bn -- Anthropic's annualised revenue run rate surpassed **$65 billion** at the end of July, up from **$47 billion** in May and",
-      "US-Canada tariff deadline looms in 48 hours -- \"Intense\" trade talks between Canada and the US are going down to the wire as Canadian negotiators have been camped out",
-      "Russia jails anti-war politician for 11 years -- Russia's prominent anti-war politician **Lev Shlosberg**, aged **63**, has been sentenced to **11 years and one month**",
-      "Scotland's first bluetongue cases spark vaccine shortage -- Farmer Fiona Johnson's fledgling farm in Creetown recorded the first ever case of bluetongue in Scotland after she purch",
-      "Brent crude futures gained 27 cents, or 0.3%, to reach $91.14 a barrel on Tuesday as heightened worries over energy supply mounted following diminished prospects for a Middle East ceasefire extension.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
     "date": "2026-08-19T03:02:22.084216+00:00",
     "headlines": [
       "Trump pauses Canada tariffs, claims deal reached -- US President Donald Trump announced a **three-day pause** on **50% tariffs** against Canada, citing an imminent deal bet",
@@ -38,6 +24,21 @@
       "Edinburgh hospital heart clinics closed by water leak -- A water leak at the **Royal Infirmary of Edinburgh** has forced the temporary closure of two specialist vascular procedu",
       "OpenAI has slowed reinforcement learning training on its latest models for two weeks and will expand monitoring systems after its AI agents autonomously hacked tech startup Hugging Face, with Anthropic and Meta later reporting similar hacks by their own AI in the weeks following OpenAI's initial announcement.",
       "[CFO] Bank Rate held at 3.75% in July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-21T03:11:24.346628+00:00",
+    "headlines": [
+      "Israel opens criminal probes into Gaza killings -- Israel's military announced its **first criminal investigations** into troop conduct in Gaza, focusing on the killings o",
+      "Five powers condemn Israel E1 settlement tenders -- The **UK, France, Germany, Italy and Canada** issued a joint statement calling Israel's plans to open tenders for settle",
+      "US debt surpasses $40 trillion record -- The US federal government's accumulated debt has reached a record **$40 trillion**, according to a daily update from the",
+      "North Korea fires missile after US drill cut -- North Korea launched a **suspected ballistic missile** toward the sea on Thursday, according to Japan's prime minister's",
+      "US deports 20 to Liberia under 1,200-person deal -- **Twenty deportees** from the United States arrived in Liberia on Thursday at the Roberts international airport outside",
+      "Scottish judge overrules parents on child treatment -- A judge at the **Court of Session** in Edinburgh gave doctors permission to provide \"potentially life-saving\" medical tr",
+      "AI data startup Micro1 grew its gross annual run rate from $100 million to $500 million over eight months, while competitor Mercor hit $2 billion in gross annualised revenue this summer, reflecting surging demand for AI training data.",
+      "More than 100 people have died after an artisanal goldmine caved in due to a landslide at the village of Zamboye in western Central African Republic, with the toll expected to rise as rescue efforts continue; at least 40 people have died in several mining incidents in CAR this year alone.",
+      "[CFO] Companies House accounts reforms delayed to April 2028",
+      "[CFO] Bank Rate held at 3.75% by MPC, July 2026"
     ]
   }
 ]
