@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-19T03:02:22.084216+00:00",
-    "headlines": [
-      "Trump pauses Canada tariffs, claims deal reached -- US President Donald Trump announced a **three-day pause** on **50% tariffs** against Canada, citing an imminent deal bet",
-      "Unitree robot maker surges over 500% in Shanghai debut -- Chinese humanoid robot maker **Unitree Robotics** made its stock market debut in Shanghai on Wednesday, with shares risi",
-      "OpenAI institutes new safeguards after Hugging Face breach -- The company disclosed it had paused **reinforcement learning (RL) for two weeks** following the incident but had since r",
-      "US refineries now taking half of Venezuela's oil -- Venezuela is exporting about half of its oil output - more than **500,000 barrels per day** - to the United States, acco",
-      "Meta faces sweeping child privacy trial from 29 states -- A jury trial brought by **29 US states**, including California and New York, began on Tuesday, with states seeking **bil",
-      "Taxpayers to foot bill for Edinburgh PFI hospital shortfall -- Tens of millions of pounds of taxpayers' cash will be needed to bring the **Royal Infirmary of Edinburgh (RIE)** up to s",
-      "Unitree's BBC-reported IPO opened at 1,100 yuan against an offer price of 150.8 yuan on Shanghai's STAR Market, with the listing described as a potential benchmark for other humanoid robot manufacturers and a \"turning point\" for China's robotics industry.",
-      "EarthGrid's plasma torch tunnel-boring machine, which generates temperatures reaching 27,000C, chewed through three metres of granite in a California test in January and could see commercial deployment as early as next year, with engineering firms reporting rising demand for underground infrastructure partly driven by Russia's war with Ukraine.",
-      "[CFO] Companies House accounts filing rules change from April 2028"
-    ]
-  },
-  {
     "date": "2026-08-20T03:06:32.327082+00:00",
     "headlines": [
       "IDF confirms firing on car that killed Hind Rajab -- The **Israeli Defense Forces (IDF)** has confirmed for the first time that it opened fire on a car carrying **five-year-",
@@ -39,6 +25,22 @@
       "More than 100 people have died after an artisanal goldmine caved in due to a landslide at the village of Zamboye in western Central African Republic, with the toll expected to rise as rescue efforts continue; at least 40 people have died in several mining incidents in CAR this year alone.",
       "[CFO] Companies House accounts reforms delayed to April 2028",
       "[CFO] Bank Rate held at 3.75% by MPC, July 2026"
+    ]
+  },
+  {
+    "date": "2026-08-22T03:03:12.535487+00:00",
+    "headlines": [
+      "Russia kills 16 in Kryvyi Rih mall strike -- At least **16 people** have been killed in a Russian double-tap drone strike on a shopping centre in the central Ukraini",
+      "Canada-US trade talks go to the wire -- Canada-US trade minister **Dominic LeBlanc** said negotiators 'have more work to do' after spending some **eight hours**",
+      "Iran president calls for end to US war -- Iranian President **Masoud Pezeshkian** called for an end to the months-long war with the United States, stating that Te",
+      "US borrowing costs rebound despite Treasury intervention -- Long-term US borrowing costs rose again after the Treasury Department's debt buyback intervention proved short-lived, wi",
+      "TikTok pays $400m in child privacy settlement -- TikTok has agreed to pay **$400m (\u00a3293m)** to the US to end a lawsuit alleging its platform violated children's privacy,",
+      "Shoreham: fourth family member dies -- **Saja El-Khawas**, aged **six**, died on Friday in hospital, three days after being pulled from the sea off **Shoreham*",
+      "UK, Canada and Australia condemned as 'shameful' Israel's decision not to launch a criminal investigation into the 2024 strikes on a World Central Kitchen convoy that killed seven humanitarian workers, with Australian Foreign Minister Penny Wong saying her country was 'outraged'.",
+      "Iran's parliamentary speaker Mohammad Baqer Ghalibaf dismissed Trump's threat of an 'economic D-Day', saying it shows Washington 'cannot handle Iran in the field of a hard military war', while Treasury Secretary Scott Bessent warned the US would 'collapse this regime' through sanctions.",
+      "Airbus backed down on plans to restrict remote working to one day a week, telling managers staff can work from home an average of two days a week after strikes in Spain, France and the UK; approximately 40% of the company's 14,000 workers in Spain had taken part in stoppages in recent weeks.",
+      "AI data startup Micro1 expanded its gross annual run rate from $100 million to $500 million over eight months, while competitor Mercor hit $2 billion in gross annualised revenue this summer, reflecting surging demand for AI training data.",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
 ]
