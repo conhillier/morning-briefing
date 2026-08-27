@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-08-24T03:13:06.130126+00:00",
-    "headlines": [
-      "Canada-US trade war erupts after talks collapse -- Canadian Prime Minister **Mark Carney** confirmed Canada will match US tariffs \"dollar-for-dollar\" from **8 September**,",
-      "US to launch 'economic D-Day' against Iran Monday -- Treasury Secretary **Scott Bessent** announced the US will unveil \"the single greatest financial offensive ever\" against",
-      "Burnham flies to Kyiv with Storm Shadow pledge -- UK Prime Minister **Andy Burnham** will travel to Kyiv on Monday - his first foreign visit as prime minister - to mark U",
-      "DRC Ebola outbreak kills 2,642, Pope urges action -- The Ebola outbreak in the Democratic Republic of the Congo has reached **5,515 confirmed cases** and killed **2,642 peop",
-      "DR Congo and M23 agree peace roadmap in Switzerland -- The Democratic Republic of Congo government and the Rwanda-backed **M23** rebel group have agreed a roadmap for peace ta",
-      "Glasgow gangland fears after Kirkintilloch garage fire -- Police are investigating a deliberate car fire at **Kelvinside Motor Company** in **Kirkintilloch** at **22:55 on Saturd",
-      "At least 30 people were killed and 22 injured after a mound of rubbish collapsed onto homes in Guinea's capital Conakry at around 02:00 local time following heavy overnight rain, with fears the death toll will rise further.",
-      "Iran-linked hackers caused a British power plant to be shut down for four days last month in what the UK government described as an incident involving a small-scale energy generator, with the National Cyber Security Centre saying it did not receive any reported outages from regulated power station operators.",
-      "CrossCountry cancelled almost all UK rail services on Sunday after a power cut at its Birmingham control centre knocked out systems used to manage the railway, affecting routes from Glasgow to Penzance and Leeds to Manchester, with the operator saying tickets would remain valid until Wednesday.",
-      "Families of PC Matthew Blades, 37, and PC Tom Clough, 38, of Cleveland Police released photographs and tributes after the two officers were killed when a Volkswagen Passat believed to be using cloned plates drove the wrong way on the A66 near Middlesbrough, with five others also dying in the crash.",
-      "[CFO] Business rates cut 20% for pubs, clubs, live music venues",
-      "[CFO] Bank Rate held at 3.75% after MPC July 2026 vote"
-    ]
-  },
-  {
     "date": "2026-08-25T03:06:42.795377+00:00",
     "headlines": [
       "US launches 'Operation Economic Outcast' against Iran -- Treasury Secretary Scott Bessent unveiled sweeping new sanctions against Iran on Monday under what he called \"Operation",
@@ -46,6 +29,21 @@
       "Iran's Economy Minister said Tehran was \"fully prepared\" for US sanctions under \"Operation Economic Outcast\", claiming neither China nor Russia had accepted the measures and predicting other countries would resist them.",
       "[CFO] 20% business rates cut for pubs from April 2027",
       "[CFO] Bank Rate held at 3.75% at July 2026 MPC meeting"
+    ]
+  },
+  {
+    "date": "2026-08-27T12:34:08.648162+00:00",
+    "headlines": [
+      "Nepal-Tibet floods: 1,500 missing, 270 dead -- More than **1,500 people** have been confirmed missing after deadly flash floods hit the Nepal-Tibet border early Wednes",
+      "Collapsed glacier confirmed as flood trigger -- Preliminary investigations have pointed to a collapsed glacier near the **Langtang Lirung peak** as the cause of the fla",
+      "Nvidia revenue doubles; Amazon triples chip order -- Nvidia reported **$96bn (\u00a371bn)** of revenue during the second quarter, more than double the amount for the same period",
+      "Nvidia closes in on $12.9bn Hugging Face deal -- Nvidia has agreed to buy Hugging Face for **$12.9 billion**, according to The Information, citing a source familiar with",
+      "Meta pays $18bn to settle child harm claims -- Social media giant Meta has agreed to an **$18bn (\u00a313.3bn)** settlement with US states and territories to resolve claims",
+      "Edinburgh's Princes Street reopens after seven weeks -- Edinburgh's Princes Street is to fully reopen on Saturday, **seven weeks** after a major fire at the B-listed former Deb",
+      "The Trump administration is reportedly considering new tariffs on an expanded range of tech products made alongside chips, including laptops, data centre servers and gaming hardware, with measures still in early phases and subject to significant changes, Politico reported Thursday.",
+      "UK youth unemployment fell below 1 million in April to June, with the ONS recording an estimated 981,000 Neets aged 16-24, down from 1,012,000 in the previous quarter, though the figure remains 30,000 higher than a year ago.",
+      "Amazon and Nvidia announced an expanded partnership adding another 2 million Nvidia GPU chips - including Blackwell Ultra, Rubin and Rubin Ultra GPUs - to Amazon Web Services data centres in 2027 and 2028, with Nvidia also committing $279 billion to secure supply and manufacturing capacity for current and future data-centre projects.",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
 ]
