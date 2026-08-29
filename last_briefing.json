@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-08-26T03:24:04.198877+00:00",
-    "headlines": [
-      "CIA chief makes unannounced Moscow visit -- CIA Director **John Ratcliffe** reportedly travelled to Moscow on Tuesday, with US media partner CBS confirming the trip",
-      "Canada fires back with up to 50% tariffs -- Canada has announced counter-tariffs as high as **50%** on a range of US goods, targeting nearly **C$28bn ($20bn; \u00a315bn)",
-      "China rejects US Iran sanctions as 'illegal' -- China has vowed to protect its interests after the US announced plans to widen economic sanctions against Iran and its t",
-      "UK shares missile tech to boost Ukraine -- British Prime Minister **Andy Burnham** said the UK will help Ukraine make its own long-range missiles by sharing classi",
-      "UK energy bills to hit three-year high -- Energy bills for millions of households are expected to rise this winter to the highest level for **three years**, under",
-      "GPS tracking push for domestic abuse suspects -- Domestic abuse campaigners are calling for greater use of GPS location tracking to monitor high-risk suspects following",
-      "Stability AI has raised **$76 million** in Series B funding, with investors including Universal Music Group, Sony Music Group, Warner Music Group and Electronic Arts, bringing its total fundraising to **$232 million**.",
-      "OpenAI revealed benchmark results for its new **Jalape\u00f1o** chip at the Hot Chips conference, with the chip registering more tokens per user and more throughput per kilowatt than current state-of-the-art inference processors, though full deployment is not expected until **2027**.",
-      "Burnham told reporters he was \"really optimistic\" that Ukraine's Patriot interceptor shortage was \"fixable\" and plans to take Zelenskyy's pleas for missiles to Trump, while the Kremlin accused him of belonging to the \"party of war\".",
-      "Iran's Economy Minister said Tehran was \"fully prepared\" for US sanctions under \"Operation Economic Outcast\", claiming neither China nor Russia had accepted the measures and predicting other countries would resist them.",
-      "[CFO] 20% business rates cut for pubs from April 2027",
-      "[CFO] Bank Rate held at 3.75% at July 2026 MPC meeting"
-    ]
-  },
-  {
     "date": "2026-08-27T12:34:08.648162+00:00",
     "headlines": [
       "Nepal-Tibet floods: 1,500 missing, 270 dead -- More than **1,500 people** have been confirmed missing after deadly flash floods hit the Nepal-Tibet border early Wednes",
@@ -41,6 +24,18 @@
       "Iran urges countries to defy US sanctions -- Iran's Foreign Ministry called on \"all countries\" not to implement US sanctions against Tehran on Friday, warning that d",
       "Celtic and Rangers ordered to play cup ties behind closed doors -- Celtic and Rangers have both been ordered to play their next home Scottish Cup matches behind closed doors after last se",
       "South Korea, the US and Japan will go ahead with the trilateral Freedom Edge military exercise starting September 7 for a five-day run in waters off South Korea's southern Jeju Island, despite North Korea's vow to retaliate against what it called US hostilities."
+    ]
+  },
+  {
+    "date": "2026-08-29T08:51:32.793981+00:00",
+    "headlines": [
+      "US claims 65bn barrel Venezuela oil deal -- Rodriguez said the agreement would draw more than **$100 billion** in investment and yield over **$209 billion in taxes*",
+      "Fed chair warns of possible US rate hike -- Federal Reserve chair Kevin Warsh said at the annual Jackson Hole Economic Policy Symposium that policymakers will \"have",
+      "Warsh sharpens hawkish Jackson Hole message -- Federal Reserve Chairman Kevin Warsh used his Jackson Hole speech to deliver a clearer warning that stubborn inflation c",
+      "Judge rules Pentagon's Anthropic blacklist unlawful -- The dispute arose after Anthropic refused to allow the Pentagon to use its Claude AI model for fully autonomous lethal w",
+      "Lambda raises $1bn in debt for Nvidia chips -- Lambda, an AI cloud company that buys computing chips and rents them out to businesses, has raised **$1 billion** in pri",
+      "Anthropic's first court win in California is only partial: a second lawsuit filed in Washington DC remains ongoing, to be heard by a three-judge panel including two Trump appointees who have expressed scepticism about the company's arguments.",
+      "[CFO] Bank Rate held at 3.75% in July 2026"
     ]
   }
 ]
