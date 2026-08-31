@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-27T12:34:08.648162+00:00",
-    "headlines": [
-      "Nepal-Tibet floods: 1,500 missing, 270 dead -- More than **1,500 people** have been confirmed missing after deadly flash floods hit the Nepal-Tibet border early Wednes",
-      "Collapsed glacier confirmed as flood trigger -- Preliminary investigations have pointed to a collapsed glacier near the **Langtang Lirung peak** as the cause of the fla",
-      "Nvidia revenue doubles; Amazon triples chip order -- Nvidia reported **$96bn (\u00a371bn)** of revenue during the second quarter, more than double the amount for the same period",
-      "Nvidia closes in on $12.9bn Hugging Face deal -- Nvidia has agreed to buy Hugging Face for **$12.9 billion**, according to The Information, citing a source familiar with",
-      "Meta pays $18bn to settle child harm claims -- Social media giant Meta has agreed to an **$18bn (\u00a313.3bn)** settlement with US states and territories to resolve claims",
-      "Edinburgh's Princes Street reopens after seven weeks -- Edinburgh's Princes Street is to fully reopen on Saturday, **seven weeks** after a major fire at the B-listed former Deb",
-      "The Trump administration is reportedly considering new tariffs on an expanded range of tech products made alongside chips, including laptops, data centre servers and gaming hardware, with measures still in early phases and subject to significant changes, Politico reported Thursday.",
-      "UK youth unemployment fell below 1 million in April to June, with the ONS recording an estimated 981,000 Neets aged 16-24, down from 1,012,000 in the previous quarter, though the figure remains 30,000 higher than a year ago.",
-      "Amazon and Nvidia announced an expanded partnership adding another 2 million Nvidia GPU chips - including Blackwell Ultra, Rubin and Rubin Ultra GPUs - to Amazon Web Services data centres in 2027 and 2028, with Nvidia also committing $279 billion to secure supply and manufacturing capacity for current and future data-centre projects.",
-      "[CFO] Bank Rate held at 3.75% in July 2026"
-    ]
-  },
-  {
     "date": "2026-08-28T14:01:18.116951+00:00",
     "headlines": [
       "Trump renames Lake Ontario 'Lake America' -- US President Donald Trump has signed an executive order seeking to change the name of Lake Ontario to Lake America, sayi",
@@ -49,6 +34,20 @@
       "Burnham blocks PC Harper killers' early release -- Prime Minister Andy Burnham has announced that anyone convicted of unlawful killing, including all forms of manslaughter",
       "The Royal Navy spent 72 hours last week tracking four Russian vessels, including the sanctioned cargo ships General Skobelev and Sparta, as they passed from the North Sea through to the Channel, deploying HMS Duncan, HMS St Albans, HMS Severn and a Merlin helicopter.",
       "[CFO] Companies House accounts filing reforms delayed to April 2028"
+    ]
+  },
+  {
+    "date": "2026-08-31T08:21:26.389918+00:00",
+    "headlines": [
+      "US and Iran trade strikes in Hormuz -- American forces attacked **two rocket launchers on Larak Island** in the Strait of Hormuz, killing two people and injuri",
+      "Nepal flood toll hits 903, 900 workers trapped -- The unprecedented deluge of ice, rock, mud and debris on the Nepal-Tibet border has killed **903 people** with **4,247 m",
+      "Russia threatens massive Ukraine energy strikes -- Russia's Defense Ministry announced it is planning \"massive strikes\" on Ukraine's energy infrastructure, framing the pla",
+      "Ferry capsizes off Cyprus, eight dead -- At least **eight people** have died and **18 others** are still missing after a passenger boat capsized off northern Cyp",
+      "Bank of England warns AI threatens financial stability -- Bank of England governor Andrew Bailey has written to G20 finance ministers and central bank governors warning that \"fro",
+      "Scottish Labour candidates back North Sea drilling -- The two candidates in the Scottish Labour leadership race, MSPs Joe Fagan and Michael Marra, have both called for new dr",
+      "The NHS in England is to offer free seven-minute finger-prick cholesterol tests at participating pharmacies for people aged 40 to 84, with about 100 NHS pharmacies beginning the rollout this autumn as part of plans to reduce heart disease and stroke deaths by a quarter within the next decade.",
+      "China dominates global humanoid robot manufacturing with the world's five largest makers by shipments -- AgiBot, Unitree, Galbot, UBTECH and Leju Robotics -- all Chinese and together accounting for 86% of global shipments in the first half of 2026, as Washington tightens restrictions on foreign-made advanced robotic systems and imposes steep drone tariffs taking effect in September.",
+      "The US has struck a deal with Venezuela giving the US government 55% control of a joint venture to develop 17 strategic oil fields with proven potential of 65 billion barrels, with Venezuela's interim President Delcy Rodriguez saying the energy agreement will remain in force for 25 years and targets crude output of 1.5 million barrels per day."
     ]
   }
 ]
