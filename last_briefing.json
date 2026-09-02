@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-08-29T08:51:32.793981+00:00",
-    "headlines": [
-      "US claims 65bn barrel Venezuela oil deal -- Rodriguez said the agreement would draw more than **$100 billion** in investment and yield over **$209 billion in taxes*",
-      "Fed chair warns of possible US rate hike -- Federal Reserve chair Kevin Warsh said at the annual Jackson Hole Economic Policy Symposium that policymakers will \"have",
-      "Warsh sharpens hawkish Jackson Hole message -- Federal Reserve Chairman Kevin Warsh used his Jackson Hole speech to deliver a clearer warning that stubborn inflation c",
-      "Judge rules Pentagon's Anthropic blacklist unlawful -- The dispute arose after Anthropic refused to allow the Pentagon to use its Claude AI model for fully autonomous lethal w",
-      "Lambda raises $1bn in debt for Nvidia chips -- Lambda, an AI cloud company that buys computing chips and rents them out to businesses, has raised **$1 billion** in pri",
-      "Anthropic's first court win in California is only partial: a second lawsuit filed in Washington DC remains ongoing, to be heard by a three-judge panel including two Trump appointees who have expressed scepticism about the company's arguments.",
-      "[CFO] Bank Rate held at 3.75% in July 2026"
-    ]
-  },
-  {
-    "date": "2026-08-30T08:06:01.465519+00:00",
-    "headlines": [
-      "37 dead in Russian strike on Kyiv depot -- **Thirty-seven people** have died and almost **400** have been evacuated after a Russian drone strike hit a depot storin",
-      "AI loss-of-control incidents nearly double in July -- Incidents of AIs escaping users' control to lie, ignore instructions and pursue goals in harmful ways have hit a new hig",
-      "OpenAI cuts Cursor access after SpaceX buyout -- OpenAI announced it is ending developers' access to its models on Cursor following the acquisition of the AI coding star",
-      "Sony and Warner sue Anthropic over IP theft -- Sony Music Publishing, Warner Chappell and numerous other music publishers have sued Anthropic and co-founders Dario Amo",
-      "Nepal flood death toll rises to 600 -- Rescue teams in both Nepal and China are racing against the clock to find survivors after deadly floods along the Nepal-",
-      "Burnham blocks PC Harper killers' early release -- Prime Minister Andy Burnham has announced that anyone convicted of unlawful killing, including all forms of manslaughter",
-      "The Royal Navy spent 72 hours last week tracking four Russian vessels, including the sanctioned cargo ships General Skobelev and Sparta, as they passed from the North Sea through to the Channel, deploying HMS Duncan, HMS St Albans, HMS Severn and a Merlin helicopter.",
-      "[CFO] Companies House accounts filing reforms delayed to April 2028"
-    ]
-  },
-  {
     "date": "2026-08-31T08:21:26.389918+00:00",
     "headlines": [
       "US and Iran trade strikes in Hormuz -- American forces attacked **two rocket launchers on Larak Island** in the Strait of Hormuz, killing two people and injuri",
@@ -50,6 +25,19 @@
       "Venezuela has granted U.S.-backed firm NABEP 100-year concessions for 17 oil fields with proven reserves of about 65 billion barrels, with NABEP planning to invest up to $100 billion in new oil infrastructure and expected to pay $200 billion in royalty and tax payments to Venezuelan governments over the first 25 years.",
       "Iran launched attacks on two American bases in Jordan on Monday in retaliation for the U.S. strike on Larak Island, with Iranian President Masoud Pezeshkian telling the Shanghai Cooperation Organisation Summit that Tehran would immediately reciprocate if Washington agreed to return to its commitments under the interim deal signed in June.",
       "The boss of the UK's Financial Conduct Authority, Nikhil Rathi, is accused in court filings of warning consumer group Consumer Voice of \"adverse consequences\" during a Microsoft Teams call on 27 April if it challenged the FCA's proposed 9.1 billion pound motor finance redress scheme."
+    ]
+  },
+  {
+    "date": "2026-09-02T08:35:45.147625+00:00",
+    "headlines": [
+      "Iran launches multi-country missile barrage at US -- Tehran launched missile and drone attacks at US targets in **Jordan, Kuwait, Iraq and Bahrain** after American forces re",
+      "US strike kills five at Iranian wedding party -- The Iranian Red Crescent said **five people, including a child**, were killed and more than **50 injured** when shrapnel",
+      "UK 30-year borrowing costs hit 28-year high -- The yield on a **30-year gilt** rose to **5.89%** on Tuesday, the highest since **1998**, putting further pressure on Pr",
+      "Israel expanding Lebanon occupation, BBC finds -- A BBC team visiting southern Lebanon found that Israel has established **four new bases** in invaded areas, bringing the",
+      "AI poses global economic downturn risk, Bailey warns -- Bank of England governor Andrew Bailey warned G20 finance ministers that a collapse of growth in the AI sector could lea",
+      "Glasgow gets PS2 bus fare cap from Monday -- Bus fares in the west of Scotland will be capped at **PS2** from Monday, First Minister John Swinney has announced, cove",
+      "UK government AI strategy architect Matt Clifford, 41, has joined Anthropic as managing director of international affairs, a move critics say raises \"revolving door\" concerns given his recent Downing Street role.",
+      "Palo Alto Networks CEO Nikesh Arora said there is approximately $1 trillion of global cybersecurity infrastructure that must be modernised to defend against AI-powered automated threats that operate at machine speed."
     ]
   }
 ]
