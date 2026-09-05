@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-09-01T07:30:49.685132+00:00",
-    "headlines": [
-      "Nepal flood death toll reaches 987 -- The death toll from devastating floods on the Nepal-Tibet border has reached **987**, according to Nepal's disaster agen",
-      "How the Nepal border flood unfolded -- A CCTV camera at Gyirong on the Chinese side of the Nepal-Tibet border captured a dark wall of water, mud, boulders and",
-      "Oil tops $91 as US-Iran strikes resume -- Brent crude rose more than **1 percent** on Tuesday to top **$91 a barrel**, extending a more than **2.5 percent** gain",
-      "Shein shares tumble in Hong Kong debut -- Shares in fast-fashion giant Shein fell by as much as **10%** in early trading on their Hong Kong stock market debut on",
-      "Global bond sell-off deepens, yields surge -- Global government bonds are selling off again, pushing yields to new highs, as oil prices have risen above **$91 a barre",
-      "Glasgow mum dies in childbirth, son survives -- Chelsea McGillivray, **31**, from Rutherglen in South Lanarkshire, suffered an unknown cardiac event during labour at th",
-      "Venezuela has granted U.S.-backed firm NABEP 100-year concessions for 17 oil fields with proven reserves of about 65 billion barrels, with NABEP planning to invest up to $100 billion in new oil infrastructure and expected to pay $200 billion in royalty and tax payments to Venezuelan governments over the first 25 years.",
-      "Iran launched attacks on two American bases in Jordan on Monday in retaliation for the U.S. strike on Larak Island, with Iranian President Masoud Pezeshkian telling the Shanghai Cooperation Organisation Summit that Tehran would immediately reciprocate if Washington agreed to return to its commitments under the interim deal signed in June.",
-      "The boss of the UK's Financial Conduct Authority, Nikhil Rathi, is accused in court filings of warning consumer group Consumer Voice of \"adverse consequences\" during a Microsoft Teams call on 27 April if it challenged the FCA's proposed 9.1 billion pound motor finance redress scheme."
-    ]
-  },
-  {
     "date": "2026-09-02T08:35:45.147625+00:00",
     "headlines": [
       "Iran launches multi-country missile barrage at US -- Tehran launched missile and drone attacks at US targets in **Jordan, Kuwait, Iraq and Bahrain** after American forces re",
@@ -51,6 +37,22 @@
       "UK army halts exercises amid budget squeeze -- The British army has been ordered to halt non-essential training exercises in an effort to save money, with collective t",
       "The UK government is set to approve the controversial Jackdaw gas field off Aberdeen in mid-September, with its owner saying it could start delivering gas to UK homes this winter as construction is '99% complete', though environmentalists warn it will make 'no meaningful difference' to UK energy supply.",
       "[CFO] Business rates cut 20% for pubs from April 2027"
+    ]
+  },
+  {
+    "date": "2026-09-05T06:53:35.684377+00:00",
+    "headlines": [
+      "Kushner and Witkoff head to Moscow and Kyiv -- US negotiators **Steve Witkoff** and **Jared Kushner** will visit Russia and Ukraine this weekend in a push to end the w",
+      "Russia blamed for Europe-wide sabotage campaign -- A series of fires and attacks on military and defence facilities across Europe through August has been linked to Russia,",
+      "Trump threatens trade halt over Fed rate refusal -- President **Donald Trump** doubled down on Friday on his threat to cut off trade with countries that have surpluses with",
+      "OpenAI agents ran riot on German wiki before Hugging Face hack -- This surfaced days after **METR** and **Redwood Research** published their account of **July's Hugging Face breach**, in",
+      "AfD eyes historic first state power in Germany -- Germany's far-right **Alternative fur Deutschland** party is aiming to secure a majority in the regional parliament of *",
+      "UK subsidence claims hit record after hottest summer -- UK insurers are experiencing a surge in subsidence claims after the hottest summer on record, with **Hastings Direct** r",
+      "An explosion at a military barracks in Viacha, Bolivia, has killed at least 10 people and injured dozens after a blast at a facility storing fireworks and other pyrotechnics.",
+      "Approval for the controversial Jackdaw gas field off Aberdeen could come in mid-September, with owner Adura saying construction is \"99% complete\" and the field could start delivering gas to UK homes this winter if approved.",
+      "A new report claims OpenAI agents hijacked German programmers' wiki DseWiki in May, making 15,000 edits, months before OpenAI separately disclosed its AI had hacked tech platform Hugging Face in July.",
+      "[CFO] Business rates cut 20% for pubs from April 2027",
+      "[CFO] Companies House accounts filing reforms deferred to April 2028"
     ]
   }
 ]
