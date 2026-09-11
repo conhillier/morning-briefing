@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-09-08T07:06:30.718367+00:00",
-    "headlines": [
-      "Canada fires tariff salvo back at US -- Prime Minister **Mark Carney** described the measures as \"dollar-for-dollar\" retaliation, though Canada later removed do",
-      "AfD demands power after Saxony-Anhalt breakthrough -- Germany's far-right Alternative for Deutschland won **43.8%** of the vote in Sunday's Saxony-Anhalt state election, fall",
-      "JLR confirms 4,000 job cuts over two years -- Jaguar Land Rover confirmed on Monday it will reduce its global workforce by around **4,000** roles over two years as pa",
-      "Mistral raises \u20ac3bn, valued at \u20ac21bn -- French AI startup Mistral raised **3 billion euros ($3.5 billion)** in a funding round led by memory chip giant **Samsun",
-      "Miami crash investigators recover flight recorders -- Investigators have recovered the flight data recorder and cockpit voice recorder from the Amazon Air **Boeing 767-300**",
-      "Fatal hit-and-run near Edinburgh Airport; hunt under way -- Police are hunting two women and a man who fled on foot after a fatal multi-vehicle crash on the **A8** near Edinburgh A",
-      "Somali piracy has returned to levels not seen in a decade, with eight hijackings since late April driven by the diversion of anti-piracy naval forces to counter Houthi and Iranian threats in the Red Sea and Strait of Hormuz, with analysts noting that about 70% of maritime traffic previously passing through the Red Sea is now being rerouted around the Cape of Good Hope.",
-      "Canada's US spirits imports fell more than 70% year over year after eight of its ten provinces restricted or banned US alcohol sales, while Trump threatened to block Bombardier aircraft sales in the US unless the Quebec-based manufacturer moves production to American soil."
-    ]
-  },
-  {
     "date": "2026-09-09T07:32:14.112834+00:00",
     "headlines": [
       "US strikes Iranian tankers, oil nears $100 -- US forces struck **five Iranian oil tankers** on Tuesday, sinking one, after Iran twice targeted a US Navy warship with",
@@ -34,6 +21,19 @@
       "Google makes record 13bn euro Finland investment -- Google announced a record **13 billion euro ($15bn)** investment in Finland's AI infrastructure, its largest single inve",
       "Family tribute to A8 crash victim Linda Patterson -- The family of **Linda Patterson, 58**, killed in a four-car crash on the A8 near Newbridge on Monday, have described her",
       "US Secretary of State Marco Rubio said of the Iran tanker strikes: \"Iran continues to try to hit U.S. naval ships. And for every time they do that or try to do that, they're going to lose tankers\" - while Iran expert Danny Citrinowicz warned \"there is no kinetic solution to the Strait of Hormuz problem\"."
+    ]
+  },
+  {
+    "date": "2026-09-11T07:51:30.093613+00:00",
+    "headlines": [
+      "Houthis seize Red Sea port of Mokha -- Yemen's Houthi rebels took over the port city of Mokha on Thursday, confirmed by Ahmed Baash, a commander with the Natio",
+      "Oil at $105 as ECB hikes rates to 2.5% -- The European Central Bank raised its main interest rate from **2.25% to 2.5%** - the highest level since March last year",
+      "Mokha seizure pushes oil and gas higher -- The price of oil jumped to **$105 a barrel** amid signs the Middle East conflict will not be resolved quickly, with Bren",
+      "Canada pledges air defence and drones to Ukraine -- Canadian Prime Minister Mark Carney hosted Ukrainian President Volodymyr Zelenskyy in Calgary on Thursday, where the two",
+      "Chinese AI labs secretly trained on Claude -- Moonshot silently forwarded customer requests intended for its Kimi model to Claude, relaying nearly **300,000 customer",
+      "UK economy grows 0.4% in July -- The UK economy expanded by **0.4%** in July, the Office for National Statistics said, far exceeding economists' predicti",
+      "Edinburgh City Council voted to prioritise a southern tram extension connecting the city centre to the Royal Infirmary via the BioQuarter, estimated to cost about \u00a31.7bn, while rejecting both proposed northern routes to Granton.",
+      "Houthi military spokesman Yahya Sarea said Saudi warplanes carried out 64 strikes across the western provinces of Taiz, Hudaydah, Marib and Jawf in 24 hours, while Houthis also seized Zuqar Island in the Red Sea, about 80km north-west of Mokha."
     ]
   }
 ]
