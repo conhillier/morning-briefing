@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-09-13T07:21:21.398233+00:00",
-    "headlines": [
-      "1,400 Yemenis flee to Djibouti in 24 hours -- About **1,400 people** have fled Yemen for Djibouti in a 24-hour period, according to Djibouti's economy and finance min",
-      "Houthis seize Mayun Island, control Bab al-Mandeb -- Yemen's Houthis have seized the strategic Mayun Island, also known as Perim Island, cementing their control over the Bab",
-      "Oil tops $102 as China's buying intent watched closely -- US crude oil prices topped **$102 per barrel** on Thursday for the highest close since May, having surged about **50%**",
-      "OpenAI delays IPO; AI chiefs call for slowdown -- OpenAI CEO Sam Altman told Fortune that an IPO in 2026 would be \"ill-advised,\" pushing one of the most anticipated listi",
-      "BRICS summit tests bloc unity over wars -- Leaders of the BRICS nations met in New Delhi on Saturday for a summit focused on trade, investment and global conflicts",
-      "French train derailment probed as possible sabotage -- Officials in northern France are investigating whether the derailment of a passenger train on Friday evening was the res",
-      "One person has died and 102 have been evacuated from the Indonesian passenger ferry Virgo Transport 8, which had 243 people on board and lost contact in the Java Sea during a storm, with rescue ships and a helicopter searching an area where waves as high as 2.5 metres have hampered the operation.",
-      "Saudi Arabia's East-West pipeline, capable of exporting about 5 million barrels of oil per day at max capacity, has been shut after drone attacks, leaving the kingdom squeezed on both sides of the peninsula with Iran and its allies now the main power brokers in both the Strait of Hormuz and the Bab al-Mandeb, according to Washington Institute senior fellow April Longley Alley.",
-      "Anthropic CEO Dario Amodei outlined a three-step plan to slow AI development - including embedded third-party evaluators with company-level access, coordination on common safety standards among democratic nations, and global coordination with authoritarian governments - with Anthropic \"unilaterally committing\" to the first step and OpenAI signalling it will follow suit."
-    ]
-  },
-  {
     "date": "2026-09-14T07:47:41.079563+00:00",
     "headlines": [
       "Saudi pipeline damage sparks 4% supply threat -- Satellite images released on Sunday showed a pumping station on Saudi Arabia's **1,200km east-west pipeline** charred an",
@@ -37,6 +23,18 @@
       "North Sea bosses say 100 projects could be unlocked -- Industry body **Offshore Energies UK (OEUK)** says changes to the windfall tax and approval of the **Rosebank and Jackda",
       "Almost four-fifths of BAME managers in the English NHS have experienced racism, exclusion and barriers to career progression, with one in five saying they will quit the NHS in the next three years, according to a survey of 950 managers by the NHS Alliance.",
       "[CFO] Strike-off objections must be submitted online from 1 December 2026"
+    ]
+  },
+  {
+    "date": "2026-09-16T07:25:45.548191+00:00",
+    "headlines": [
+      "Tanker attacked in Strait of Hormuz, two missing -- Two sailors are missing and **23 others have been rescued** following an attack on an oil tanker in the Strait of Hormuz",
+      "Houthis accused of targeting Mecca with drone -- Saudi Arabia said Wednesday that its air defenses intercepted and destroyed a Houthi drone before it could enter the air",
+      "UK inflation jumps to 3.1% on fuel surge -- UK inflation rose from **2.9% in July to 3.1% in August**, driven by motor fuel prices rising by almost a quarter, accor",
+      "DOJ charges five in Russian murder-for-hire plots -- The US Department of Justice has unsealed charges against **five people** over alleged Russian intelligence-linked plots",
+      "DRC Ebola outbreak said to have peaked -- Congolese health minister Samuel Roger Kamba announced that the **Bundibugyo variant** Ebola outbreak, declared on **15",
+      "MSPs urged to pause Scotland data centre rush -- A debate at Holyrood, led by the **Scottish Greens**, will call for planning applications for hyperscale data centres to",
+      "OpenAI is weighing a new funding round at a valuation of $1.2tn before its IPO, according to the Financial Times."
     ]
   }
 ]
