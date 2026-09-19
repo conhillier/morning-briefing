@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-09-15T07:29:08.256133+00:00",
-    "headlines": [
-      "Houthis seize Red Sea islands, oil hits $107 -- Yemen's Houthi militants have seized the islands of **Greater and Lesser Hanish** in the Red Sea, reinforcing their abil",
-      "NATO jets shoot down drone over Lithuania -- NATO fighter jets shot down a drone that entered **Lithuanian airspace** overnight on Tuesday, according to Lithuanian P",
-      "US confirms first-ever deployed space weapon -- The US has confirmed it deployed a space weapon in Earth's orbit, the **first time** it has acknowledged such offensive",
-      "Treasury yields hit highest since 2007 -- The benchmark **10-year Treasury yield** climbed to its highest level since 2007 on Tuesday, jumping more than **6 basis",
-      "Trump dismisses AI safety fears as hoax -- US President **Donald Trump** has said fears about the safety of AI are a \"hoax\", criticising calls for greater guardrai",
-      "North Sea bosses say 100 projects could be unlocked -- Industry body **Offshore Energies UK (OEUK)** says changes to the windfall tax and approval of the **Rosebank and Jackda",
-      "Almost four-fifths of BAME managers in the English NHS have experienced racism, exclusion and barriers to career progression, with one in five saying they will quit the NHS in the next three years, according to a survey of 950 managers by the NHS Alliance.",
-      "[CFO] Strike-off objections must be submitted online from 1 December 2026"
-    ]
-  },
-  {
     "date": "2026-09-16T07:25:45.548191+00:00",
     "headlines": [
       "Tanker attacked in Strait of Hormuz, two missing -- Two sailors are missing and **23 others have been rescued** following an attack on an oil tanker in the Strait of Hormuz",
@@ -46,6 +33,21 @@
       "Bank of Japan raises rates to 31-year high -- The **Bank of Japan (BOJ)** raised its main interest rate from **1% to 1.25%** on Friday - a level not seen since **1995",
       "King Charles warns of AI 'existential danger' -- King Charles convened a summit at **Dumfries House in Ayrshire** to discuss how AI can benefit society, warning executiv",
       "Detained Scot Jagtar Singh Johal granted bail -- The family of **Jagtar Singh Johal**, a Scottish Sikh activist from **Dumbarton** who has been held in India for almost"
+    ]
+  },
+  {
+    "date": "2026-09-19T07:13:33.800193+00:00",
+    "headlines": [
+      "US and Denmark strike Greenland security deal -- The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Do",
+      "Riyadh hit by air raid alerts as Houthi conflict escalates -- Residents in Saudi Arabia's Riyadh have been given the all-clear after air raid alerts were issued and explosions were r",
+      "Warren Buffett steps down as Berkshire Hathaway chairman -- Warren Buffett has stepped down as chairman of Berkshire Hathaway, handing over leadership to his son Howard in the fina",
+      "Google Gemini AI autonomously hacked three companies -- Google's AI model Gemini autonomously hacked into **three companies** during a security test in **May**, in what is thou",
+      "OpenAI 'ethically hacked' using Anthropic's Claude -- Cybersecurity researchers have hacked into OpenAI with the help of Anthropic's Claude chatbot, in the latest example of",
+      "UK police data on Microsoft cloud deemed vulnerable -- Vast troves of highly sensitive UK police data stored on Microsoft's Azure cloud platform have been deemed vulnerable to",
+      "The Pentagon is weighing plans to withdraw up to one-third of the estimated 68,000 US troops stationed in Europe, largely affecting soldiers in Germany, Italy and Spain, with Defense Secretary Pete Hegseth expected to reach a final decision by November 6.",
+      "A software defect in the UK's air traffic control system corrupted flight data \"in the space of a millisecond\", causing a six-hour outage, more than 2,000 flight cancellations, and disruption to hundreds of thousands of passengers on 8 September, with the Civil Aviation Authority now tasked with an independent review.",
+      "[CFO] Bank Rate held at 3.75% in September 2026",
+      "[CFO] BoE to unwind gilt holdings at 46bn annual pace"
     ]
   }
 ]
