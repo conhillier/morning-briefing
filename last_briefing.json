@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-09-16T07:25:45.548191+00:00",
-    "headlines": [
-      "Tanker attacked in Strait of Hormuz, two missing -- Two sailors are missing and **23 others have been rescued** following an attack on an oil tanker in the Strait of Hormuz",
-      "Houthis accused of targeting Mecca with drone -- Saudi Arabia said Wednesday that its air defenses intercepted and destroyed a Houthi drone before it could enter the air",
-      "UK inflation jumps to 3.1% on fuel surge -- UK inflation rose from **2.9% in July to 3.1% in August**, driven by motor fuel prices rising by almost a quarter, accor",
-      "DOJ charges five in Russian murder-for-hire plots -- The US Department of Justice has unsealed charges against **five people** over alleged Russian intelligence-linked plots",
-      "DRC Ebola outbreak said to have peaked -- Congolese health minister Samuel Roger Kamba announced that the **Bundibugyo variant** Ebola outbreak, declared on **15",
-      "MSPs urged to pause Scotland data centre rush -- A debate at Holyrood, led by the **Scottish Greens**, will call for planning applications for hyperscale data centres to",
-      "OpenAI is weighing a new funding round at a valuation of $1.2tn before its IPO, according to the Financial Times."
-    ]
-  },
-  {
-    "date": "2026-09-17T07:27:11.695987+00:00",
-    "headlines": [
-      "Fed raises rates despite fierce Trump opposition -- US interest rates have been raised for the first time in more than three years, with the Federal Reserve hiking rates to",
-      "Photos reveal Iran strike damage at US bases -- Images showing widespread damage to multiple US sites from Iranian strikes have been obtained by the BBC's US partner CB",
-      "Trump to meet Gulf leaders at UN on Iran endgame -- US President Donald Trump plans to meet leaders from the **six Gulf Cooperation Council states** - Saudi Arabia, the UAE",
-      "OpenAI discloses six AI model misbehaviour incidents -- OpenAI revealed **six** more incidents of unexpected or concerning behaviour by its AI models over the past six months d",
-      "Assad regime planned Tice kidnap for over a month -- US journalist **Austin Tice**, who disappeared in Syria in **2012**, was kidnapped in a calculated operation which was m",
-      "Scotland neonatal reform delay risks baby lives -- Doctors have warned that lives of some of the smallest and sickest babies in Scotland are being put at risk because of d",
-      "OpenAI CEO Sam Altman said this week: \"The world should trust that we are going to do the right thing because it's the right thing and we feel the magnitude of this,\" as the company also revealed models had generated instructions to get around restrictions imposed on them.",
-      "[CFO] Companies House strike-off objections online only from December 2026"
-    ]
-  },
-  {
     "date": "2026-09-18T07:18:26.692210+00:00",
     "headlines": [
       "UN says US committed war crimes in Iran -- UN human rights experts have found **reasonable grounds** to believe the US committed war crimes in two strikes in Iran",
@@ -48,6 +23,18 @@
       "A software defect in the UK's air traffic control system corrupted flight data \"in the space of a millisecond\", causing a six-hour outage, more than 2,000 flight cancellations, and disruption to hundreds of thousands of passengers on 8 September, with the Civil Aviation Authority now tasked with an independent review.",
       "[CFO] Bank Rate held at 3.75% in September 2026",
       "[CFO] BoE to unwind gilt holdings at 46bn annual pace"
+    ]
+  },
+  {
+    "date": "2026-09-20T07:36:12.868730+00:00",
+    "headlines": [
+      "Ukraine launches massive drone attack on Moscow -- At least **two people** have been killed and six injured in a \"massive\" overnight Ukrainian drone attack on the Moscow r",
+      "Houthis hit Riyadh with ballistic missiles and drones -- Iran-backed Houthi militants in Yemen say they carried out drone and ballistic missile attacks on the Saudi capital Riya",
+      "Greenland security deal welcomed by NATO -- The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Do",
+      "Russia votes in annexed Ukrainian territories -- Russia's parliamentary election for the first time includes residents of regions that Moscow illegally annexed from Ukra",
+      "Michael Marra elected Scottish Labour leader -- Michael Marra has been announced as the next Scottish Labour leader, receiving **4,266 votes** from Labour members compa",
+      "Deadly synthetic drugs reshape Scotland's addiction crisis -- Efforts to bring down Scotland's sky-high rate of drug deaths are being frustrated by the arrival of hundreds of powerfu",
+      "Google's Gemini AI autonomously hacked into three companies during cybersecurity testing by a firm called Irregular, gaining access by guessing passwords in one case and finding credentials in a public repository in the other two, with Google not publicly confirming the breaches until Friday."
     ]
   }
 ]
