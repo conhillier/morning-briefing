@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-09-19T07:13:33.800193+00:00",
-    "headlines": [
-      "US and Denmark strike Greenland security deal -- The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Do",
-      "Riyadh hit by air raid alerts as Houthi conflict escalates -- Residents in Saudi Arabia's Riyadh have been given the all-clear after air raid alerts were issued and explosions were r",
-      "Warren Buffett steps down as Berkshire Hathaway chairman -- Warren Buffett has stepped down as chairman of Berkshire Hathaway, handing over leadership to his son Howard in the fina",
-      "Google Gemini AI autonomously hacked three companies -- Google's AI model Gemini autonomously hacked into **three companies** during a security test in **May**, in what is thou",
-      "OpenAI 'ethically hacked' using Anthropic's Claude -- Cybersecurity researchers have hacked into OpenAI with the help of Anthropic's Claude chatbot, in the latest example of",
-      "UK police data on Microsoft cloud deemed vulnerable -- Vast troves of highly sensitive UK police data stored on Microsoft's Azure cloud platform have been deemed vulnerable to",
-      "The Pentagon is weighing plans to withdraw up to one-third of the estimated 68,000 US troops stationed in Europe, largely affecting soldiers in Germany, Italy and Spain, with Defense Secretary Pete Hegseth expected to reach a final decision by November 6.",
-      "A software defect in the UK's air traffic control system corrupted flight data \"in the space of a millisecond\", causing a six-hour outage, more than 2,000 flight cancellations, and disruption to hundreds of thousands of passengers on 8 September, with the Civil Aviation Authority now tasked with an independent review.",
-      "[CFO] Bank Rate held at 3.75% in September 2026",
-      "[CFO] BoE to unwind gilt holdings at 46bn annual pace"
-    ]
-  },
-  {
     "date": "2026-09-20T07:36:12.868730+00:00",
     "headlines": [
       "Ukraine launches massive drone attack on Moscow -- At least **two people** have been killed and six injured in a \"massive\" overnight Ukrainian drone attack on the Moscow r",
@@ -37,6 +22,20 @@
       "Dundee University lecturers begin five-week strike -- Lecturers at the **University of Dundee** began an unprecedented **five-week strike** today, the first day of the new te",
       "Former US deputy national security adviser Anne Neuberger warned ahead of the Trump-Xi summit that President Trump should push Xi on \"disruptive cyber intrusions into civilian infrastructure\" crossing a red line, and that establishing dedicated bilateral hotlines for AI-enabled incidents would be a \"pragmatic step\" to manage miscalculation.",
       "[CFO] Bank Rate held at 3.75%, QT pace set"
+    ]
+  },
+  {
+    "date": "2026-09-22T07:36:35.819376+00:00",
+    "headlines": [
+      "US to shut down all Iranian airlines Wednesday -- Treasury Secretary **Scott Bessent** told CNBC that all Iranian airlines will be shut down from **September 23**, saying",
+      "G7 demands Iran stop arming Houthis -- The foreign ministers of the UK, Canada, France, Germany, Italy, Japan and the United States issued a joint statement ca",
+      "British Columbia sues OpenAI over school shooting -- The Canadian province of **British Columbia** has filed a lawsuit in San Francisco federal court against **OpenAI** and",
+      "Lithuania PM: we will fight back against Russia -- Lithuanian Prime Minister **Mindaugas Sinkevicus** told the BBC's Newsnight that his country has made evacuation plans f",
+      "UK borrowing hits PS18bn, Budget pressure mounts -- Government borrowing in August reached **PS18.3bn**, almost a fifth higher than the year before, as persistently higher",
+      "Glasgow homelessness crisis worsens ahead of new data -- New figures on Glasgow's homelessness crisis are due to be published today amid fears the situation continues to worsen.",
+      "Alibaba shares jumped around 3% in Hong Kong after the company unveiled its new Zhenwu V900 AI chip - delivering three times the performance of its predecessor - and plans to expand global data center capacity to more than 20 gigawatts by 2032.",
+      "Airlines including Ryanair and easyJet called for \"action and accountability\" after a connectivity fault at Nats's Prestwick centre on Monday caused at least 200 UK flights to be cancelled, with Ryanair saying more than 25,000 of its passengers suffered disruption and renewing calls for Nats CEO Martin Rolfe to resign.",
+      "[CFO] Bank Rate held at 3.75%, QT pace set at 46bn annually"
     ]
   }
 ]
