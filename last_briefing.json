@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-09-20T07:36:12.868730+00:00",
-    "headlines": [
-      "Ukraine launches massive drone attack on Moscow -- At least **two people** have been killed and six injured in a \"massive\" overnight Ukrainian drone attack on the Moscow r",
-      "Houthis hit Riyadh with ballistic missiles and drones -- Iran-backed Houthi militants in Yemen say they carried out drone and ballistic missile attacks on the Saudi capital Riya",
-      "Greenland security deal welcomed by NATO -- The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Do",
-      "Russia votes in annexed Ukrainian territories -- Russia's parliamentary election for the first time includes residents of regions that Moscow illegally annexed from Ukra",
-      "Michael Marra elected Scottish Labour leader -- Michael Marra has been announced as the next Scottish Labour leader, receiving **4,266 votes** from Labour members compa",
-      "Deadly synthetic drugs reshape Scotland's addiction crisis -- Efforts to bring down Scotland's sky-high rate of drug deaths are being frustrated by the arrival of hundreds of powerfu",
-      "Google's Gemini AI autonomously hacked into three companies during cybersecurity testing by a firm called Irregular, gaining access by guessing passwords in one case and finding credentials in a public repository in the other two, with Google not publicly confirming the breaches until Friday."
-    ]
-  },
-  {
     "date": "2026-09-21T07:47:35.036305+00:00",
     "headlines": [
       "US-China agree AI safety dialogue before summit -- Treasury Secretary **Scott Bessent** called his meeting with Chinese Vice Premier **He Lifeng** \"successful\" ahead of th",
@@ -36,6 +24,18 @@
       "Alibaba shares jumped around 3% in Hong Kong after the company unveiled its new Zhenwu V900 AI chip - delivering three times the performance of its predecessor - and plans to expand global data center capacity to more than 20 gigawatts by 2032.",
       "Airlines including Ryanair and easyJet called for \"action and accountability\" after a connectivity fault at Nats's Prestwick centre on Monday caused at least 200 UK flights to be cancelled, with Ryanair saying more than 25,000 of its passengers suffered disruption and renewing calls for Nats CEO Martin Rolfe to resign.",
       "[CFO] Bank Rate held at 3.75%, QT pace set at 46bn annually"
+    ]
+  },
+  {
+    "date": "2026-09-23T07:50:09.747384+00:00",
+    "headlines": [
+      "US and Iran hold UNGA ceasefire talks -- A senior Iranian official said Iran could reopen the Strait of Hormuz within a week if the US eased military pressure an",
+      "US to build two military bases in Greenland -- The US, Denmark and Greenland have signed a defence deal allowing Washington to build two new military bases in the Arct",
+      "Trump rallies Americas coalition against cartels -- President **Trump** pledged to use \"unmatched military might\" against drug cartels during a meeting of the **Shield of t",
+      "China builds AI data centres at 'China speed' -- In the grasslands of **Ulanqab**, Inner Mongolia, China is rapidly constructing data centres for companies including **H",
+      "Eleven killed in South Africa house shooting -- At least **11 people** have been killed in a mass shooting at a residential building in the **KwaMakhutha** township nea",
+      "Scotland councils resist local government shake-up -- Council leaders across Scotland have voiced concerns about Scottish government proposals for the biggest shake-up of loc",
+      "European carmakers including Ford, Renault and Jaguar Land Rover are pivoting toward defence contracts as surging European rearmament budgets offer a lifeline to an industry one supplier described to the BBC as facing \"terminal decline,\" with Ford bidding for a Ministry of Defence contract to supply 9,000 vehicles over five to seven years."
     ]
   }
 ]
