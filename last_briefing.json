@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-09-22T07:36:35.819376+00:00",
-    "headlines": [
-      "US to shut down all Iranian airlines Wednesday -- Treasury Secretary **Scott Bessent** told CNBC that all Iranian airlines will be shut down from **September 23**, saying",
-      "G7 demands Iran stop arming Houthis -- The foreign ministers of the UK, Canada, France, Germany, Italy, Japan and the United States issued a joint statement ca",
-      "British Columbia sues OpenAI over school shooting -- The Canadian province of **British Columbia** has filed a lawsuit in San Francisco federal court against **OpenAI** and",
-      "Lithuania PM: we will fight back against Russia -- Lithuanian Prime Minister **Mindaugas Sinkevicus** told the BBC's Newsnight that his country has made evacuation plans f",
-      "UK borrowing hits PS18bn, Budget pressure mounts -- Government borrowing in August reached **PS18.3bn**, almost a fifth higher than the year before, as persistently higher",
-      "Glasgow homelessness crisis worsens ahead of new data -- New figures on Glasgow's homelessness crisis are due to be published today amid fears the situation continues to worsen.",
-      "Alibaba shares jumped around 3% in Hong Kong after the company unveiled its new Zhenwu V900 AI chip - delivering three times the performance of its predecessor - and plans to expand global data center capacity to more than 20 gigawatts by 2032.",
-      "Airlines including Ryanair and easyJet called for \"action and accountability\" after a connectivity fault at Nats's Prestwick centre on Monday caused at least 200 UK flights to be cancelled, with Ryanair saying more than 25,000 of its passengers suffered disruption and renewing calls for Nats CEO Martin Rolfe to resign.",
-      "[CFO] Bank Rate held at 3.75%, QT pace set at 46bn annually"
-    ]
-  },
-  {
     "date": "2026-09-23T07:50:09.747384+00:00",
     "headlines": [
       "US and Iran hold UNGA ceasefire talks -- A senior Iranian official said Iran could reopen the Strait of Hormuz within a week if the US eased military pressure an",
@@ -54,6 +40,19 @@
       "Trump wrote on Truth Social that AI would be a big topic with Xi but said 'I want to leave it exactly where it is,' while Treasury Secretary Scott Bessent said Washington and Beijing are discussing ways to warn each other about AI incidents that pose national security risks.",
       "Trump and Xi met for around three hours at the White House on Thursday, the first day of a two-day summit, with expectations for big breakthroughs on issues ranging from AI to Iran to a trade war truce described as low.",
       "[CFO] Vaping Products Duty of GBP2.20 per 10ml from 1 October 2026"
+    ]
+  },
+  {
+    "date": "2026-09-26T07:18:22.796351+00:00",
+    "headlines": [
+      "OpenAI bots hit dozens of global institutions -- OpenAI has acknowledged that it alerted **\"dozens\"** of global institutions that their websites may have been meddled wi",
+      "Iran offers Hormuz reopening in seven days -- Iranian Foreign Minister **Abbas Araghchi** told reporters at the UN in New York that the Strait of Hormuz could be reop",
+      "Russia targets Ukraine data centres and internet -- President **Volodymyr Zelensky** says Russia has widened its attacks to target Ukraine's data centres and internet provi",
+      "FBI hack exposes agents' personal data -- Current and former FBI agents have spoken to BBC News of their shock, fear and anger following a hack that appears to ha",
+      "Trump-Xi summit ends without AI agreement -- Donald Trump and Chinese President **Xi Jinping** wrapped up their Washington summit on Friday facing criticism that the",
+      "Diesel tops PS2 a litre at Scottish forecourts -- Analysis by BBC Scotland News suggests there are at least **226 sites** across Scotland - stretching from the Borders to",
+      "[CFO] Vaping Products Duty of \u00a32.20 per 10ml starts 1 October 2026",
+      "[CFO] Bank Rate held at 3.75% amid rising CPI inflation"
     ]
   }
 ]
