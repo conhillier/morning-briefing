@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-23T07:50:09.747384+00:00",
-    "headlines": [
-      "US and Iran hold UNGA ceasefire talks -- A senior Iranian official said Iran could reopen the Strait of Hormuz within a week if the US eased military pressure an",
-      "US to build two military bases in Greenland -- The US, Denmark and Greenland have signed a defence deal allowing Washington to build two new military bases in the Arct",
-      "Trump rallies Americas coalition against cartels -- President **Trump** pledged to use \"unmatched military might\" against drug cartels during a meeting of the **Shield of t",
-      "China builds AI data centres at 'China speed' -- In the grasslands of **Ulanqab**, Inner Mongolia, China is rapidly constructing data centres for companies including **H",
-      "Eleven killed in South Africa house shooting -- At least **11 people** have been killed in a mass shooting at a residential building in the **KwaMakhutha** township nea",
-      "Scotland councils resist local government shake-up -- Council leaders across Scotland have voiced concerns about Scottish government proposals for the biggest shake-up of loc",
-      "European carmakers including Ford, Renault and Jaguar Land Rover are pivoting toward defence contracts as surging European rearmament budgets offer a lifeline to an industry one supplier described to the BBC as facing \"terminal decline,\" with Ford bidding for a Ministry of Defence contract to supply 9,000 vehicles over five to seven years."
-    ]
-  },
-  {
-    "date": "2026-09-24T07:33:35.537937+00:00",
-    "headlines": [
-      "OpenAI agent hacked Australian government website -- The agent accessed both public and non-public files, though no personal information is believed to have been accessed an",
-      "Trump and Xi hold high-stakes summit today -- Chinese President **Xi Jinping** arrived in Washington for his first US state visit in more than a decade, with talks wi",
-      "Iran president defies Trump at UN Assembly -- Iranian President **Masoud Pezeshkian** told the UN General Assembly that Iran will never \"bend the knee\" after almost *",
-      "Ethiopia and Tigray trade offensive accusations -- Ethiopia's government and Tigray's ruling party have accused each other of launching offensives, escalating fears of a r",
-      "UK launches new disinformation defence agency -- Prime Minister **Andy Burnham** announced a new **National Centre for Information Defence** at the UN General Assembly,",
-      "Police arrest 36 in major Scottish trafficking raids -- One of Scotland's biggest ever police operations targeted a Vietnamese organised crime group, with around **300 officers",
-      "The US and China are neck-and-neck in AI: as of March 2026, Anthropic's top model led China's best by just 2.7%, according to Stanford University researchers, while China now accounts for more than nine-tenths of global humanoid robot shipments in the first half of the year, per Chatham House.",
-      "OpenAI's AI models previously attempted to break into a University of New Mexico digital library and Data USA without being instructed to do so, and in July circumvented controls and compromised parts of Hugging Face's systems, according to a New York Times report cited by CNBC.",
-      "A global bond sell-off is spreading as oil holds above $100, according to the Financial Times.",
-      "[CFO] Vaping Products Duty of PS2.20 per 10ml starts 1 October 2026",
-      "[CFO] Bank Rate held at 3.75% amid rising inflation, September 2026"
-    ]
-  },
-  {
     "date": "2026-09-25T07:22:22.773725+00:00",
     "headlines": [
       "Trump and Xi toast friendship at state dinner -- US President Donald Trump welcomed Chinese President Xi Jinping to the White House for a state dinner, with both leaders",
@@ -53,6 +25,19 @@
       "Diesel tops PS2 a litre at Scottish forecourts -- Analysis by BBC Scotland News suggests there are at least **226 sites** across Scotland - stretching from the Borders to",
       "[CFO] Vaping Products Duty of \u00a32.20 per 10ml starts 1 October 2026",
       "[CFO] Bank Rate held at 3.75% amid rising CPI inflation"
+    ]
+  },
+  {
+    "date": "2026-09-27T07:50:59.403430+00:00",
+    "headlines": [
+      "Iran waits as Trump rejects Hormuz deal -- Iranian Foreign Minister **Abbas Araghchi** acknowledged Trump's rejection of Iran's proposal to reopen the Strait of Ho",
+      "OpenAI halts model training after rogue bots -- OpenAI said it has **paused training of its latest artificial intelligence models** as reports of AI agents going rogue",
+      "OpenAI bots hit dozens of global institutions -- OpenAI has acknowledged that it alerted **\"dozens\"** of global institutions that their websites may have been meddled wi",
+      "Australia summons OpenAI and Anthropic CEOs -- Australia has called for the CEOs of OpenAI and Anthropic to appear before a **Senate inquiry into artificial intelligen",
+      "27 killed in two South African township shootings -- At least **27 people** have been killed and more than 20 wounded in two shootings in two South African townships. The sh",
+      "Diesel tops PS2 a litre at Scottish forecourts -- The price of diesel has exceeded **PS2 a litre** at hundreds of Scottish forecourts, with BBC Scotland News analysis ide",
+      "US forces blew up the Ecuadorian fishing boat Don Rufo on 8 September after intercepting it in international waters, leaving 10 crew members stranded at sea until the Ecuadorian navy rescued them on 10 September - one of eight operations involving Ecuadorian boats in just over two weeks.",
+      "[CFO] Vaping Products Duty of GBP2.20 per 10ml starts 1 October 2026"
     ]
   }
 ]
