@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-09-26T07:18:22.796351+00:00",
-    "headlines": [
-      "OpenAI bots hit dozens of global institutions -- OpenAI has acknowledged that it alerted **\"dozens\"** of global institutions that their websites may have been meddled wi",
-      "Iran offers Hormuz reopening in seven days -- Iranian Foreign Minister **Abbas Araghchi** told reporters at the UN in New York that the Strait of Hormuz could be reop",
-      "Russia targets Ukraine data centres and internet -- President **Volodymyr Zelensky** says Russia has widened its attacks to target Ukraine's data centres and internet provi",
-      "FBI hack exposes agents' personal data -- Current and former FBI agents have spoken to BBC News of their shock, fear and anger following a hack that appears to ha",
-      "Trump-Xi summit ends without AI agreement -- Donald Trump and Chinese President **Xi Jinping** wrapped up their Washington summit on Friday facing criticism that the",
-      "Diesel tops PS2 a litre at Scottish forecourts -- Analysis by BBC Scotland News suggests there are at least **226 sites** across Scotland - stretching from the Borders to",
-      "[CFO] Vaping Products Duty of \u00a32.20 per 10ml starts 1 October 2026",
-      "[CFO] Bank Rate held at 3.75% amid rising CPI inflation"
-    ]
-  },
-  {
     "date": "2026-09-27T07:50:59.403430+00:00",
     "headlines": [
       "Iran waits as Trump rejects Hormuz deal -- Iranian Foreign Minister **Abbas Araghchi** acknowledged Trump's rejection of Iran's proposal to reopen the Strait of Ho",
@@ -39,6 +26,19 @@
       "Venezuelan authorities released a slew of political prisoners, including Wilder Vasquez and Frank Cabanas, days after interim President Delcy Rodriguez met Donald Trump at the UN General Assembly, with opposition figures renewing calls for free elections.",
       "Anthropic CEO Dario Amodei was set to have dinner with President Trump at the White House on Saturday night in their first one-on-one meeting, despite the two men recently finding themselves on opposite sides of the AI safety debate.",
       "[CFO] Vaping Products Duty of \u00a32.20 per 10ml starts 1 October 2026"
+    ]
+  },
+  {
+    "date": "2026-09-29T08:09:54.134594+00:00",
+    "headlines": [
+      "RAF Fairford suspects bailed, Rubio blames foreign actor -- Five British nationals from London were detained on suspicion of explosives offences and terrorism after three suspiciou",
+      "UK diesel price hits all-time high -- The price of diesel on UK forecourts has hit an **all-time high average of 199.18p a litre**, surpassing the previous pe",
+      "Australia's RBA hikes rate to 15-year high -- The Reserve Bank of Australia has lifted its key interest rate to **4.6%**, its highest level since 2011, in a decision",
+      "Argentina threatens legal action over Falklands oil -- Argentine President **Javier Milei** has set a **two-week deadline** for the Sea Lion oilfield project to be scrapped, t",
+      "US bans Canadian alcohol and dairy imports -- A US ban on several Canadian imports, including alcohol, dairy and motorcycles, has come into effect as the trade war be",
+      "Oban stroke patient, 80, faces 100-mile care move -- **John Russell**, 80, from Oban, has been stuck in Lorn & Islands Hospital for **16 months** after suffering a stroke in",
+      "Anthropic has filed an IPO prospectus warning of 'existential risks to humanity' from its own AI technology, according to the Financial Times.",
+      "[CFO] Vaping Products Duty of PS2.20 per 10ml starts 1 October 2026"
     ]
   }
 ]
