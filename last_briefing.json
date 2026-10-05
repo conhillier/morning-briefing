@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-10-02T08:07:35.278324+00:00",
-    "headlines": [
-      "Trump threatens US diesel export ban -- Donald Trump has said he may ask European countries to release some of their diesel reserves as he considers banning US",
-      "Flydubai pilot: 'I was not going to let others die' -- Indian pilot Smit Machchhar has described how he opened the cockpit door of an Israel-bound Flydubai plane to allow pass",
-      "OpenAI fires three staff over data mishandling -- OpenAI has fired three researchers for allegedly mishandling information, including work that involved an external organ",
-      "Bank of England warns of AI market shock risk -- Bank of England governor Andrew Bailey has warned that AI could trigger financial market shocks, saying the central bank",
-      "RCN cuts ties with Israeli drug firm Teva -- The Royal College of Nursing has axed Teva UK as a commercial partner and as sponsor of a forthcoming event on migraine",
-      "377 jobs at risk at Grangemouth chemical plant -- Agricultural chemical firm Syngenta has announced plans to cease operations at its Grangemouth plant, putting **377 work",
-      "BBC Scotland and BBC Three channels face closure as the BBC begins a redundancy process in its TV division, with director general Matt Brittin expected to announce the latest stage of a plan to save \u00a3500m and shed up to 2,000 jobs on Wednesday."
-    ]
-  },
-  {
     "date": "2026-10-03T07:47:59.371475+00:00",
     "headlines": [
       "Russia strikes second Kyiv bridge Saturday -- A Russian strike hit the **Northern Bridge** in Kyiv on Saturday morning, Mayor **Vitali Klitschko** said, damaging the",
@@ -32,6 +20,19 @@
       "US completes military withdrawal from Iraq -- The US military has completed its withdrawal from Iraq, **23 years** after its invasion toppled Saddam Hussein, with the",
       "Energy suppliers demand urgent UK bill action -- Industry body **Energy UK** has called on the government to take immediate action on energy bills, warning that inaction",
       "A safety leader at OpenAI, David Robinson, also warned that fellow AI researcher Geoffrey Irving - formerly of OpenAI and DeepMind - wrote in Time magazine that he believes there is \"about a 50% chance we all die because of the development of smarter-than-human AI systems\"."
+    ]
+  },
+  {
+    "date": "2026-10-05T08:36:36.199951+00:00",
+    "headlines": [
+      "US pulls all bombers from RAF Fairford -- The US has withdrawn all of its bombers from RAF Fairford, the UK military base at the centre of an incident being inves",
+      "Spain's Sanchez calls snap election for November 29 -- Spanish Prime Minister Pedro Sanchez has announced a snap general election after Parliament rejected housing relief meas",
+      "Russia pledges more Kyiv strikes after bridge hit -- Russia's Defense Ministry has pledged to further intensify military attacks on Kyiv and other major Ukrainian cities fol",
+      "Trump names Jay Clayton as White House AI czar -- Donald Trump on Sunday named **Jay Clayton**, the director of national intelligence, to also serve as the new White Hous",
+      "OpenAI safety leader quits over broken culture -- **David Robinson**, who led the writing of safety reports accompanying ChatGPT developer OpenAI's product releases, has",
+      "Scotland on course to miss child poverty targets -- Scotland is on course to miss legally-binding targets to cut child poverty \"by a wide margin\", according to a report fro",
+      "Trump warned South Korea it would face higher charges or \"double\" tariffs if it does not sign on to the $50 billion Alaska LNG project, as Seoul said it was still assessing the deal's commercial viability.",
+      "Flavio Bolsonaro has taken a commanding lead in the first round of the Brazil presidential election, according to the Financial Times."
     ]
   }
 ]
