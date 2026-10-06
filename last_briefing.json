@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-10-03T07:47:59.371475+00:00",
-    "headlines": [
-      "Russia strikes second Kyiv bridge Saturday -- A Russian strike hit the **Northern Bridge** in Kyiv on Saturday morning, Mayor **Vitali Klitschko** said, damaging the",
-      "G7 releases 100 million barrels to ease crisis -- The G7 announced it will release **100 million barrels** of oil and diesel from reserves, beginning immediately and last",
-      "UAE: Flydubai co-pilot staged terrorist attack -- The prosecutor general of the United Arab Emirates has said a Flydubai co-pilot \"attempted to carry out a terrorist act\"",
-      "Spain's Sanchez loses key housing vote -- Spain's Congress rejected two government decree-laws aimed at tackling the country's housing crisis, in a defeat for Pri",
-      "US adds just 29,000 jobs in September -- US employers added just **29,000 jobs** in September, a sharp drop from last month, with the unemployment rate rising sl",
-      "Syngenta took \u00a31m public cash before Grangemouth closure -- Agricultural chemical firm Syngenta collected around **\u00a31 million** of Scottish Enterprise funding to create new jobs ju"
-    ]
-  },
-  {
     "date": "2026-10-04T07:57:32.294340+00:00",
     "headlines": [
       "Russia hits second Kyiv bridge in days -- A Russian strike hit the **Pivnichnyi (Northern) Bridge** in Kyiv on Saturday morning, injuring two people and damaging",
@@ -33,6 +22,18 @@
       "Scotland on course to miss child poverty targets -- Scotland is on course to miss legally-binding targets to cut child poverty \"by a wide margin\", according to a report fro",
       "Trump warned South Korea it would face higher charges or \"double\" tariffs if it does not sign on to the $50 billion Alaska LNG project, as Seoul said it was still assessing the deal's commercial viability.",
       "Flavio Bolsonaro has taken a commanding lead in the first round of the Brazil presidential election, according to the Financial Times."
+    ]
+  },
+  {
+    "date": "2026-10-06T08:47:40.327380+00:00",
+    "headlines": [
+      "Trump: Threats drove RAF Fairford bomber pullout -- President Donald Trump confirmed the US moved its bombers out of RAF Fairford because of \"some threats\" to the base, say",
+      "FlyDubai co-pilot aimed to hit Tel Aviv airport -- An investigation into last week's midair attack on a FlyDubai plane has found the co-pilot intended to crash the aircraf",
+      "Pentagon drops Anthropic AI tools after blacklisting -- The US Department of Defence has ceased use of Anthropic's AI products, a department official told the BBC on Monday, mo",
+      "Separatist PQ wins Quebec election -- Canadian media projected the separatist Parti Quebecois (PQ) secured a minority win in Monday's provincial election in Q",
+      "OpenAI admits hack response 'not good enough' -- OpenAI chief strategy officer Jason Kwon told a parliamentary hearing in Sydney on Tuesday that the company's actions we",
+      "BT buys TalkTalk in GBP400m rescue deal -- BT has agreed to buy broadband supplier TalkTalk out of administration in a GBP400m rescue deal that will save 900 jobs,",
+      "Mearns Castle High School in East Renfrewshire is believed to be the first school in the UK to appoint a dedicated principal teacher of AI literacy, with former biology teacher Jamie Laycock taking the role to help pupils question, challenge and use AI responsibly."
     ]
   }
 ]
