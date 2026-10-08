@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-05T08:36:36.199951+00:00",
-    "headlines": [
-      "US pulls all bombers from RAF Fairford -- The US has withdrawn all of its bombers from RAF Fairford, the UK military base at the centre of an incident being inves",
-      "Spain's Sanchez calls snap election for November 29 -- Spanish Prime Minister Pedro Sanchez has announced a snap general election after Parliament rejected housing relief meas",
-      "Russia pledges more Kyiv strikes after bridge hit -- Russia's Defense Ministry has pledged to further intensify military attacks on Kyiv and other major Ukrainian cities fol",
-      "Trump names Jay Clayton as White House AI czar -- Donald Trump on Sunday named **Jay Clayton**, the director of national intelligence, to also serve as the new White Hous",
-      "OpenAI safety leader quits over broken culture -- **David Robinson**, who led the writing of safety reports accompanying ChatGPT developer OpenAI's product releases, has",
-      "Scotland on course to miss child poverty targets -- Scotland is on course to miss legally-binding targets to cut child poverty \"by a wide margin\", according to a report fro",
-      "Trump warned South Korea it would face higher charges or \"double\" tariffs if it does not sign on to the $50 billion Alaska LNG project, as Seoul said it was still assessing the deal's commercial viability.",
-      "Flavio Bolsonaro has taken a commanding lead in the first round of the Brazil presidential election, according to the Financial Times."
-    ]
-  },
-  {
     "date": "2026-10-06T08:47:40.327380+00:00",
     "headlines": [
       "Trump: Threats drove RAF Fairford bomber pullout -- President Donald Trump confirmed the US moved its bombers out of RAF Fairford because of \"some threats\" to the base, say",
@@ -36,6 +23,19 @@
       "Oil rose Wednesday with Brent crude futures gaining 0.93% to $101.52 a barrel and WTI advancing 0.81% to $90.16, as Houthi attacks on Saudi airports in Jazan and Najran raised supply disruption fears and Iran stepped up attacks on tankers transiting the Strait of Hormuz.",
       "AI computing startup Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation in a round led by Coatue Management and Blackstone, ahead of a planned 2027 IPO, with its backlog growing from $15 billion in June to $50 billion in September partly due to a $35 billion commitment from Anthropic.",
       "A Scottish Human Rights Commission report found \"clear human rights failures\" across eight local authority areas in the south of Scotland covering more than a million people, with basic obligations on food, health and housing not being met and rights \"getting worse\" in several areas."
+    ]
+  },
+  {
+    "date": "2026-10-08T08:42:59.521964+00:00",
+    "headlines": [
+      "UK Jerusalem consulate stays as 'mission' -- Foreign Secretary Ed Miliband said the building \"will not be closing\" and will be known as the UK Mission, Jerusalem fro",
+      "US shelters wanted Syrian general in Lebanon -- A BBC and NPR investigation has found that former Syrian general Bassam al-Hassan, wanted for crimes against humanity, i",
+      "Samsung profits hit record $80bn on AI demand -- Samsung Electronics says it expects a **nine-fold surge** in its quarterly profits compared with a year earlier, driven",
+      "Trump rules out Iran deal, strikes loom -- President Trump said Wednesday he no longer wants a deal with Iran, following reports that the US military is preparing",
+      "Weston family buys Boots for $8.9bn -- Canada's Weston family, through their holding company Wittington Investments, has bought UK pharmacy and beauty retailer",
+      "Royal Mail cuts 2,500 jobs in restructure -- Royal Mail is to cut up to **2,500 jobs** as the company seeks to restructure amid intense competition and the continuin",
+      "Tesco raised its annual profit forecast after sales rose 2% to \u00a333.8bn in the first six months of its financial year, with underlying profit up 6.5% to \u00a31.8bn, helped by online sales growth of 8% and a 9% jump in its premium Finest range.",
+      "Nous Research has confirmed it raised a $90 million Series B at a $1.5 billion valuation led by Robot Ventures, with backers including Nvidia and Samsung, and its open source Hermes Agent has been cloned more than 24 million times."
     ]
   }
 ]
