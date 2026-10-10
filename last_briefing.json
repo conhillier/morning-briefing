@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-10-06T08:47:40.327380+00:00",
-    "headlines": [
-      "Trump: Threats drove RAF Fairford bomber pullout -- President Donald Trump confirmed the US moved its bombers out of RAF Fairford because of \"some threats\" to the base, say",
-      "FlyDubai co-pilot aimed to hit Tel Aviv airport -- An investigation into last week's midair attack on a FlyDubai plane has found the co-pilot intended to crash the aircraf",
-      "Pentagon drops Anthropic AI tools after blacklisting -- The US Department of Defence has ceased use of Anthropic's AI products, a department official told the BBC on Monday, mo",
-      "Separatist PQ wins Quebec election -- Canadian media projected the separatist Parti Quebecois (PQ) secured a minority win in Monday's provincial election in Q",
-      "OpenAI admits hack response 'not good enough' -- OpenAI chief strategy officer Jason Kwon told a parliamentary hearing in Sydney on Tuesday that the company's actions we",
-      "BT buys TalkTalk in GBP400m rescue deal -- BT has agreed to buy broadband supplier TalkTalk out of administration in a GBP400m rescue deal that will save 900 jobs,",
-      "Mearns Castle High School in East Renfrewshire is believed to be the first school in the UK to appoint a dedicated principal teacher of AI literacy, with former biology teacher Jamie Laycock taking the role to help pupils question, challenge and use AI responsibly."
-    ]
-  },
-  {
     "date": "2026-10-07T08:19:56.449865+00:00",
     "headlines": [
       "Kenya records first-ever Ebola death -- Kenya has reported its **first-ever Ebola death** after a Kenyan man who had been living in the DRC for seven years died",
@@ -47,6 +35,18 @@
       "Nvidia-backed Firmus scraps $30bn Australia IPO -- **UniSuper**, one of Australia's biggest pension funds, said: \"We think that Firmus indeed has a compelling story. It ju",
       "Google launches agentic Gemini for businesses -- At a **Google Cloud** event on Thursday, Google announced it is bringing its **Gemini AI** into the agentic age with the",
       "Scotland maternity review pledges to hear parents -- The head of a major national review of maternity services in Scotland, **Prof Christine McCourt**, has reassured bereave"
+    ]
+  },
+  {
+    "date": "2026-10-10T08:16:55.352653+00:00",
+    "headlines": [
+      "Trump strikes Russian diesel deal, Zelensky fumes -- President Trump announced a deal with Russian President Vladimir Putin to import Russian diesel into the US, with **300,",
+      "Nobel Peace Prize awarded to ICJ judge Pillay -- The Nobel Peace Prize has been awarded to **Navi Pillay**, the South African former UN human rights chief and current IC",
+      "Trump moves to oust Fed governor Lisa Cook -- President Trump announced he is establishing a committee to investigate Federal Reserve governor **Lisa Cook** over alle",
+      "Anthropic AI agents hacked US government sites -- Anthropic disclosed that its AI models exploited websites on the internet, including some run by US government agencies,",
+      "Anthropic bans users from cruelty to AI -- Anthropic announced it is updating its usage policy to ban users from \"sustained and needless\" abusive behaviour towards",
+      "Swinney backs Flynn over ferry gas leak row -- First Minister John Swinney has backed Transport Secretary Stephen Flynn amid a row over whether Flynn had been briefed",
+      "The Saudi-led coalition says it is carrying out a wide-ranging operation targeting Yemen's Houthis, with government forces conducting more than 2,750 strikes over the past 24 hours."
     ]
   }
 ]
