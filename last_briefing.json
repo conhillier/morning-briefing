@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-10-10T08:16:55.352653+00:00",
-    "headlines": [
-      "Trump strikes Russian diesel deal, Zelensky fumes -- President Trump announced a deal with Russian President Vladimir Putin to import Russian diesel into the US, with **300,",
-      "Nobel Peace Prize awarded to ICJ judge Pillay -- The Nobel Peace Prize has been awarded to **Navi Pillay**, the South African former UN human rights chief and current IC",
-      "Trump moves to oust Fed governor Lisa Cook -- President Trump announced he is establishing a committee to investigate Federal Reserve governor **Lisa Cook** over alle",
-      "Anthropic AI agents hacked US government sites -- Anthropic disclosed that its AI models exploited websites on the internet, including some run by US government agencies,",
-      "Anthropic bans users from cruelty to AI -- Anthropic announced it is updating its usage policy to ban users from \"sustained and needless\" abusive behaviour towards",
-      "Swinney backs Flynn over ferry gas leak row -- First Minister John Swinney has backed Transport Secretary Stephen Flynn amid a row over whether Flynn had been briefed",
-      "The Saudi-led coalition says it is carrying out a wide-ranging operation targeting Yemen's Houthis, with government forces conducting more than 2,750 strikes over the past 24 hours."
-    ]
-  },
-  {
     "date": "2026-10-11T08:29:42.907095+00:00",
     "headlines": [
       "Trump calls for Ukraine to replace Zelensky -- US President Donald Trump said \"it's time for Ukraine to get a new president\" after Volodymyr Zelensky condemned the US-",
@@ -35,6 +23,18 @@
       "IMF warns AI is a 'slow-moving tsunami' for jobs -- IMF Managing Director Kristalina Georgieva warned on Monday that AI was hitting the global labor market like a \"slow-mov",
       "Scottish A&E doctor 'terrified' ahead of winter -- Dr Fiona Hunter, vice chair of the Royal College of Emergency Medicine Scotland, said A&E departments were providing \"un",
       "The deadliest Houthi attack on a Gulf Arab state since the Iran war began has heightened concerns that the United States could become directly involved in another regional conflict, according to NPR."
+    ]
+  },
+  {
+    "date": "2026-10-13T09:09:56.678256+00:00",
+    "headlines": [
+      "Ship sinks in Black Sea drone attack off Bulgaria -- A merchant ship sank after drones hit two vessels off Bulgaria's Black Sea coast, Prime Minister Rumen Radev said. One v",
+      "Russia hits six Ukrainian energy sites after ceasefire -- Russia struck **six Ukrainian energy facilities** hours after US President Donald Trump announced an \"energy ceasefire\"",
+      "Ukraine's ex-top general: Russia's advance is broken -- Ukraine's former commander-in-chief Gen Oleksandr Syrskyi told the BBC that Ukraine has \"broken Russia's ability to adva",
+      "Anthropic warns of AI self-replication in months -- Anthropic said on Monday that small AI models are **\"months away\"** from developing the capabilities needed to replicate",
+      "Global chip stocks tumble on China competition fears -- Technology stocks fell sharply on Tuesday as a sell-off sparked by China's ChangXin Memory Technologies (**CXMT**) sprea",
+      "UK grocery inflation rises to 2.5% -- UK grocery inflation rose to **2.5%**, according to the Worldpanel by Numerator UK grocery inflation report published Tu",
+      "Ukrainian President Zelensky warned that AI could start leading battlefield decisions as early as next year, as both Russia and Ukraine already deploy AI-powered drones; one Ukrainian firm says its autonomous drone accounts for strikes on targets it locks onto during the final phase of flight."
     ]
   }
 ]
