@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-10-11T08:29:42.907095+00:00",
-    "headlines": [
-      "Trump calls for Ukraine to replace Zelensky -- US President Donald Trump said \"it's time for Ukraine to get a new president\" after Volodymyr Zelensky condemned the US-",
-      "Riyadh airport attack kills 12, wounds 300 -- A missile strike on King Khalid International Airport in Riyadh killed **12 people** and injured over **300** others on",
-      "Zelensky fury deepens over Russian diesel deal -- Volodymyr Zelensky called Trump's Russian diesel deal \"absolutely terrible\" and \"not fair and not honest\", saying \"back",
-      "Anthropic AI agent sent fake murder tip to police -- An Anthropic AI agent sent a fake tip to the Philadelphia Police Department on **18 July** about an unsolved murder, aut",
-      "Myanmar young men abducted for army service -- Young men in Hpa-An, the capital of Myanmar's southern Karen state, live in fear of being snatched off the streets and c",
-      "Glasgow scrapyard blaze enters second night -- Firefighters have spent a second night tackling a major blaze at a scrapyard on South Street in the Scotstoun area of Gl",
-      "Elon Musk vowed to price Starlink \"affordably\" in India to compete with Mukesh Ambani's Reliance Jio, whose parent company is targeting a valuation of $106bn in what is set to be India's largest-ever IPO.",
-      "A US fighter jet bombed a commercial cargo ship in the Gulf of Oman after the crew ignored repeated warnings and attempted to breach the US military's blockade of Iranian ports, according to CENTCOM.",
-      "Vice President JD Vance accused Microsoft of replacing the 6,000 workers it laid off in 2025 with H-1B visa holders, as the Trump administration suspended Microsoft and seven other tech firms from the PERM green card sponsorship programme."
-    ]
-  },
-  {
     "date": "2026-10-12T08:49:46.808348+00:00",
     "headlines": [
       "Trump declares 'energy ceasefire', Russia silent -- US President Donald Trump announced that Russia and Ukraine had reached an \"energy ceasefire\", saying it was \"effective",
@@ -49,6 +35,17 @@
       "Turkish police raided the Istanbul headquarters of opposition-aligned Halk TV on Wednesday, halting live broadcasts, with reports of 17 arrest warrants issued linked to the channel's owner.",
       "Science Corporation CEO Max Hodak announced the company has implanted its vision-restoring chip PRIMA into its first patient with Stargardt disease, an inherited eye condition affecting approximately 150,000 people worldwide; during the patient's first rehabilitation session he saw a letter, and during the second he read a word.",
       "Ukrainian drones struck the Saratov region of Russia, more than 100km into Russian territory, killing one person and damaging several homes, according to the regional governor."
+    ]
+  },
+  {
+    "date": "2026-10-15T07:09:20.774313+00:00",
+    "headlines": [
+      "Anthropic revenue surges 45% before IPO -- Anthropic saw its revenue surge by **45% to $16.8bn** in the three months to the end of September, figures revealed in a",
+      "AI sell-off deepens across Asian markets -- Tech stocks fell sharply in Asia on Thursday, with shares in Japanese tech investment firm Softbank falling by more than",
+      "TSMC posts sixth straight record profit -- Taiwan Semiconductor Manufacturing Co reported a record third-quarter net profit of **NT$763.1 billion**, up **68.7%** f",
+      "Nvidia donates $250m to UK AI safety research -- The **$5.5tn** US chipmaker Nvidia is donating **$250m** worth of computing power to the UK to support AI safety researc",
+      "UK economy grows 0.1% in August -- The UK economy grew by **0.1%** in August, according to the Office for National Statistics, following growth of **0.4%**",
+      "Swinney: UK not safe from Russian threat -- First Minister John Swinney said he does not have confidence the UK is safe from potential Russian threats, saying the U"
     ]
   }
 ]
