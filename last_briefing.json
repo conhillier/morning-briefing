@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-10-12T08:49:46.808348+00:00",
-    "headlines": [
-      "Trump declares 'energy ceasefire', Russia silent -- US President Donald Trump announced that Russia and Ukraine had reached an \"energy ceasefire\", saying it was \"effective",
-      "Senators slam Trump Russian diesel deal -- A group of seven senators - four Republicans and three Democrats - said Trump's deal to import Russian diesel violated U",
-      "Second Houthi strike hits Riyadh airport -- One person has been killed and **11 injured** in a second strike on King Khalid International Airport in Riyadh, with a",
-      "Poland detains man in Tusk assassination plot -- Polish Prime Minister Donald Tusk said a man accused of plotting an assassination attack against him and Defence Ministe",
-      "IMF warns AI is a 'slow-moving tsunami' for jobs -- IMF Managing Director Kristalina Georgieva warned on Monday that AI was hitting the global labor market like a \"slow-mov",
-      "Scottish A&E doctor 'terrified' ahead of winter -- Dr Fiona Hunter, vice chair of the Royal College of Emergency Medicine Scotland, said A&E departments were providing \"un",
-      "The deadliest Houthi attack on a Gulf Arab state since the Iran war began has heightened concerns that the United States could become directly involved in another regional conflict, according to NPR."
-    ]
-  },
-  {
     "date": "2026-10-13T09:09:56.678256+00:00",
     "headlines": [
       "Ship sinks in Black Sea drone attack off Bulgaria -- A merchant ship sank after drones hit two vessels off Bulgaria's Black Sea coast, Prime Minister Rumen Radev said. One v",
@@ -46,6 +34,19 @@
       "Nvidia donates $250m to UK AI safety research -- The **$5.5tn** US chipmaker Nvidia is donating **$250m** worth of computing power to the UK to support AI safety researc",
       "UK economy grows 0.1% in August -- The UK economy grew by **0.1%** in August, according to the Office for National Statistics, following growth of **0.4%**",
       "Swinney: UK not safe from Russian threat -- First Minister John Swinney said he does not have confidence the UK is safe from potential Russian threats, saying the U"
+    ]
+  },
+  {
+    "date": "2026-10-16T06:52:10.798878+00:00",
+    "headlines": [
+      "Three children and teacher killed in Oregon school shooting -- A **16-year-old** shot dead **three children and a teacher** at Silver Rail Elementary School in Bend, Oregon on Thursda",
+      "Ukraine resumes strikes on Russian oil refineries -- Russia's defence ministry said **four missiles and dozens of drones** were intercepted, with falling debris causing a fi",
+      "Ship attacks near Hormuz hit record high -- The number of ships reporting attacks in and around the Strait of Hormuz has hit a record high, with **twelve vessels**",
+      "Anthropic grants independent researchers employee-level access -- Anthropic is giving **employee-level access** to six researchers from **METR**, a nonprofit that tests frontier AI model",
+      "Meta launches open-weight AI model for Macs -- The model leverages **816 billion parameters** and a **1 million token context window**, and has been designed to run lo",
+      "Nandy considers blocking Sky's \u00a31.6bn ITV deal -- Culture Secretary **Lisa Nandy** has said she is \"minded to intervene\" in the proposed **\u00a31.6bn** deal for Sky to buy IT",
+      "Anthropic's revenue surged 45% to $16.8bn in the three months to the end of September, with the company also reporting a third-quarter profit on an adjusted basis as it woos investors ahead of an expected stock market listing.",
+      "Ukraine resumed strikes on Russian oil infrastructure after Zelensky said drone attacks hit 15 Ukrainian regions overnight, with Ukrainian air defences stopping 536 Russian drones but recording impacts at 31 locations, Ukraine's Air Force said."
     ]
   }
 ]
