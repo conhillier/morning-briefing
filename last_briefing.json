@@ -1,29 +1,5 @@
 [
   {
-    "date": "2026-10-15T07:09:20.774313+00:00",
-    "headlines": [
-      "Anthropic revenue surges 45% before IPO -- Anthropic saw its revenue surge by **45% to $16.8bn** in the three months to the end of September, figures revealed in a",
-      "AI sell-off deepens across Asian markets -- Tech stocks fell sharply in Asia on Thursday, with shares in Japanese tech investment firm Softbank falling by more than",
-      "TSMC posts sixth straight record profit -- Taiwan Semiconductor Manufacturing Co reported a record third-quarter net profit of **NT$763.1 billion**, up **68.7%** f",
-      "Nvidia donates $250m to UK AI safety research -- The **$5.5tn** US chipmaker Nvidia is donating **$250m** worth of computing power to the UK to support AI safety researc",
-      "UK economy grows 0.1% in August -- The UK economy grew by **0.1%** in August, according to the Office for National Statistics, following growth of **0.4%**",
-      "Swinney: UK not safe from Russian threat -- First Minister John Swinney said he does not have confidence the UK is safe from potential Russian threats, saying the U"
-    ]
-  },
-  {
-    "date": "2026-10-16T06:52:10.798878+00:00",
-    "headlines": [
-      "Three children and teacher killed in Oregon school shooting -- A **16-year-old** shot dead **three children and a teacher** at Silver Rail Elementary School in Bend, Oregon on Thursda",
-      "Ukraine resumes strikes on Russian oil refineries -- Russia's defence ministry said **four missiles and dozens of drones** were intercepted, with falling debris causing a fi",
-      "Ship attacks near Hormuz hit record high -- The number of ships reporting attacks in and around the Strait of Hormuz has hit a record high, with **twelve vessels**",
-      "Anthropic grants independent researchers employee-level access -- Anthropic is giving **employee-level access** to six researchers from **METR**, a nonprofit that tests frontier AI model",
-      "Meta launches open-weight AI model for Macs -- The model leverages **816 billion parameters** and a **1 million token context window**, and has been designed to run lo",
-      "Nandy considers blocking Sky's \u00a31.6bn ITV deal -- Culture Secretary **Lisa Nandy** has said she is \"minded to intervene\" in the proposed **\u00a31.6bn** deal for Sky to buy IT",
-      "Anthropic's revenue surged 45% to $16.8bn in the three months to the end of September, with the company also reporting a third-quarter profit on an adjusted basis as it woos investors ahead of an expected stock market listing.",
-      "Ukraine resumed strikes on Russian oil infrastructure after Zelensky said drone attacks hit 15 Ukrainian regions overnight, with Ukrainian air defences stopping 536 Russian drones but recording impacts at 31 locations, Ukraine's Air Force said."
-    ]
-  },
-  {
     "date": "2026-10-17T06:45:09.203664+00:00",
     "headlines": [
       "Trump waives Russia sanctions, deepening Zelensky rift -- Donald Trump used his presidential authority to block numerous sanctions on Russia **two days before they were due to ta",
@@ -46,6 +22,18 @@
       "Bank of England chief walks out of IMF meeting -- Bank of England governor Andrew Bailey joined finance leaders from France, Germany, and a number of Scandinavian and Bal",
       "Search narrows for two missing Lewis fishermen -- Police have identified an \"area of interest\" in the search for two fishermen whose boat went missing off north Lewis in",
       "Fifteen NHS staff have now been sacked by Nottingham University Hospitals NHS Trust for illegally accessing the medical records of victims of the 2023 Nottingham attack by Valdo Calocane, with a further 15 final written warnings and two first written warnings also issued."
+    ]
+  },
+  {
+    "date": "2026-10-19T07:31:14.824828+00:00",
+    "headlines": [
+      "Trump defends Russia sanctions pause as peace bid -- US President Donald Trump said his decision to suspend several Russian sanctions is an effort to keep Moscow at the nego",
+      "WFP slashes Gaza food aid by a third -- The World Food Programme says it is being forced to \"drastically reduce lifesaving assistance\" to Gaza due to funding sh",
+      "China Q3 GDP grows 4.5%, beats forecasts -- China's gross domestic product expanded **4.5 percent** in the July-September period from the same quarter a year earlie",
+      "Anthropic pledges 5% of shares to public fund -- AI company Anthropic announced it will commit **5% of its shares** to a fund that will make donations for the \"public go",
+      "Four Canadian soldiers killed in Alberta base fire -- Canadian Prime Minister Mark Carney said **four service members were killed** and dozens more seriously injured in a fir",
+      "UK home sellers cut prices on 3,000 homes daily -- Home sellers cut asking prices on more than **3,000 properties a day** on average in Britain during September, according",
+      "France's Emmanuel Macron faces a political firestorm after riots broke out across the country, according to the Financial Times."
     ]
   }
 ]
