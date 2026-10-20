@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-17T06:45:09.203664+00:00",
-    "headlines": [
-      "Trump waives Russia sanctions, deepening Zelensky rift -- Donald Trump used his presidential authority to block numerous sanctions on Russia **two days before they were due to ta",
-      "Russian attacks kill 8, cut power to 1 million in Ukraine -- Russian attacks killed at least **eight people** and injured **60** across Ukraine on Friday, striking nine regions and",
-      "Ukraine out of Patriot missiles as ceasefire collapses -- Ukraine's air force confirmed to NPR that they are now out of the **US-made Patriot missiles** that are Kyiv's only mean",
-      "Brent crude hits $110 as Hormuz attacks escalate -- Brent futures hit a session high of **$110 per barrel** for the first time since May before easing slightly to close at",
-      "Russian hacker arrested over deadly London hospital hack -- German police have detained a **28-year-old Russian man** named as Vladimir K., accused of being one of the core members",
-      "UK banks brace for tax hikes in Budget -- Chancellor John Healey is planning to increase taxes on the banking sector, with senior banking executives telling the B",
-      "Replit CEO Amjad Masad said at TechCrunch Disrupt that the AI coding platform is no longer working with Anthropic, citing cost, partnership and performance reasons, though insiders familiar with the partnership told TechCrunch it was still in place.",
-      "Australia has introduced legislation to parliament that would force social media platforms to let users turn off recommender algorithms and would impose a legal duty of care on online services, though critics and the Trump administration say the reforms threaten free speech."
-    ]
-  },
-  {
     "date": "2026-10-18T07:06:26.970462+00:00",
     "headlines": [
       "Trump waives Russia sanctions, Zelensky condemns move -- President Donald Trump signed an executive order late Friday waiving key parts of new U.S. sanctions on Russia, coming *",
@@ -34,6 +21,17 @@
       "Four Canadian soldiers killed in Alberta base fire -- Canadian Prime Minister Mark Carney said **four service members were killed** and dozens more seriously injured in a fir",
       "UK home sellers cut prices on 3,000 homes daily -- Home sellers cut asking prices on more than **3,000 properties a day** on average in Britain during September, according",
       "France's Emmanuel Macron faces a political firestorm after riots broke out across the country, according to the Financial Times."
+    ]
+  },
+  {
+    "date": "2026-10-20T07:21:12.543156+00:00",
+    "headlines": [
+      "Zelensky adviser: Ukrainians dying from intel gaps -- A key adviser to President Zelensky told the BBC that Ukrainians have died because Kyiv is not receiving reliable US war",
+      "Trump tells Zelensky to swap out his negotiator -- Zelensky told US senators at a meeting on Monday that decisions taken by the Trump administration \"are hard to explain b",
+      "Drone strike kills 80 near Sudan market -- A drone strike near a market in southern Sudan on Sunday evening killed **80 people**, mostly commuters catching rides h",
+      "Alberta votes to stay in Canada by wide margin -- Voters in Canada's Alberta have overwhelmingly rejected a proposal to begin a process toward independence, with CBC proj",
+      "US bans DeepSeek from government agency systems -- The Department of Homeland Security has banned all use of DeepSeek within civilian government agencies and any technolog",
+      "Hoax bomb threats hit hundreds of Scottish schools -- Hundreds of schools across Scotland received hoax bomb threat emails, prompting more than **300 calls** to Police Scotla"
     ]
   }
 ]
