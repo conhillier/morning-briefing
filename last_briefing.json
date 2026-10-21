@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-10-18T07:06:26.970462+00:00",
-    "headlines": [
-      "Trump waives Russia sanctions, Zelensky condemns move -- President Donald Trump signed an executive order late Friday waiving key parts of new U.S. sanctions on Russia, coming *",
-      "France erupts: 1,200 arrested in protest violence -- Violence broke out across France on Saturday during the latest day of demonstrations against hardship in schools and the",
-      "Ukrainian drones strike St Petersburg port -- Video posted on social media shows multiple explosions and fires around the port of St Petersburg, Russia after a suspec",
-      "Zelensky urges allies to back stalled Russia sanctions -- Ukrainian President Volodymyr Zelensky urged supporters Saturday to speak out in defence of new U.S. sanctions against R",
-      "Bank of England chief walks out of IMF meeting -- Bank of England governor Andrew Bailey joined finance leaders from France, Germany, and a number of Scandinavian and Bal",
-      "Search narrows for two missing Lewis fishermen -- Police have identified an \"area of interest\" in the search for two fishermen whose boat went missing off north Lewis in",
-      "Fifteen NHS staff have now been sacked by Nottingham University Hospitals NHS Trust for illegally accessing the medical records of victims of the 2023 Nottingham attack by Valdo Calocane, with a further 15 final written warnings and two first written warnings also issued."
-    ]
-  },
-  {
     "date": "2026-10-19T07:31:14.824828+00:00",
     "headlines": [
       "Trump defends Russia sanctions pause as peace bid -- US President Donald Trump said his decision to suspend several Russian sanctions is an effort to keep Moscow at the nego",
@@ -32,6 +20,19 @@
       "Alberta votes to stay in Canada by wide margin -- Voters in Canada's Alberta have overwhelmingly rejected a proposal to begin a process toward independence, with CBC proj",
       "US bans DeepSeek from government agency systems -- The Department of Homeland Security has banned all use of DeepSeek within civilian government agencies and any technolog",
       "Hoax bomb threats hit hundreds of Scottish schools -- Hundreds of schools across Scotland received hoax bomb threat emails, prompting more than **300 calls** to Police Scotla"
+    ]
+  },
+  {
+    "date": "2026-10-21T07:17:29.772524+00:00",
+    "headlines": [
+      "Witkoff arrives in Russia to meet Putin -- US special envoy Steve Witkoff arrived in St Petersburg on Wednesday to meet President Vladimir Putin and discuss propos",
+      "Sudan drone strikes kill over 300 people -- Sudan's army has been accused of launching several drone strikes killing more than 300 people across two areas of West K",
+      "Musk eyes Tesla-SpaceX mega-merger -- With Tesla valued at roughly **$1.5tn** and SpaceX at **$2tn**, a combination would mark the largest merger ever. Musk s",
+      "UK inflation hits 3.5%, rate hike near-certain -- UK inflation rose by a hotter-than-expected **3.5%** in the 12 months to September, driven by surging motor fuel costs,",
+      "Ebola spreads to Nigeria from Congo -- The woman began showing symptoms on **7 October** and was admitted to a hospital in Abuja four days later; authorities h",
+      "UK approves Jackdaw North Sea gasfield -- The UK government approved the controversial Jackdaw gasfield in the North Sea, with Energy Secretary Miatta Fahnbulleh",
+      "The US Department of Homeland Security banned all civilian government agencies from using DeepSeek AI tools, warning their use \"may result in the transfer of sensitive data\" to China, as the firm's servers are located there under a legal system giving the government \"extensive authority\" to access private company infrastructure.",
+      "The Jackdaw gas field in the North Sea, located about 150 miles east of Aberdeen and operated by a Shell-Equinor joint venture, is expected to increase domestic gas production by around 6% at its peak and add an estimated \u00a32.9bn to the UK economy over its 11-year lifespan, according to the UK government."
     ]
   }
 ]
