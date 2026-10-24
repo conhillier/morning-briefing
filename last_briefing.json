@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-10-20T07:21:12.543156+00:00",
-    "headlines": [
-      "Zelensky adviser: Ukrainians dying from intel gaps -- A key adviser to President Zelensky told the BBC that Ukrainians have died because Kyiv is not receiving reliable US war",
-      "Trump tells Zelensky to swap out his negotiator -- Zelensky told US senators at a meeting on Monday that decisions taken by the Trump administration \"are hard to explain b",
-      "Drone strike kills 80 near Sudan market -- A drone strike near a market in southern Sudan on Sunday evening killed **80 people**, mostly commuters catching rides h",
-      "Alberta votes to stay in Canada by wide margin -- Voters in Canada's Alberta have overwhelmingly rejected a proposal to begin a process toward independence, with CBC proj",
-      "US bans DeepSeek from government agency systems -- The Department of Homeland Security has banned all use of DeepSeek within civilian government agencies and any technolog",
-      "Hoax bomb threats hit hundreds of Scottish schools -- Hundreds of schools across Scotland received hoax bomb threat emails, prompting more than **300 calls** to Police Scotla"
-    ]
-  },
-  {
     "date": "2026-10-21T07:17:29.772524+00:00",
     "headlines": [
       "Witkoff arrives in Russia to meet Putin -- US special envoy Steve Witkoff arrived in St Petersburg on Wednesday to meet President Vladimir Putin and discuss propos",
@@ -46,6 +35,18 @@
       "Two storms to batter Scotland this weekend -- Storm Austen is sweeping across Scotland today with the Met Office issuing a yellow warning for rain in central and east",
       "Elon Musk has reportedly invested approximately $1bn in Skydance, the new media empire led by David Ellison that was formed following Paramount's $111bn merger with Warner Bros Discovery.",
       "Cyber-security firm Wiz described the php2shell flaws as the \"most severe\" ever detected by AI, with OpenAI calling the discovery \"one of the most impactful security issues in recent memory\", and the US NSA telling organisations unable to patch immediately to take their systems offline."
+    ]
+  },
+  {
+    "date": "2026-10-24T07:02:28.159476+00:00",
+    "headlines": [
+      "Kenya records second Ebola death -- Kenya has recorded its second death from Ebola as it handles its first ever outbreak of the disease. The victim, a woman",
+      "Nigeria Ebola source a mystery, spread feared -- Health officials across Africa are racing to determine how Nigeria's first Ebola patient in more than a decade became in",
+      "PHP cyber flaw: hacking attempts reach millions -- Cybersecurity firm Wiz Research, using OpenAI technology, announced it had discovered security flaws in PHP, a programmi",
+      "IT workers 'relentless' amid PHP emergency -- Microsoft boss Satya Nadella said he has not seen anything like the PHP emergency \"in a long, long time,\" telling a conf",
+      "UK commits \u00a3100m to AI biosecurity lab -- The UK government has announced it will establish a national AI Biosecurity Lab (AIBL), committing **\u00a3100m** to the \"wor",
+      "Storm Austen leaves 31,000 homes powerless -- Storm Austen brought severe conditions to parts of south-west England, with a gust of **76mph** recorded at St Mary's ai",
+      "The PHP vulnerabilities, given technical IDs CVE-2026-109618 and CVE-2026-109619, were ranked **9.2 out of 10** in severity by researchers, with Calif researcher Ryan Austin telling the BBC it was \"the most serious vulnerability I've ever found\"."
     ]
   }
 ]
