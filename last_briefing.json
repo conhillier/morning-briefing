@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-10-21T07:17:29.772524+00:00",
-    "headlines": [
-      "Witkoff arrives in Russia to meet Putin -- US special envoy Steve Witkoff arrived in St Petersburg on Wednesday to meet President Vladimir Putin and discuss propos",
-      "Sudan drone strikes kill over 300 people -- Sudan's army has been accused of launching several drone strikes killing more than 300 people across two areas of West K",
-      "Musk eyes Tesla-SpaceX mega-merger -- With Tesla valued at roughly **$1.5tn** and SpaceX at **$2tn**, a combination would mark the largest merger ever. Musk s",
-      "UK inflation hits 3.5%, rate hike near-certain -- UK inflation rose by a hotter-than-expected **3.5%** in the 12 months to September, driven by surging motor fuel costs,",
-      "Ebola spreads to Nigeria from Congo -- The woman began showing symptoms on **7 October** and was admitted to a hospital in Abuja four days later; authorities h",
-      "UK approves Jackdaw North Sea gasfield -- The UK government approved the controversial Jackdaw gasfield in the North Sea, with Energy Secretary Miatta Fahnbulleh",
-      "The US Department of Homeland Security banned all civilian government agencies from using DeepSeek AI tools, warning their use \"may result in the transfer of sensitive data\" to China, as the firm's servers are located there under a legal system giving the government \"extensive authority\" to access private company infrastructure.",
-      "The Jackdaw gas field in the North Sea, located about 150 miles east of Aberdeen and operated by a Shell-Equinor joint venture, is expected to increase domestic gas production by around 6% at its peak and add an estimated \u00a32.9bn to the UK economy over its 11-year lifespan, according to the UK government."
-    ]
-  },
-  {
-    "date": "2026-10-22T07:18:54.290410+00:00",
-    "headlines": [
-      "Missiles hit Kyiv amid peace talk hopes -- Kyiv came under a new missile attack on Wednesday night, with **several houses hit** and **six people injured**, accordi",
-      "Critical PHP flaws threaten 70% of the internet -- The flaws, which had gone undetected for more than a decade, were discovered using advanced AI tools. Details of the fla",
-      "Meta hit with record $25bn privacy fine -- A judge in New Mexico ordered Meta to pay **$25bn (\u00a318.6bn)** following a two-week trial that found the company had spen",
-      "US pulls Saudi diplomats, Iran strike plans drawn up -- The US ordered non-emergency government employees and their families to leave Saudi Arabia as Houthi attacks on the king",
-      "Russia frees American prisoner Hubbard -- Russian President Vladimir Putin freed **74-year-old** Michigan native Stephen Hubbard from a Russian prison at the requ",
-      "NHS Lothian upholds complaint over dying girl's bedside care row -- Six-year-old Flora Gentleman, who had lived with neuroblastoma for four years, was receiving palliative care at Edinburg",
-      "Amazon detected attempts to exploit the PHP2Shell vulnerabilities before they were publicly disclosed using its MadPot threat detection system, though it said it remains unclear how attackers obtained information about the flaws ahead of their disclosure."
-    ]
-  },
-  {
     "date": "2026-10-23T07:10:09.236828+00:00",
     "headlines": [
       "Tibet earthquake kills 16, injures dozens -- A **magnitude 7.0 earthquake** struck Baqen County in the Nagqu region of Tibet on Thursday night, killing at least **16",
@@ -47,6 +22,19 @@
       "UK commits \u00a3100m to AI biosecurity lab -- The UK government has announced it will establish a national AI Biosecurity Lab (AIBL), committing **\u00a3100m** to the \"wor",
       "Storm Austen leaves 31,000 homes powerless -- Storm Austen brought severe conditions to parts of south-west England, with a gust of **76mph** recorded at St Mary's ai",
       "The PHP vulnerabilities, given technical IDs CVE-2026-109618 and CVE-2026-109619, were ranked **9.2 out of 10** in severity by researchers, with Calif researcher Ryan Austin telling the BBC it was \"the most serious vulnerability I've ever found\"."
+    ]
+  },
+  {
+    "date": "2026-10-25T07:29:48.689357+00:00",
+    "headlines": [
+      "Brazil votes in tight presidential run-off today -- Brazilians are going to the polls on Sunday to elect their new president in a closely fought run-off between **80-year-o",
+      "Serbia votes as student movement challenges Vucic -- Serbians are voting in parliamentary elections today amid a mass student protest movement seeking to oust longtime leade",
+      "Gunmen kill seven at church funeral in Jordan -- Gunmen opened fire during a funeral at a **Greek Orthodox church in Karak**, Jordan on Friday, killing **seven people**",
+      "Gunmen kill at least 10 in northeast Nigeria village -- Unknown gunmen raided the village of **Binnari** in the northeast Nigerian state of **Taraba** on Friday, killing at lea",
+      "Israel shuts West Bank crossings for election day -- Israel's military has announced that all West Bank land crossings will be closed during Tuesday's election, and Palestin",
+      "Storm Boelo batters Scotland with 80mph gusts -- Storm Boelo has swept into Scotland with an **amber Met Office warning** covering the mainland and Western Isles from **",
+      "London's annual Diwali on the Square celebrations this Sunday were cancelled on independent health and safety experts' recommendations in light of Storm Boelo, while Dublin airport saw nine outbound and 10 inbound flights cancelled by Saturday afternoon.",
+      "[CFO] Companies House accounts filing reforms updated for April 2028"
     ]
   }
 ]
