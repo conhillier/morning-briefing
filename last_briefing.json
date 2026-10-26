@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-23T07:10:09.236828+00:00",
-    "headlines": [
-      "Tibet earthquake kills 16, injures dozens -- A **magnitude 7.0 earthquake** struck Baqen County in the Nagqu region of Tibet on Thursday night, killing at least **16",
-      "Trump says Musk restored Ukraine Starlink access -- US President Donald Trump said Elon Musk has restored Ukraine's Starlink internet access after restrictions hampered Kyi",
-      "US-Israel planning early November Iran strike -- The US and Israel are preparing plans for a possible attack on Iran in early November, after the US midterm elections, a",
-      "PHP cyber flaw sparks global scramble -- Governments and organisations worldwide are still scrambling to patch critical vulnerabilities in PHP, the programming l",
-      "Barclays cuts 5,000 jobs, cites AI -- Barclays is cutting around **5,000 staff**, amounting to roughly **5% of its global workforce**, as it introduces more a",
-      "Two storms to batter Scotland this weekend -- Storm Austen is sweeping across Scotland today with the Met Office issuing a yellow warning for rain in central and east",
-      "Elon Musk has reportedly invested approximately $1bn in Skydance, the new media empire led by David Ellison that was formed following Paramount's $111bn merger with Warner Bros Discovery.",
-      "Cyber-security firm Wiz described the php2shell flaws as the \"most severe\" ever detected by AI, with OpenAI calling the discovery \"one of the most impactful security issues in recent memory\", and the US NSA telling organisations unable to patch immediately to take their systems offline."
-    ]
-  },
-  {
     "date": "2026-10-24T07:02:28.159476+00:00",
     "headlines": [
       "Kenya records second Ebola death -- Kenya has recorded its second death from Ebola as it handles its first ever outbreak of the disease. The victim, a woman",
@@ -35,6 +22,19 @@
       "Storm Boelo batters Scotland with 80mph gusts -- Storm Boelo has swept into Scotland with an **amber Met Office warning** covering the mainland and Western Isles from **",
       "London's annual Diwali on the Square celebrations this Sunday were cancelled on independent health and safety experts' recommendations in light of Storm Boelo, while Dublin airport saw nine outbound and 10 inbound flights cancelled by Saturday afternoon.",
       "[CFO] Companies House accounts filing reforms updated for April 2028"
+    ]
+  },
+  {
+    "date": "2026-10-26T07:35:31.676794+00:00",
+    "headlines": [
+      "Serbia's Vucic concedes to student protest movement -- Serbia's long-standing leader Aleksandar Vucic has admitted defeat to the student-led protest movement in snap parliamen",
+      "Lula wins historic fourth presidential term in Brazil -- Luiz Inacio Lula da Silva has been elected president of Brazil for a fourth, nonconsecutive term, defeating far-right se",
+      "Jordan arrests three suspects in church attack -- Security forces in Jordan have arrested three armed suspects in connection with a deadly attack on a Greek Orthodox chur",
+      "Venezuelan opposition leader Machado returns from exile -- Venezuelan opposition leader Maria Corina Machado has returned home after more than **10 months in exile**, arriving in",
+      "SpaceX closes $40bn debt deal for AI chips -- Elon Musk has announced that SpaceX has closed **$40 billion** in debt financing to purchase graphics processing units u",
+      "Storm Boelo kills man, cuts power across Scotland -- A **60-year-old man** has died after being struck by a falling tree on a minor road at **Mid Kelton, near Castle Douglas",
+      "The Dakar Rally 2027 has been moved out of Saudi Arabia due to \"recent developments in the region\", with a new location to be announced in the \"coming days\" and a planned return to Saudi Arabia for its 50th edition in 2028.",
+      "A cabinet split has emerged over the Rosebank oilfield, with chancellor John Healey backing approval of the North Sea drilling licence while energy secretary Miatta Fahnbulleh is leaning towards rejecting it; the prime minister would make the final call if there is conflict."
     ]
   }
 ]
