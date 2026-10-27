@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-10-24T07:02:28.159476+00:00",
-    "headlines": [
-      "Kenya records second Ebola death -- Kenya has recorded its second death from Ebola as it handles its first ever outbreak of the disease. The victim, a woman",
-      "Nigeria Ebola source a mystery, spread feared -- Health officials across Africa are racing to determine how Nigeria's first Ebola patient in more than a decade became in",
-      "PHP cyber flaw: hacking attempts reach millions -- Cybersecurity firm Wiz Research, using OpenAI technology, announced it had discovered security flaws in PHP, a programmi",
-      "IT workers 'relentless' amid PHP emergency -- Microsoft boss Satya Nadella said he has not seen anything like the PHP emergency \"in a long, long time,\" telling a conf",
-      "UK commits \u00a3100m to AI biosecurity lab -- The UK government has announced it will establish a national AI Biosecurity Lab (AIBL), committing **\u00a3100m** to the \"wor",
-      "Storm Austen leaves 31,000 homes powerless -- Storm Austen brought severe conditions to parts of south-west England, with a gust of **76mph** recorded at St Mary's ai",
-      "The PHP vulnerabilities, given technical IDs CVE-2026-109618 and CVE-2026-109619, were ranked **9.2 out of 10** in severity by researchers, with Calif researcher Ryan Austin telling the BBC it was \"the most serious vulnerability I've ever found\"."
-    ]
-  },
-  {
     "date": "2026-10-25T07:29:48.689357+00:00",
     "headlines": [
       "Brazil votes in tight presidential run-off today -- Brazilians are going to the polls on Sunday to elect their new president in a closely fought run-off between **80-year-o",
@@ -35,6 +23,22 @@
       "Storm Boelo kills man, cuts power across Scotland -- A **60-year-old man** has died after being struck by a falling tree on a minor road at **Mid Kelton, near Castle Douglas",
       "The Dakar Rally 2027 has been moved out of Saudi Arabia due to \"recent developments in the region\", with a new location to be announced in the \"coming days\" and a planned return to Saudi Arabia for its 50th edition in 2028.",
       "A cabinet split has emerged over the Rosebank oilfield, with chancellor John Healey backing approval of the North Sea drilling licence while energy secretary Miatta Fahnbulleh is leaning towards rejecting it; the prime minister would make the final call if there is conflict."
+    ]
+  },
+  {
+    "date": "2026-10-27T07:33:07.878292+00:00",
+    "headlines": [
+      "Jordan strikes Syria after church attack -- Jordan has struck what its military says were \"terrorist organisations\" in Syria in retaliation for an attack on a Chris",
+      "60 Christians killed in Ethiopia's Oromia -- At least **60 Orthodox Christians** were killed in separate attacks on **October 20 and 24** in Ethiopia's **Oromia** re",
+      "US and 30 nations warn of Sudan famine risk -- The **United States, the European Union and 30 countries** have warned of an \"alarming deterioration\" in food security i",
+      "Serbia's students savour election victory -- Serbia's student-led protest movement is celebrating after its **Student List** claimed more than half the votes in Sund",
+      "Anthropic files IPO with catastrophic AI warning -- The company reported revenue of **$16.3 billion** for the first half of 2026, up from **$1.2 billion** in the same perio",
+      "Third storm threatens Scotland after Boelo chaos -- Two new yellow wind warnings have been issued for Scotland as a third storm in a matter of days approaches, with a warni",
+      "Brazil's currency plunged its most since 1999 following Lula's election victory, according to the Financial Times.",
+      "Richard Baines, 60, the long-serving curator of Logan Botanic Garden near Stranraer, has been named as the man killed by a falling tree during Storm Boelo on Sunday morning at Mid Kelton, near Castle Douglas.",
+      "[CFO] Vaping Products Duty of PS2.20 per 10ml effective 1 October 2026",
+      "[CFO] Vaping Duty Stamps mandatory from 1 April 2027",
+      "[CFO] Companies House pauses profit and loss filing for small firms"
     ]
   }
 ]
