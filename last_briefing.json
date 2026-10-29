@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-26T07:35:31.676794+00:00",
-    "headlines": [
-      "Serbia's Vucic concedes to student protest movement -- Serbia's long-standing leader Aleksandar Vucic has admitted defeat to the student-led protest movement in snap parliamen",
-      "Lula wins historic fourth presidential term in Brazil -- Luiz Inacio Lula da Silva has been elected president of Brazil for a fourth, nonconsecutive term, defeating far-right se",
-      "Jordan arrests three suspects in church attack -- Security forces in Jordan have arrested three armed suspects in connection with a deadly attack on a Greek Orthodox chur",
-      "Venezuelan opposition leader Machado returns from exile -- Venezuelan opposition leader Maria Corina Machado has returned home after more than **10 months in exile**, arriving in",
-      "SpaceX closes $40bn debt deal for AI chips -- Elon Musk has announced that SpaceX has closed **$40 billion** in debt financing to purchase graphics processing units u",
-      "Storm Boelo kills man, cuts power across Scotland -- A **60-year-old man** has died after being struck by a falling tree on a minor road at **Mid Kelton, near Castle Douglas",
-      "The Dakar Rally 2027 has been moved out of Saudi Arabia due to \"recent developments in the region\", with a new location to be announced in the \"coming days\" and a planned return to Saudi Arabia for its 50th edition in 2028.",
-      "A cabinet split has emerged over the Rosebank oilfield, with chancellor John Healey backing approval of the North Sea drilling licence while energy secretary Miatta Fahnbulleh is leaning towards rejecting it; the prime minister would make the final call if there is conflict."
-    ]
-  },
-  {
     "date": "2026-10-27T07:33:07.878292+00:00",
     "headlines": [
       "Jordan strikes Syria after church attack -- Jordan has struck what its military says were \"terrorist organisations\" in Syria in retaliation for an attack on a Chris",
@@ -40,6 +27,20 @@
       "Israel's election exit polls suggest no clear winner, with the FT reporting neither Netanyahu nor opponent Eisenkot has secured a majority.",
       "[CFO] Vaping Products Duty at 2.20 per 10ml from 1 October 2026",
       "[CFO] Mandatory iXBRL software filing for Companies House from April 2028"
+    ]
+  },
+  {
+    "date": "2026-10-29T08:16:01.952462+00:00",
+    "headlines": [
+      "Spain train crash kills at least 68 -- A high-speed train travelling from Madrid to Seville crashed into a stationary train on Wednesday morning, killing at le",
+      "Ebola outbreak hits 10,000 cases, may spread globally -- Africa's Ebola outbreak has reached **10,091 cases** and nearly **5,000 deaths**, with the Africa CDC's director general",
+      "Israel election deadlock as Netanyahu leads narrowly -- Partial results from Israel's general election show Benjamin Netanyahu's Likud party and its far-right and ultra-Orthodo",
+      "Azure revenue hits $33.2bn, up 48% -- Microsoft disclosed for the first time that its Azure cloud service brought in **$33.2 billion** in revenue for the July",
+      "Microsoft earned $10bn from OpenAI last quarter -- Microsoft generated **$10 billion** in revenue from commercial arrangements with OpenAI, including revenue-sharing payme",
+      "Renfrew Bridge shut for months after Storm Boelo -- The Renfrew Bridge, which opened to road traffic across the River Clyde last year as part of a **\u00a3117m project**, will b",
+      "The Ebola outbreak has spread faster than any in history and is second in death toll with nearly 5,000 deaths, with around one-third of those who have died being children, according to figures from the Democratic Republic of Congo.",
+      "[CFO] Vaping Products Duty at PS2.20 per 10ml from 1 October 2026",
+      "[CFO] Companies House pauses profit and loss filing for small companies"
     ]
   }
 ]
