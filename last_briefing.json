@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-10-28T08:06:46.944851+00:00",
-    "headlines": [
-      "Finland and Norway hold rare call with Putin -- The leaders of Finland and Norway held a joint call with Vladimir Putin, described as rare contact between the Russian p",
-      "Ukraine ceasefire expands across Kherson region -- A ceasefire that began to get food and medicine to the Russian-occupied city of Oleshky has been extended across the wid",
-      "Apple replaces faulty iPhone Duo screens -- Apple has acknowledged that some of its iPhone Duo handsets have developed problems with their screens, just days after",
-      "Anthropic IPO reveals explosive but costly growth -- Anthropic has filed to go public on the US stock market, revealing for the first time the AI research lab's finances in",
-      "UBS profits jump 27% on wealth inflows -- UBS reported a pre-tax profit of almost **$3.6 billion** in the third quarter, up **27%** year over year and broadly in",
-      "Chancellor scraps gas standing charges for 23m homes -- Chancellor John Healey is abolishing standing charges on gas bills for **23 million homes**, calling the fixed daily fee",
-      "Israel's election exit polls suggest no clear winner, with the FT reporting neither Netanyahu nor opponent Eisenkot has secured a majority.",
-      "[CFO] Vaping Products Duty at 2.20 per 10ml from 1 October 2026",
-      "[CFO] Mandatory iXBRL software filing for Companies House from April 2028"
-    ]
-  },
-  {
     "date": "2026-10-29T08:16:01.952462+00:00",
     "headlines": [
       "Spain train crash kills at least 68 -- A high-speed train travelling from Madrid to Seville crashed into a stationary train on Wednesday morning, killing at le",
@@ -40,6 +26,20 @@
       "Big Tech's AI energy hunger is pushing up household electricity bills: data centre demand contributed approximately $29.4bn in capacity costs across the four most recent PJM grid auctions, with the Natural Resources Defense Council estimating typical households within PJM could face an additional $70 per month in electricity charges by 2028.",
       "Binance's frozen assets from outside firms now total around $2.54 billion, with Circle freezing more than $800 million in USDC, Tether freezing more than $1.5 billion in USDT, and Ripple halting $200 million of funds, while Bitcoin fell more than 4% to $77,994.96.",
       "[CFO] Companies House accounts filing reforms updated for April 2028"
+    ]
+  },
+  {
+    "date": "2026-10-31T08:12:50.772124+00:00",
+    "headlines": [
+      "Binance frozen funds at $3bn after record hack -- Binance, the world's largest cryptocurrency exchange, says it has frozen around **$3bn** of the **$6.3bn (\u00a34.7bn)** stol",
+      "US approves $2.1bn Patriot missile sale to Ukraine -- The United States has approved the sale of **500 Patriot PAC-3 interceptor missiles** to Ukraine at a cost of **$2.1bn (",
+      "G20 family photo cancelled over Russia's presence -- The traditional \"family photo\" at the G20 foreign ministers' meeting in Atlanta was abruptly cancelled after about **one",
+      "Tech stocks tumble as AI spending tops $800bn -- Tech stocks fell for a second consecutive day on Friday, with Intel shares plummeting **28%** and shedding more than **$",
+      "Google loses $500bn as AI search hurts ad revenue -- Google-owner Alphabet lost just over **$500bn (\u00a3374bn)** in value on Thursday after its own AI summaries were found to b",
+      "Scottish councils reject Holyrood's local government overhaul -- Following a meeting of all 32 council leaders, umbrella body Cosla said a change of structure alone is not the answer, a",
+      "The US, South Korea, and Japan reaffirmed their \"resolute commitment to the complete denuclearisation\" of North Korea on the sidelines of the G20 in Atlanta, as speculation mounts that Trump and Kim Jong Un could reconnect at next month's APEC summit in China.",
+      "[CFO] Vaping Products Duty at GBP2.20 per 10ml from 1 October 2026",
+      "[CFO] Companies House pauses P&L filing for small companies; software mandatory April 2028"
     ]
   }
 ]
