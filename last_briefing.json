@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-10-31T08:12:50.772124+00:00",
-    "headlines": [
-      "Binance frozen funds at $3bn after record hack -- Binance, the world's largest cryptocurrency exchange, says it has frozen around **$3bn** of the **$6.3bn (\u00a34.7bn)** stol",
-      "US approves $2.1bn Patriot missile sale to Ukraine -- The United States has approved the sale of **500 Patriot PAC-3 interceptor missiles** to Ukraine at a cost of **$2.1bn (",
-      "G20 family photo cancelled over Russia's presence -- The traditional \"family photo\" at the G20 foreign ministers' meeting in Atlanta was abruptly cancelled after about **one",
-      "Tech stocks tumble as AI spending tops $800bn -- Tech stocks fell for a second consecutive day on Friday, with Intel shares plummeting **28%** and shedding more than **$",
-      "Google loses $500bn as AI search hurts ad revenue -- Google-owner Alphabet lost just over **$500bn (\u00a3374bn)** in value on Thursday after its own AI summaries were found to b",
-      "Scottish councils reject Holyrood's local government overhaul -- Following a meeting of all 32 council leaders, umbrella body Cosla said a change of structure alone is not the answer, a",
-      "The US, South Korea, and Japan reaffirmed their \"resolute commitment to the complete denuclearisation\" of North Korea on the sidelines of the G20 in Atlanta, as speculation mounts that Trump and Kim Jong Un could reconnect at next month's APEC summit in China.",
-      "[CFO] Vaping Products Duty at GBP2.20 per 10ml from 1 October 2026",
-      "[CFO] Companies House pauses P&L filing for small companies; software mandatory April 2028"
-    ]
-  },
-  {
     "date": "2026-11-01T08:56:39.936000+00:00",
     "headlines": [
       "German cost of living protests turn violent -- Rioters looted shops in central Frankfurt late on Saturday as clashes erupted in German cities over the cost of living,",
@@ -39,6 +25,19 @@
       "Former UK Chancellor Rachel Reeves has called for Britain to re-join the EU, saying Brexit left the UK \"poorer, weaker and less secure\", prompting SNP Westminster leader Dave Doogan to warn it would be \"hypocrisy\" not to also revisit the Scottish independence question.",
       "[CFO] Vaping Products Duty at 2.20 pounds per 10ml from 1 October 2026",
       "[CFO] Companies House pauses profit and loss filing requirement for small companies"
+    ]
+  },
+  {
+    "date": "2026-11-03T09:13:25.050374+00:00",
+    "headlines": [
+      "US strikes Iran ahead of midterm elections -- The US has launched strikes on Iran's **Qeshm Island** in the Strait of Hormuz, US officials told CBS, the BBC's US part",
+      "Russia kills 29 at Ukraine aid distribution centre -- At least **29 people** were killed after Russian bombs hit an aid distribution centre in the village of **Komyshuvakha**",
+      "UK and EU agree draft Brexit food deal -- The UK and EU have agreed a draft deal on removing post-Brexit checks from food and agriculture exports, ahead of the UK",
+      "North Korea denies record Binance hack -- North Korea has denied claims that it was behind the record **$6.3bn (\u00a34.7bn)** hack of cryptocurrency exchange Binance,",
+      "Palantir US commercial revenue tops government for first time -- Palantir beat Wall Street's third-quarter estimates, with **U.S. commercial revenue jumping 148% to $984 million**, surp",
+      "Shetland defence calls grow amid Russian activity -- Calls are being made for the defence of the Shetland Isles to be strengthened after increased sightings of Russian trawl",
+      "Supermarkets across Europe have been hit by a suspected cyber-attack affecting their fridges and freezers, with researchers from UK Cyber Defence identifying more than 800 refrigeration and building-control interfaces associated with British retailers that can be accessed over the public internet.",
+      "[CFO] Companies House mandatory iXBRL software filing from April 2028"
     ]
   }
 ]
