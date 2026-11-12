@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-11-09T09:26:25.073494+00:00",
-    "headlines": [
-      "Krakow gunman dies after mass shooting -- The **24-year-old** Polish man suspected of killing **six people** in central Krakow has died in hospital early Monday m",
-      "Nvidia investigates CEO after spy affair admission -- Nvidia said on Sunday it **\"is initiating an independent investigation\"** after reports that founder and CEO **Jensen Hu",
-      "Europe joins Ukraine peace talks in Abu Dhabi -- European officials will attend **US-mediated peace talks** between Russia and Ukraine in the **United Arab Emirates** th",
-      "Paraguay bank collapse toppled president -- The bank said it had **2.9 million customers** - around **60% of Paraguay's adult population** - while the Central Bank",
-      "Egypt train crash kills seven, injures 125 -- **Seven people** were killed and at least **125 injured** when two trains collided on Sunday south of **Cairo**, officia",
-      "Ukrainian refugee faces PS9,000 Scots property tax -- **Kateryna Stepanovych**, 38, who fled Ukraine in **2023**, has been told she could face a **PS9,000 Additional Dwelling",
-      "China's producer price index hit 5.7% in October, its fastest rate since June 2022 and above the 5.3% forecast, driven by sharp rises in mining and raw materials industries, while consumer inflation slowed to 0.7%.",
-      "UK public bodies including MPs' offices, local authorities and courts are being swamped by AI-generated complaints - dubbed 'AI clog' - with one senior MP caseworker saying 'half the emails we receive are some form of AI', and average complaint lengths growing from two pages to ten times longer.",
-      "[CFO] Bank Rate raised to 4% in November 2026"
-    ]
-  },
-  {
     "date": "2026-11-10T09:30:27.583538+00:00",
     "headlines": [
       "FBI probing Nvidia boss Jensen Huang affair -- US President Donald Trump confirmed the FBI is investigating the affair between Nvidia CEO Jensen Huang and an alleged C",
@@ -38,6 +24,19 @@
       "Scotland's housing crisis deepens as builds fall -- Scotland's housing shortage is worsening, with homelessness reaching record levels and more than **19,000 households** i",
       "England's higher education regulator the Office for Students warned that AI use has made it \"close to impossible\" to assess coursework at universities, calling for a return to traditional exams and in-person presentations after a survey of more than 300 students and staff at 127 institutions found students completing assessments \"sometimes in just a few minutes\" using AI.",
       "The UK government's planned social media ban for under-16s could inadvertently cover up to 150 platforms including YouTube Kids, Lego Play and Spotify, with regulations focusing on recommender systems and user-generated content set to go to cabinet for sign-off this week.",
+      "[CFO] Bank Rate raised 0.25 points to 4%, November 2026"
+    ]
+  },
+  {
+    "date": "2026-11-12T09:31:10.387109+00:00",
+    "headlines": [
+      "US envoys fly to Moscow after Abu Dhabi talks -- US envoys **Jared Kushner** and **Steve Witkoff** arrived in Moscow on Thursday morning for talks with Russian President",
+      "Abu Dhabi talks end with prisoner exchange deal -- Russia and Ukraine agreed to a large exchange of prisoners of war as two days of US-mediated talks in Abu Dhabi conclude",
+      "Nvidia board weighs removing CEO Jensen Huang -- Nvidia's board was reportedly meeting on Wednesday evening to decide whether CEO **Jensen Huang** should remain with the",
+      "UK economy grows fastest in over two years -- The UK economy grew by **0.7%** in the three months to September, its fastest rate for more than two years, according to",
+      "Israel strikes Nasser Hospital, killing Palestinians -- At least **five Palestinians** were killed and twenty others injured after an Israeli airstrike struck a building at **N",
+      "NHS Grampian leadership slammed by watchdog -- Healthcare watchdog **Healthcare Improvement Scotland (HIS)** has found \"major deficiencies\" in NHS Grampian's handling",
+      "Xi Jinping has reaffirmed that Taiwan's reunification with China 'will be realised,' speaking in Beijing's Great Hall of People and committing to a 'one country, two systems' policy.",
       "[CFO] Bank Rate raised 0.25 points to 4%, November 2026"
     ]
   }
