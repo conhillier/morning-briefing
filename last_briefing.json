@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-11-10T09:30:27.583538+00:00",
-    "headlines": [
-      "FBI probing Nvidia boss Jensen Huang affair -- US President Donald Trump confirmed the FBI is investigating the affair between Nvidia CEO Jensen Huang and an alleged C",
-      "Ukraine peace talks resume in Abu Dhabi -- Senior officials from Moscow, Kyiv and Washington met in Abu Dhabi on Tuesday for the first trilateral talks aimed at en",
-      "Russell Brand jailed over 10 years -- British comedian Russell Brand has been sentenced to **ten years, six months** in prison after being found guilty of one",
-      "FDA warns GLP-1 drugs may cause vision loss -- The US Food and Drug Administration is requiring new safety warnings on all GLP-1 drugs, including Wegovy and Zepbound,",
-      "Australia plans criminal penalties for rogue AI -- Australia's Prime Minister Anthony Albanese released **18 recommendations** from a \"rapid review\" into AI breaches, incl",
-      "NHS boss got PS378,000 redundancy on retirement -- Mary Morgan, chief executive of NHS National Services Scotland (NSS), received a **PS378,000** payment \"under contractua",
-      "Deadly flash floods struck the city of Erbil in northern Iraq on Saturday, killing two people, as an estimated 80mm of rain fell against forecasts of just 30mm, while Storm Bruna is set to bring gusts of up to 50mph to Portugal's west coast this week.",
-      "[CFO] Bank Rate raised to 4% in November 2026",
-      "[CFO] Companies House mandates iXBRL software filing from April 2028"
-    ]
-  },
-  {
     "date": "2026-11-11T09:04:59.439370+00:00",
     "headlines": [
       "US charges trio over RAF Fairford terror plot -- The US Department of Justice has charged three Iran-backed operatives allegedly involved in a plot targeting RAF Fairfor",
@@ -50,6 +36,21 @@
       "North Korea stole $400m in fake video call scam -- State-sponsored hackers from North Korea have taken more than **$400 million** in cryptocurrency from over **900 victims",
       "76,000 sewage spills recorded across Scotland -- BBC analysis of new monitoring data shows more than **76,000 sewage spills** were recorded after **1,009 new sewer monit",
       "US envoys Jared Kushner and Steve Witkoff met Vladimir Putin in the Kremlin on Thursday in a session lasting about two hours, with Kushner seeking Putin's blessing for European representatives to join peace talks, though Moscow opposes European involvement.",
+      "[CFO] Bank Rate raised 0.25 points to 4%, November 2026"
+    ]
+  },
+  {
+    "date": "2026-11-14T08:46:38.582677+00:00",
+    "headlines": [
+      "Trump, Putin, Xi plan historic Shenzhen summit -- Donald Trump, Vladimir Putin and Xi Jinping are planning to meet on the sidelines of the **Asia-Pacific Economic Coopera",
+      "Europe agrees UK-led team for Ukraine peace talks -- EU leaders have agreed that **Britain, France, Germany, Italy and Poland**, along with EU institutions, will form the te",
+      "UN: 25 seafarers killed near Hormuz since war began -- At least **25 seafarers** have been killed in and around the Strait of Hormuz since the US-Israeli war on Iran broke out",
+      "Nvidia scandal puts White House under pressure -- The departure of **Jensen Huang** as Nvidia CEO has opened up intense scrutiny of **Commerce Secretary Howard Lutnick**,",
+      "Microsoft restores services after global outage -- Microsoft said early on Saturday morning that its services had been **fully restored** after a worldwide outage affected",
+      "Dept Q crew member dies at Edinburgh studio -- A member of the crew for the Netflix series **Dept Q** has died after being seriously injured at **FirstStage studio in",
+      "Nvidia's interim CEO Colette Kress is expected to be more conservative on startup investments than Jensen Huang, who had poured tens of billions into startups annually and participated in 105 funding rounds this year alone, according to PitchBook.",
+      "Trump wrote on Truth Social this week that the US has billions of Iran's dollars frozen in overseas accounts and said \"we don't need a deal with Iran,\" while Gulf Arab allies were described as preferring \"the status quo\" of continued economic pressure on Tehran.",
+      "Senator Chris Van Hollen of Maryland, aged 67, has announced he will challenge Chuck Schumer for the Senate majority leader position, saying voters desired a \"change from the status quo\" following recent midterm victories.",
       "[CFO] Bank Rate raised 0.25 points to 4%, November 2026"
     ]
   }
