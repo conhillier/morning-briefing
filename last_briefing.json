@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-11-16T09:13:43.668399+00:00",
-    "headlines": [
-      "China confirms historic Xi-Trump-Putin summit -- China confirmed on Monday that President **Xi Jinping** will meet with **Vladimir Putin** and **Donald Trump** in **Shen",
-      "Megaspeed says Alice Huang left in 2025 -- **Megaspeed**, described as the biggest buyer of Nvidia chips in South East Asia, says that **Alice Huang** - a suspecte",
-      "Anthropic IPO set to debut on Nasdaq Thursday -- **Anthropic** is expected to debut on the **Nasdaq on Thursday** with an IPO price currently expected at **$70 to $78 a",
-      "Intel investors sue over 29% stock plunge -- Shareholders have sued US chip giant **Intel**, accusing it of hiding the severity of a slump in **personal computer (PC",
-      "Israel's Knesset gets Arab deputy speaker -- **Ahmed Tibi**, chairman of Israel's **Joint List** party and leader of the **Ta'al Party**, has been elected deputy spe",
-      "Jackdaw gas field begins flowing to Britain -- Gas has begun flowing from the **Jackdaw gas field**, located **150 miles east of Aberdeen**, after the UK government ap",
-      "Estonia announced it will shut its border crossing points with Russia from 1 December after eight people were detained over an attempted arson attack on drone maker Threod Systems, which Estonian authorities say was ordered by Russia's GRU military intelligence service.",
-      "[CFO] Bank Rate raised 0.25 points to 4%, November 2026"
-    ]
-  },
-  {
     "date": "2026-11-17T10:26:38.393862+00:00",
     "headlines": [
       "Ukraine strikes Crimea Bridge, Russia hits Kyiv -- Russian air defenses downed **1,441 Ukrainian drones** on Tuesday, following **1,336** downed on Monday, the highest num",
@@ -37,6 +24,21 @@
       "British hacker Tyler Buchanan, 24, from Dundee, was sentenced to six years in a US federal prison for conspiring to hack into at least a dozen companies via SMS phishing and stealing more than $11.6m in cryptocurrency as part of the Scattered Spider collective.",
       "Ukraine's NPR-reported Kerch Bridge strike saw the UK announce \u00a3240 million ($317 million) in air defence support for Ukraine this winter, including more than 1,000 short-range missiles and more than a dozen radars.",
       "[CFO] Bank Rate raised 0.25 points to 4%, November 2026"
+    ]
+  },
+  {
+    "date": "2026-11-19T10:04:43.310163+00:00",
+    "headlines": [
+      "Trump, Xi, Putin hold first-ever trilateral summit -- US President Donald Trump met Chinese President Xi Jinping and Russian President Vladimir Putin on Thursday for an unpre",
+      "Trump calls for nuclear arms reduction at summit -- In his opening remarks at the trilateral meeting, Trump said the US, Russia and China are \"uniquely positioned\" to discu",
+      "Crimean Bridge struck for third time this week -- The Crimean Bridge has been attacked by Ukraine for the third time this week, Russia has said. The Moscow-installed head",
+      "Anthropic debuts on Nasdaq at $1.5 trillion valuation -- Anthropic priced its IPO at $83 per share, above its initial range of $70 to $78, generating **$81.3 billion** in procee",
+      "North Korea expands Yongbyon uranium enrichment facility -- North Korea is expanding a nuclear facility for enriching uranium, according to IAEA Director General Rafael Grossi, who",
+      "Falkirk asylum hotel closed permanently by Home Office -- A hotel in Falkirk which was previously used to house asylum seekers has been closed and handed back to the community, t",
+      "At the Trump-Xi-Putin APEC summit, Xi told Trump that relations between Beijing and Washington have been \"stable and improving\" and that the two sides have established \"a new definition of a constructive China-US relationship of strategic stability\" based on respect, fairness and reciprocity.",
+      "NPR's China correspondent Jennifer Pak reported from Shenzhen that the US Commerce Department this week blocked the remote access of the most advanced US chips, which will have \"a huge impact on Chinese AI firms on the cutting edge.\"",
+      "Anthropic's BBC-reported $1.5tn IPO will make it the first US firm focused exclusively on AI to go public, with Leah Bramwell from Canaccord Wealth saying demand had been \"well supported across the board\" with strong interest from both institutional and retail investors.",
+      "[CFO] Bank Rate raised to 4% in November 2026"
     ]
   }
 ]
