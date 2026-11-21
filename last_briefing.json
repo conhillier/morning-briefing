@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-11-17T10:26:38.393862+00:00",
-    "headlines": [
-      "Ukraine strikes Crimea Bridge, Russia hits Kyiv -- Russian air defenses downed **1,441 Ukrainian drones** on Tuesday, following **1,336** downed on Monday, the highest num",
-      "Trump lands in Manila ahead of Asia tour -- US President Donald Trump has landed in Manila ahead of a special ASEAN-US meeting. He is set to travel onward to China",
-      "California sues OpenAI over rogue agent hacking -- California Attorney General Rob Bonta sued OpenAI on Monday, accusing the AI company of developing its technology withou",
-      "Nvidia warns chip buyers of China legal risks -- Nvidia warned its customers that new legislation on Chinese companies remotely accessing its AI chips could expose it an",
-      "UK unemployment eases; youth vacancies hit 2014 low -- The UK unemployment rate unexpectedly fell to **4.6%** in September, down from 4.7% in August and from 5% earlier in the",
-      "Scotland debates raising age of sexual consent -- Scotland's justice secretary Neil Gray said there are no current plans to change the age of consent from 16, despite gro",
-      "Zelensky said at a Monday meeting with US envoy Jared Kushner that more needed to be done to support Ukraine's defence against Russian ballistic missile strikes, which he said were being provided by North Korea; Kushner said the US was committed to providing Ukraine with strong, credible security guarantees and a path towards EU membership.",
-      "[CFO] Bank Rate raised 25bp to 4%, November 2026"
-    ]
-  },
-  {
     "date": "2026-11-18T09:59:23.626607+00:00",
     "headlines": [
       "Ukraine strikes Crimean Bridge in 'unprecedented' attack -- Ukraine severely damaged the **Crimean Bridge** overnight using cruise missiles and drones, with **a large arched sectio",
@@ -51,6 +38,19 @@
       "UK-EU youth mobility deal nears 100,000-per-year cap -- Up to **100,000 young people from the EU** would be allowed to travel, work and study in the UK per year under a new you",
       "The fishing boat Kilda, which went missing near the Isle of Lewis on 13 October with three men on board, has been recovered semi-submerged about 50 miles east of Orkney and brought to Kirkwall, though two crew members - Norman Murray and Murdo Morrison - remain unaccounted for.",
       "[CFO] Bank Rate raised 0.25 percentage points to 4%"
+    ]
+  },
+  {
+    "date": "2026-11-21T09:22:26.849405+00:00",
+    "headlines": [
+      "AI stock rout erases Nasdaq 2026 gains -- US stocks suffered a brutal week of selling, with the **Nasdaq Composite shedding 5.28%** on Friday to close at **22,617",
+      "COP31 deadlocked over fossil fuel language -- Negotiations at the **COP31 UN climate summit in Antalya, Turkey** ran through the night and remained in deadlock as cou",
+      "Trump threatens ban on overseas data centres -- US President Donald Trump said he will ban American companies from building AI data centres overseas, threatening a **\"t",
+      "US cyber chief fired after tech outages -- **White House National Cyber Director Sean Cairncross** has been removed from his post after little over a year in the j",
+      "Anthropic employee claims Riemann hypothesis proof -- An **Anthropic** employee and mathematician, **Levent Alpoge**, claims to have used the company's **Claude** chatbot to",
+      "Two men die in Loch Leven glider crash -- Two men have died after a glider crashed into **Loch Leven**, with police, ambulance, fire service and the coastguard ca",
+      "Endurance swimmer Lewis Pugh entered the waters of the Strait of Hormuz amid tanker attacks to expose oil contamination of marine life, warning that pollution could take decades to clean up long after fighting ends.",
+      "[CFO] Bank Rate raised to 4% in November 2026"
     ]
   }
 ]
