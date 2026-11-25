@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-11-22T09:32:11.859296+00:00",
-    "headlines": [
-      "COP31 third draft fails to end deadlock -- A new draft agreement was published in the early hours of Sunday at the COP31 UN climate summit in Antalya, Turkey, as e",
-      "Riemann hypothesis proof independently verified -- Two organisations independently verified on Saturday that Anthropic mathematician Levent Alpoge used the company's Claud",
-      "Anthropic IPO collides with worst tech week since 2020 -- Anthropic raised a record **$93.5 billion** in its IPO and an additional **$26 billion** from tech giants that bought at",
-      "Russia-bound ship hit by drone in Gulf of Finland -- A Russian cargo vessel, the Sparta II, bound for the Russian exclave Kaliningrad was hit by a drone attack in the easter",
-      "Mexican cartel boss captured after bloody firefight -- Mexican authorities captured cartel boss Fausto Isidro Meza Flores, known as \"El Chapo Isidro\" and one of the FBI's 10 m",
-      "Scottish government orders NHS Grampian surgery review -- The Scottish government has ordered an independent review into hepatobiliary surgery at NHS Grampian after whistleblower",
-      "COP31 climate talks in Antalya saw Saudi Arabia and its allies face a push from a coalition of about 130 countries demanding inclusion of a \"transition away from fossil fuels\" reference, with Tuvalu's climate minister calling it \"a red line for us\" and campaigner Mohamed Adow saying \"we are fighting to stop governments retreating from promises they have already made.\"",
-      "[CFO] Bank Rate raised to 4% in November 2026"
-    ]
-  },
-  {
     "date": "2026-11-23T10:31:14.155465+00:00",
     "headlines": [
       "COP31 ends with no deal on fossil fuels -- Countries failed to reach a major new deal to tackle climate change after deep divisions over fossil fuels and money at",
@@ -36,6 +23,19 @@
       "Iraq seizes Kurdish oilfields in budget dispute -- Iraq's Prime Minister **Ali al-Zaidi** has ordered the federal Ministry of Oil to manage oilfields in areas under Kurdis",
       "NHS Scotland's \"revolving door\" of managers under fire -- Following the NHS Grampian crisis, questions are being raised about a pattern in which senior managers who presided over",
       "Anthropic launched Claude Ship, a suite of AI agents that can automatically review, fix, and approve code changes for development teams on Claude Team and Enterprise plans via GitHub repositories."
+    ]
+  },
+  {
+    "date": "2026-11-25T11:03:46.226102+00:00",
+    "headlines": [
+      "UK energy bills to soar 26% in January -- Energy bills will rise by **26%** for millions of households in January after a surge in gas prices sparked by the Iran",
+      "BBC reveals 490,000 Russian war deaths -- At least **490,334 Russian soldiers** have died since the start of the war in Ukraine in 2022, according to Russian gove",
+      "US to announce sweeping new tariffs today -- The US is preparing to announce plans for new tariffs on several countries as early as Wednesday, with China, the Europe",
+      "Huawei convicted on 10 counts in US trial -- Huawei has been found guilty of conspiracy to steal trade secrets and bank fraud, but not guilty of the more serious ove",
+      "China investigates Shanghai party chief Chen Jining -- Chinese Communist Party authorities are investigating Shanghai party secretary **Chen Jining** for suspected violations",
+      "NHS Grampian crisis becomes Swinney's gravest political test -- The NHS Grampian scandal has deepened into what Scotland political editor Glenn Campbell describes as potentially the mo",
+      "The Guardian reports that about 22 million UK households covered by the Ofgem price cap face bills averaging \u00a32,166 a year from January - the highest cap since early 2023 - with energy consultancy Cornwall Insight warning bills could remain around \u00a32,000 until end of 2027 if the Middle East conflict continues.",
+      "[CFO] Bank Rate raised 0.25 points to 4%, November 2026"
     ]
   }
 ]
