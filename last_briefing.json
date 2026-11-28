@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-11-24T12:09:39.057065+00:00",
-    "headlines": [
-      "Jensen Huang returns, Nvidia surges $1 trillion -- Nvidia's market value rose by nearly **$1 trillion** as its share price skyrocketed after the tech firm reinstated **Jen",
-      "NATO chief vows space defence after nuclear satellite reports -- NATO chief **Mark Rutte** has said the alliance will defend against any threats in space after German reports that Russi",
-      "Russia-Ukraine war spreads beyond Ukrainian borders -- Three Russian cruise missiles struck a rural part of southeastern **Poland**, about **30 miles** from the Ukrainian bord",
-      "US to blacklist Singapore AI firm Megaspeed -- The US Department of Commerce announced it planned to add **Megaspeed Ltd**, a Singaporean AI company, to a list of enti",
-      "Iraq seizes Kurdish oilfields in budget dispute -- Iraq's Prime Minister **Ali al-Zaidi** has ordered the federal Ministry of Oil to manage oilfields in areas under Kurdis",
-      "NHS Scotland's \"revolving door\" of managers under fire -- Following the NHS Grampian crisis, questions are being raised about a pattern in which senior managers who presided over",
-      "Anthropic launched Claude Ship, a suite of AI agents that can automatically review, fix, and approve code changes for development teams on Claude Team and Enterprise plans via GitHub repositories."
-    ]
-  },
-  {
     "date": "2026-11-25T11:03:46.226102+00:00",
     "headlines": [
       "UK energy bills to soar 26% in January -- Energy bills will rise by **26%** for millions of households in January after a surge in gas prices sparked by the Iran",
@@ -50,6 +38,23 @@
       "The UK will pay a '4% participation fee' on top of its main operational contribution to EU agencies as part of the food standards and carbon trading deals agreed by Prime Minister Andy Burnham, according to legal documents published this week.",
       "[CFO] HMRC late payment interest rate rises from 24 November 2026",
       "[CFO] Companies House pauses P&L filing; mandates iXBRL software from April 2028"
+    ]
+  },
+  {
+    "date": "2026-11-28T09:58:59.631244+00:00",
+    "headlines": [
+      "Spanish PM and rivals rally supporters in final pitch for votes -- Prime Minister Pedro S\u00e1nchez wants to defy the polls, and his main rivals accuse him of not telling the truth and of \"be",
+      "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC -- The headquarters of Halk TV were raided last month, the latest in a series of crackdowns on news sources deemed critical",
+      "Eight killed in Peruvian military helicopter crash -- The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
+      "'Poison seller' Kenneth Law apologises in court to the families of his victims -- The Canadian man, who pleaded guilty to 14 counts of aiding and abetting suicide earlier this year, said he was remorsef",
+      "Australian wrestler Bronson Reed dies aged 38, WWE says -- Tributes have flooded in for the 38-year-old Australian who is survived by his pregnant wife, Paige, their daughter.",
+      "Mad about mara: the DIY dance movement helping young Nigerians escape the daily grind",
+      "\u2018Abusive and insulting to Canadians\u2019: campaign to oust US ambassador presented to parliament",
+      "Gaza\u2019s chess players survive a genocide and rebuild a community",
+      "Yemen government forces hit Houthi positions as UN warns of hunger crisis",
+      "Spain faces political shift as far right gains ground",
+      "[CFO] HMRC late payment interest rate rises from 24 November 2026",
+      "[CFO] Companies House pauses profit and loss filing; mandates iXBRL from April 2028"
     ]
   }
 ]
